@@ -20,26 +20,26 @@ jobs:
           dotnet-version: '7.0.x'
           
       - name: Build project
-        run: dotnet build SmiteApi.csproj
+        run: dotnet build SmiteApi/SmiteApi.csproj
           
       - name: Publish project
-        run: dotnet publish SmiteApi.csproj -c Release -o release
+        run: dotnet publish SmiteApi/SmiteApi.csproj -c Release -o release
         
       - name: Set current working directory
         run: cd release
         
       - name: Add .nojekyll file
-        run: touch .nojekyll
+        run: touch release/.nojekyll
         
       - name: Fetch and cache gods
-        run: dotnet ./SmiteApi.dll ${{ secrets.SMITE_DEV_ID }} ${{ secrets.SMITE_AUTH_KEY }} getgods api/gods/gods.json
+        run: dotnet release/SmiteApi.dll ${{ secrets.SMITE_DEV_ID }} ${{ secrets.SMITE_AUTH_KEY }} getgods release/api/gods/gods.json
         
       - name: Fetch and cache items
-        run: dotnet ./SmiteApi.dll ${{ secrets.SMITE_DEV_ID }} ${{ secrets.SMITE_AUTH_KEY }} getitems api/items/items.json
+        run: dotnet release/SmiteApi.dll ${{ secrets.SMITE_DEV_ID }} ${{ secrets.SMITE_AUTH_KEY }} getitems release/api/items/items.json
         
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: site
-          FOLDER: api
+          FOLDER: release/api
