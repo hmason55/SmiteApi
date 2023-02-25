@@ -23,7 +23,7 @@ jobs:
         run: dotnet build SmiteApi/SmiteApi.csproj
           
       - name: Publish project
-        run: dotnet publish SmiteApi/SmiteApi.csproj -c Release
+        run: dotnet publish SmiteApi/SmiteApi.csproj -c Release -o ./
         
       - name: Fetch and cache gods
         run: dotnet ./SmiteApi.dll ${{ secrets.SMITE_DEV_ID }} ${{ secrets.SMITE_AUTH_KEY }} getgods api/gods/gods.json
