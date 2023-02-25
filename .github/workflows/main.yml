@@ -25,20 +25,14 @@ jobs:
       - name: Publish project
         run: dotnet publish SmiteApi/SmiteApi.csproj -c Release -o release
         
-      - name: list files
-        run: ls
-        
       - name: Fetch and cache gods
         run: cd release && dotnet ./SmiteApi.dll ${{ secrets.SMITE_DEV_ID }} ${{ secrets.SMITE_AUTH_KEY }} getgods api/gods/gods.json
         
       - name: Fetch and cache items
         run: cd release && dotnet ./SmiteApi.dll ${{ secrets.SMITE_DEV_ID }} ${{ secrets.SMITE_AUTH_KEY }} getitems api/items/items.json
         
-      - name: list files
-        run: cd release && ls
-        
       - name: Add .nojekyll file
-        run: mkdir release/api && touch release/api/.nojekyll
+        run: mkdir -p release/api && touch release/api/.nojekyll
         
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4.4.1
