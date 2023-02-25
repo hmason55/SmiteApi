@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\SmiteCommon\SmiteCommon\SmiteCommon.csproj" />
+    <ProjectReference Include="..\Dependencies\SmiteCommon\SmiteCommon\SmiteCommon.csproj" />
   </ItemGroup>
 
 </Project>

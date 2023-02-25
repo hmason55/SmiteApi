@@ -1,0 +1,4 @@
+[submodule "Dependencies/SmiteCommon"]
+	path = Dependencies/SmiteCommon
+	url = https://github.com/hmason55/SmiteCommon.git
+	branch = main
