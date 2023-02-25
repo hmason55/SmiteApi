@@ -34,12 +34,15 @@ jobs:
       - name: Fetch and cache items
         run: cd release && dotnet ./SmiteApi.dll ${{ secrets.SMITE_DEV_ID }} ${{ secrets.SMITE_AUTH_KEY }} getitems api/items/items.json
         
+      - name: list files
+        run: cd release && ls
+        
       - name: Add .nojekyll file
-        run: mkdir api && api/.nojekyll
+        run: mkdir release/api && touch release/api/.nojekyll
         
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: site
-          FOLDER: api
+          FOLDER: release/api
