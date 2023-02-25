@@ -20,10 +20,10 @@ jobs:
           dotnet-version: '7.0.x'
           
       - name: Build project
-        run: dotnet build SmiteApi/SmiteApi.csproj
+        run: dotnet build SmiteApi.csproj
           
       - name: Publish project
-        run: dotnet publish SmiteApi/SmiteApi.csproj -c Release -o release
+        run: dotnet publish SmiteApi.csproj -c Release -o release
         
       - name: Set current working directory
         run: cd release
