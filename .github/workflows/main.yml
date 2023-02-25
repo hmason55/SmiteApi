@@ -23,7 +23,7 @@ jobs:
         run: dotnet build SmiteApi/SmiteApi.csproj
           
       - name: Publish project
-        run: dotnet publish SmiteApi/SmiteApi.csproj -c Release -o ./
+        run: dotnet publish SmiteApi/SmiteApi.csproj -c Release
         
       - name: Add .nojekyll file
         run: touch api/.nojekyll
