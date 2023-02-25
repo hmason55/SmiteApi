@@ -23,13 +23,16 @@ jobs:
         run: dotnet build SmiteApi/SmiteApi.csproj
           
       - name: Publish project
-        run: dotnet publish SmiteApi/SmiteApi.csproj -c Release -o ../SmiteApi
+        run: dotnet publish SmiteApi/SmiteApi.csproj -c Release -o release
+        
+      - name: list files
+        run: ls
         
       - name: Fetch and cache gods
-        run: dotnet ./SmiteApi.dll ${{ secrets.SMITE_DEV_ID }} ${{ secrets.SMITE_AUTH_KEY }} getgods api/gods/gods.json
+        run: cd release && dotnet ./SmiteApi.dll ${{ secrets.SMITE_DEV_ID }} ${{ secrets.SMITE_AUTH_KEY }} getgods api/gods/gods.json
         
       - name: Fetch and cache items
-        run: dotnet ./SmiteApi.dll ${{ secrets.SMITE_DEV_ID }} ${{ secrets.SMITE_AUTH_KEY }} getitems api/items/items.json
+        run: cd release && dotnet ./SmiteApi.dll ${{ secrets.SMITE_DEV_ID }} ${{ secrets.SMITE_AUTH_KEY }} getitems api/items/items.json
         
       - name: Add .nojekyll file
         run: mkdir api && api/.nojekyll
