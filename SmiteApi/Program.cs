@@ -46,7 +46,7 @@ internal class Program
             try
             {
                 string directory = Path.GetDirectoryName(path);
-                if (!Directory.Exists(path))
+                if (directory != string.Empty && !Directory.Exists(path))
                 {
                     Directory.CreateDirectory(directory);
                 }
