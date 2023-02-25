@@ -25,14 +25,14 @@ jobs:
       - name: Publish project
         run: dotnet publish SmiteApi/SmiteApi.csproj -c Release
         
-      - name: Add .nojekyll file
-        run: touch api/.nojekyll
-        
       - name: Fetch and cache gods
         run: dotnet SmiteApi.dll ${{ secrets.SMITE_DEV_ID }} ${{ secrets.SMITE_AUTH_KEY }} getgods api/gods/gods.json
         
       - name: Fetch and cache items
         run: dotnet SmiteApi.dll ${{ secrets.SMITE_DEV_ID }} ${{ secrets.SMITE_AUTH_KEY }} getitems api/items/items.json
+        
+      - name: Add .nojekyll file
+        run: mkdir api && api/.nojekyll
         
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4.4.1
