@@ -502,7 +502,7 @@
           "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Basic Attacks against an enemy reduce your target's Physical Protection by 7% for 3 seconds (max. 4 Stacks)."
+      "SecondaryDescription": "PASSIVE - Basic Attacks against an enemy reduce your target's Physical Protection by 6% for 3 seconds (max. 4 Stacks)."
     },
     "ItemId": 7575,
     "ItemTier": 3,
@@ -665,7 +665,7 @@
           "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "<n>GLYPH - Basic Attacks against an enemy reduce your target's Physical Protection by 17.5%  for 3 seconds (max. 2 Stacks). Your Attack Speed cannot exceed 1.9. "
+      "SecondaryDescription": "<n>GLYPH - Basic Attacks against an enemy reduce your target's Physical Protection by 15%  for 3 seconds (max. 2 Stacks). Your Attack Speed cannot exceed 1.9. "
     },
     "ItemId": 22960,
     "ItemTier": 4,
@@ -718,7 +718,7 @@
           "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Basic Attacks against an enemy reduce your target's Physical Protection by 7% for 3 seconds (max. 4 Stacks). GLYPH - Your next basic attack marks an enemy god for 8s. If you hit the marked enemy or the marked enemy hits you with a basic attack or ability, gain 1 stack. Each stack provides 2% increased damage towards the marked enemy, stacking up to 10 times. This effect can only occur every 30s."
+      "SecondaryDescription": "PASSIVE - Basic Attacks against an enemy reduce your target's Physical Protection by 6% for 3 seconds (max. 4 Stacks). GLYPH - Your next basic attack marks an enemy god for 8s. If you hit the marked enemy or the marked enemy hits you with a basic attack or ability, gain 1 stack. Each stack provides 2% increased damage towards the marked enemy, stacking up to 10 times. This effect can only occur every 30s."
     },
     "ItemId": 23135,
     "ItemTier": 4,
@@ -1061,7 +1061,7 @@
         },
         {
           "Description": "Magical Penetration",
-          "Value": "+20%"
+          "Value": "+16%"
         }
       ],
       "SecondaryDescription": "PASSIVE - Your Healing obtained from Magical Lifesteal is increased by 15%. Your Magical power is increased by twice the amount of Magical Lifesteal you have."
@@ -1082,7 +1082,7 @@
     "HP5": 0,
     "MagicalLifesteal": 0.1,
     "MagicalPenetration": 0,
-    "MagicalPenetrationPercent": 0.2,
+    "MagicalPenetrationPercent": 0.16,
     "MagicalPower": 85,
     "MagicalProtection": 0,
     "Mana": 200,
@@ -1301,7 +1301,7 @@
     "ItemDescription": {
       "Description": "This consumable increases your Magical and Physical Power.",
       "Menuitems": [],
-      "SecondaryDescription": "This consumable increases your Magical and Physical Power by 25%, increases damage done to Structures by 25%, and grants 10% Penetration for 6 minutes. This effect persists through death."
+      "SecondaryDescription": "This consumable increases your Magical and Physical Power by 25%, increases damage done to Structures by 25%, and grants 8% Penetration for 6 minutes. This effect persists through death."
     },
     "ItemId": 7803,
     "ItemTier": 1,
@@ -1444,7 +1444,7 @@
         },
         {
           "Description": "Physical Penetration",
-          "Value": "+5%"
+          "Value": "+4%"
         }
       ],
       "SecondaryDescription": null
@@ -1473,7 +1473,7 @@
     "MP5": 0,
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
-    "PhysicalPenetrationPercent": 0.05,
+    "PhysicalPenetrationPercent": 0.04,
     "PhysicalPower": 25,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
@@ -1546,10 +1546,10 @@
         },
         {
           "Description": "Physical Penetration",
-          "Value": "+20%"
+          "Value": "+16%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your first ability cast gains 20% Physical Penetration. This can only occur once every 6 seconds."
+      "SecondaryDescription": "PASSIVE - Your first ability cast gains 16% Physical Penetration. This can only occur once every 6 seconds."
     },
     "ItemId": 7523,
     "ItemTier": 3,
@@ -1575,7 +1575,7 @@
     "MP5": 0,
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
-    "PhysicalPenetrationPercent": 0.2,
+    "PhysicalPenetrationPercent": 0.16,
     "PhysicalPower": 50,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
@@ -1664,7 +1664,7 @@
         },
         {
           "Description": "Physical Penetration",
-          "Value": "+10%"
+          "Value": "+8%"
         }
       ],
       "SecondaryDescription": "PASSIVE - Enemies hit by your damaging Abilities take bonus damage equal to an additional 30% of your Physical Power over 1s. Subsequent hits on the same target do half the bonus damage for the next 3s."
@@ -1693,7 +1693,7 @@
     "MP5": 0,
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
-    "PhysicalPenetrationPercent": 0.1,
+    "PhysicalPenetrationPercent": 0.08,
     "PhysicalPower": 50,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
@@ -1781,7 +1781,7 @@
           "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "GLYPH - If you drop beneath 40% health, gain 10% Movement Speed and 30% Physical Ability Lifesteal for 5s. This effect may only occur once every 15s."
+      "SecondaryDescription": "GLYPH - If you drop beneath 40% health, gain 15% Movement Speed and 20% Physical Ability Lifesteal for 5s. This effect may only occur once every 15s."
     },
     "ItemId": 21507,
     "ItemTier": 4,
@@ -2073,7 +2073,7 @@
     "Price": 1300,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 7922,
-    "ShortDesc": "Gain Stacks of Mana from kills and converts Mana to Physical Power",
+    "ShortDesc": "Gain Stacks of Mana from kills and gives Physical Power based on Mana",
     "StartingItem": false,
     "Type": "Item",
     "AttackSpeed": 0,
@@ -2116,7 +2116,7 @@
         },
         {
           "Description": "Physical Penetration",
-          "Value": "+10%"
+          "Value": "+8%"
         },
         {
           "Description": "Cooldown Reduction",
@@ -2153,7 +2153,7 @@
     "MP5": 0,
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
-    "PhysicalPenetrationPercent": 0.1,
+    "PhysicalPenetrationPercent": 0.08,
     "PhysicalPower": 40,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
@@ -2185,10 +2185,10 @@
         },
         {
           "Description": "Physical Penetration",
-          "Value": "+10%"
+          "Value": "+8%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your abilities deal an additional 2% of the targets maximum Health as Physical Damage. If you have over 200 Physical Power, your ability bonus damage scales up. This effect reaches a maximum of 6% Maximum Health damage at 350 Physical Power. Subsequent hits on the same target do 75% bonus damage for the next 3s."
+      "SecondaryDescription": "PASSIVE - Your abilities deal an additional 2% of the targets maximum Health as Physical Damage. If you have over 200 Physical Power, your ability bonus damage scales up. This effect reaches a maximum of 6% Maximum Health damage at 350 Physical Power. Subsequent hits on the same target do 75% of the bonus damage for the next 3s."
     },
     "ItemId": 12680,
     "ItemTier": 3,
@@ -2214,7 +2214,7 @@
     "MP5": 20,
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
-    "PhysicalPenetrationPercent": 0.1,
+    "PhysicalPenetrationPercent": 0.08,
     "PhysicalPower": 65,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
@@ -2249,7 +2249,7 @@
           "Value": "+15%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your Basic Attacks benefit from an additional 20% Physical Penetration."
+      "SecondaryDescription": "PASSIVE - Your Basic Attacks benefit from an additional 16% Physical Penetration."
     },
     "ItemId": 19924,
     "ItemTier": 3,
@@ -2480,7 +2480,7 @@
     "Price": 1,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 8560,
-    "ShortDesc": "Mana is converted to Physical Power",
+    "ShortDesc": "Gives Physical Power based on Mana",
     "StartingItem": false,
     "Type": "Item",
     "AttackSpeed": 0,
@@ -3957,7 +3957,7 @@
     "Price": 600,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 9813,
-    "ShortDesc": "Critical hits reduce enemy's Movement Speed, damage and enemy Shields reduced",
+    "ShortDesc": "Critical hits reduce enemy's Movement Speed, Healing and enemy Shields reduced",
     "StartingItem": false,
     "Type": "Item",
     "AttackSpeed": 0,
@@ -4163,7 +4163,7 @@
         },
         {
           "Description": "Physical Penetration",
-          "Value": "+10%"
+          "Value": "+10"
         },
         {
           "Description": "Cooldown Reduction",
@@ -4195,8 +4195,8 @@
     "MovementSpeed": 0,
     "MP5": 0,
     "PhysicalLifesteal": 0.06,
-    "PhysicalPenetration": 0,
-    "PhysicalPenetrationPercent": 0.1,
+    "PhysicalPenetration": 10,
+    "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 30,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
@@ -4269,7 +4269,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+75"
+          "Value": "+65"
         },
         {
           "Description": "Attack Speed",
@@ -4311,7 +4311,7 @@
     "PhysicalLifesteal": 0.1,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 75,
+    "PhysicalPower": 65,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -4395,7 +4395,7 @@
         },
         {
           "Description": "Physical Penetration",
-          "Value": "+10%"
+          "Value": "+10"
         },
         {
           "Description": "Cooldown Reduction",
@@ -4427,8 +4427,8 @@
     "MovementSpeed": 0,
     "MP5": 0,
     "PhysicalLifesteal": 0.1,
-    "PhysicalPenetration": 0,
-    "PhysicalPenetrationPercent": 0.1,
+    "PhysicalPenetration": 10,
+    "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 50,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
@@ -5376,7 +5376,7 @@
       "Menuitems": [
         {
           "Description": "Physical Protection",
-          "Value": "+5"
+          "Value": "+10"
         },
         {
           "Description": "HP5",
@@ -5411,7 +5411,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 5,
+    "PhysicalProtection": 10,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -5714,7 +5714,7 @@
         },
         {
           "Description": "Health",
-          "Value": "+150"
+          "Value": "+200"
         },
         {
           "Description": "HP5",
@@ -5729,7 +5729,7 @@
     },
     "ItemId": 23853,
     "ItemTier": 3,
-    "Price": 1150,
+    "Price": 1100,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 9833,
     "ShortDesc": "Deal bonus damage with more Protections",
@@ -5739,7 +5739,7 @@
     "CooldownReduction": 0.1,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 150,
+    "Health": 200,
     "HP5": 25,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -7743,7 +7743,7 @@
     "Price": 600,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 9846,
-    "ShortDesc": "Convert Physical Protections to Magical Protections",
+    "ShortDesc": "Gives Physical Protections based on Magical Protections",
     "StartingItem": false,
     "Type": "Item",
     "AttackSpeed": 0,
@@ -7895,7 +7895,7 @@
           "Value": "+30%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your Basic Attacks reduce your target's Magical Protection by 10% for 3s (max 3 Stacks)."
+      "SecondaryDescription": "PASSIVE - Your Basic Attacks reduce your target's Magical Protection by 9% for 3s (max 3 Stacks)."
     },
     "ItemId": 8564,
     "ItemTier": 3,
@@ -8165,7 +8165,7 @@
         },
         {
           "Description": "Magical Penetration",
-          "Value": "+5%"
+          "Value": "+4%"
         }
       ],
       "SecondaryDescription": null
@@ -8186,7 +8186,7 @@
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
-    "MagicalPenetrationPercent": 0.05,
+    "MagicalPenetrationPercent": 0.04,
     "MagicalPower": 55,
     "MagicalProtection": 0,
     "Mana": 0,
@@ -8377,10 +8377,10 @@
         },
         {
           "Description": "Magical Penetration",
-          "Value": "+20%"
+          "Value": "+16%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your first ability cast gains 10% Magical Penetration. This can only occur once every 10 seconds."
+      "SecondaryDescription": "PASSIVE - Your first ability cast gains 8% Magical Penetration. This can only occur once every 10 seconds."
     },
     "ItemId": 18179,
     "ItemTier": 3,
@@ -8398,7 +8398,7 @@
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
-    "MagicalPenetrationPercent": 0.2,
+    "MagicalPenetrationPercent": 0.16,
     "MagicalPower": 90,
     "MagicalProtection": 0,
     "Mana": 0,
@@ -8434,7 +8434,7 @@
         },
         {
           "Description": "Magical Penetration",
-          "Value": "+10%"
+          "Value": "+8%"
         }
       ],
       "SecondaryDescription": "PASSIVE - Whenever you damage an enemy god with an ability you mark them to take 9% increased damage from all sources. This effect lasts for 8s and can only occur once every 15s."
@@ -8455,7 +8455,7 @@
     "HP5": 0,
     "MagicalLifesteal": 0.08,
     "MagicalPenetration": 0,
-    "MagicalPenetrationPercent": 0.1,
+    "MagicalPenetrationPercent": 0.08,
     "MagicalPower": 110,
     "MagicalProtection": 0,
     "Mana": 0,
@@ -8828,7 +8828,7 @@
           "Value": "+200"
         }
       ],
-      "SecondaryDescription": "PASSIVE - You permanently gain +1 Health and +0.8 Magical Power per Stack, and receive 5 Stacks for a god kill and 1 Stack per minion kill. At 75 stacks this item Evolves, gaining 10% Magical Penetration."
+      "SecondaryDescription": "PASSIVE - You permanently gain +1 Health and +0.8 Magical Power per Stack, and receive 5 Stacks for a god kill and 1 Stack per minion kill. At 75 stacks this item Evolves, gaining 8% Magical Penetration."
     },
     "ItemId": 7917,
     "ItemTier": 3,
@@ -8943,7 +8943,7 @@
         },
         {
           "Description": "Magical Penetration",
-          "Value": "+10%"
+          "Value": "+8%"
         }
       ],
       "SecondaryDescription": ""
@@ -8964,7 +8964,7 @@
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
-    "MagicalPenetrationPercent": 0.1,
+    "MagicalPenetrationPercent": 0.08,
     "MagicalPower": 155,
     "MagicalProtection": 0,
     "Mana": 200,
@@ -9109,14 +9109,14 @@
           "Value": "+20"
         }
       ],
-      "SecondaryDescription": "PASSIVE - You permanently gain 10 Mana per Stack, and receive 5 Stacks for a god kill and 1 Stack for a minion kill (max. 75 Stacks). You gain Magical Power equal to 6% of your Mana from items. At 75 stacks this item Evolves, gaining 10 Magical Penetration and Increasing the Magical Power gained from Mana to 8%."
+      "SecondaryDescription": "PASSIVE - You permanently gain 7 Mana per Stack, and receive 5 Stacks for a god kill and 1 Stack for a minion kill (max. 75 Stacks). You gain Magical Power equal to 6% of your Mana from items. At 75 stacks this item Evolves, gaining 10 Magical Penetration and Increasing the Magical Power gained from Mana to 8%."
     },
     "ItemId": 7334,
     "ItemTier": 3,
     "Price": 1150,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 9858,
-    "ShortDesc": "Gain Mana Stacks from kills and converts Mana to Magical Power",
+    "ShortDesc": "Gain Mana Stacks from kills and gives Magical Power based on Mana",
     "StartingItem": false,
     "Type": "Item",
     "AttackSpeed": 0,
@@ -9333,7 +9333,7 @@
           "Value": "+300"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your next successful damaging ability on an enemy god grants a stack of Wisdom. For each stack of Wisdom you have, your abilities deal 0.12% of your Max Mana as True Damage to enemy gods. You may only gain one stack and deal damage every 2s, and can only gain stacks once per god per ability hit. Max 50 stacks."
+      "SecondaryDescription": "PASSIVE - Your next successful damaging ability on an enemy god grants a stack of Wisdom. For each stack of Wisdom you have, your abilities deal 0.1% of your Max Mana as True Damage to enemy gods. You may only gain one stack and deal damage every 2s, and can only gain stacks once per god per ability hit. Max 50 stacks."
     },
     "ItemId": 23871,
     "ItemTier": 3,
@@ -9387,7 +9387,7 @@
         },
         {
           "Description": "Mana",
-          "Value": "+1000"
+          "Value": "+775"
         },
         {
           "Description": "MP5",
@@ -9401,7 +9401,7 @@
     "Price": 1,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 9859,
-    "ShortDesc": "Mana is converted to Magical Power",
+    "ShortDesc": "Gives Magical Power based on Mana",
     "StartingItem": false,
     "Type": "Item",
     "AttackSpeed": 0,
@@ -9415,7 +9415,7 @@
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 70,
     "MagicalProtection": 0,
-    "Mana": 1000,
+    "Mana": 775,
     "MovementSpeed": 0,
     "MP5": 20,
     "PhysicalLifesteal": 0,
@@ -9615,7 +9615,7 @@
         },
         {
           "Description": "Magical Penetration",
-          "Value": "+10%"
+          "Value": "+8%"
         }
       ],
       "SecondaryDescription": "PASSIVE - Basic Attacks and Abilities gain 25% additional Magical Power against targets below 60% Health."
@@ -9636,7 +9636,7 @@
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
-    "MagicalPenetrationPercent": 0.1,
+    "MagicalPenetrationPercent": 0.08,
     "MagicalPower": 150,
     "MagicalProtection": 0,
     "Mana": 0,
@@ -9786,7 +9786,7 @@
         },
         {
           "Description": "Magical Penetration",
-          "Value": "+20%"
+          "Value": "+16%"
         },
         {
           "Description": "HP5",
@@ -9815,7 +9815,7 @@
     "HP5": 7,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
-    "MagicalPenetrationPercent": 0.2,
+    "MagicalPenetrationPercent": 0.16,
     "MagicalPower": 90,
     "MagicalProtection": 0,
     "Mana": 0,
@@ -9851,7 +9851,7 @@
         },
         {
           "Description": "Magical Penetration",
-          "Value": "+20%"
+          "Value": "+16%"
         },
         {
           "Description": "Movement Speed",
@@ -9876,7 +9876,7 @@
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
-    "MagicalPenetrationPercent": 0.2,
+    "MagicalPenetrationPercent": 0.16,
     "MagicalPower": 90,
     "MagicalProtection": 0,
     "Mana": 0,
@@ -9912,7 +9912,7 @@
         },
         {
           "Description": "Magical Penetration",
-          "Value": "+10%"
+          "Value": "+8%"
         }
       ],
       "SecondaryDescription": "PASSIVE - Basic Attacks and Abilities gain 25% additional Magical Power against targets below 60% Health. <n>GLYPH - Successfully hitting an enemy god with an ability calls down a meteor that lands after 1s, dealing 100 (+35% of your Magical Power) damage in a 15 unit radius. This effect can only occur once every 30s."
@@ -9933,7 +9933,7 @@
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
-    "MagicalPenetrationPercent": 0.1,
+    "MagicalPenetrationPercent": 0.08,
     "MagicalPower": 150,
     "MagicalProtection": 0,
     "Mana": 0,
@@ -9969,7 +9969,7 @@
         },
         {
           "Description": "Magical Penetration",
-          "Value": "+10%"
+          "Value": "+8%"
         }
       ],
       "SecondaryDescription": "PASSIVE - Basic Attacks and Abilities gain 25% additional Magical Power against targets below 60% Health. <n>GLYPH - Successfully damaging an enemy god with an ability applies a mark for 3s. Damaging them a second time with an ability consumes the mark and provides you 10% movement speed for 2s and reduces your ability cooldowns by 1.5s. Only one mark can be active at a time and cannot be applied for 8s after consuming a mark. "
@@ -9990,7 +9990,7 @@
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
-    "MagicalPenetrationPercent": 0.1,
+    "MagicalPenetrationPercent": 0.08,
     "MagicalPower": 150,
     "MagicalProtection": 0,
     "Mana": 0,
@@ -10841,7 +10841,7 @@
         },
         {
           "Description": "Physical Penetration",
-          "Value": "+10%"
+          "Value": "+8%"
         }
       ],
       "SecondaryDescription": "PASSIVE - For each 0.02 Attack Speed you go over 2.5 Attack Speed, you gain 2 Physical Power."
@@ -10870,7 +10870,7 @@
     "MP5": 0,
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
-    "PhysicalPenetrationPercent": 0.1,
+    "PhysicalPenetrationPercent": 0.08,
     "PhysicalPower": 35,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
@@ -10898,7 +10898,7 @@
         },
         {
           "Description": "Physical Penetration",
-          "Value": "+10%"
+          "Value": "+10"
         }
       ],
       "SecondaryDescription": "PASSIVE - Upon getting a kill or assist on an Enemy god you gain Atalanta's Agility for 10s. This effect increases your Attack Speed by 20% and decreases the Movement Penalty for attacking, backpedaling, and strafing by 30%."
@@ -10926,8 +10926,8 @@
     "MovementSpeed": 0,
     "MP5": 0,
     "PhysicalLifesteal": 0,
-    "PhysicalPenetration": 0,
-    "PhysicalPenetrationPercent": 0.1,
+    "PhysicalPenetration": 10,
+    "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 40,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
@@ -11363,7 +11363,7 @@
           "Value": "+15"
         }
       ],
-      "SecondaryDescription": "PASSIVE - If you are hit by a Knockup, Knockback, Pull, or Grab you gain 8% of your max Health over the next 5 seconds. This effect does not trigger on Vortexes. Can only occur once every 45s.\n\nPASSIVE - Regenerates 0.5% of your max health every second."
+      "SecondaryDescription": "PASSIVE - If you are hit by a Knockup, Knockback, Pull, or Grab you gain 5% of your max Health over the next 5 seconds. This effect does not trigger on Vortexes. Can only occur once every 20s.\n\nPASSIVE - Regenerates 0.35% of your max health every second."
     },
     "ItemId": 7572,
     "ItemTier": 3,
@@ -11595,11 +11595,11 @@
           "Value": "+20"
         }
       ],
-      "SecondaryDescription": "PASSIVE - When you are hit by an enemy god you gain a stack, up to once a second, increasing your protections by 4. Max of 5 stacks, lasts for 5s each. At max stacks, upon being hit you are immediately healed for 15% of your maximum health. Allies within 35 units heal for 15% of their maximum health over 10s. This effect can only occur once every 60 seconds."
+      "SecondaryDescription": "PASSIVE - When you are hit by an enemy god you gain a stack, up to once a second, increasing your protections by 4. Max of 5 stacks, lasts for 5s each. At max stacks, upon being hit you are immediately healed for 10% of your maximum health. Allies within 35 units heal for 10% of their maximum health over 10s. This effect can only occur once every 60 seconds."
     },
     "ItemId": 20217,
     "ItemTier": 3,
-    "Price": 1050,
+    "Price": 950,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 12663,
     "ShortDesc": "Gain Healing when taking Damage from Enemy Gods",
@@ -12142,22 +12142,22 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+30"
+          "Value": "+35"
         },
         {
           "Description": "Physical Lifesteal",
-          "Value": "+15%"
+          "Value": "+10%"
         },
         {
           "Description": "Physical Penetration",
-          "Value": "+20%"
+          "Value": "+16%"
         },
         {
           "Description": "Movement Speed",
           "Value": "+7%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - For every non-ultimate ability on cooldown you gain a stack of Cruelty. Each stack provides 8 Physical Power and 3% Physical Lifesteal."
+      "SecondaryDescription": "PASSIVE - For every non-ultimate ability on cooldown you gain a stack of Cruelty. Each stack provides 10 Physical Power and 2% Physical Lifesteal."
     },
     "ItemId": 19003,
     "ItemTier": 3,
@@ -12181,10 +12181,10 @@
     "Mana": 0,
     "MovementSpeed": 0.07,
     "MP5": 0,
-    "PhysicalLifesteal": 0.15,
+    "PhysicalLifesteal": 0.1,
     "PhysicalPenetration": 0,
-    "PhysicalPenetrationPercent": 0.2,
-    "PhysicalPower": 30,
+    "PhysicalPenetrationPercent": 0.16,
+    "PhysicalPower": 35,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -13135,11 +13135,11 @@
           "Value": "+15"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Gain a stack (up to a max of 6) each time you take damage from enemy gods equal to 5% of your maximum Health. Your next basic attack on an enemy god consumes all stacks and deals 30 (+ 1.5 Per Level) Magical Damage per stack. This effect can only occur once every 15 seconds."
+      "SecondaryDescription": "PASSIVE - Gain a stack (up to a max of 6) each time you take damage from enemy gods equal to 5% of your maximum Health. Your next basic attack on an enemy god consumes all stacks and deals 40 (+ 2 Per Level) Magical Damage per stack. This effect can only occur once every 15 seconds."
     },
     "ItemId": 23975,
     "ItemTier": 3,
-    "Price": 1100,
+    "Price": 1000,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 14071,
     "ShortDesc": "Gain stacks when taking damage and consume to deal damage back",
@@ -14898,10 +14898,10 @@
         },
         {
           "Description": "Physical Penetration",
-          "Value": "+10%"
+          "Value": "+8%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - When your Ultimate ability has finished casting, your next ability or basic attack within 8s that damages an enemy god marks them, increasing the chance you and your allies can land a Critical Strike by 20% for 10 seconds. This can only occur once every 45 seconds. This item is only available to Hunters."
+      "SecondaryDescription": "PASSIVE - When your Ultimate ability has finished casting, your next ability or basic attack within 8s that damages an enemy god marks them, increasing the chance you and your allies can land a Critical Strike by 20% and reduces their damage output by 10% for 10 seconds. This can only occur once every 45 seconds. This item is only available to Hunters."
     },
     "ItemId": 17357,
     "ItemTier": 3,
@@ -14927,7 +14927,7 @@
     "MP5": 0,
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
-    "PhysicalPenetrationPercent": 0.1,
+    "PhysicalPenetrationPercent": 0.08,
     "PhysicalPower": 40,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
@@ -14951,7 +14951,7 @@
         },
         {
           "Description": "Magical Penetration",
-          "Value": "+10%"
+          "Value": "+8%"
         },
         {
           "Description": "Cooldown Reduction",
@@ -14976,7 +14976,7 @@
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
-    "MagicalPenetrationPercent": 0.1,
+    "MagicalPenetrationPercent": 0.08,
     "MagicalPower": 105,
     "MagicalProtection": 0,
     "Mana": 0,
@@ -15592,7 +15592,7 @@
           "Value": "+2%"
         }
       ],
-      "SecondaryDescription": "This item can be upgraded from anywhere and replaces Boots for Ratatoskr."
+      "SecondaryDescription": "This item can be upgraded from anywhere. Ratatoskr can only have 1 Acorn item."
     },
     "ItemId": 18703,
     "ItemTier": 1,
@@ -16687,7 +16687,7 @@
           "Value": "+50"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your Basic Attacks deal +25 True Damage and your Abilities deal +35% Damage versus Jungle Monsters. When a Jungle Monster is killed you are restored for 8% of the Monster's Health and 25 Mana. Can be upgraded at level 20."
+      "SecondaryDescription": "PASSIVE - Your Basic Attacks deal +25 True Damage and your Abilities deal +35% Damage versus Jungle Monsters. When you kill a Jungle Monster you are restored for 8% of the Monster's Health and 25 Mana. Can be upgraded at level 20."
     },
     "ItemId": 19502,
     "ItemTier": 1,
@@ -16748,7 +16748,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your Basic Attacks deal +50 True Damage and your Abilities deal +35% damage against Jungle Camps, Structures, and Jungle Bosses. When any of these die you gain a 10% power buff for 30s and are healed for 8% of their Health, 10% of your Mana."
+      "SecondaryDescription": "PASSIVE - Your Basic Attacks deal +50 True Damage and your Abilities deal +35% damage against Jungle Camps, Structures, and Jungle Bosses. When you kill any of these you gain a 10% power buff for 30s and are healed for 8% of their Health, 10% of your Mana."
     },
     "ItemId": 19514,
     "ItemTier": 2,
@@ -17346,7 +17346,7 @@
           "Value": "+20"
         }
       ],
-      "SecondaryDescription": "AURA - You gain 6 GP5 if you have the lowest gold on your team. Evenly split 80 Physical and Magical Protection among all allied gods within 55 units and yourself. If you are alone you only gain 40 Physical and Magical Protections."
+      "SecondaryDescription": "AURA - You gain 8 GP5 if you have the lowest gold on your team. Evenly split 80 Physical and Magical Protection among all allied gods within 55 units and yourself. If you are alone you only gain 40 Physical and Magical Protections."
     },
     "ItemId": 19627,
     "ItemTier": 2,
@@ -17375,63 +17375,6 @@
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
     "PhysicalProtection": 30,
-    "IsPhysicalOnly": false,
-    "IsMagicalOnly": false,
-    "ActivelyStacks": false,
-    "IsEvolved": false,
-    "IsGlyph": false
-  },
-  {
-    "DeviceName": "Benevolence",
-    "ActiveFlag": "y",
-    "ChildItemId": 0,
-    "IconId": 9208,
-    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/benevolence.jpg",
-    "ItemDescription": {
-      "Description": "Be benevolent and restore your allies!",
-      "Menuitems": [
-        {
-          "Description": "Health",
-          "Value": "+75"
-        },
-        {
-          "Description": "MP5",
-          "Value": "+10"
-        },
-        {
-          "Description": "HP5",
-          "Value": "+10"
-        }
-      ],
-      "SecondaryDescription": "PASSIVE - While not near an ally god you gain 1 stack of Benevolence every second, up to a maximum of 50. Assists provide 4 stacks. While within 70 units of a hurt ally god you use up to 5 stacks a second to heal them and yourself for 0.6% of your Maximum Health. Each stack consumed provide you with 1 gold. If you overcap stacks they will still provide gold as long as you are near an ally god. Can be upgraded at level 15."
-    },
-    "ItemId": 19634,
-    "ItemTier": 1,
-    "Price": 600,
-    "RestrictedRoles": "no restrictions",
-    "RootItemId": 19634,
-    "ShortDesc": "Be benevolent and restore your allies!",
-    "StartingItem": true,
-    "Type": "Item",
-    "AttackSpeed": 0,
-    "CooldownReduction": 0,
-    "CriticalStrikeChance": 0,
-    "CrowdControlReduction": 0,
-    "Health": 75,
-    "HP5": 10,
-    "MagicalLifesteal": 0,
-    "MagicalPenetration": 0,
-    "MagicalPenetrationPercent": 0,
-    "MagicalPower": 0,
-    "MagicalProtection": 0,
-    "Mana": 0,
-    "MovementSpeed": 0,
-    "MP5": 10,
-    "PhysicalLifesteal": 0,
-    "PhysicalPenetration": 0,
-    "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 0,
-    "PhysicalProtection": 0,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -17582,14 +17525,14 @@
           "Value": "+15"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Enemy Gods that you hit have their healing taken reduced by 15% for 5s. You are healed for 100% of the healing reduced. Can be upgraded at level 20."
+      "SecondaryDescription": "PASSIVE - Enemy Gods that you hit have their healing taken reduced by 20% for 5s. You are healed for 120% of the healing reduced. Can be upgraded at level 20."
     },
     "ItemId": 19640,
     "ItemTier": 1,
     "Price": 600,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 19640,
-    "ShortDesc": "Hit an enemy to steal their healing.",
+    "ShortDesc": "Hit an enemy to steal their healing",
     "StartingItem": true,
     "Type": "Item",
     "AttackSpeed": 0,
@@ -17643,7 +17586,7 @@
           "Value": "+90"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Enemy Gods that you hit have their healing taken reduced by 30% for 5s. You are healed for 100% of the healing reduced. "
+      "SecondaryDescription": "PASSIVE - Enemy Gods that you hit have their healing taken reduced by 30% for 5s. You are healed for 120% of the healing reduced. "
     },
     "ItemId": 19643,
     "ItemTier": 2,
@@ -20028,7 +19971,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "Each time an allied god dies within 70 units of you or you heal an allied god with an ability, a flower drops from your ally that can be picked up by you or an allied god. Picking up the flower gives that god a shield equal to 3% of their Max HP that lasts for 8s. Flowers last 7s on ground. Picking up a new flower refreshes shield."
+      "SecondaryDescription": "PASSIVE - Each time an allied god dies within 70 units of you or you heal an allied god with an ability, a flower drops from your ally that can be picked up by you or an allied god. Picking up the flower gives that god a shield equal to 3% of their Max HP that lasts for 8s. Flowers last 7s on ground. Picking up a new flower refreshes shield."
     },
     "ItemId": 23009,
     "ItemTier": 3,
@@ -20150,7 +20093,7 @@
           "Value": "+20"
         }
       ],
-      "SecondaryDescription": "When you hit an enemy god with Hard Crowd Control, they drop Spikes on the ground that lasts for 7s. When you or an allied god pick up a Spike, they gain a buff that causes their next ability to deal bonus Magic damage equal to 3% of their own Max HP. This effect lasts 15s and is doubled if you are the one who picks up the Spike."
+      "SecondaryDescription": "PASSIVE - When you hit an enemy god with Hard Crowd Control, they drop Spikes on the ground that lasts for 7s. When you or an allied god pick up a Spike, they gain a buff that causes their next ability to deal bonus Magic damage equal to 3% of their own Max HP. This effect lasts 15s and is doubled if you are the one who picks up the Spike."
     },
     "ItemId": 23143,
     "ItemTier": 3,
@@ -20211,7 +20154,7 @@
           "Value": "+15"
         }
       ],
-      "SecondaryDescription": "Your Basic Attack projectile speed is increased by 40%."
+      "SecondaryDescription": "PASSIVE - Your Basic Attack projectile speed is increased by 40%. This item is only available to Hunters and Mages."
     },
     "ItemId": 23146,
     "ItemTier": 3,
@@ -22025,7 +21968,7 @@
           "Value": "+15"
         }
       ],
-      "SecondaryDescription": "PASSIVE - You gain 6 GP5 if you have the lowest gold on your team. Getting an assist for an enemy dying provides a stack that provides 2% Movement Speed and 4% Attack Speed for 10s to nearby allies up to 10 stacks. When you've gained 4 or more stacks from assists, once per ability, each time you damage an enemy god you restore 1% Health and 1.25% Mana to nearby allies within 55 units and refresh the duration of these stacks."
+      "SecondaryDescription": "PASSIVE - You gain 8 GP5 if you have the lowest gold on your team. Getting an assist for an enemy dying provides a stack that provides 2% Movement Speed and 4% Attack Speed for 10s to nearby allies up to 10 stacks. When you've gained 4 or more stacks from assists, once per ability, each time you damage an enemy god you restore 1% Health and 1.25% Mana to nearby allies within 55 units and refresh the duration of these stacks."
     },
     "ItemId": 24196,
     "ItemTier": 2,
@@ -22196,7 +22139,7 @@
           "Value": "+250"
         }
       ],
-      "SecondaryDescription": "PSV - Healing Dealt is increased by 30%.\n\nAURA - Allied gods within 30 units have 10% increased Cooldown Reduction."
+      "SecondaryDescription": "PASSIVE - Healing Dealt is increased by 30%.\n\nAURA - Allied gods within 30 units have 10% increased Cooldown Reduction."
     },
     "ItemId": 24408,
     "ItemTier": 3,
@@ -22253,14 +22196,14 @@
           "Value": "+300"
         }
       ],
-      "SecondaryDescription": "PSV - Successfully hitting enemy gods with Basic attacks and Abilities provides a stack of 6% Healing Dealt that is consumed by the next Ability heal used. Max 8 stacks. You may only gain one stack per god hit per ability."
+      "SecondaryDescription": "PASSIVE - Successfully hitting enemy gods with Basic attacks and Abilities provides a stack of 6% Healing Dealt that is consumed by the next heal from an Ability. Max 8 stacks. You may only gain one stack per god hit per ability."
     },
     "ItemId": 24418,
     "ItemTier": 3,
     "Price": 1100,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 24427,
-    "ShortDesc": "Increased Healing Dealt",
+    "ShortDesc": "Increased Healing Dealt when attacking enemy gods",
     "StartingItem": false,
     "Type": "Item",
     "AttackSpeed": 0,
@@ -22314,7 +22257,7 @@
           "Value": "+15"
         }
       ],
-      "SecondaryDescription": "PSV - After healing an allied god with an ability you gain 10 Magical Power per 10% of their missing Health for 6s. This effect can only occur once every 10s."
+      "SecondaryDescription": "PASSIVE - After healing an allied god with an ability you gain 10 Magical Power per 10% of their missing Health for 6s. This effect can only occur once every 10s."
     },
     "ItemId": 24421,
     "ItemTier": 3,
@@ -22375,7 +22318,7 @@
     },
     "ItemId": 24428,
     "ItemTier": 1,
-    "Price": 700,
+    "Price": 650,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 24428,
     "ShortDesc": "Physical Power, Health and MP5",
@@ -22432,7 +22375,7 @@
     },
     "ItemId": 24429,
     "ItemTier": 2,
-    "Price": 600,
+    "Price": 650,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 24428,
     "ShortDesc": "Physical Power, Health and MP5",
@@ -22489,7 +22432,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PSV - Healing Dealt is increased by 30%.\n\nAURA - Allied gods within 70 units have 10% increased Crowd Control Reduction and 4% Movement Speed."
+      "SecondaryDescription": "PASSIVE - Healing Dealt is increased by 30%.\n\nAURA - Allied gods within 70 units have 10% increased Crowd Control Reduction and 4% Movement Speed."
     },
     "ItemId": 24409,
     "ItemTier": 3,
@@ -22550,7 +22493,7 @@
           "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "PSV - After healing yourself or an allied god with an ability you gain 10% Attack Speed and 5% Basic Attack Damage for 6s, stacking 3 times."
+      "SecondaryDescription": "PASSIVE - After healing yourself or an allied god with an ability you gain 10% Attack Speed and 5% Basic Attack Damage for 6s, stacking 3 times."
     },
     "ItemId": 24422,
     "ItemTier": 3,
@@ -22611,7 +22554,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PSV - After healing yourself or an allied god with an ability, for the next 6s each time you damage an enemy god your non-ultimate abilities' cooldowns are reduced by 0.5s. This reduction can only occur once per second and the effect may only occur once every 12s"
+      "SecondaryDescription": "PASSIVE - After healing yourself or an allied god with an ability, for the next 6s each time you damage an enemy god your non-ultimate abilities' cooldowns are reduced by 0.5s. This reduction can only occur once per second and the effect may only occur once every 12s"
     },
     "ItemId": 24423,
     "ItemTier": 3,

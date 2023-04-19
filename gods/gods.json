@@ -983,7 +983,7 @@
       "Description": {
         "itemDescription": {
           "cooldown": "7s",
-          "cost": "60/65/70/75/80",
+          "cost": "50/55/60/65/70",
           "description": "Ao Kuang unleashes a storm of lightning from his sword, damaging all enemies in front of him. This hit will send a Dragon from Dragon's Call forth, dealing damage to hit targets.",
           "menuItems": null
         },
@@ -1090,7 +1090,7 @@
         "itemDescription": {
           "cooldown": "14/13.5/13/12.5/12s",
           "cost": "50/55/60/65/70",
-          "description": "Aphrodite blows a kiss to an allied god, making them her soul mate and giving them both increased movement speed. If it hits an ally, it has a reduced 1s cooldown. If the kiss hits an enemy god, they are Damaged, Stunned and Aphrodite's soul mate gets jealous, increasing their damage. Also Aphrodite's soul mate gains 50% of her MP5 and 20% of her Physical and Magical Protections.",
+          "description": "Aphrodite blows a kiss to an allied god, making them her soul mate and giving them both increased movement speed. If it hits an ally, it has a reduced 1s cooldown. If the kiss hits an enemy god, they are Damaged, Stunned and Aphrodite's soul mate gets jealous, increasing their damage. Also Aphrodite's soul mate gains 50% of her MP5 and 15% of her Physical and Magical Protections.",
           "menuItems": null
         },
         "rankItems": null
@@ -1116,7 +1116,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/love-birds.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14s",
+          "cooldown": "16s",
           "cost": "70/75/80/85/90",
           "description": "Aphrodite calls forth a flock of beautiful doves that fly forward in the area in front of her. The doves circle around all enemies in the path, damaging enemies every .5s for 3s. Aphrodite and her soul mate receive healing when cast and decreased ability cooldowns.",
           "menuItems": null
@@ -3502,7 +3502,7 @@
         "itemDescription": {
           "cooldown": "0s",
           "cost": "None",
-          "description": "Cernnunos imbues his glaive with the power of the 4 seasons. Activating this ability rotates him through 4 different bonuses to his basic attacks.\n\nSpring Growth: Bonus Physical Lifesteal\nSummer Heat: Bonus Damage\nAutumn Decay: Debuff for 10s\nWinter Chill: Slows for 1.4s",
+          "description": "Cernnunos imbues his glaive with the power of the 4 seasons. Activating this ability rotates him through 4 different bonuses to his basic attacks.\n\nSpring Growth: Bonus Physical Lifesteal\nSummer Heat: Bonus Damage\nAutumn Decay: Physical Protections debuff for 10s\nWinter Chill: Slows for 1.4s",
           "menuItems": null
         },
         "rankItems": null
@@ -3826,7 +3826,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Chang'e can purchase/sell items anywhere and her Jade Rabbit will fetch them. Only one item can be purchased/sold in this way at a time. Chang'e also gains +25% movement speed with no backpedal penalty when using her dances and her abilities debuff enemies causing them to take 5% extra damage from her further ablities.",
+          "description": "Chang'e can purchase/sell items anywhere and her Jade Rabbit will fetch them. Only one item can be purchased/sold in this way at a time. Chang'e also gains +25% movement speed with no backpedal penalty when using her dances and her abilities apply a debuff to enemies, causing them to take 5% extra damage from her abilities within the next 4s, stacking 3 times.",
           "menuItems": null
         },
         "rankItems": null
@@ -3902,7 +3902,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/spike-shot.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14s",
+          "cooldown": "14/13/12/11/10s",
           "cost": "50/55/60/65/70",
           "description": "Charybdis reveals The Maw as it fires large spikes for a short duration dealing Basic Attack damage. These projectiles pass through minions and are wider and faster than normal Basic Attacks.\n\nOn hitting enemy gods and walls, the spikes splinter dealing additional damage.",
           "menuItems": null
@@ -6316,7 +6316,7 @@
         "itemDescription": {
           "cooldown": "14/13/12/11/10",
           "cost": "60/65/70/75/80",
-          "description": "Gilgamesh ignites his sword with the ferocity of the Sun for 3s. Enemies around the ignition take damage and are slowed for 2s. Gilgamesh's Basic Attack deals bonus damage equal to 2.5% of his Maximum Health to enemies hit. When Gilgamesh successfully hits an enemy with his Basic Attack the duration of this effect is extended for 0.8s, up to a maximum of 6s. While this effect is active, Gilgamesh gains HP5.",
+          "description": "Gilgamesh ignites his sword with the ferocity of the Sun for 3s. Enemies around the ignition take damage and are slowed for 2s. Lane Minions take an extra +25% damage. Gilgamesh's Basic Attack deals bonus damage equal to 2.5% of his Maximum Health to enemies hit. When Gilgamesh successfully hits an enemy with his Basic Attack the duration of this effect is extended for 0.8s, up to a maximum of 6s. While this effect is active, Gilgamesh gains HP5.",
           "menuItems": null
         },
         "rankItems": null
@@ -7176,7 +7176,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "When Hel is in a stance, she gradually attunes to the strengths of that stance, gaining up to 20% increased damage in the Dark Stance and an Aura that causes enemy power to be reduced by up to 8% while in the Light Stance.",
+          "description": "When Hel is in a stance, she gradually attunes to the strengths of that stance, gaining up to 20% increased damage in the Dark Stance and an Aura that reduces power of enemy Gods within 55 units by up to 8% while in the Light Stance.",
           "menuItems": null
         },
         "rankItems": null
@@ -8040,6 +8040,140 @@
     "IsRatatoskr": false
   },
   {
+    "Ability1": "Gleaming Blast",
+    "Ability2": "Lunar Invocation",
+    "Ability3": "Rainbow Crash",
+    "Ability4": "Great End",
+    "Ability5": "Rainbow Weaver",
+    "AbilityId1": 24065,
+    "AbilityId2": 24066,
+    "AbilityId3": 24067,
+    "AbilityId4": 24068,
+    "AbilityId5": 24069,
+    "Ability_1": {
+      "Id": 24065,
+      "Summary": "Gleaming Blast",
+      "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/gleaming-blast.jpg",
+      "Description": {
+        "itemDescription": {
+          "cooldown": "6s",
+          "cost": "40/45/50/55/60",
+          "description": "Ix Chel fires a blast of gleaming light ahead of her dealing damage, piercing minions, and stopping on the first enemy god hit. Minions and Jungle Camps take an extra +40% damage.\n\nSuccessfully hitting an enemy god turns this ability into Threads of Light.",
+          "menuItems": null
+        },
+        "rankItems": null
+      }
+    },
+    "Ability_2": {
+      "Id": 24066,
+      "Summary": "Lunar Invocation",
+      "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/lunar-invocation.jpg",
+      "Description": {
+        "itemDescription": {
+          "cooldown": "15s",
+          "cost": "65",
+          "description": "Ix Chel marks an area on the ground invoking it with lunar energy. After a short delay the energy explodes Knocking up and dealing damage to enemies while Healing allies.",
+          "menuItems": null
+        },
+        "rankItems": null
+      }
+    },
+    "Ability_3": {
+      "Id": 24067,
+      "Summary": "Rainbow Crash",
+      "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/rainbow-crash.jpg",
+      "Description": {
+        "itemDescription": {
+          "cooldown": "14/13.5/13/12.5/12s",
+          "cost": "50/55/60/65/70",
+          "description": "Ix Chel sends out an arcing, weaved rainbow towards a location while gaining a small burst of Movement Speed.\n\nOn landing the crashing rainbow deals damage and Roots enemies, splitting into smaller orbs of light. These orbs can be picked up by Ix Chel and her allies for increased Movement Speed.",
+          "menuItems": null
+        },
+        "rankItems": null
+      }
+    },
+    "Ability_4": {
+      "Id": 24068,
+      "Summary": "Great End",
+      "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/great-end.jpg",
+      "Description": {
+        "itemDescription": {
+          "cooldown": "90s",
+          "cost": "90",
+          "description": "Ix Chel becomes CC immune and channels all of her energy into a single intense beam of light. The beam deals damage to enemies and heals allies every 0.2s for 3s, increasing in duration if Ix Chel can do both at the same time.\nEnemies take increasing damage per tick which decays rapidly if not hit recently.\n\nHealing an ally also heals Ix Chel. Ix Chel gains 6 stacks of Rainbow Weaver on firing.",
+          "menuItems": null
+        },
+        "rankItems": null
+      }
+    },
+    "Ability_5": {
+      "Id": 24069,
+      "Summary": "Rainbow Weaver",
+      "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/rainbow-weaver.jpg",
+      "Description": {
+        "itemDescription": {
+          "cooldown": "",
+          "cost": "",
+          "description": "Every time Ix Chel hits an enemy god or provides an allied god with a beneficial effect she gains one color of the rainbow. On obtaining all 6, her next basic attack has no movement penalty, is increased in size and deals bonus damage.",
+          "menuItems": null
+        },
+        "rankItems": null
+      }
+    },
+    "AttackSpeed": 0.9,
+    "AttackSpeedPerLevel": 0.007,
+    "AutoBanned": "n",
+    "Cons": "",
+    "Health": 532,
+    "HealthPerFive": 7,
+    "HealthPerLevel": 84,
+    "HP5PerLevel": 0.6,
+    "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/ix-chel.jpg",
+    "id": 4242,
+    "Lore": "There are many stories about Ix Chel, and her faces are as myriad as the phases of the moon. Among some tribes she is known as the Great End or the Red Rainbow. Among others, She of the Pale Face. But she is perhaps best known as the Lady of the Rainbows.\\n\\nWhatever her sobriquet, Ix Chel is a goddess of facets; the moon is within her purview, and fertility as well. She is associated with life and medicine, but death walks in her shadow. All the colors of the rainbow are hers to command, but she weaves them into catastrophe for those who dare stand against her. She commands the storms to wash away those who anger her, but brings the rain to those who need it. But though her roles are many, she takes her responsibilities seriously.\\n\\nIt is said that Ix Chel was there at the beginning of the universe, and that her children, the Bacabs, took the form of jaguars to race to the edges of the world, in order to hold it up. Ix Chel herself often takes the form of a great jaguar to achieve her ends – such as when she fled her husband, the sun god, or made war on her enemies. With her spindle, she guides the motion of the universe, weaving together the formative elements of existence so that creation rises from destruction – and vice versa.\\n\\nBut now, that ancient cycle is under threat. The pantheons are slow to confront the foe before them, and their petty rivalries and grievances endanger all that is. Thus it falls to Ix Chel to paint a picture of hope, and light the way to a new dawn...whatever the cost.",
+    "MagicalPower": 170,
+    "MagicalPowerPerLevel": 7.5,
+    "MagicProtection": 30,
+    "MagicProtectionPerLevel": 1.6,
+    "Mana": 300,
+    "ManaPerFive": 5,
+    "ManaPerLevel": 44,
+    "MP5PerLevel": 0.45,
+    "Name": "Ix Chel",
+    "OnFreeRotation": "",
+    "Pantheon": "Maya",
+    "PhysicalPower": 0,
+    "PhysicalPowerPerLevel": 0,
+    "PhysicalProtection": 16.8,
+    "PhysicalProtectionPerLevel": 3,
+    "Pros": "High Crowd Control, High Sustain, Medium Area Damage",
+    "Roles": "Mage",
+    "Speed": 360,
+    "Title": "The Light Weaver",
+    "Type": "Ranged, Magical",
+    "basicAttack": {
+      "cooldown": null,
+      "cost": null,
+      "description": null,
+      "menuItems": null
+    },
+    "godAbility1_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/gleaming-blast.jpg",
+    "godAbility2_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/lunar-invocation.jpg",
+    "godAbility3_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/rainbow-crash.jpg",
+    "godAbility4_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/great-end.jpg",
+    "godAbility5_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/rainbow-weaver.jpg",
+    "godCard_URL": "https://webcdn.hirezstudios.com/smite/god-cards/ix-chel.jpg",
+    "latestGod": "y",
+    "IsAssassin": false,
+    "IsGuardian": false,
+    "IsHunter": false,
+    "IsMage": true,
+    "IsWarrior": false,
+    "IsMagical": true,
+    "IsPhysical": false,
+    "IsRatatoskr": false
+  },
+  {
     "Ability1": "Sickle Storm",
     "Ability2": "Spectral Projection",
     "Ability3": "Fade Away",
@@ -8234,7 +8368,7 @@
         "itemDescription": {
           "cooldown": "110s",
           "cost": "100",
-          "description": "Janus blasts a ball of multi-dimensional energy across the battlefield, burning a portal into every surface it encounters within range 500. These portals last 10s, may be used by allies, and do not vanish after the first use.\n\nEnemies hit by the energy ball take damage, increasing in Magical scaling the further the energy travels. Enemy gods cannot take more than 75% of their maximum Health as damage. Janus is immune to Crowd Control whilst firing.",
+          "description": "Passive: Janus gains increased % Magical Penetration.\nActive: Janus becomes CC Immune and blasts multi-dimensional energy across the battlefield, burning a portal into every surface it hits within range 500. These portals last 10s, may be used by allies, and do not vanish after the first use.\nEnemies hit take damage, increasing in Magical scaling the further the energy travels. Enemy gods cannot take more than 75% of their maximum Health as damage.",
           "menuItems": null
         },
         "rankItems": null
@@ -9730,7 +9864,7 @@
     },
     "AttackSpeed": 0.92,
     "AttackSpeedPerLevel": 0.013,
-    "AutoBanned": "y",
+    "AutoBanned": "n",
     "Cons": "",
     "Health": 680,
     "HealthPerFive": 7,
@@ -9771,7 +9905,7 @@
     "godAbility4_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/death-from-above.jpg",
     "godAbility5_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/monstrosity.jpg",
     "godCard_URL": "https://webcdn.hirezstudios.com/smite/god-cards/martichoras.jpg",
-    "latestGod": "y",
+    "latestGod": "n",
     "IsAssassin": false,
     "IsGuardian": false,
     "IsHunter": true,
@@ -11570,7 +11704,7 @@
         "itemDescription": {
           "cooldown": "14s",
           "cost": "60/65/70/75/80",
-          "description": "Olorun expends the light within himself knocking back and damaging nearby Enemies as well as slowing them for 2s.\n\nOlorun and allies are bathed in the light, gaining a heal over time that ticks every second for 5s. For every ally healed, Olorun gains Physical and Magical protections.",
+          "description": "Olorun expends the light within himself knocking back and damaging nearby Enemies as well as slowing them for 2s.\n\nOlorun and allies are bathed in the light, gaining a heal over time that ticks every second for 5s. For every ally god healed, Olorun gains Physical and Magical protections.",
           "menuItems": null
         },
         "rankItems": null
@@ -13058,7 +13192,7 @@
         "itemDescription": {
           "cooldown": "90s",
           "cost": "100",
-          "description": "Serqet leaps to an enemy, Stunning them and gaining 50% damage mitigation. She then applies the Last Breath poison and pushes them 30 units away. The Last Breath poison deals true damage to the target over the next 5s, and prevents them from healing. If an enemy dies while infected with Last Breath, they will explode, applying the poison to all enemies within 20 units.",
+          "description": "Passive: Serqet gains increased Critical Strike Chance.\nActive: Serqet leaps to an enemy, Stunning them and gaining 50% damage mitigation. She applies the Last Breath poison and pushes them 30 units away. The poison deals true damage to the target over the next 5s, and prevents them from healing. If an enemy dies while infected with Last Breath, they explode, applying the poison to all enemies within 20 units.",
           "menuItems": null
         },
         "rankItems": null
@@ -14398,7 +14532,7 @@
         "itemDescription": {
           "cooldown": "90s",
           "cost": "100",
-          "description": "Terra channels her strength into the world around her, buffing her allies and debuffing enemies for 10s.\nAllies gain 10% damage mitigation and protective stones that heal the ally if all 4 are activated.\nEnemies receive 5% more damage from all sources and harmful stones that damage the enemy if all 4 are activated.\nStones are activated when an ally or enemy receives damage.",
+          "description": "Terra channels her strength into the world around her, buffing her allies and debuffing enemies for 10s.\nAllies gain 10% damage mitigation and protective stones that heal the ally if all 4 are activated.\nEnemies receive 5% more damage from all sources and harmful stones that damage the enemy if all 4 are activated. Stones are activated when an ally or enemy receives damage.",
           "menuItems": null
         },
         "rankItems": null
@@ -15082,7 +15216,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "While in Flying stance Tiamat heals from nearby ally and enemy deaths, less from minions. In Ground stance she gains up to 5 Hardened Scales, damage mitigation that breaks after a certain amount of damage is taken. Normal minions do not provide Hardened Scales.",
+          "description": "While in Flying stance Tiamat heals from nearby ally and enemy deaths, less from minions. In Ground stance she gains up to 5 Hardened Scales, damage mitigation that breaks after a certain amount of damage is taken. Normal minions do not provide Hardened Scales. Passive Healing does not proc item effects.",
           "menuItems": null
         },
         "rankItems": null
@@ -16230,7 +16364,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/ice-wall.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "13ss",
+          "cooldown": "13s",
           "cost": "60/65/70/75/80",
           "description": "Ymir summons a wall of ice out of the ground that blocks player movement.",
           "menuItems": null
