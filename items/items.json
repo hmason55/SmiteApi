@@ -17382,6 +17382,63 @@
     "IsGlyph": false
   },
   {
+    "DeviceName": "Benevolence",
+    "ActiveFlag": "y",
+    "ChildItemId": 0,
+    "IconId": 9208,
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/benevolence.jpg",
+    "ItemDescription": {
+      "Description": "Be benevolent and restore your allies!",
+      "Menuitems": [
+        {
+          "Description": "Health",
+          "Value": "+75"
+        },
+        {
+          "Description": "MP5",
+          "Value": "+10"
+        },
+        {
+          "Description": "HP5",
+          "Value": "+10"
+        }
+      ],
+      "SecondaryDescription": "PASSIVE - While not near an ally god you gain 1 stack of Benevolence every second, up to a maximum of 50. Assists provide 4 stacks. While within 70 units of a hurt ally god you use up to 5 stacks a second to heal them and yourself for 0.6% of your Maximum Health. Each stack consumed provide you with 1 gold. If you overcap stacks they will still provide gold as long as you are near an ally god. Can be upgraded at level 15."
+    },
+    "ItemId": 19634,
+    "ItemTier": 1,
+    "Price": 600,
+    "RestrictedRoles": "no restrictions",
+    "RootItemId": 19634,
+    "ShortDesc": "Be benevolent and restore your allies!",
+    "StartingItem": true,
+    "Type": "Item",
+    "AttackSpeed": 0,
+    "CooldownReduction": 0,
+    "CriticalStrikeChance": 0,
+    "CrowdControlReduction": 0,
+    "Health": 75,
+    "HP5": 10,
+    "MagicalLifesteal": 0,
+    "MagicalPenetration": 0,
+    "MagicalPenetrationPercent": 0,
+    "MagicalPower": 0,
+    "MagicalProtection": 0,
+    "Mana": 0,
+    "MovementSpeed": 0,
+    "MP5": 10,
+    "PhysicalLifesteal": 0,
+    "PhysicalPenetration": 0,
+    "PhysicalPenetrationPercent": 0,
+    "PhysicalPower": 0,
+    "PhysicalProtection": 0,
+    "IsPhysicalOnly": false,
+    "IsMagicalOnly": false,
+    "ActivelyStacks": false,
+    "IsEvolved": false,
+    "IsGlyph": false
+  },
+  {
     "DeviceName": "Compassion",
     "ActiveFlag": "y",
     "ChildItemId": 19634,
