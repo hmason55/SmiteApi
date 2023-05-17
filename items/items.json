@@ -2127,7 +2127,7 @@
           "Value": "+200"
         }
       ],
-      "SecondaryDescription": "PASSIVE - For 8s after using an ability, your next Basic Attack will deal an additional 35% damage. Abilities that function like basic attacks do not benefit from this.\nPASSIVE - This item grants 2.5 MP5 per 10% of your missing Mana."
+      "SecondaryDescription": "PASSIVE - For 8s after using an ability, your next Basic Attack will deal an additional 30% damage. Abilities that function like basic attacks do not benefit from this.\nPASSIVE - This item grants 2.5 MP5 per 10% of your missing Mana."
     },
     "ItemId": 8550,
     "ItemTier": 3,
@@ -3560,7 +3560,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+50"
+          "Value": "+40"
         },
         {
           "Description": "Critical Strike Chance",
@@ -3594,7 +3594,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 50,
+    "PhysicalPower": 40,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -3723,18 +3723,18 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+30"
+          "Value": "+25"
         },
         {
           "Description": "Attack Speed",
-          "Value": "+20%"
+          "Value": "+15%"
         },
         {
           "Description": "Critical Strike Chance",
           "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your Critical Hits provide you with 10% Physical Penetration and increase your Attack Speed by 15% for 4s."
+      "SecondaryDescription": "PASSIVE - Your Critical Hits provide you with 8% Physical Penetration and increase your Attack Speed by 10% for 4s."
     },
     "ItemId": 12674,
     "ItemTier": 3,
@@ -3744,7 +3744,7 @@
     "ShortDesc": "Critical Hits give increased Penetration and Attack Speed",
     "StartingItem": false,
     "Type": "Item",
-    "AttackSpeed": 0.2,
+    "AttackSpeed": 0.15,
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0.2,
     "CrowdControlReduction": 0,
@@ -3761,7 +3761,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 30,
+    "PhysicalPower": 25,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -3791,7 +3791,7 @@
           "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your next basic attack on an enemy god creates a deployable that, when picked up, provides you with 4% Movement Speed and 10% Critical Strike Chance for 6s. This effect stacks up to 3 times and can only occur once every 2 seconds."
+      "SecondaryDescription": "PASSIVE - Your next basic attack on an enemy god creates a deployable that, when picked up, provides you with 2% Movement Speed and 10% Critical Strike Chance for 6s. This effect stacks up to 3 times and can only occur once every 2 seconds."
     },
     "ItemId": 23854,
     "ItemTier": 3,
@@ -3890,7 +3890,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+50"
+          "Value": "+40"
         },
         {
           "Description": "Critical Strike Chance",
@@ -3924,7 +3924,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 50,
+    "PhysicalPower": 40,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -3943,14 +3943,14 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+50"
+          "Value": "+40"
         },
         {
           "Description": "Critical Strike Chance",
           "Value": "+30%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Critical Strike bonus damage dealt is increased by 25%. <n>GLYPH - Critical hits on enemy gods afflict them with poison for 3s. This poison slows them by 10%, reduces their healing by 40% and Shields applied on them are reduced by 50%."
+      "SecondaryDescription": "PASSIVE - Critical Strike bonus damage dealt is increased by 25%. <n>GLYPH - Successfully hitting an Enemy God with a Critical Strike will afflict them with poison for 3s. This poison reduces their healing by 40% and Shields applied on them are reduced by 50%."
     },
     "ItemId": 21501,
     "ItemTier": 4,
@@ -3977,7 +3977,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 50,
+    "PhysicalPower": 40,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -4269,11 +4269,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+65"
-        },
-        {
-          "Description": "Attack Speed",
-          "Value": "+10%"
+          "Value": "+75"
         },
         {
           "Description": "Physical Lifesteal",
@@ -4294,7 +4290,7 @@
     "ShortDesc": "Increases Physical Power and Physical Lifesteal",
     "StartingItem": false,
     "Type": "Item",
-    "AttackSpeed": 0.1,
+    "AttackSpeed": 0,
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
@@ -4311,7 +4307,7 @@
     "PhysicalLifesteal": 0.1,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 65,
+    "PhysicalPower": 75,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -4809,7 +4805,7 @@
           "Value": "+7%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Enemies hit by your basic attacks have 15% reduced Healing and 5% reduced Attack Speed while you gain 5% increased Attack Speed, stacking up to 4 times and lasting 5s."
+      "SecondaryDescription": "PASSIVE - Enemy Gods hit by your basic attacks have 15% reduced Healing and 5% reduced Attack Speed while you gain 5% increased Attack Speed, stacking up to 4 times and lasting 5s."
     },
     "ItemId": 24189,
     "ItemTier": 3,
@@ -5786,7 +5782,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - When you are Basic Attacked by an enemy god, friendly lane minions within 40 units gain a stack, up to a max of 3. Stacks provide 20% Attack Speed and 15 of each Protection and last for 6s. You cannot give more than one stack per second."
+      "SecondaryDescription": "PASSIVE - When you are Basic Attacked by an enemy god, you and friendly lane minions within 40 units gain a stack, up to a max of 3. Stacks provide 10% Attack Speed and 7 of each Protection and last for 8s. Minions gain double the effects from each stack. You cannot give more than one stack per second."
     },
     "ItemId": 23863,
     "ItemTier": 3,
@@ -6193,7 +6189,7 @@
           "Value": "+10"
         }
       ],
-      "SecondaryDescription": "PASSIVE - You take 40% reduced bonus damage from Physical Critical Strikes. When you are hit by a Critical Strike, you and allies within 55 units take an additional 5% reduced bonus damage from Physical Critical Strikes, stacking up to 4 times and lasting for 8s."
+      "SecondaryDescription": "AURA - Allied gods within 55 units take 40% reduced bonus damage from Physical Critical Strikes. \n\nPASSIVE - When you get hit by a Critical Strike, you gain 15 Physical Power and 20 Magical Power, stacking up to 3 times and lasting 6s."
     },
     "ItemId": 24187,
     "ItemTier": 3,
@@ -6258,7 +6254,7 @@
     },
     "ItemId": 24188,
     "ItemTier": 3,
-    "Price": 1050,
+    "Price": 1200,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 9837,
     "ShortDesc": "Provides a boost after healing",
@@ -8316,7 +8312,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+110"
+          "Value": "+100"
         },
         {
           "Description": "Magical Penetration",
@@ -8346,7 +8342,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 15,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 110,
+    "MagicalPower": 100,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -8437,7 +8433,7 @@
           "Value": "+8%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Whenever you damage an enemy god with an ability you mark them to take 9% increased damage from all sources. This effect lasts for 8s and can only occur once every 15s."
+      "SecondaryDescription": "PASSIVE - Whenever you damage an enemy god with an ability you mark them to take 5% increased damage from all sources. This effect lasts for 8s and can only occur once every 15s."
     },
     "ItemId": 18180,
     "ItemTier": 3,
@@ -9607,7 +9603,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+150"
+          "Value": "+140"
         },
         {
           "Description": "MP5",
@@ -9618,7 +9614,7 @@
           "Value": "+8%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Basic Attacks and Abilities gain 25% additional Magical Power against targets below 60% Health."
+      "SecondaryDescription": "PASSIVE - Basic Attacks and Abilities gain 20% additional Magical Power against targets below 60% Health."
     },
     "ItemId": 7600,
     "ItemTier": 3,
@@ -9637,7 +9633,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0.08,
-    "MagicalPower": 150,
+    "MagicalPower": 140,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -9721,7 +9717,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+145"
+          "Value": "+130"
         },
         {
           "Description": "MP5",
@@ -9729,7 +9725,7 @@
         },
         {
           "Description": "Magical Penetration",
-          "Value": "+10%"
+          "Value": "+8%"
         },
         {
           "Description": "Movement Speed",
@@ -9754,8 +9750,8 @@
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
-    "MagicalPenetrationPercent": 0.1,
-    "MagicalPower": 145,
+    "MagicalPenetrationPercent": 0.08,
+    "MagicalPower": 130,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0.06,
@@ -9904,7 +9900,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+150"
+          "Value": "+140"
         },
         {
           "Description": "MP5",
@@ -9915,7 +9911,7 @@
           "Value": "+8%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Basic Attacks and Abilities gain 25% additional Magical Power against targets below 60% Health. <n>GLYPH - Successfully hitting an enemy god with an ability calls down a meteor that lands after 1s, dealing 100 (+35% of your Magical Power) damage in a 15 unit radius. This effect can only occur once every 30s."
+      "SecondaryDescription": "PASSIVE - Basic Attacks and Abilities gain 20% additional Magical Power against targets below 60% Health. <n>GLYPH - Successfully hitting an enemy god with an ability calls down a meteor that lands after 1s, dealing 100 (+35% of your Magical Power) damage in a 15 unit radius. This effect can only occur once every 30s."
     },
     "ItemId": 21484,
     "ItemTier": 4,
@@ -9934,7 +9930,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0.08,
-    "MagicalPower": 150,
+    "MagicalPower": 140,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -9961,7 +9957,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+150"
+          "Value": "+140"
         },
         {
           "Description": "MP5",
@@ -9972,7 +9968,7 @@
           "Value": "+8%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Basic Attacks and Abilities gain 25% additional Magical Power against targets below 60% Health. <n>GLYPH - Successfully damaging an enemy god with an ability applies a mark for 3s. Damaging them a second time with an ability consumes the mark and provides you 10% movement speed for 2s and reduces your ability cooldowns by 1.5s. Only one mark can be active at a time and cannot be applied for 8s after consuming a mark. "
+      "SecondaryDescription": "PASSIVE - Basic Attacks and Abilities gain 20% additional Magical Power against targets below 60% Health. <n>GLYPH - Successfully damaging an enemy god with an ability applies a mark for 3s. Damaging them a second time with an ability consumes the mark and provides you 10% movement speed for 2s and reduces your ability cooldowns by 1.5s. Only one mark can be active at a time and cannot be applied for 8s after consuming a mark. "
     },
     "ItemId": 22941,
     "ItemTier": 4,
@@ -9991,7 +9987,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0.08,
-    "MagicalPower": 150,
+    "MagicalPower": 140,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -11363,11 +11359,11 @@
           "Value": "+15"
         }
       ],
-      "SecondaryDescription": "PASSIVE - If you are hit by a Knockup, Knockback, Pull, or Grab you gain 5% of your max Health over the next 5 seconds. This effect does not trigger on Vortexes. Can only occur once every 20s.\n\nPASSIVE - Regenerates 0.35% of your max health every second."
+      "SecondaryDescription": "PASSIVE - If you are hit by a Knockup, Knockback, Pull, or Grab you gain 5% of your max Health over the next 5 seconds. This effect does not trigger on Vortexes. Can only occur once every 15s.\n\nPASSIVE - Regenerates 0.35% of your max health every second."
     },
     "ItemId": 7572,
     "ItemTier": 3,
-    "Price": 850,
+    "Price": 700,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 12663,
     "ShortDesc": "Grants bonus Regeneration after Knockup",
@@ -11656,11 +11652,11 @@
           "Value": "+20"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your next successful basic attack on an enemy lane minion causes it to explode, instantly killing it, dealing 50 (+5 Per Level) magical damage to enemies in a small area and providing 25 bonus gold to your nearest ally within 80 ft. This can only happen once every 20s."
+      "SecondaryDescription": "PASSIVE - Your next successful basic attack on an enemy lane minion causes it to explode, instantly killing it, dealing 50 (+10 Per Level) magical damage to enemies in a small area and providing 15 bonus gold to your nearest ally within 80 ft. This can only happen once every 7s."
     },
     "ItemId": 23974,
     "ItemTier": 3,
-    "Price": 850,
+    "Price": 750,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 12663,
     "ShortDesc": "Basic attacks can cause minions to explode granting bonus gold",
@@ -14845,7 +14841,7 @@
     "ItemId": 17356,
     "ItemTier": 3,
     "Price": 1000,
-    "RestrictedRoles": "hunter",
+    "RestrictedRoles": "guardian,hunter,mage",
     "RootItemId": 17349,
     "ShortDesc": "On ultimate use seek out and banish evil",
     "StartingItem": false,
@@ -14906,7 +14902,7 @@
     "ItemId": 17357,
     "ItemTier": 3,
     "Price": 1050,
-    "RestrictedRoles": "assassin,warrior",
+    "RestrictedRoles": "assassin,guardian,mage,warrior",
     "RootItemId": 17349,
     "ShortDesc": "On ultimate use your next damaging ability marks an enemies weak point",
     "StartingItem": false,
@@ -16208,7 +16204,7 @@
         },
         {
           "Description": "Penetration",
-          "Value": "+10%"
+          "Value": "+8%"
         }
       ],
       "SecondaryDescription": "PASSIVE - When you kill an enemy you gain 7 gold and 25% Attack Speed for 8s. This can stack up to 3 times. If you kill an enemy god you gain 3 stacks and 21 gold immediately."
@@ -16741,7 +16737,7 @@
         },
         {
           "Description": "Penetration",
-          "Value": "+10%"
+          "Value": "+8%"
         },
         {
           "Description": "Cooldown Reduction",
@@ -17403,7 +17399,7 @@
           "Value": "+10"
         }
       ],
-      "SecondaryDescription": "PASSIVE - While not near an ally god you gain 1 stack of Benevolence every second, up to a maximum of 50. Assists provide 4 stacks. While within 70 units of a hurt ally god you use up to 5 stacks a second to heal them and yourself for 0.6% of your Maximum Health. Each stack consumed provide you with 1 gold. If you overcap stacks they will still provide gold as long as you are near an ally god. Can be upgraded at level 15."
+      "SecondaryDescription": "PASSIVE - While not near an ally god you gain 1 stack of Benevolence every second, up to a maximum of 50. Assists provide 4 stacks. While within 70 units of a hurt ally god you use up to 5 stacks a second to heal them and yourself for 0.6% of your Maximum Health. Each stack consumed provides you with 1 gold. If you overcap stacks they will still provide gold as long as you are near an ally god. Can be upgraded at level 15."
     },
     "ItemId": 19634,
     "ItemTier": 1,
@@ -21903,7 +21899,7 @@
           "Value": "+10"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Getting the assist for an enemy minion or jungle monster dying restores 4 Health and 5 Mana. If you have the lowest gold on your team, you will also receive 8 bonus Gold. You and nearby allied gods also receive a stack that gives 1% Movement Speed and 2% Attack Speed for 10s to nearby allies up to 10 stacks. Can be upgraded at level 15."
+      "SecondaryDescription": "PASSIVE - Getting the assist for an enemy minion or jungle monster dying will provide 8 Bonus gold and restore 4 Health and 5 Mana. You and nearby allied gods also receive a stack that gives 1% Movement Speed and 2% Attack Speed for 10s to nearby allies up to 10 stacks. Can be upgraded at level 15."
     },
     "ItemId": 24195,
     "ItemTier": 1,

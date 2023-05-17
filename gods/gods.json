@@ -1090,7 +1090,7 @@
         "itemDescription": {
           "cooldown": "14/13.5/13/12.5/12s",
           "cost": "50/55/60/65/70",
-          "description": "Aphrodite blows a kiss to an allied god, making them her soul mate and giving them both increased movement speed. If it hits an ally, it has a reduced 1s cooldown. If the kiss hits an enemy god, they are Damaged, Stunned and Aphrodite's soul mate gets jealous, increasing their damage. Also Aphrodite's soul mate gains 50% of her MP5 and 15% of her Physical and Magical Protections.",
+          "description": "Aphrodite blows a kiss to an allied god, making them her soul mate and giving them both increased movement speed. If it hits an ally, it has a reduced 1s cooldown. If the kiss hits an enemy god, they are Damaged, Stunned and Aphrodite's soul mate gets jealous, increasing their damage. Also Aphrodite's soul mate gains 50% of her MP5 and 10% of her Physical and Magical Protections.",
           "menuItems": null
         },
         "rankItems": null
@@ -3234,7 +3234,7 @@
         "itemDescription": {
           "cooldown": "12s",
           "cost": "50/55/60/65/70",
-          "description": "Camazotz screeches loudly and launches a sound wave that pierces through minions and deals damage.\n\nIf the screech hits an enemy god, the sound wave will echo. If Camazotz is hit by an echo, he gains vision of the god that was hit by screech for the next 15s and gains bonus Physical Power for the duration.",
+          "description": "Camazotz screeches loudly and launches a sound wave that pierces through minions and deals damage.\n\nIf the screech hits an enemy god, the sound wave will echo. If Camazotz is hit by an echo, his team gains vision of the god that was hit by screech for the next 15s and he gains bonus Physical Power for the duration.",
           "menuItems": null
         },
         "rankItems": null
@@ -3248,7 +3248,7 @@
         "itemDescription": {
           "cooldown": "10s",
           "cost": "60/65/70/75/80",
-          "description": "Camazotz commands a swarm of bats to fly out and attack a single target, damaging, slowing them by 30%, lowering their healing received for 3s and then carrying back a heal.\n\nIf the target was a Buff Holder, Oracle, or Alpha Harpy, they will be marked and Camazotz will receive a heal as well as a stackable Vampirism buff that lasts 300s. Marked monsters will not provide Camazotz with another stack of Vampirism or an additional heal.",
+          "description": "Camazotz commands a swarm of bats to fly out and attack a single target, damaging, slowing them by 40%, lowering their healing received for 3s and then carrying back a heal.\n\nIf the target was a Buff Holder, Oracle, or Alpha Harpy, they will be marked and Camazotz will receive a heal as well as a stackable Vampirism buff that lasts 300s. Marked monsters will not provide Camazotz with another stack of Vampirism or an additional heal.",
           "menuItems": null
         },
         "rankItems": null
@@ -3260,7 +3260,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/devour.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15s",
+          "cooldown": "13s",
           "cost": "60/65/70/75/80",
           "description": "Camazotz Leaps forward a short distance dealing damage on impact and healing himself per enemy hit. ",
           "menuItems": null
@@ -3664,7 +3664,7 @@
         "itemDescription": {
           "cooldown": "16s",
           "cost": "75/80/85/90/95",
-          "description": "Chaac summons a rainstorm around his current location for 6s. While it rains, he regains Health, and enemies are caught in the mud and have their Movement Speed and Attack Speed reduced.\n\nIf his axe is out from Thunder Strike, a rainstorm will also spawn at that location. Enemies caught in the area of both rainstorms will have the Movement Slow and Attack Speed Reduction applied twice.",
+          "description": "Chaac summons a rainstorm around his current location for 6s. While it rains, he regains Health, and enemies are caught in the mud and have their Movement Speed, Attack Speed, and Power reduced.\n\nIf his axe is out from Thunder Strike, a rainstorm will also spawn at that location. Enemies caught in the area of both rainstorms will have the Movement Slow and Attack Speed Reduction applied twice.",
           "menuItems": null
         },
         "rankItems": null
@@ -4856,7 +4856,7 @@
         "itemDescription": {
           "cooldown": "13s",
           "cost": "50",
-          "description": "Cupid places 3 floating hearts at his ground target location that heal himself or allied gods when picked up. Cupid regenerates Mana for each heart that is picked up by an ally.",
+          "description": "Cupid places 3 floating hearts at his ground target location that heal himself or allied gods and provide a passive stack when picked up. Cupid regenerates Mana for each heart that is picked up by an ally.",
           "menuItems": null
         },
         "rankItems": null
@@ -5002,7 +5002,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/trickster-spirit.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "17s",
+          "cooldown": "17/16.5/16/15.5/15s",
           "cost": "60/65/70/75/80",
           "description": "Da Ji selects a single allied or enemy target and teleports to their location after a short delay. Upon arriving at the target, she lashes out with her claws, dealing damage and applying the Bleed from Torture Blades to all enemies around her.",
           "menuItems": null
@@ -6640,7 +6640,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Hachiman grows stronger as he lands his blows. Hitting enemies with Basic Attacks energizes Hachiman, granting him a stack of MP5. Stacks up to 5 times, stacks last 8s.",
+          "description": "Hachiman grows stronger as he lands his blows. Hitting enemies with Basic Attacks energizes Hachiman, granting him a stack of Attack Speed and MP5. Stacks up to 5 times, stacks last 8s.",
           "menuItems": null
         },
         "rankItems": null
@@ -7148,7 +7148,7 @@
         "itemDescription": {
           "cooldown": "12s",
           "cost": "60/65/70/75/80",
-          "description": "REPULSE (Dark Stance) - Hel conjures a burst of dark energy around her, damaging all nearby enemies. INSPIRE (Light Stance) - Hel conjures a burst of light energy around her, healing herself instantly and applying a heal over time to nearby allies that ticks every 1s. This heal is half as effective when healing minions. Hel gains Increased Movement Speed, and allies gain a reduced amount (10%) for the duration. Hel and allies also gain 20% Attack Speed while the buff is active.",
+          "description": "REPULSE (Dark Stance) - Hel conjures a burst of dark energy around her, damaging all nearby enemies. INSPIRE (Light Stance) - Hel conjures a burst of light energy around her, healing herself instantly and applying a heal over time to nearby allies that ticks every 1s. This heal is half as effective when healing minions. Hel gains Increased Movement Speed, and allies gain a reduced amount (10%) for the duration. Hel and allied Gods also gain 20% Attack Speed while the buff is active.",
           "menuItems": null
         },
         "rankItems": null
@@ -7176,7 +7176,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "When Hel is in a stance, she gradually attunes to the strengths of that stance, gaining up to 20% increased damage in the Dark Stance and an Aura that reduces power of enemy Gods within 55 units by up to 8% while in the Light Stance.",
+          "description": "When Hel is in a stance, she gradually attunes to the strengths of that stance, gaining up to 20% increased damage in the Dark Stance and an Aura that reduces power of enemy Gods within 55 units by up to 12% while in the Light Stance.",
           "menuItems": null
         },
         "rankItems": null
@@ -7386,7 +7386,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/driving-strike.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "11s",
+          "cooldown": "12s",
           "cost": "50/55/60/65/70",
           "description": "Hercules delivers a mighty strike, driving all enemies back, damaging and Stunning them. Hercules is immune to Knockback during the dash.",
           "menuItems": null
@@ -7400,7 +7400,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/earthbreaker.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "11s",
+          "cooldown": "12s",
           "cost": "50/55/60/65/70",
           "description": "Hercules smashes the ground, sending a shockwave forward that does damage to all enemies in the path. Enemies at the end of the shockwave are thrown into the air towards Hercules.",
           "menuItems": null
@@ -7548,7 +7548,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/protectors-surge.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "10s",
+          "cooldown": "13s",
           "cost": "45",
           "description": "Horus rushes to the aid of an ally. After selecting an ally, Horus will fly to their location before descending. Upon landing, the selected ally and all nearby allies have their health restored and gain protections for 3s.",
           "menuItems": null
@@ -8040,7 +8040,7 @@
     "IsRatatoskr": false
   },
   {
-    "Ability1": "Gleaming Blast",
+    "Ability1": "Gleaming Blast (Threads of Light)",
     "Ability2": "Lunar Invocation",
     "Ability3": "Rainbow Crash",
     "Ability4": "Great End",
@@ -8052,13 +8052,13 @@
     "AbilityId5": 24069,
     "Ability_1": {
       "Id": 24065,
-      "Summary": "Gleaming Blast",
+      "Summary": "Gleaming Blast (Threads of Light)",
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/gleaming-blast.jpg",
       "Description": {
         "itemDescription": {
           "cooldown": "6s",
           "cost": "40/45/50/55/60",
-          "description": "Ix Chel fires a blast of gleaming light ahead of her dealing damage, piercing minions, and stopping on the first enemy god hit. Minions and Jungle Camps take an extra +40% damage.\n\nSuccessfully hitting an enemy god turns this ability into Threads of Light.",
+          "description": "Gleaming Blast - Ix Chel fires a blast of gleaming light ahead of her dealing damage, piercing minions, and stopping on the first enemy god hit. Minions and Jungle Camps take an extra +40% damage. Hitting an enemy god causes this ability to change.\nThreads of Light - Strands of light illuminate damaging enemies in their path. Enemies facing the strands as they illuminate are Blinded. Enemies hit by the tip of the field, take bonus damage.",
           "menuItems": null
         },
         "rankItems": null
@@ -8606,7 +8606,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/consuming-bellow.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14s",
+          "cooldown": "12s",
           "cost": "70",
           "description": "Jormungandr draws power from toxic clouds nearby while channeling for 1.2s. At the end of the channel Jormungandr roars dealing damage to all Enemies, trembling and slowing Enemy gods by 30% for 1.5s.\nEach cloud increases the size of Consuming Bellow and Empowers him up to 3 times while also dealing extra damage to Enemies hit. Extra damage after the first instance is halved.\nWhile Empowered, Jormungandr's basic attack fires at its fastest rate.",
           "menuItems": null
@@ -8620,7 +8620,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/submerge.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "16/15/14/13/12s",
+          "cooldown": "14/13.5/13/12.5/12s",
           "cost": "70/75/80/85/90",
           "description": "Jormungandr submerges into the ground turning invisible as he searches for prey. During this time he moves faster and gains predatory vision, sensing all enemies in a large radius.\nFiring this ability while invisible reveals Jormungandr as he emerges out of the ground, knocking up Enemies around him.\nEmerging through a toxic cloud creates two new ones in the direction Jormungandr is facing, with a low duration. Taking damage from Enemy gods breaks Stealth.",
           "menuItems": null
@@ -11877,7 +11877,7 @@
     "AutoBanned": "n",
     "Cons": "",
     "Health": 679,
-    "HealthPerFive": 6,
+    "HealthPerFive": 9,
     "HealthPerLevel": 92,
     "HP5PerLevel": 0.8,
     "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/osiris.jpg",
@@ -11896,7 +11896,7 @@
     "Pantheon": "Egyptian",
     "PhysicalPower": 39,
     "PhysicalPowerPerLevel": 2.25,
-    "PhysicalProtection": 23.8,
+    "PhysicalProtection": 25.2,
     "PhysicalProtectionPerLevel": 3.2,
     "Pros": "High Defense, High Attack Speed",
     "Roles": "Warrior",
@@ -12388,7 +12388,7 @@
         "itemDescription": {
           "cooldown": "80/75/70/65/60s",
           "cost": "90",
-          "description": "Ra calls on the power of the sun to decimate his foes in an extreme blast of heat in front of him, doing damage to all enemies unlucky enough to find themselves in the path. Enemy gods take additional damage based on their maximum Health.",
+          "description": "Ra calls on the power of the sun to decimate his foes in an extreme blast of heat in front of him, doing damage to all enemies unlucky enough to find themselves in the path. Enemy gods take additional damage based on their maximum Health as True Damage.",
           "menuItems": null
         },
         "rankItems": null
@@ -13310,7 +13310,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/sandstorm.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14s",
+          "cooldown": "10s",
           "cost": "50/55/60/65/70",
           "description": "Set conjures a Sandstorm around him, protecting him from Damage and causing him to be immune to Slows. Enemies near Set are damaged every .4s for 6s and have their vision obscured by the sands.\n\nIf Set is targeting a spawn when this ability is cast he will immediately teleport to the spawn. Otherwise, he can reactivate this ability to teleport. Set can only teleport once per Sandstorm.",
           "menuItems": null
@@ -13818,7 +13818,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/radiance.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "13s",
+          "cooldown": "11s",
           "cost": "60/70/80/90/100",
           "description": "Sol burns bright, gaining a large amount of Heat, Healing herself over time, and igniting the ground around her. Enemies that walk onto the fire take damage over time. The damaging area persists for 3s.",
           "menuItems": null
@@ -14382,7 +14382,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/natures-grasp.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "17/16/15/14/13s",
+          "cooldown": "14/13.5/13/12.5/12s",
           "cost": "70/65/60/55/50",
           "description": "Sylvanus's treant launches his rooty hand out in front of him. The hand stops at the first enemy god hit, Stunning them and pulling them back towards Sylvanus.",
           "menuItems": null
@@ -15294,7 +15294,7 @@
         "itemDescription": {
           "cooldown": "12s",
           "cost": "50/60/70/80/90",
-          "description": "Tsukuyomi calls upon Shingetsu, summoning forth a Dark Moon Shuriken. The Shuriken damages enemies and stops on gods, sticking into them. If Tsukuyomi gets close to the god he retrieves the Shuriken and reduces its cooldown. <font color='#b18cd9'>After casting this ability Shingetsu's next Basic Attack becomes ranged. This attack steals Movement Speed from the enemy hit.</font>",
+          "description": "Tsukuyomi throws a Dark Moon Shuriken that damages enemies and stops on gods, sticking into them. If Tsukuyomi gets close to the god he retrieves the Shuriken and reduces its cooldown. <font color='#b18cd9'>After casting this ability Shingetsu's next Basic Attack becomes ranged. This attack steals Movement Speed from the enemy hit.</font>",
           "menuItems": null
         },
         "rankItems": null
@@ -15322,7 +15322,7 @@
         "itemDescription": {
           "cooldown": "14s",
           "cost": "40/45/50/55/60",
-          "description": "Tsukuyomi holds Mangetsu aloft as it erupts into starlight, sending stars falling to the ground. As they land they become Caltrops, damaging enemies in the area and slowing them for 1.5s. Enemies who move inside this Caltrop field take damage and are slowed again. <font color='#DFEAFA'>After casting this ability Mangetsu's next Basic Attack becomes ranged. This attack deals bonus Physical Damage.</font>",
+          "description": "Tsukuyomi scatters Caltrops on the ground which damage enemies in the area and slow them for 1.5s. Enemies who move inside this Caltrop field take damage and are slowed again. <font color='#DFEAFA'>After casting this ability Mangetsu's next Basic Attack becomes ranged. This attack deals bonus Physical Damage.</font>",
           "menuItems": null
         },
         "rankItems": null
@@ -15470,7 +15470,7 @@
         "itemDescription": {
           "cooldown": "90/85/80/75/70s",
           "cost": "80/90/100/110/120",
-          "description": "Tyr leaps through the air, bringing indiscriminate justice upon all enemies in the target area, and Slowing them.",
+          "description": "Tyr leaps through the air, bringing indiscriminate justice upon all enemies in the target area, and Slowing them with additional effects depending on what stance he is in.\n\nAssault Stance: Deal additional damage.\n\nGuard Stance: Stun enemies hit.",
           "menuItems": null
         },
         "rankItems": null
@@ -15694,7 +15694,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/clear-the-path.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15s",
+          "cooldown": "16s",
           "cost": "70",
           "description": "Vamana opens his umbrella in front of him and sprints forward, doing damage to all enemies and knocking them into the air.",
           "menuItems": null
@@ -15738,7 +15738,7 @@
         "itemDescription": {
           "cooldown": "90s",
           "cost": "100",
-          "description": "Vamana grows to an enormous giant for 6s gaining immunity to Crowd Control, Protections, Physical Power, Physical Lifesteal and his Basic Attacks now damage all nearby enemies. His Movement Penalty for Attacking, Backpedaling, and Strafing are reduced by 20% while in this state.\nSuccessful attacks on enemies also provide stacking Movement Speed for 3s. When Vamana is in Colossal form, taking damage from gods increases the duration and Vamana can pass through player made walls.\nYou may cancel his giant form early.",
+          "description": "Vamana grows to an enormous giant for 6s gaining immunity to Crowd Control, Protections, Physical Power, Physical Lifesteal, a stacking shield that cannot exceed 1000 Health, and his Basic Attacks now damage all nearby enemies. His Movement Penalty for Attacking, Backpedaling, and Strafing are reduced by 20% while in this state.\nSuccessful attacks on enemies also provide stacking Movement Speed for 3s. When Vamana is in Colossal form, taking damage from gods increases the duration and Vamana can pass through player made walls.\nYou may cancel his giant form early.",
           "menuItems": null
         },
         "rankItems": null
