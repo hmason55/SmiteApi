@@ -38,8 +38,8 @@ jobs:
         run: mkdir -p release/api && touch release/api/.nojekyll
         
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4.4.1
+        uses: JamesIves/github-pages-deploy-action@v4.4.2
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: site
-          FOLDER: release/api
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: site
+          folder: release/api
