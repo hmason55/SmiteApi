@@ -60,7 +60,7 @@
         "itemDescription": {
           "cooldown": "90s",
           "cost": "80/85/90/95/100",
-          "description": "Achilles dashes forward and attacks. While dashing, Achilles will pass through minions, stop and hit the first enemy god he encounters, dealing damage to all he hits and executing gods below 30% Health. If Achilles kills a god with this ability, he can use it again, up to 5 times. As Achilles successfully Executes his enemies, he becomes more reckless in combat and leaves his heel exposed. Achilles will become more susceptible to damage, stacking up to 5 times.",
+          "description": "Achilles dashes forward and attacks. While dashing, Achilles will pass through minions, stop and hit the first enemy god he encounters, dealing damage to all he hits and executing gods below 35% Health. If Achilles kills a god with this ability, he can use it again, up to 5 times. As Achilles successfully Executes his enemies, he becomes more reckless in combat and leaves his heel exposed. Achilles will become more susceptible to damage, stacking up to 5 times.",
           "menuItems": null
         },
         "rankItems": null
@@ -750,8 +750,8 @@
         "rankItems": null
       }
     },
-    "AttackSpeed": 0.9,
-    "AttackSpeedPerLevel": 0.015,
+    "AttackSpeed": 1,
+    "AttackSpeedPerLevel": 0.017,
     "AutoBanned": "n",
     "Cons": "",
     "Health": 644,
@@ -1652,7 +1652,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/suppress-the-insolent.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "10s",
+          "cooldown": "8s",
           "cost": "50/55/60/65/70",
           "description": "Artemis fires a volley into a ground target, suppressing all of her enemies. Enemies caught within the volley are damaged and are Slowed.",
           "menuItems": null
@@ -2456,7 +2456,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/belch-of-the-gods.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14s",
+          "cooldown": "12s",
           "cost": "60/65/70/75/80",
           "description": "Bacchus lets out an obnoxiously loud belch, doing damage every .5s for 2s and reducing enemy healing. Lane Minions take a small amount of extra damage. If he is Tipsy, enemies are Stunned for 1s. Bacchus is immune to knockback for the duration.",
           "menuItems": null
@@ -4172,7 +4172,7 @@
         "itemDescription": {
           "cooldown": "13s",
           "cost": "55/60/65/70/75",
-          "description": "Chiron warns his teammates to evade the area, granting them .3s of Crowd Control Immunity so they can escape before it explodes and does damage to all enemies in the area. Applies Target Mark",
+          "description": "Chiron warns his teammates to evade the area, granting them .5s of Crowd Control Immunity so they can escape before it explodes and does damage to all enemies in the area. Applies Target Mark",
           "menuItems": null
         },
         "rankItems": null
@@ -4496,7 +4496,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Cliodhna can walk into walls once every 16s. While inside a wall she can move freely and use some of her abilities. Every 0.4s she loses 0.15% of her health, stacking in intensity up to 40 times. She cannot enter a wall while below 25% Health or crippled. For 5s after exiting she gains 10% Physical Ability Lifesteal.",
+          "description": "Cliodhna can walk into walls once every 13s. While inside a wall she can move freely and use some of her abilities. Every 0.4s she loses 0.12% of her health, stacking in intensity up to 40 times. She cannot enter a wall while below 25% Health or crippled. For 5s after exiting she gains 10% Physical Ability Lifesteal.",
           "menuItems": null
         },
         "rankItems": null
@@ -5256,7 +5256,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/strife.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15s",
+          "cooldown": "13s",
           "cost": "60/65/70/75/80 ",
           "description": "Discordia creates an area of Strife that damages all enemies hit. If 2 or more enemy gods are hit at the same time they will be afflicted by Madness for 1s, forcing them to attack each other for additional damage. The same is true for minions. If only a single target of one type is hit then it becomes Rooted for 1s instead.",
           "menuItems": null
@@ -5434,7 +5434,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Each time Erlang Shen hits an enemy with a Basic Attack, his dog hits as well for 5% of his Basic Attack power and 1.75% of the target's max. health. The percentage damage only works against gods and minions.",
+          "description": "Each time Erlang Shen hits an enemy with a Basic Attack, his dog hits as well for 5% of his Basic Attack power and 2% of the target's max. health. The percentage damage only works against gods and minions.",
           "menuItems": null
         },
         "rankItems": null
@@ -7148,7 +7148,7 @@
         "itemDescription": {
           "cooldown": "12s",
           "cost": "60/65/70/75/80",
-          "description": "REPULSE (Dark Stance) - Hel conjures a burst of dark energy around her, damaging all nearby enemies. INSPIRE (Light Stance) - Hel conjures a burst of light energy around her, healing herself instantly and applying a heal over time to nearby allies that ticks every 1s. This heal is half as effective when healing minions. Hel gains Increased Movement Speed, and allies gain a reduced amount (10%) for the duration. Hel and allied Gods also gain 20% Attack Speed while the buff is active.",
+          "description": "REPULSE (Dark Stance) - Hel conjures a burst of dark energy around her, damaging all nearby enemies. INSPIRE (Light Stance) - Hel conjures a burst of light energy around her, healing herself instantly and applying a heal over time to nearby allies that ticks every 1s. This heal is half as effective when healing minions. Hel gains Increased Movement Speed, and allies gain a reduced amount (7%) for the duration. Hel and allied Gods also gain 20% Attack Speed while the buff is active.",
           "menuItems": null
         },
         "rankItems": null
@@ -9142,7 +9142,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/slipstream.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15/14.5/14/13.5/13s",
+          "cooldown": "15/14/13/12/11s",
           "cost": "65",
           "description": "Kukulkan channels the wind, allowing him to move faster. This speed boost is strong at first but scales down gradually over the 4s duration. Additionally, Kukulkan cleanses himself of slows and becomes immune to Slows for 0.6s when activated.",
           "menuItems": null
@@ -9812,7 +9812,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/poisoned-barb.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "12/11.5/11/10.5/10s",
+          "cooldown": "13/12.5/12/11.5/11s",
           "cost": "40/45/50/55/60",
           "description": "Martichoras shoots a stinger, dealing damage, piercing minions, and stopping on the first enemy god hit. The stinger then persists for 3s attached to the enemy god, reducing their healing, or at a point on the ground. Martichoras can explode it by hitting it with a basic attack or ability. The explosion deals damage, reduces healing, and Roots the god who held the stinger.",
           "menuItems": null
@@ -10616,7 +10616,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/spear-thrust.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14s",
+          "cooldown": "13s",
           "cost": "50/55/60/65/70",
           "description": "Mulan brings forth her spear striking in front of her, dealing damage and slowing all enemies hit.\n\nSkilled - Mulan heals for up to 3 enemies hit.\nAdept - Mulan strikes a second time further in front of her, dealing bonus damage if she hits the same enemy.\nMastered - Mulan gains 5% Power.",
           "menuItems": null
@@ -10630,7 +10630,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/grapple.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14s",
+          "cooldown": "13s",
           "cost": "60",
           "description": "Mulan readies herself and fires an arrow with a rope attached to it. If she hits an enemy god she stuns them, dealing damage and pulling them towards her while dashing and hitting them again for extra damage.\n\nSkilled - Mulan gains a Protection buff after hitting an enemy god.\nAdept - Mulan is able to dash to walls.\nMastered - Mulan gains 5% Movement Speed & 5% Protections.",
           "menuItems": null
@@ -12226,7 +12226,7 @@
         "itemDescription": {
           "cooldown": "16/15/14/13/12s",
           "cost": "55/60/65/70/75",
-          "description": "Poseidon activates his Trident, granting additional Movement Speed and increases his Basic Attack damage by 25% for 6s. While this effect is active, Poseidon's Basic Attacks also fire two additional shots that apply ability damage and trigger ability on-hit effects. All shots increase Poseidon's Tide on successful hit.",
+          "description": "Poseidon activates his Trident, granting additional Attack Speed, Movement Speed and increases his Basic Attack damage by 25% for 6s. While this effect is active, Poseidon's Basic Attacks also fire two additional shots that apply ability damage and trigger ability on-hit effects. All shots increase Poseidon's Tide on successful hit.",
           "menuItems": null
         },
         "rankItems": null
@@ -12494,7 +12494,7 @@
         "itemDescription": {
           "cooldown": "14/13/12/11/10s",
           "cost": "60/65/70/75/80",
-          "description": "Raijin marks a target enemy by dismissing his ally Raiju, who hides in the enemy's navel. While asleep, Raiju slows and reveals the target to Raijin's team on the minimap. The next time Raijin hits the target, Raiju awakens and claws his way out, doubling the slow and damaging the target and 5 nearby enemies every .5s for 2.5s in his attempt to flee. Subsequent enemies hit take decreased damage.",
+          "description": "Raijin marks a target enemy by dismissing his ally Raiju, who hides in the enemy's navel. While asleep, Raiju slows and reveals the target to Raijin's team on the minimap. The next time Raijin hits the target, Raiju awakens and claws his way out, doubling the slow and damaging the target and 5 nearby enemies every .5s for 2.5s in his attempt to flee. Enemies hit by the bouncing Raiju take decreased damage.",
           "menuItems": null
         },
         "rankItems": null
@@ -12908,7 +12908,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/10-hand-shadow-fist.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "16s",
+          "cooldown": "14s",
           "cost": "55/60/65/70/75",
           "description": "Ravana's fists fly forward, damaging and passing through minions and damaging and rooting the first god hit. Ravana heals for each enemy hit - with maximum damage sources of one god and up to three minions.",
           "menuItems": null
@@ -12938,7 +12938,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Successful Basic Attacks and abilities against an Enemy add to Ravana's Combo Chain. Each time his Chain reaches 8 he receives a Shield equal to 7% of his Maximum Health as well as 3% Movement Speed. This may stack up to 3 times. ",
+          "description": "Successful Basic Attacks and abilities against an Enemy add to Ravana's Combo Chain. Each time his Chain reaches 8 he receives a Shield equal to 9% of his Maximum Health as well as 3% Movement Speed. This may stack up to 3 times. ",
           "menuItems": null
         },
         "rankItems": null
@@ -13296,7 +13296,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/spawn-of-set.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "13/13/12/12/11s",
+          "cooldown": "11s",
           "cost": "30",
           "description": "Set conjures a Spawn of himself made of sand. These spawn will stand where summoned and attack nearby enemies. Set can have up to 2 charges of this ability, allowing him to conjure spawn in quick succession. Set can interact with these Spawn with his other abilities, commanding them to attack or teleporting to them. Set can only have 8 Spawn at any given time. This ability does not trigger Item effects.",
           "menuItems": null
@@ -13458,7 +13458,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/shiva-tandava.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "100s",
+          "cooldown": "90s",
           "cost": "100",
           "description": "Shiva performs his Tandava, channeling for the next 6 seconds with CC Immunity. Every 1.5s he performs a step that can be preselected.\n\nStep one - Ally Healing and Mana restore.\nStep two - 50% Damage and Healing and also amplification of next step radius and effects.\nStep three - Damage and Shield reduction to Enemies.",
           "menuItems": null
@@ -13684,7 +13684,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/charge-prey.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14s",
+          "cooldown": "12s",
           "cost": "70/75/80/85/90",
           "description": "Sobek charges forward at a frenzied pace. If Sobek hits an enemy, he does damage, becomes briefly CC Immune, and throws the enemy behind him. Sobek is immune to Knockups while dashing.",
           "menuItems": null
@@ -13698,7 +13698,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/tail-whip.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "13s",
+          "cooldown": "12s",
           "cost": "60/65/70/75/80",
           "description": "Sobek whips around in a circle, knocking enemies back and doing damage.",
           "menuItems": null
@@ -13712,7 +13712,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/sickening-strike.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "13s",
+          "cooldown": "12s",
           "cost": "60/65/70/75/80",
           "description": "Sobek does an axe attack that damages all enemies in front of him and lowers their healing received. In addition, Sobek heals for each enemy hit, up to 3.",
           "menuItems": null
@@ -14010,7 +14010,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "When Sun Wukong is below 50% Health, he gains +10 Physical Power and +10 Protections, plus another 2 Physical Power and 2 Protections for his current level. While Undefeated Body is active, if Sun Wukong goes above 50% Health, he maintains the buff for 12s.",
+          "description": "When Sun Wukong is below 60% Health, he gains +10 Physical Power and +10 Protections, plus another 2 Physical Power and 2 Protections for his current level. While Undefeated Body is active, if Sun Wukong goes above 50% Health, he maintains the buff for 12s.",
           "menuItems": null
         },
         "rankItems": null
@@ -15738,7 +15738,7 @@
         "itemDescription": {
           "cooldown": "90s",
           "cost": "100",
-          "description": "Vamana grows to an enormous giant for 6s gaining immunity to Crowd Control, Protections, Physical Power, Physical Lifesteal, a stacking shield that cannot exceed 1000 Health, and his Basic Attacks now damage all nearby enemies. His Movement Penalty for Attacking, Backpedaling, and Strafing are reduced by 20% while in this state.\nSuccessful attacks on enemies also provide stacking Movement Speed for 3s. When Vamana is in Colossal form, taking damage from gods increases the duration and Vamana can pass through player made walls.\nYou may cancel his giant form early.",
+          "description": "Vamana grows to an enormous giant for 4s gaining immunity to Crowd Control, Protections, Physical Power, Physical Lifesteal, a stacking shield that cannot exceed 1000 Health, and his Basic Attacks now damage all nearby enemies. His Movement Penalty for Attacking, Backpedaling, and Strafing are reduced by 20% while in this state.\nSuccessful attacks on enemies also provide stacking Movement Speed for 3s. When Vamana is in Colossal form, taking damage from gods increases the duration to a max of 8s and Vamana can pass through player made walls.\nYou may cancel his giant form early.",
           "menuItems": null
         },
         "rankItems": null
@@ -15842,7 +15842,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/inferno-cannon.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14s",
+          "cooldown": "10s",
           "cost": "50/55/60/65/70",
           "description": "Vulcan constructs an Inferno Cannon that shoots fireballs in a cone that deal damage to the target every second. The Inferno Cannon lasts until destroyed or another is placed. This inherits Vulcan's penetrations but does not apply on-hit effects. Inferno Cannon takes 50% additional damage from non-god sources. Inferno Cannon ignores 25% of the target's Magical Protection.",
           "menuItems": null

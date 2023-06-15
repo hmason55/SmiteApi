@@ -116,11 +116,11 @@
       "Menuitems": [
         {
           "Description": "Health",
-          "Value": "+250"
+          "Value": "+200"
         },
         {
           "Description": "Physical Protection",
-          "Value": "+40"
+          "Value": "+35"
         }
       ],
       "SecondaryDescription": "AURA - Allied gods within 70 units have their Physical Protections increased by 15 and their HP5 increased by 25."
@@ -137,7 +137,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 250,
+    "Health": 200,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -151,7 +151,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 40,
+    "PhysicalProtection": 35,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -169,11 +169,11 @@
       "Menuitems": [
         {
           "Description": "Health",
-          "Value": "+250"
+          "Value": "+200"
         },
         {
           "Description": "Physical Protection",
-          "Value": "+40"
+          "Value": "+35"
         },
         {
           "Description": "Crowd Control Reduction",
@@ -194,6 +194,59 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0.2,
+    "Health": 200,
+    "HP5": 0,
+    "MagicalLifesteal": 0,
+    "MagicalPenetration": 0,
+    "MagicalPenetrationPercent": 0,
+    "MagicalPower": 0,
+    "MagicalProtection": 0,
+    "Mana": 0,
+    "MovementSpeed": 0,
+    "MP5": 0,
+    "PhysicalLifesteal": 0,
+    "PhysicalPenetration": 0,
+    "PhysicalPenetrationPercent": 0,
+    "PhysicalPower": 0,
+    "PhysicalProtection": 35,
+    "IsPhysicalOnly": false,
+    "IsMagicalOnly": false,
+    "ActivelyStacks": false,
+    "IsEvolved": false,
+    "IsGlyph": false
+  },
+  {
+    "DeviceName": "Midgardian Mail",
+    "ActiveFlag": "y",
+    "ChildItemId": 7527,
+    "IconId": 2863,
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/midgardian-mail.jpg",
+    "ItemDescription": {
+      "Description": "This item causes attackers to have a chance to be slowed.",
+      "Menuitems": [
+        {
+          "Description": "Health",
+          "Value": "+250"
+        },
+        {
+          "Description": "Physical Protection",
+          "Value": "+40"
+        }
+      ],
+      "SecondaryDescription": "PASSIVE - Enemies that successfully land a basic attack  on you have their Movement Speed and Attack Speed reduced by 8% for 3 seconds. This effect can stack up to 4 times and can stack with other item slow effects."
+    },
+    "ItemId": 7907,
+    "ItemTier": 3,
+    "Price": 900,
+    "RestrictedRoles": "no restrictions",
+    "RootItemId": 7526,
+    "ShortDesc": "Slow enemies when hit by their Basic Attacks",
+    "StartingItem": false,
+    "Type": "Item",
+    "AttackSpeed": 0,
+    "CooldownReduction": 0,
+    "CriticalStrikeChance": 0,
+    "CrowdControlReduction": 0,
     "Health": 250,
     "HP5": 0,
     "MagicalLifesteal": 0,
@@ -216,38 +269,38 @@
     "IsGlyph": false
   },
   {
-    "DeviceName": "Midgardian Mail",
+    "DeviceName": "Emperor's Armor",
     "ActiveFlag": "y",
     "ChildItemId": 7527,
-    "IconId": 2863,
-    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/midgardian-mail.jpg",
+    "IconId": 4670,
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/emperors-armor.jpg",
     "ItemDescription": {
-      "Description": "This item causes attackers to have a chance to be slowed.",
+      "Description": "When in range of an enemy structure, that structure's Attack Speed is reduced by 30%. When in range of an ally structure, that structures has its Attack Speed increased by 30%.",
       "Menuitems": [
-        {
-          "Description": "Health",
-          "Value": "+300"
-        },
         {
           "Description": "Physical Protection",
           "Value": "+50"
+        },
+        {
+          "Description": "Health",
+          "Value": "+250"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Enemies that successfully land a basic attack  on you have their Movement Speed and Attack Speed reduced by 8% for 2 seconds. This effect can stack up to 3 times and can stack with other item slow effects."
+      "SecondaryDescription": "AURA - Damageable enemy structures within 55 units have their Attack Speed reduced by 30%.\nDamageable allied structures within 55 units have their Attack Speed increased by 30%."
     },
-    "ItemId": 7907,
+    "ItemId": 13189,
     "ItemTier": 3,
-    "Price": 900,
+    "Price": 850,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 7526,
-    "ShortDesc": "Slow enemies when hit by their Basic Attacks",
+    "ShortDesc": "Tower buff and debuff aura",
     "StartingItem": false,
     "Type": "Item",
     "AttackSpeed": 0,
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 300,
+    "Health": 250,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -262,59 +315,6 @@
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
     "PhysicalProtection": 50,
-    "IsPhysicalOnly": false,
-    "IsMagicalOnly": false,
-    "ActivelyStacks": false,
-    "IsEvolved": false,
-    "IsGlyph": false
-  },
-  {
-    "DeviceName": "Emperor's Armor",
-    "ActiveFlag": "y",
-    "ChildItemId": 7527,
-    "IconId": 4670,
-    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/emperors-armor.jpg",
-    "ItemDescription": {
-      "Description": "When in range of an enemy structure, that structure's Attack Speed is reduced by 30%. When in range of an ally structure, that structures has its Attack Speed increased by 50%.",
-      "Menuitems": [
-        {
-          "Description": "Health",
-          "Value": "+300"
-        },
-        {
-          "Description": "Physical Protection",
-          "Value": "+60"
-        }
-      ],
-      "SecondaryDescription": "AURA - Damageable enemy structures within 55 units have their Attack Speed reduced by 40%.\nDamageable allied structures within 55 units have their Attack Speed increased by 50%."
-    },
-    "ItemId": 13189,
-    "ItemTier": 3,
-    "Price": 850,
-    "RestrictedRoles": "no restrictions",
-    "RootItemId": 7526,
-    "ShortDesc": "Tower buff and debuff aura",
-    "StartingItem": false,
-    "Type": "Item",
-    "AttackSpeed": 0,
-    "CooldownReduction": 0,
-    "CriticalStrikeChance": 0,
-    "CrowdControlReduction": 0,
-    "Health": 300,
-    "HP5": 0,
-    "MagicalLifesteal": 0,
-    "MagicalPenetration": 0,
-    "MagicalPenetrationPercent": 0,
-    "MagicalPower": 0,
-    "MagicalProtection": 0,
-    "Mana": 0,
-    "MovementSpeed": 0,
-    "MP5": 0,
-    "PhysicalLifesteal": 0,
-    "PhysicalPenetration": 0,
-    "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 0,
-    "PhysicalProtection": 60,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -495,14 +495,14 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+40"
+          "Value": "+30"
         },
         {
           "Description": "Attack Speed",
           "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Basic Attacks against an enemy reduce your target's Physical Protection by 6% for 3 seconds (max. 4 Stacks)."
+      "SecondaryDescription": "PASSIVE - Basic Attacks against an enemy reduce your target's Physical Protection by 7% for 3 seconds (max. 4 Stacks)."
     },
     "ItemId": 7575,
     "ItemTier": 3,
@@ -529,7 +529,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 40,
+    "PhysicalPower": 30,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -548,14 +548,14 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+40"
+          "Value": "+30"
         },
         {
           "Description": "Attack Speed",
           "Value": "+25%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - On Basic Attack hits, deal Physical Damage equal to 3% of the target's maximum Health. If the target has over 2000 Health, the bonus damage scales up. This effect reaches a maximum of 6% of the targets Maximum Health at 2750 Health."
+      "SecondaryDescription": "PASSIVE - On Basic Attack hits, deal Physical Damage equal to 1.5% of the target's maximum Health. If the target has over 2250 Health, the bonus damage scales up. This effect reaches a maximum of 6% of the targets Maximum Health at 2750 Health."
     },
     "ItemId": 7593,
     "ItemTier": 3,
@@ -582,7 +582,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 40,
+    "PhysicalPower": 30,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -601,7 +601,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+55"
+          "Value": "+40"
         },
         {
           "Description": "Physical Lifesteal",
@@ -639,7 +639,7 @@
     "PhysicalLifesteal": 0.12,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 55,
+    "PhysicalPower": 40,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -658,14 +658,14 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+40"
+          "Value": "+30"
         },
         {
           "Description": "Attack Speed",
           "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "<n>GLYPH - Basic Attacks against an enemy reduce your target's Physical Protection by 15%  for 3 seconds (max. 2 Stacks). Your Attack Speed cannot exceed 1.9. "
+      "SecondaryDescription": "<n>GLYPH - Basic Attacks against an enemy reduce your target's Physical Protection by 17.5%  for 3 seconds (max. 2 Stacks). Your Attack Speed cannot exceed 1.9. "
     },
     "ItemId": 22960,
     "ItemTier": 4,
@@ -692,7 +692,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 40,
+    "PhysicalPower": 30,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -711,14 +711,14 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+40"
+          "Value": "+30"
         },
         {
           "Description": "Attack Speed",
           "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Basic Attacks against an enemy reduce your target's Physical Protection by 6% for 3 seconds (max. 4 Stacks). GLYPH - Your next basic attack marks an enemy god for 8s. If you hit the marked enemy or the marked enemy hits you with a basic attack or ability, gain 1 stack. Each stack provides 2% increased damage towards the marked enemy, stacking up to 10 times. This effect can only occur every 30s."
+      "SecondaryDescription": "PASSIVE - Basic Attacks against an enemy reduce your target's Physical Protection by 7% for 3 seconds (max. 4 Stacks). GLYPH - Your next basic attack marks an enemy god for 8s. If you hit the marked enemy or the marked enemy hits you with a basic attack or ability, gain 1 stack. Each stack provides 2% increased damage towards the marked enemy, stacking up to 10 times. This effect can only occur every 30s."
     },
     "ItemId": 23135,
     "ItemTier": 4,
@@ -745,7 +745,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 40,
+    "PhysicalPower": 30,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -931,11 +931,11 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+50"
+          "Value": "+40"
         },
         {
           "Description": "Health",
-          "Value": "+250"
+          "Value": "+200"
         },
         {
           "Description": "Magical Lifesteal",
@@ -946,7 +946,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "AURA - Allied gods within 70 units have their Magical Lifesteal increased by 8% and their Magical Power increased by 30 or their Physical Lifesteal increased by 6% and their Physical Power increased by 20."
+      "SecondaryDescription": "AURA - Allied gods within 70 units have their Magical Lifesteal increased by 8% and their Magical Power increased by 20 or their Physical Lifesteal increased by 6% and their Physical Power increased by 15."
     },
     "ItemId": 7534,
     "ItemTier": 3,
@@ -960,12 +960,12 @@
     "CooldownReduction": 0.1,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 250,
+    "Health": 200,
     "HP5": 0,
     "MagicalLifesteal": 0.08,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 50,
+    "MagicalPower": 40,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -992,7 +992,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+100"
+          "Value": "+70"
         },
         {
           "Description": "Mana",
@@ -1003,7 +1003,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - You gain additional Magical Power and Lifesteal scaled from missing Health. This caps at 100 power and 10% Lifesteal at 40% Health."
+      "SecondaryDescription": "PASSIVE - You gain additional Magical Power and Lifesteal scaled from missing Health. This caps at 70 power and 10% Lifesteal at 40% Health."
     },
     "ItemId": 8551,
     "ItemTier": 3,
@@ -1022,7 +1022,7 @@
     "MagicalLifesteal": 0.1,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 100,
+    "MagicalPower": 70,
     "MagicalProtection": 0,
     "Mana": 200,
     "MovementSpeed": 0,
@@ -1049,7 +1049,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+85"
+          "Value": "+60"
         },
         {
           "Description": "Mana",
@@ -1061,7 +1061,7 @@
         },
         {
           "Description": "Magical Penetration",
-          "Value": "+16%"
+          "Value": "+20%"
         }
       ],
       "SecondaryDescription": "PASSIVE - Your Healing obtained from Magical Lifesteal is increased by 15%. Your Magical power is increased by twice the amount of Magical Lifesteal you have."
@@ -1082,8 +1082,8 @@
     "HP5": 0,
     "MagicalLifesteal": 0.1,
     "MagicalPenetration": 0,
-    "MagicalPenetrationPercent": 0.16,
-    "MagicalPower": 85,
+    "MagicalPenetrationPercent": 0.2,
+    "MagicalPower": 60,
     "MagicalProtection": 0,
     "Mana": 200,
     "MovementSpeed": 0,
@@ -1110,11 +1110,11 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+90"
+          "Value": "+60"
         },
         {
           "Description": "Health",
-          "Value": "+150"
+          "Value": "+100"
         },
         {
           "Description": "Magical Lifesteal",
@@ -1139,12 +1139,12 @@
     "CooldownReduction": 0.1,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 150,
+    "Health": 100,
     "HP5": 0,
     "MagicalLifesteal": 0.08,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 90,
+    "MagicalPower": 60,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -1301,7 +1301,7 @@
     "ItemDescription": {
       "Description": "This consumable increases your Magical and Physical Power.",
       "Menuitems": [],
-      "SecondaryDescription": "This consumable increases your Magical and Physical Power by 25%, increases damage done to Structures by 25%, and grants 8% Penetration for 6 minutes. This effect persists through death."
+      "SecondaryDescription": "This consumable increases your Magical and Physical Power by 25%, increases damage done to Structures by 25%, and grants 10% Penetration for 6 minutes. This effect persists through death."
     },
     "ItemId": 7803,
     "ItemTier": 1,
@@ -1444,7 +1444,7 @@
         },
         {
           "Description": "Physical Penetration",
-          "Value": "+4%"
+          "Value": "+5%"
         }
       ],
       "SecondaryDescription": null
@@ -1473,7 +1473,7 @@
     "MP5": 0,
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
-    "PhysicalPenetrationPercent": 0.04,
+    "PhysicalPenetrationPercent": 0.05,
     "PhysicalPower": 25,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
@@ -1542,14 +1542,14 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+50"
+          "Value": "+35"
         },
         {
           "Description": "Physical Penetration",
-          "Value": "+16%"
+          "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your first ability cast gains 16% Physical Penetration. This can only occur once every 6 seconds."
+      "SecondaryDescription": "PASSIVE - Your first ability cast gains 20% Physical Penetration. This can only occur once every 6 seconds."
     },
     "ItemId": 7523,
     "ItemTier": 3,
@@ -1575,8 +1575,8 @@
     "MP5": 0,
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
-    "PhysicalPenetrationPercent": 0.16,
-    "PhysicalPower": 50,
+    "PhysicalPenetrationPercent": 0.2,
+    "PhysicalPower": 35,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -1595,7 +1595,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+40"
+          "Value": "+35"
         },
         {
           "Description": "Mana",
@@ -1637,7 +1637,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 10,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 40,
+    "PhysicalPower": 35,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -1656,7 +1656,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+50"
+          "Value": "+35"
         },
         {
           "Description": "Attack Speed",
@@ -1664,7 +1664,7 @@
         },
         {
           "Description": "Physical Penetration",
-          "Value": "+8%"
+          "Value": "+10%"
         }
       ],
       "SecondaryDescription": "PASSIVE - Enemies hit by your damaging Abilities take bonus damage equal to an additional 30% of your Physical Power over 1s. Subsequent hits on the same target do half the bonus damage for the next 3s."
@@ -1693,8 +1693,8 @@
     "MP5": 0,
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
-    "PhysicalPenetrationPercent": 0.08,
-    "PhysicalPower": 50,
+    "PhysicalPenetrationPercent": 0.1,
+    "PhysicalPower": 35,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -1713,7 +1713,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+55"
+          "Value": "+40"
         },
         {
           "Description": "Physical Penetration",
@@ -1747,7 +1747,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 15,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 55,
+    "PhysicalPower": 40,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -1766,7 +1766,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+40"
+          "Value": "+35"
         },
         {
           "Description": "Mana",
@@ -1781,7 +1781,7 @@
           "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "GLYPH - If you drop beneath 40% health, gain 15% Movement Speed and 20% Physical Ability Lifesteal for 5s. This effect may only occur once every 15s."
+      "SecondaryDescription": "GLYPH - If you drop beneath 50% health, gain 15% Movement Speed and 20% Physical Ability Lifesteal for 8s. This effect may only occur once every 15s."
     },
     "ItemId": 21507,
     "ItemTier": 4,
@@ -1808,7 +1808,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 10,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 40,
+    "PhysicalPower": 35,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -1827,7 +1827,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+40"
+          "Value": "+35"
         },
         {
           "Description": "Mana",
@@ -1842,7 +1842,7 @@
           "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "<n>GLYPH - Every time you damage an enemy god with an ability you gain a stack of Wit. At 2 stacks, your next non-ultimate ability that damages an enemy god gets 25% of its cooldown instantly refunded. After triggering this effect, all stacks are removed and you cannot gain stacks for 5s."
+      "SecondaryDescription": "<n>GLYPH - Every time you damage an enemy god with an ability you gain a stack of Wit. When you have a stack, your next non-ultimate ability that damages an enemy god gets 20% of its cooldown instantly refunded. After triggering this effect, all stacks are removed and you cannot gain stacks for 5s."
     },
     "ItemId": 22940,
     "ItemTier": 4,
@@ -1869,7 +1869,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 10,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 40,
+    "PhysicalPower": 35,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -2055,7 +2055,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+35"
+          "Value": "+25"
         },
         {
           "Description": "Mana",
@@ -2066,7 +2066,7 @@
           "Value": "+10"
         }
       ],
-      "SecondaryDescription": "PASSIVE - You permanently gain 15 Mana per Stack, and receive 5 Stacks for a god kill, and 1 Stack for a minion kill (max. 50 stacks). You gain Physical Power equal to 3% of your Maximum Mana. At 50 stacks this item Evolves, gaining 10% Cooldown Reduction."
+      "SecondaryDescription": "PASSIVE - You permanently gain 15 Mana per Stack, and receive 5 Stacks for a god kill, and 1 Stack for a minion kill (max. 50 stacks). You gain Physical Power equal to 2% of your Maximum Mana. At 50 stacks this item Evolves, gaining 10% Cooldown Reduction."
     },
     "ItemId": 8547,
     "ItemTier": 3,
@@ -2093,7 +2093,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 35,
+    "PhysicalPower": 25,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -2112,11 +2112,11 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+40"
+          "Value": "+30"
         },
         {
           "Description": "Physical Penetration",
-          "Value": "+8%"
+          "Value": "+10%"
         },
         {
           "Description": "Cooldown Reduction",
@@ -2153,8 +2153,8 @@
     "MP5": 0,
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
-    "PhysicalPenetrationPercent": 0.08,
-    "PhysicalPower": 40,
+    "PhysicalPenetrationPercent": 0.1,
+    "PhysicalPower": 30,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -2173,7 +2173,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+65"
+          "Value": "+45"
         },
         {
           "Description": "Mana",
@@ -2185,10 +2185,10 @@
         },
         {
           "Description": "Physical Penetration",
-          "Value": "+8%"
+          "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your abilities deal an additional 2% of the targets maximum Health as Physical Damage. If you have over 200 Physical Power, your ability bonus damage scales up. This effect reaches a maximum of 6% Maximum Health damage at 350 Physical Power. Subsequent hits on the same target do 75% of the bonus damage for the next 3s."
+      "SecondaryDescription": "PASSIVE - Your abilities deal an additional 2% of the targets maximum Health as Physical Damage. If you have over 150 Physical Power, your ability bonus damage scales up. This effect reaches a maximum of 6% Maximum Health damage at 300 Physical Power. Subsequent hits on the same target do 75% of the bonus damage for the next 3s."
     },
     "ItemId": 12680,
     "ItemTier": 3,
@@ -2214,8 +2214,8 @@
     "MP5": 20,
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
-    "PhysicalPenetrationPercent": 0.08,
-    "PhysicalPower": 65,
+    "PhysicalPenetrationPercent": 0.1,
+    "PhysicalPower": 45,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -2234,7 +2234,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+55"
+          "Value": "+40"
         },
         {
           "Description": "Mana",
@@ -2249,7 +2249,7 @@
           "Value": "+15%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your Basic Attacks benefit from an additional 16% Physical Penetration."
+      "SecondaryDescription": "PASSIVE - Your Basic Attacks benefit from an additional 20% Physical Penetration."
     },
     "ItemId": 19924,
     "ItemTier": 3,
@@ -2276,13 +2276,135 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 55,
+    "PhysicalPower": 40,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
     "IsEvolved": false,
     "IsGlyph": false
+  },
+  {
+    "DeviceName": "Bewitched Dagger",
+    "ActiveFlag": "y",
+    "ChildItemId": 13187,
+    "IconId": 12844,
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/bewitched-dagger.jpg",
+    "ItemDescription": {
+      "Description": "Reduce the Attack Speed of enemies around you.",
+      "Menuitems": [
+        {
+          "Description": "Health",
+          "Value": "+300"
+        },
+        {
+          "Description": "Cooldown Reduction",
+          "Value": "+10%"
+        },
+        {
+          "Description": "Crowd Control Reduction",
+          "Value": "+10%"
+        },
+        {
+          "Description": "Movement Speed",
+          "Value": "+7%"
+        }
+      ],
+      "SecondaryDescription": "PASSIVE - Your relics receive 40s Cooldown Reduction. <n>GLYPH - All enemy gods have 25% reduced Attack Speed in a 55 unit radius around you. "
+    },
+    "ItemId": 24726,
+    "ItemTier": 4,
+    "Price": 600,
+    "RestrictedRoles": "no restrictions",
+    "RootItemId": 8239,
+    "ShortDesc": "Reduce the Attack Speed of enemies around you",
+    "StartingItem": false,
+    "Type": "Item",
+    "AttackSpeed": 0,
+    "CooldownReduction": 0.1,
+    "CriticalStrikeChance": 0,
+    "CrowdControlReduction": 0.1,
+    "Health": 300,
+    "HP5": 0,
+    "MagicalLifesteal": 0,
+    "MagicalPenetration": 0,
+    "MagicalPenetrationPercent": 0,
+    "MagicalPower": 0,
+    "MagicalProtection": 0,
+    "Mana": 0,
+    "MovementSpeed": 0.07,
+    "MP5": 0,
+    "PhysicalLifesteal": 0,
+    "PhysicalPenetration": 0,
+    "PhysicalPenetrationPercent": 0,
+    "PhysicalPower": 0,
+    "PhysicalProtection": 0,
+    "IsPhysicalOnly": false,
+    "IsMagicalOnly": false,
+    "ActivelyStacks": false,
+    "IsEvolved": false,
+    "IsGlyph": true
+  },
+  {
+    "DeviceName": "Eldritch Dagger",
+    "ActiveFlag": "y",
+    "ChildItemId": 13187,
+    "IconId": 12845,
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/eldritch-dagger.jpg",
+    "ItemDescription": {
+      "Description": "Gain Protections and ward vision on relic cast.",
+      "Menuitems": [
+        {
+          "Description": "Health",
+          "Value": "+300"
+        },
+        {
+          "Description": "Cooldown Reduction",
+          "Value": "+10%"
+        },
+        {
+          "Description": "Crowd Control Reduction",
+          "Value": "+10%"
+        },
+        {
+          "Description": "Movement Speed",
+          "Value": "+7%"
+        }
+      ],
+      "SecondaryDescription": "PASSIVE - Your relics receive 40s Cooldown Reduction. <n>GLYPH - When you activate a relic, your Protections are increased by 15% and you gain the ability to see wards for 10s. "
+    },
+    "ItemId": 24727,
+    "ItemTier": 4,
+    "Price": 600,
+    "RestrictedRoles": "no restrictions",
+    "RootItemId": 8239,
+    "ShortDesc": "Gain Protections and ward vision on relic cast",
+    "StartingItem": false,
+    "Type": "Item",
+    "AttackSpeed": 0,
+    "CooldownReduction": 0.1,
+    "CriticalStrikeChance": 0,
+    "CrowdControlReduction": 0.1,
+    "Health": 300,
+    "HP5": 0,
+    "MagicalLifesteal": 0,
+    "MagicalPenetration": 0,
+    "MagicalPenetrationPercent": 0,
+    "MagicalPower": 0,
+    "MagicalProtection": 0,
+    "Mana": 0,
+    "MovementSpeed": 0.07,
+    "MP5": 0,
+    "PhysicalLifesteal": 0,
+    "PhysicalPenetration": 0,
+    "PhysicalPenetrationPercent": 0,
+    "PhysicalPower": 0,
+    "PhysicalProtection": 0,
+    "IsPhysicalOnly": false,
+    "IsMagicalOnly": false,
+    "ActivelyStacks": false,
+    "IsEvolved": false,
+    "IsGlyph": true
   },
   {
     "DeviceName": "Vampiric Shroud",
@@ -2458,7 +2580,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+35"
+          "Value": "+25"
         },
         {
           "Description": "Mana",
@@ -2473,7 +2595,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - You gain Physical Power equal to 3% of your Maximum Mana."
+      "SecondaryDescription": "PASSIVE - You gain Physical Power equal to 2% of your Maximum Mana."
     },
     "ItemId": 15767,
     "ItemTier": 4,
@@ -2500,7 +2622,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 35,
+    "PhysicalPower": 25,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -2519,7 +2641,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+100"
+          "Value": "+70"
         },
         {
           "Description": "Mana",
@@ -2530,7 +2652,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - You gain additional Magical Power and Lifesteal scaled from missing Health. This caps at 100 power and 10% Lifesteal at 40% Health. <n>GLYPH - Every 15s gain a stack of Hunger(max 3). Abilities cast within 30 units of enemy gods consume a stack, dealing bonus damage equal to 0.5% of their max HP for each 75 Magical Power you have. Each god damaged by Hunger provides you with a shield of 0.5% of your Max HP for each 75 Magical Power you have. This cannot exceed 35% of your Max HP. "
+      "SecondaryDescription": "PASSIVE - You gain additional Magical Power and Lifesteal scaled from missing Health. This caps at 70 power and 10% Lifesteal at 40% Health. <n>GLYPH - Every 15s gain a stack of Hunger(max 3). Abilities cast within 30 units of enemy gods consume a stack, dealing bonus damage equal to 0.5% of their max HP for each 75 Magical Power you have. Each god damaged by Hunger provides you with a shield of 0.5% of your Max HP for each 75 Magical Power you have. This cannot exceed 35% of your Max HP. "
     },
     "ItemId": 22901,
     "ItemTier": 4,
@@ -2549,7 +2671,7 @@
     "MagicalLifesteal": 0.1,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 100,
+    "MagicalPower": 70,
     "MagicalProtection": 0,
     "Mana": 200,
     "MovementSpeed": 0,
@@ -2576,7 +2698,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+100"
+          "Value": "+70"
         },
         {
           "Description": "Mana",
@@ -2587,7 +2709,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - You gain additional Magical Power and Lifesteal scaled from missing Health. This caps at 100 power and 10% Lifesteal at 40% Health. <n>GLYPH - For every 40 Magical Power you have, you gain 2% Attack Speed. "
+      "SecondaryDescription": "PASSIVE - You gain additional Magical Power and Lifesteal scaled from missing Health. This caps at 70 power and 10% Lifesteal at 40% Health. <n>GLYPH - For every 30 Magical Power you have, you gain 2% Attack Speed. "
     },
     "ItemId": 23136,
     "ItemTier": 4,
@@ -2606,7 +2728,7 @@
     "MagicalLifesteal": 0.1,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 100,
+    "MagicalPower": 70,
     "MagicalProtection": 0,
     "Mana": 200,
     "MovementSpeed": 0,
@@ -3560,7 +3682,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+40"
+          "Value": "+30"
         },
         {
           "Description": "Critical Strike Chance",
@@ -3594,7 +3716,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 40,
+    "PhysicalPower": 30,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -3613,14 +3735,14 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+35"
+          "Value": "+30"
         },
         {
           "Description": "Critical Strike Chance",
           "Value": "+35%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Killing or getting an assist on an enemy god gives you 1 stack. Each stack provides 2.5% Critical Strike Chance and 5 Physical Power. Stacks are permanent and stack up to 4 times.  "
+      "SecondaryDescription": "PASSIVE - Killing or getting an assist on an enemy god gives you 1 stack. Each stack provides 2% Critical Strike Chance and 3 Physical Power. Stacks are permanent and stack up to 5 times.  "
     },
     "ItemId": 8546,
     "ItemTier": 3,
@@ -3647,7 +3769,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 35,
+    "PhysicalPower": 30,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -3727,14 +3849,14 @@
         },
         {
           "Description": "Attack Speed",
-          "Value": "+15%"
+          "Value": "+10%"
         },
         {
           "Description": "Critical Strike Chance",
           "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your Critical Hits provide you with 8% Physical Penetration and increase your Attack Speed by 10% for 4s."
+      "SecondaryDescription": "PASSIVE - Your Critical Hits provide you with 10% Physical Penetration and increase your Attack Speed by 10% for 4s."
     },
     "ItemId": 12674,
     "ItemTier": 3,
@@ -3744,7 +3866,7 @@
     "ShortDesc": "Critical Hits give increased Penetration and Attack Speed",
     "StartingItem": false,
     "Type": "Item",
-    "AttackSpeed": 0.15,
+    "AttackSpeed": 0.1,
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0.2,
     "CrowdControlReduction": 0,
@@ -3780,7 +3902,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+40"
+          "Value": "+30"
         },
         {
           "Description": "Attack Speed",
@@ -3818,7 +3940,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 40,
+    "PhysicalPower": 30,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -3837,7 +3959,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+55"
+          "Value": "+45"
         },
         {
           "Description": "Critical Strike Chance",
@@ -3871,7 +3993,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 55,
+    "PhysicalPower": 45,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -3890,7 +4012,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+40"
+          "Value": "+30"
         },
         {
           "Description": "Critical Strike Chance",
@@ -3924,7 +4046,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 40,
+    "PhysicalPower": 30,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -3943,7 +4065,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+40"
+          "Value": "+30"
         },
         {
           "Description": "Critical Strike Chance",
@@ -3977,7 +4099,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 40,
+    "PhysicalPower": 30,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -4155,7 +4277,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+30"
+          "Value": "+25"
         },
         {
           "Description": "Physical Lifesteal",
@@ -4170,7 +4292,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your abilities heal you for 2.5% of damage dealt. Each time anything dies within 80 units you gain a stack. Gods, Large Jungle monsters and Bosses provide 5 stacks. At 100 Stacks Soul Eater Evolves, gaining 20 Physical Power, 4% Physical Lifesteal, and 10% Physical Ability Lifesteal."
+      "SecondaryDescription": "PASSIVE - Your abilities heal you for 2.5% of damage dealt. Each time anything dies within 80 units you gain a stack. Gods, Large Jungle monsters and Bosses provide 5 stacks. At 100 Stacks Soul Eater Evolves, gaining 15 Physical Power, 4% Physical Lifesteal, and 10% Physical Ability Lifesteal."
     },
     "ItemId": 7539,
     "ItemTier": 3,
@@ -4197,7 +4319,7 @@
     "PhysicalLifesteal": 0.06,
     "PhysicalPenetration": 10,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 30,
+    "PhysicalPower": 25,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -4216,14 +4338,14 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+35"
+          "Value": "+30"
         },
         {
           "Description": "Physical Lifesteal",
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Killing an enemy god or minion gives you stacks of +.7 Physical Power, +.2 Physical Penetration and +.1% Physical Lifesteal. You receive 5 stacks for a god kill and 1 stack for a minion kill. At 50 stacks this item Evolves, gaining 5 Physical Penetration."
+      "SecondaryDescription": "PASSIVE - Killing an enemy god or minion gives you stacks of +.4 Physical Power, +.2 Physical Penetration and +.1% Physical Lifesteal. You receive 5 stacks for a god kill and 1 stack for a minion kill. At 50 stacks this item Evolves, gaining 5 Physical Penetration."
     },
     "ItemId": 7914,
     "ItemTier": 3,
@@ -4250,7 +4372,7 @@
     "PhysicalLifesteal": 0.1,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 35,
+    "PhysicalPower": 30,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -4269,7 +4391,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+75"
+          "Value": "+50"
         },
         {
           "Description": "Physical Lifesteal",
@@ -4307,7 +4429,7 @@
     "PhysicalLifesteal": 0.1,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 75,
+    "PhysicalPower": 50,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -4326,7 +4448,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+70"
+          "Value": "+50"
         },
         {
           "Description": "Physical Lifesteal",
@@ -4364,7 +4486,7 @@
     "PhysicalLifesteal": 0.15,
     "PhysicalPenetration": 15,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 70,
+    "PhysicalPower": 50,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -4383,7 +4505,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+50"
+          "Value": "+40"
         },
         {
           "Description": "Physical Lifesteal",
@@ -4425,7 +4547,7 @@
     "PhysicalLifesteal": 0.1,
     "PhysicalPenetration": 10,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 50,
+    "PhysicalPower": 40,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -4668,7 +4790,7 @@
       "Menuitems": [
         {
           "Description": "Health",
-          "Value": "+350"
+          "Value": "+300"
         },
         {
           "Description": "Cooldown Reduction",
@@ -4697,7 +4819,7 @@
     "CooldownReduction": 0.1,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0.1,
-    "Health": 350,
+    "Health": 300,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -4729,11 +4851,11 @@
       "Menuitems": [
         {
           "Description": "Magical Protection",
-          "Value": "+25"
+          "Value": "+20"
         },
         {
           "Description": "Health",
-          "Value": "+200"
+          "Value": "+150"
         },
         {
           "Description": "Crowd Control Reduction",
@@ -4758,13 +4880,13 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0.1,
-    "Health": 200,
+    "Health": 150,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 25,
+    "MagicalProtection": 20,
     "Mana": 0,
     "MovementSpeed": 0.07,
     "MP5": 0,
@@ -4851,11 +4973,11 @@
       "Menuitems": [
         {
           "Description": "Physical Protection",
-          "Value": "+25"
+          "Value": "+20"
         },
         {
           "Description": "Health",
-          "Value": "+300"
+          "Value": "+250"
         },
         {
           "Description": "Cooldown Reduction",
@@ -4866,7 +4988,7 @@
           "Value": "+7%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Any god affected by your ability heals gains 15 increased Physical and Magical Protection for 5 seconds."
+      "SecondaryDescription": "PASSIVE - Any god affected by your ability heals gains 10 increased Physical and Magical Protection for 5 seconds."
     },
     "ItemId": 24190,
     "ItemTier": 3,
@@ -4880,7 +5002,7 @@
     "CooldownReduction": 0.1,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 300,
+    "Health": 250,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -4894,7 +5016,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 25,
+    "PhysicalProtection": 20,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -5193,18 +5315,18 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+40"
+          "Value": "+30"
         },
         {
           "Description": "Health",
-          "Value": "+300"
+          "Value": "+250"
         },
         {
           "Description": "Crowd Control Reduction",
           "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - When your Ultimate has finished casting, your Protections and Movement Speed are increased by 5% for each enemy god within 55 units of you for the next 6s. This effect can only occur once every 30s."
+      "SecondaryDescription": "PASSIVE - When your Ultimate has finished casting, your Protections and Movement Speed are increased by 10% for each enemy god within 55 units of you, stacking 3 times for the next 6s. This effect can only occur once every 30s."
     },
     "ItemId": 23862,
     "ItemTier": 3,
@@ -5218,7 +5340,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0.2,
-    "Health": 300,
+    "Health": 250,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -5231,7 +5353,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 40,
+    "PhysicalPower": 30,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -5250,26 +5372,26 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+35"
+          "Value": "+25"
         },
         {
           "Description": "Health",
-          "Value": "+350"
+          "Value": "+300"
         },
         {
           "Description": "HP5",
-          "Value": "+20"
+          "Value": "+25"
         },
         {
           "Description": "MP5",
           "Value": "+15"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your next basic attack on an enemy god creates a 30 unit shockwave of frost around them, slowing the Movement Speed and Attack Speed of enemy gods in the area by 25% for 3s. This effect can only occur once every 10 seconds. This item and all upgrades are only available to Assassins and Warriors."
+      "SecondaryDescription": "PASSIVE - Your next basic attack on an enemy god creates a 30 unit shockwave of frost around them, slowing the Movement Speed and Attack Speed of enemy gods in the area by 25% for 3s. This effect can only occur once every 8 seconds. This item and all upgrades are only available to Assassins and Warriors."
     },
     "ItemId": 24176,
     "ItemTier": 3,
-    "Price": 1000,
+    "Price": 900,
     "RestrictedRoles": "hunter",
     "RootItemId": 9830,
     "ShortDesc": "Next basic attack slows enemies in an area",
@@ -5279,8 +5401,8 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 350,
-    "HP5": 20,
+    "Health": 300,
+    "HP5": 25,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
@@ -5292,7 +5414,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 35,
+    "PhysicalPower": 25,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -5311,11 +5433,11 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+35"
+          "Value": "+25"
         },
         {
           "Description": "Health",
-          "Value": "+250"
+          "Value": "+200"
         },
         {
           "Description": "HP5",
@@ -5330,7 +5452,7 @@
     },
     "ItemId": 24177,
     "ItemTier": 3,
-    "Price": 1050,
+    "Price": 950,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 9830,
     "ShortDesc": "Deal more damage to any target afflicted by Crowd Control",
@@ -5340,7 +5462,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 250,
+    "Health": 200,
     "HP5": 15,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -5353,13 +5475,135 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 35,
+    "PhysicalPower": 25,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
     "IsEvolved": false,
     "IsGlyph": false
+  },
+  {
+    "DeviceName": "Flameforged Hammer",
+    "ActiveFlag": "y",
+    "ChildItemId": 24177,
+    "IconId": 12846,
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/flameforged-hammer.jpg",
+    "ItemDescription": {
+      "Description": "Crowd Controlled Enemies take damage over time.",
+      "Menuitems": [
+        {
+          "Description": "Physical Power",
+          "Value": "+25"
+        },
+        {
+          "Description": "Health",
+          "Value": "+200"
+        },
+        {
+          "Description": "HP5",
+          "Value": "+15"
+        },
+        {
+          "Description": "MP5",
+          "Value": "+20"
+        }
+      ],
+      "SecondaryDescription": "PASSIVE - Your next successful Hard CC on an enemy god creates a runic symbol on the ground that lasts for 5s. Enemies in the symbol take 10% more damage. This can only occur once every 15 seconds. <n>GLYPH - Additionally, enemy gods within the rune are burned, dealing 5 + 10% of your Protections from items and abilities as Magical Damage every 1s while inside the rune and for 3s after leaving it. "
+    },
+    "ItemId": 24728,
+    "ItemTier": 4,
+    "Price": 600,
+    "RestrictedRoles": "no restrictions",
+    "RootItemId": 9831,
+    "ShortDesc": "Crowd Controlled Enemies take damage over time",
+    "StartingItem": false,
+    "Type": "Item",
+    "AttackSpeed": 0,
+    "CooldownReduction": 0,
+    "CriticalStrikeChance": 0,
+    "CrowdControlReduction": 0,
+    "Health": 200,
+    "HP5": 15,
+    "MagicalLifesteal": 0,
+    "MagicalPenetration": 0,
+    "MagicalPenetrationPercent": 0,
+    "MagicalPower": 0,
+    "MagicalProtection": 0,
+    "Mana": 0,
+    "MovementSpeed": 0,
+    "MP5": 20,
+    "PhysicalLifesteal": 0,
+    "PhysicalPenetration": 0,
+    "PhysicalPenetrationPercent": 0,
+    "PhysicalPower": 25,
+    "PhysicalProtection": 0,
+    "IsPhysicalOnly": true,
+    "IsMagicalOnly": false,
+    "ActivelyStacks": false,
+    "IsEvolved": false,
+    "IsGlyph": true
+  },
+  {
+    "DeviceName": "Runebreaking Hammer",
+    "ActiveFlag": "y",
+    "ChildItemId": 24177,
+    "IconId": 12847,
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/runebreaking-hammer.jpg",
+    "ItemDescription": {
+      "Description": "Crowd Controlled Enemies take more and deal less damage.",
+      "Menuitems": [
+        {
+          "Description": "Physical Power",
+          "Value": "+25"
+        },
+        {
+          "Description": "Health",
+          "Value": "+200"
+        },
+        {
+          "Description": "HP5",
+          "Value": "+15"
+        },
+        {
+          "Description": "MP5",
+          "Value": "+20"
+        }
+      ],
+      "SecondaryDescription": "<n>GLYPH - Your next successful Hard CC on an enemy god creates a 30 unit shockwave around them. Enemies hit by the shockwave deal 10% less damage and take 10% more damage for 3s. This can only occur once every 15s. "
+    },
+    "ItemId": 24839,
+    "ItemTier": 4,
+    "Price": 600,
+    "RestrictedRoles": "no restrictions",
+    "RootItemId": 9831,
+    "ShortDesc": "Crowd Controlled Enemies take more and deal less damage",
+    "StartingItem": false,
+    "Type": "Item",
+    "AttackSpeed": 0,
+    "CooldownReduction": 0,
+    "CriticalStrikeChance": 0,
+    "CrowdControlReduction": 0,
+    "Health": 200,
+    "HP5": 15,
+    "MagicalLifesteal": 0,
+    "MagicalPenetration": 0,
+    "MagicalPenetrationPercent": 0,
+    "MagicalPower": 0,
+    "MagicalProtection": 0,
+    "Mana": 0,
+    "MovementSpeed": 0,
+    "MP5": 20,
+    "PhysicalLifesteal": 0,
+    "PhysicalPenetration": 0,
+    "PhysicalPenetrationPercent": 0,
+    "PhysicalPower": 25,
+    "PhysicalProtection": 0,
+    "IsPhysicalOnly": true,
+    "IsMagicalOnly": false,
+    "ActivelyStacks": false,
+    "IsEvolved": false,
+    "IsGlyph": true
   },
   {
     "DeviceName": "Round Shield",
@@ -5645,11 +5889,11 @@
       "Menuitems": [
         {
           "Description": "Physical Protection",
-          "Value": "+60"
+          "Value": "+50"
         },
         {
           "Description": "Health",
-          "Value": "+150"
+          "Value": "+100"
         },
         {
           "Description": "Attack Speed",
@@ -5674,7 +5918,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 150,
+    "Health": 100,
     "HP5": 20,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -5688,7 +5932,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 60,
+    "PhysicalProtection": 50,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -5706,11 +5950,11 @@
       "Menuitems": [
         {
           "Description": "Physical Protection",
-          "Value": "+50"
+          "Value": "+40"
         },
         {
           "Description": "Health",
-          "Value": "+200"
+          "Value": "+150"
         },
         {
           "Description": "HP5",
@@ -5735,7 +5979,7 @@
     "CooldownReduction": 0.1,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 200,
+    "Health": 150,
     "HP5": 25,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -5749,7 +5993,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 50,
+    "PhysicalProtection": 40,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -5767,11 +6011,11 @@
       "Menuitems": [
         {
           "Description": "Physical Protection",
-          "Value": "+60"
+          "Value": "+50"
         },
         {
           "Description": "Health",
-          "Value": "+200"
+          "Value": "+150"
         },
         {
           "Description": "HP5",
@@ -5782,7 +6026,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - When you are Basic Attacked by an enemy god, you and friendly lane minions within 40 units gain a stack, up to a max of 3. Stacks provide 10% Attack Speed and 7 of each Protection and last for 8s. Minions gain double the effects from each stack. You cannot give more than one stack per second."
+      "SecondaryDescription": "PASSIVE - When you are Basic Attacked by an enemy god, you and friendly lane minions within 40 units gain a stack, up to a max of 3. Stacks provide 10% Attack Speed and 7 of each Protection and last for 8s. Minions gain double the effects from each stack. Stacks cannot be gained more than one per second."
     },
     "ItemId": 23863,
     "ItemTier": 3,
@@ -5796,7 +6040,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0.1,
-    "Health": 200,
+    "Health": 150,
     "HP5": 20,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -5810,7 +6054,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 60,
+    "PhysicalProtection": 50,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -5991,7 +6235,7 @@
       "Menuitems": [
         {
           "Description": "Physical Protection",
-          "Value": "+65"
+          "Value": "+55"
         },
         {
           "Description": "Mana",
@@ -6034,7 +6278,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 65,
+    "PhysicalProtection": 55,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -6113,11 +6357,11 @@
       "Menuitems": [
         {
           "Description": "Physical Protection",
-          "Value": "+60"
+          "Value": "+50"
         },
         {
           "Description": "Health",
-          "Value": "+150"
+          "Value": "+100"
         },
         {
           "Description": "Mana",
@@ -6142,7 +6386,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 150,
+    "Health": 100,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -6156,7 +6400,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 60,
+    "PhysicalProtection": 50,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -6174,11 +6418,11 @@
       "Menuitems": [
         {
           "Description": "Physical Protection",
-          "Value": "+60"
+          "Value": "+50"
         },
         {
           "Description": "Health",
-          "Value": "+200"
+          "Value": "+150"
         },
         {
           "Description": "Mana",
@@ -6189,7 +6433,7 @@
           "Value": "+10"
         }
       ],
-      "SecondaryDescription": "AURA - Allied gods within 55 units take 40% reduced bonus damage from Physical Critical Strikes. \n\nPASSIVE - When you get hit by a Critical Strike, you gain 15 Physical Power and 20 Magical Power, stacking up to 3 times and lasting 6s."
+      "SecondaryDescription": "AURA - Allied gods within 55 units take 40% reduced bonus damage from Physical Critical Strikes. \n\nPASSIVE - When you get hit by a Critical Strike, you gain 10 Physical Power and 15 Magical Power, stacking up to 3 times and lasting 6s."
     },
     "ItemId": 24187,
     "ItemTier": 3,
@@ -6203,7 +6447,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 200,
+    "Health": 150,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -6217,7 +6461,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 60,
+    "PhysicalProtection": 50,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -6235,7 +6479,7 @@
       "Menuitems": [
         {
           "Description": "Physical Protection",
-          "Value": "+55"
+          "Value": "+45"
         },
         {
           "Description": "Mana",
@@ -6250,7 +6494,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - After healing yourself from an ability, you gain 30% Movement Speed, 15 Physical Power, and 30 Magical Power for 4 seconds. This effect can only occur once every 10 seconds."
+      "SecondaryDescription": "PASSIVE - After healing yourself from an ability, you gain 20% Movement Speed, 15 Physical Power, and 30 Magical Power for 4 seconds. This effect can only occur once every 10 seconds."
     },
     "ItemId": 24188,
     "ItemTier": 3,
@@ -6278,7 +6522,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 55,
+    "PhysicalProtection": 45,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -6296,7 +6540,7 @@
       "Menuitems": [
         {
           "Description": "Physical Protection",
-          "Value": "+65"
+          "Value": "+55"
         },
         {
           "Description": "Mana",
@@ -6339,7 +6583,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 65,
+    "PhysicalProtection": 55,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -6357,7 +6601,7 @@
       "Menuitems": [
         {
           "Description": "Physical Protection",
-          "Value": "+65"
+          "Value": "+55"
         },
         {
           "Description": "Mana",
@@ -6400,7 +6644,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 65,
+    "PhysicalProtection": 55,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -6418,15 +6662,15 @@
       "Menuitems": [
         {
           "Description": "Health",
-          "Value": "+250"
+          "Value": "+200"
         },
         {
           "Description": "Physical Protection",
-          "Value": "+55"
+          "Value": "+45"
         },
         {
           "Description": "Magical Protection",
-          "Value": "+55"
+          "Value": "+45"
         },
         {
           "Description": "HP5",
@@ -6447,13 +6691,13 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 250,
+    "Health": 200,
     "HP5": 15,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 55,
+    "MagicalProtection": 45,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 0,
@@ -6461,7 +6705,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 55,
+    "PhysicalProtection": 45,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -6707,11 +6951,11 @@
       "Menuitems": [
         {
           "Description": "Physical Protection",
-          "Value": "+30"
+          "Value": "+25"
         },
         {
           "Description": "Magical Protection",
-          "Value": "+30"
+          "Value": "+25"
         },
         {
           "Description": "Cooldown Reduction",
@@ -6738,7 +6982,7 @@
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 30,
+    "MagicalProtection": 25,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 0,
@@ -6746,7 +6990,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 30,
+    "PhysicalProtection": 25,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -6825,11 +7069,11 @@
       "Menuitems": [
         {
           "Description": "Physical Protection",
-          "Value": "+40"
+          "Value": "+35"
         },
         {
           "Description": "Magical Protection",
-          "Value": "+40"
+          "Value": "+35"
         },
         {
           "Description": "Cooldown Reduction",
@@ -6860,7 +7104,7 @@
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 40,
+    "MagicalProtection": 35,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 0,
@@ -6868,7 +7112,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 40,
+    "PhysicalProtection": 35,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -6886,11 +7130,11 @@
       "Menuitems": [
         {
           "Description": "Physical Protection",
-          "Value": "+55"
+          "Value": "+45"
         },
         {
           "Description": "Magical Protection",
-          "Value": "+55"
+          "Value": "+45"
         },
         {
           "Description": "Cooldown Reduction",
@@ -6917,7 +7161,7 @@
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 55,
+    "MagicalProtection": 45,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 0,
@@ -6925,7 +7169,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 55,
+    "PhysicalProtection": 45,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -6951,14 +7195,14 @@
         },
         {
           "Description": "Health",
-          "Value": "+150"
+          "Value": "+100"
         },
         {
           "Description": "Cooldown Reduction",
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Once every 8s, when you damage an enemy god with an attack, you gain a stack of 2 Protections in an Aura that corresponds with the damage type of the target. Once you have reached 15 stacks of both Protections, this item Evolves, giving you additional Protections and mitigation based on your total Protections."
+      "SecondaryDescription": "PASSIVE - Once every 8s, when you damage an enemy god with an attack, you gain a stack of 1 Protections in an Aura that corresponds with the damage type of the target. Once you have reached 15 stacks of both Protections, this item Evolves, giving you additional Protections and mitigation based on your total Protections."
     },
     "ItemId": 24168,
     "ItemTier": 3,
@@ -6972,7 +7216,7 @@
     "CooldownReduction": 0.1,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 150,
+    "Health": 100,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -7004,11 +7248,11 @@
       "Menuitems": [
         {
           "Description": "Physical Protection",
-          "Value": "+30"
+          "Value": "+25"
         },
         {
           "Description": "Magical Protection",
-          "Value": "+30"
+          "Value": "+25"
         },
         {
           "Description": "Cooldown Reduction",
@@ -7035,7 +7279,7 @@
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 30,
+    "MagicalProtection": 25,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 0,
@@ -7043,7 +7287,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 30,
+    "PhysicalProtection": 25,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -7061,11 +7305,11 @@
       "Menuitems": [
         {
           "Description": "Physical Protection",
-          "Value": "+30"
+          "Value": "+25"
         },
         {
           "Description": "Magical Protection",
-          "Value": "+30"
+          "Value": "+25"
         },
         {
           "Description": "Cooldown Reduction",
@@ -7092,7 +7336,7 @@
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 30,
+    "MagicalProtection": 25,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 0,
@@ -7100,7 +7344,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 30,
+    "PhysicalProtection": 25,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -7126,14 +7370,14 @@
         },
         {
           "Description": "Health",
-          "Value": "+150"
+          "Value": "+100"
         },
         {
           "Description": "Cooldown Reduction",
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "AURA - Allies within 70 units gain 30 Physical and Magical Protections.\n\nPASSIVE - If you have over 400 total Protections, you gain 7.5% Damage Mitigation. If you have over 600 total Protections, you gain an additional 7.5% Damage Mitigation."
+      "SecondaryDescription": "AURA - Allies within 70 units gain 20 Physical and Magical Protections.\n\nPASSIVE - If you have over 400 total Protections, you gain 7.5% Damage Mitigation. If you have over 600 total Protections, you gain an additional 7.5% Damage Mitigation."
     },
     "ItemId": 24172,
     "ItemTier": 4,
@@ -7147,7 +7391,7 @@
     "CooldownReduction": 0.1,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 150,
+    "Health": 100,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -7456,14 +7700,14 @@
       "Menuitems": [
         {
           "Description": "Magical Protection",
-          "Value": "+55"
+          "Value": "+45"
         },
         {
           "Description": "Health",
-          "Value": "+250"
+          "Value": "+200"
         }
       ],
-      "SecondaryDescription": "AURA - Allied gods within 70 units have their Magical Protections increased by 20 and their MP5 increased by 30."
+      "SecondaryDescription": "AURA - Allied gods within 70 units have their Magical Protections increased by 15 and their MP5 increased by 30."
     },
     "ItemId": 11116,
     "ItemTier": 3,
@@ -7477,13 +7721,13 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 250,
+    "Health": 200,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 55,
+    "MagicalProtection": 45,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 0,
@@ -7509,14 +7753,14 @@
       "Menuitems": [
         {
           "Description": "Magical Protection",
-          "Value": "+60"
+          "Value": "+50"
         },
         {
           "Description": "Health",
-          "Value": "+300"
+          "Value": "+250"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Getting a kill or assist on enemies causes you and allies within 70 units to gain stacks of energy. Energy stacks provide 2% Movement Speed, 2% Attack Speed, and 10MP5 per stack. Lasts 10s and stacks up to 6 times. Killing or Assisting an enemy God provides maximum stacks."
+      "SecondaryDescription": "PASSIVE - Getting a kill or assist on enemies causes you and allies within 70 units to gain stacks of energy. Energy stacks provide 3% Movement Speed, 3% Attack Speed, and 15MP5 per stack. Lasts 10s and stacks up to 4 times. Killing or Assisting an enemy God provides maximum stacks."
     },
     "ItemId": 15619,
     "ItemTier": 3,
@@ -7530,13 +7774,13 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 300,
+    "Health": 250,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 60,
+    "MagicalProtection": 50,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 0,
@@ -7562,18 +7806,18 @@
       "Menuitems": [
         {
           "Description": "Magical Protection",
-          "Value": "+70"
+          "Value": "+60"
         },
         {
           "Description": "Health",
-          "Value": "+250"
+          "Value": "+200"
         },
         {
           "Description": "Crowd Control Reduction",
           "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - When your Ultimate ability has finished casting, you pulse out a cleansing aura within 50 units, providing all allies with CC-immunity for 0.6s. This effect can only occur once every 40s."
+      "SecondaryDescription": "PASSIVE - When your Ultimate ability has finished casting, you pulse out a cleansing aura within 50 units, providing all allies with CC-immunity for 1s and restoring 10% of their max. Mana. This effect can only occur once every 40s."
     },
     "ItemId": 23864,
     "ItemTier": 3,
@@ -7587,13 +7831,13 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0.2,
-    "Health": 250,
+    "Health": 200,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 70,
+    "MagicalProtection": 60,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 0,
@@ -7619,11 +7863,11 @@
       "Menuitems": [
         {
           "Description": "Magical Protection",
-          "Value": "+80"
+          "Value": "+70"
         },
         {
           "Description": "Health",
-          "Value": "+250"
+          "Value": "+200"
         }
       ],
       "SecondaryDescription": "AURA - Enemy gods within 55 units have their healing reduced by 25%. This does not stack with similar Auras.\n\nPASSIVE - Enemies that successfully damage you have their Healing reduced by an additional 5% for 3s. This can stack up to 6 times."
@@ -7640,13 +7884,13 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 250,
+    "Health": 200,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 80,
+    "MagicalProtection": 70,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 0,
@@ -7672,14 +7916,14 @@
       "Menuitems": [
         {
           "Description": "Magical Protection",
-          "Value": "+55"
+          "Value": "+45"
         },
         {
           "Description": "Health",
-          "Value": "+250"
+          "Value": "+200"
         }
       ],
-      "SecondaryDescription": "AURA - Allied gods within 70 units have their Magical Protections increased by 20 and their MP5 increased by 30. <n>GLYPH - Gain a stack each time an enemy within 40 units casts an ability. At 5 stacks, your next basic attack against an enemy god will silence them for 1.5s. This effect can only occur every 30s."
+      "SecondaryDescription": "AURA - Allied gods within 70 units have their Magical Protections increased by 15 and their MP5 increased by 30. <n>GLYPH - Gain a stack each time an enemy within 40 units casts an ability. At 4 stacks, your next basic attack against an enemy god will silence them for 1.5s. This effect can only occur every 15s."
     },
     "ItemId": 21504,
     "ItemTier": 4,
@@ -7693,13 +7937,13 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 250,
+    "Health": 200,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 55,
+    "MagicalProtection": 45,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 0,
@@ -7725,14 +7969,14 @@
       "Menuitems": [
         {
           "Description": "Magical Protection",
-          "Value": "+55"
+          "Value": "+45"
         },
         {
           "Description": "Health",
-          "Value": "+250"
+          "Value": "+200"
         }
       ],
-      "SecondaryDescription": "AURA - Allied gods within 70 units have their Magical Protections increased by 20 and their MP5 increased by 30. <n>GLYPH - You gain Magical Protections equal to 15% of your Physical Protections."
+      "SecondaryDescription": "AURA - Allied gods within 70 units have their Magical Protections increased by 15 and their MP5 increased by 30. <n>GLYPH - You gain Magical Protections equal to 15% of your Physical Protections."
     },
     "ItemId": 21505,
     "ItemTier": 4,
@@ -7746,13 +7990,13 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 250,
+    "Health": 200,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 55,
+    "MagicalProtection": 45,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 0,
@@ -7884,14 +8128,14 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+75"
+          "Value": "+55"
         },
         {
           "Description": "Attack Speed",
           "Value": "+30%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your Basic Attacks reduce your target's Magical Protection by 9% for 3s (max 3 Stacks)."
+      "SecondaryDescription": "PASSIVE - Your Basic Attacks reduce your target's Magical Protection by 10% for 3s (max 3 Stacks)."
     },
     "ItemId": 8564,
     "ItemTier": 3,
@@ -7910,7 +8154,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 75,
+    "MagicalPower": 55,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -7937,7 +8181,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+60"
+          "Value": "+50"
         },
         {
           "Description": "Attack Speed",
@@ -7948,7 +8192,7 @@
           "Value": "+6%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your Basic Attacks deal bonus damage of 10 (+2 Per Level). This effect does not hit structures."
+      "SecondaryDescription": "PASSIVE - Your Basic Attacks deal bonus damage of 10 (+3 Per Level). This effect does not hit structures."
     },
     "ItemId": 9351,
     "ItemTier": 3,
@@ -7967,7 +8211,7 @@
     "MagicalLifesteal": 0.06,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 60,
+    "MagicalPower": 50,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -7994,7 +8238,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+70"
+          "Value": "+55"
         },
         {
           "Description": "Attack Speed",
@@ -8009,7 +8253,7 @@
     },
     "ItemId": 14840,
     "ItemTier": 3,
-    "Price": 1400,
+    "Price": 1300,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 9847,
     "ShortDesc": "Successful Basic Attacks causes you to be immune from Basic Attack Movement Penalty.",
@@ -8024,7 +8268,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 70,
+    "MagicalPower": 55,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0.07,
@@ -8051,7 +8295,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+70"
+          "Value": "+60"
         },
         {
           "Description": "Attack Speed",
@@ -8062,7 +8306,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your next basic attack against an enemy god deals bonus Magical Damage equal to 7% of the target's maximum Health. This effect can only occur once every 10s, reduced by 2s for each successful Basic Attack on an enemy god."
+      "SecondaryDescription": "PASSIVE - Your next basic attack against an enemy god deals bonus Magical Damage equal to 8% of the target's maximum Health. This effect can only occur once every 10s, reduced by 2s for each successful Basic Attack on an enemy god."
     },
     "ItemId": 23869,
     "ItemTier": 3,
@@ -8081,7 +8325,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 70,
+    "MagicalPower": 60,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -8161,7 +8405,7 @@
         },
         {
           "Description": "Magical Penetration",
-          "Value": "+4%"
+          "Value": "+5%"
         }
       ],
       "SecondaryDescription": null
@@ -8182,7 +8426,7 @@
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
-    "MagicalPenetrationPercent": 0.04,
+    "MagicalPenetrationPercent": 0.05,
     "MagicalPower": 55,
     "MagicalProtection": 0,
     "Mana": 0,
@@ -8312,7 +8556,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+100"
+          "Value": "+70"
         },
         {
           "Description": "Magical Penetration",
@@ -8342,7 +8586,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 15,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 100,
+    "MagicalPower": 70,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -8369,14 +8613,14 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+90"
+          "Value": "+65"
         },
         {
           "Description": "Magical Penetration",
-          "Value": "+16%"
+          "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your first ability cast gains 8% Magical Penetration. This can only occur once every 10 seconds."
+      "SecondaryDescription": "PASSIVE - Your first ability cast gains 10% Magical Penetration. This can only occur once every 10 seconds."
     },
     "ItemId": 18179,
     "ItemTier": 3,
@@ -8394,8 +8638,8 @@
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
-    "MagicalPenetrationPercent": 0.16,
-    "MagicalPower": 90,
+    "MagicalPenetrationPercent": 0.2,
+    "MagicalPower": 65,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -8422,7 +8666,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+110"
+          "Value": "+75"
         },
         {
           "Description": "Magical Lifesteal",
@@ -8430,7 +8674,7 @@
         },
         {
           "Description": "Magical Penetration",
-          "Value": "+8%"
+          "Value": "+10%"
         }
       ],
       "SecondaryDescription": "PASSIVE - Whenever you damage an enemy god with an ability you mark them to take 5% increased damage from all sources. This effect lasts for 8s and can only occur once every 15s."
@@ -8451,8 +8695,8 @@
     "HP5": 0,
     "MagicalLifesteal": 0.08,
     "MagicalPenetration": 0,
-    "MagicalPenetrationPercent": 0.08,
-    "MagicalPower": 110,
+    "MagicalPenetrationPercent": 0.1,
+    "MagicalPower": 75,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -8479,7 +8723,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+100"
+          "Value": "+70"
         },
         {
           "Description": "Magical Penetration",
@@ -8505,7 +8749,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 15,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 100,
+    "MagicalPower": 70,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -8756,22 +9000,22 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+90"
+          "Value": "+65"
         },
         {
           "Description": "Health",
-          "Value": "+200"
+          "Value": "+150"
         },
         {
           "Description": "Crowd Control Reduction",
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Enemies hit by your damaging abilities will move 30% Slower and will have Shields applied on them reduced by 50% for 2.5 seconds. This can only occur once every 10 seconds."
+      "SecondaryDescription": "PASSIVE - Enemies hit by your damaging abilities will move 30% Slower and will have Shields applied on them reduced by 50% for 2.5 seconds. This can only occur once every 8 seconds."
     },
     "ItemId": 7594,
     "ItemTier": 3,
-    "Price": 1350,
+    "Price": 1200,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 9855,
     "ShortDesc": "Damaging abilities Slow enemy movement and enemy Shields reduced",
@@ -8781,12 +9025,12 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0.1,
-    "Health": 200,
+    "Health": 150,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 90,
+    "MagicalPower": 65,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -8813,18 +9057,18 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+95"
+          "Value": "+65"
         },
         {
           "Description": "Health",
-          "Value": "+150"
+          "Value": "+100"
         },
         {
           "Description": "Mana",
           "Value": "+200"
         }
       ],
-      "SecondaryDescription": "PASSIVE - You permanently gain +1 Health and +0.8 Magical Power per Stack, and receive 5 Stacks for a god kill and 1 Stack per minion kill. At 75 stacks this item Evolves, gaining 8% Magical Penetration."
+      "SecondaryDescription": "PASSIVE - You permanently gain +1 Health and +0.6 Magical Power per Stack, and receive 5 Stacks for a god kill and 1 Stack per minion kill. At 75 stacks this item Evolves, gaining 10% Magical Penetration."
     },
     "ItemId": 7917,
     "ItemTier": 3,
@@ -8838,12 +9082,12 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 150,
+    "Health": 100,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 95,
+    "MagicalPower": 65,
     "MagicalProtection": 0,
     "Mana": 200,
     "MovementSpeed": 0,
@@ -8870,18 +9114,18 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+90"
+          "Value": "+70"
         },
         {
           "Description": "Health",
-          "Value": "+200"
+          "Value": "+150"
         },
         {
           "Description": "Crowd Control Reduction",
           "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Whenever you damage an enemy god with an ability you steal 8% maximum mana as well as 6% maximum health from the target. The Stats remain stolen for 45s and targets affected can have multiple Buffs and Debuffs at once. This can only occur once every 15 seconds."
+      "SecondaryDescription": "PASSIVE - Whenever you damage an enemy god with an ability you steal 8% maximum mana as well as 8% maximum health from the target. The Stats remain stolen for 45s and targets affected can have multiple Buffs and Debuffs at once. This can only occur once every 15 seconds."
     },
     "ItemId": 8599,
     "ItemTier": 3,
@@ -8895,12 +9139,12 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0.2,
-    "Health": 200,
+    "Health": 150,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 90,
+    "MagicalPower": 70,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -8927,11 +9171,11 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+155"
+          "Value": "+110"
         },
         {
           "Description": "Health",
-          "Value": "+225"
+          "Value": "+200"
         },
         {
           "Description": "Mana",
@@ -8939,7 +9183,7 @@
         },
         {
           "Description": "Magical Penetration",
-          "Value": "+8%"
+          "Value": "+10%"
         }
       ],
       "SecondaryDescription": ""
@@ -8956,12 +9200,12 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 225,
+    "Health": 200,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
-    "MagicalPenetrationPercent": 0.08,
-    "MagicalPower": 155,
+    "MagicalPenetrationPercent": 0.1,
+    "MagicalPower": 110,
     "MagicalProtection": 0,
     "Mana": 200,
     "MovementSpeed": 0,
@@ -9094,7 +9338,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+70"
+          "Value": "+50"
         },
         {
           "Description": "Mana",
@@ -9105,7 +9349,7 @@
           "Value": "+20"
         }
       ],
-      "SecondaryDescription": "PASSIVE - You permanently gain 7 Mana per Stack, and receive 5 Stacks for a god kill and 1 Stack for a minion kill (max. 75 Stacks). You gain Magical Power equal to 6% of your Mana from items. At 75 stacks this item Evolves, gaining 10 Magical Penetration and Increasing the Magical Power gained from Mana to 8%."
+      "SecondaryDescription": "PASSIVE - You permanently gain 7 Mana per Stack, and receive 5 Stacks for a god kill and 1 Stack for a minion kill (max. 75 Stacks). You gain Magical Power equal to 4% of your Mana from items. At 75 stacks this item Evolves, gaining 10 Magical Penetration and Increasing the Magical Power gained from Mana to 6%."
     },
     "ItemId": 7334,
     "ItemTier": 3,
@@ -9124,7 +9368,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 70,
+    "MagicalPower": 50,
     "MagicalProtection": 0,
     "Mana": 250,
     "MovementSpeed": 0,
@@ -9151,7 +9395,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+95"
+          "Value": "+65"
         },
         {
           "Description": "Mana",
@@ -9181,7 +9425,7 @@
     "MagicalLifesteal": 0.08,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 95,
+    "MagicalPower": 65,
     "MagicalProtection": 0,
     "Mana": 300,
     "MovementSpeed": 0,
@@ -9208,14 +9452,14 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+95"
+          "Value": "+65"
         },
         {
           "Description": "Mana",
           "Value": "+300"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your abilities deal an additional 2% of the target's maximum Health as Magical Damage. If the target has over 2000 Health, your ability bonus damage scales up. This effect reaches a maximum of 9% Maximum Health damage at 2750 Health. Subsequent hits on the same target do half the bonus damage for the next 3s."
+      "SecondaryDescription": "PASSIVE - Your abilities deal an additional 1% of the target's maximum Health as Magical Damage. If the target has over 2250 Health, your ability bonus damage scales up. This effect reaches a maximum of 9% Maximum Health damage at 2750 Health. Subsequent hits on the same target do half the bonus damage for the next 3s."
     },
     "ItemId": 9128,
     "ItemTier": 3,
@@ -9234,7 +9478,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 95,
+    "MagicalPower": 65,
     "MagicalProtection": 0,
     "Mana": 300,
     "MovementSpeed": 0,
@@ -9318,11 +9562,11 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+90"
+          "Value": "+65"
         },
         {
           "Description": "Health",
-          "Value": "+150"
+          "Value": "+100"
         },
         {
           "Description": "Mana",
@@ -9343,12 +9587,12 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 150,
+    "Health": 100,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 90,
+    "MagicalPower": 65,
     "MagicalProtection": 0,
     "Mana": 300,
     "MovementSpeed": 0,
@@ -9375,7 +9619,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+70"
+          "Value": "+50"
         },
         {
           "Description": "Magical Penetration",
@@ -9390,7 +9634,7 @@
           "Value": "+20"
         }
       ],
-      "SecondaryDescription": "PASSIVE - You gain Magical Power equal to 8% of your Mana from items."
+      "SecondaryDescription": "PASSIVE - You gain Magical Power equal to 6% of your Mana from items."
     },
     "ItemId": 15725,
     "ItemTier": 4,
@@ -9409,7 +9653,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 10,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 70,
+    "MagicalPower": 50,
     "MagicalProtection": 0,
     "Mana": 775,
     "MovementSpeed": 0,
@@ -9603,7 +9847,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+140"
+          "Value": "+100"
         },
         {
           "Description": "MP5",
@@ -9611,10 +9855,10 @@
         },
         {
           "Description": "Magical Penetration",
-          "Value": "+8%"
+          "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Basic Attacks and Abilities gain 20% additional Magical Power against targets below 60% Health."
+      "SecondaryDescription": "PASSIVE - Basic Attacks and Abilities gain 15% additional Magical Power against targets below 60% Health."
     },
     "ItemId": 7600,
     "ItemTier": 3,
@@ -9632,8 +9876,8 @@
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
-    "MagicalPenetrationPercent": 0.08,
-    "MagicalPower": 140,
+    "MagicalPenetrationPercent": 0.1,
+    "MagicalPower": 100,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -9660,7 +9904,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+100"
+          "Value": "+70"
         },
         {
           "Description": "MP5",
@@ -9690,7 +9934,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 100,
+    "MagicalPower": 70,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -9717,7 +9961,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+130"
+          "Value": "+90"
         },
         {
           "Description": "MP5",
@@ -9725,7 +9969,7 @@
         },
         {
           "Description": "Magical Penetration",
-          "Value": "+8%"
+          "Value": "+10%"
         },
         {
           "Description": "Movement Speed",
@@ -9750,8 +9994,8 @@
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
-    "MagicalPenetrationPercent": 0.08,
-    "MagicalPower": 130,
+    "MagicalPenetrationPercent": 0.1,
+    "MagicalPower": 90,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0.06,
@@ -9778,11 +10022,11 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+90"
+          "Value": "+65"
         },
         {
           "Description": "Magical Penetration",
-          "Value": "+16%"
+          "Value": "+20%"
         },
         {
           "Description": "HP5",
@@ -9811,8 +10055,8 @@
     "HP5": 7,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
-    "MagicalPenetrationPercent": 0.16,
-    "MagicalPower": 90,
+    "MagicalPenetrationPercent": 0.2,
+    "MagicalPower": 65,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -9839,7 +10083,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+90"
+          "Value": "+65"
         },
         {
           "Description": "HP5 & MP5",
@@ -9847,7 +10091,7 @@
         },
         {
           "Description": "Magical Penetration",
-          "Value": "+16%"
+          "Value": "+20%"
         },
         {
           "Description": "Movement Speed",
@@ -9872,8 +10116,8 @@
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
-    "MagicalPenetrationPercent": 0.16,
-    "MagicalPower": 90,
+    "MagicalPenetrationPercent": 0.2,
+    "MagicalPower": 65,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0.08,
@@ -9900,7 +10144,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+140"
+          "Value": "+100"
         },
         {
           "Description": "MP5",
@@ -9908,10 +10152,10 @@
         },
         {
           "Description": "Magical Penetration",
-          "Value": "+8%"
+          "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Basic Attacks and Abilities gain 20% additional Magical Power against targets below 60% Health. <n>GLYPH - Successfully hitting an enemy god with an ability calls down a meteor that lands after 1s, dealing 100 (+35% of your Magical Power) damage in a 15 unit radius. This effect can only occur once every 30s."
+      "SecondaryDescription": "PASSIVE - Basic Attacks and Abilities gain 15% additional Magical Power against targets below 60% Health. <n>GLYPH - Successfully hitting an enemy god with an ability calls down a meteor that lands after 1s, dealing 100 (+35% of your Magical Power) damage in a 15 unit radius. This effect can only occur once every 15s."
     },
     "ItemId": 21484,
     "ItemTier": 4,
@@ -9929,8 +10173,8 @@
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
-    "MagicalPenetrationPercent": 0.08,
-    "MagicalPower": 140,
+    "MagicalPenetrationPercent": 0.1,
+    "MagicalPower": 100,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -9957,7 +10201,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+140"
+          "Value": "+100"
         },
         {
           "Description": "MP5",
@@ -9965,10 +10209,10 @@
         },
         {
           "Description": "Magical Penetration",
-          "Value": "+8%"
+          "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Basic Attacks and Abilities gain 20% additional Magical Power against targets below 60% Health. <n>GLYPH - Successfully damaging an enemy god with an ability applies a mark for 3s. Damaging them a second time with an ability consumes the mark and provides you 10% movement speed for 2s and reduces your ability cooldowns by 1.5s. Only one mark can be active at a time and cannot be applied for 8s after consuming a mark. "
+      "SecondaryDescription": "PASSIVE - Basic Attacks and Abilities gain 15% additional Magical Power against targets below 60% Health. <n>GLYPH - Successfully damaging an enemy god with an ability applies a mark for 3s. Damaging them a second time with an ability consumes the mark and provides you 10% movement speed for 3s and reduces your ability cooldowns by 1.5s. Only one mark can be active at a time and cannot be applied for 6s after consuming a mark. "
     },
     "ItemId": 22941,
     "ItemTier": 4,
@@ -9986,8 +10230,8 @@
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
-    "MagicalPenetrationPercent": 0.08,
-    "MagicalPower": 140,
+    "MagicalPenetrationPercent": 0.1,
+    "MagicalPower": 100,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -10829,7 +11073,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+35"
+          "Value": "+25"
         },
         {
           "Description": "Attack Speed",
@@ -10837,10 +11081,10 @@
         },
         {
           "Description": "Physical Penetration",
-          "Value": "+8%"
+          "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - For each 0.02 Attack Speed you go over 2.5 Attack Speed, you gain 2 Physical Power."
+      "SecondaryDescription": "PASSIVE - For each 0.02 Attack Speed you go over 2.5 Attack Speed, you gain 2 Physical Power. You can not gain more than 40 Physical Power in this way."
     },
     "ItemId": 14084,
     "ItemTier": 3,
@@ -10866,8 +11110,8 @@
     "MP5": 0,
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
-    "PhysicalPenetrationPercent": 0.08,
-    "PhysicalPower": 35,
+    "PhysicalPenetrationPercent": 0.1,
+    "PhysicalPower": 25,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -10886,7 +11130,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+40"
+          "Value": "+30"
         },
         {
           "Description": "Attack Speed",
@@ -10924,7 +11168,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 10,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 40,
+    "PhysicalPower": 30,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -11348,7 +11592,7 @@
       "Menuitems": [
         {
           "Description": "Health",
-          "Value": "+400"
+          "Value": "+350"
         },
         {
           "Description": "HP5",
@@ -11359,7 +11603,7 @@
           "Value": "+15"
         }
       ],
-      "SecondaryDescription": "PASSIVE - If you are hit by a Knockup, Knockback, Pull, or Grab you gain 5% of your max Health over the next 5 seconds. This effect does not trigger on Vortexes. Can only occur once every 15s.\n\nPASSIVE - Regenerates 0.35% of your max health every second."
+      "SecondaryDescription": "PASSIVE - If you are hit by a Knockup, Knockback, Pull, or Grab you gain 7% of your max Health over the next 5 seconds. This effect does not trigger on Vortexes. Can only occur once every 15s.\n\nPASSIVE - Regenerates 0.4% of your max health every second."
     },
     "ItemId": 7572,
     "ItemTier": 3,
@@ -11373,7 +11617,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 400,
+    "Health": 350,
     "HP5": 25,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -11523,14 +11767,14 @@
       "Menuitems": [
         {
           "Description": "Health",
-          "Value": "+250"
+          "Value": "+200"
         },
         {
           "Description": "HP5",
           "Value": "+15"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Assists on a minion give 1 Stack and God kills and assists give 5 Stacks. Stacks provide 1 Physical and Magical Protection. At 55 Stacks this item evolves, providing an Aura of 10 Physical Protection and 10 Magical Protection."
+      "SecondaryDescription": "PASSIVE - Assists on a minion give 1 Stack and God kills and assists give 5 Stacks. Stacks provide 1 Physical and Magical Protection. At 45 Stacks this item evolves, providing an Aura of 10 Physical Protection and 10 Magical Protection."
     },
     "ItemId": 12665,
     "ItemTier": 3,
@@ -11544,7 +11788,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 250,
+    "Health": 200,
     "HP5": 15,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -11576,7 +11820,7 @@
       "Menuitems": [
         {
           "Description": "Health",
-          "Value": "+350"
+          "Value": "+300"
         },
         {
           "Description": "HP5",
@@ -11584,11 +11828,11 @@
         },
         {
           "Description": "Physical Protection",
-          "Value": "+20"
+          "Value": "+15"
         },
         {
           "Description": "Magical Protection",
-          "Value": "+20"
+          "Value": "+15"
         }
       ],
       "SecondaryDescription": "PASSIVE - When you are hit by an enemy god you gain a stack, up to once a second, increasing your protections by 4. Max of 5 stacks, lasts for 5s each. At max stacks, upon being hit you are immediately healed for 10% of your maximum health. Allies within 35 units heal for 10% of their maximum health over 10s. This effect can only occur once every 60 seconds."
@@ -11605,13 +11849,13 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 350,
+    "Health": 300,
     "HP5": 20,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 20,
+    "MagicalProtection": 15,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 0,
@@ -11619,7 +11863,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 20,
+    "PhysicalProtection": 15,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -11637,15 +11881,15 @@
       "Menuitems": [
         {
           "Description": "Physical Protection",
-          "Value": "+30"
+          "Value": "+25"
         },
         {
           "Description": "Magical Protection",
-          "Value": "+30"
+          "Value": "+25"
         },
         {
           "Description": "Health",
-          "Value": "+300"
+          "Value": "+250"
         },
         {
           "Description": "HP5",
@@ -11666,13 +11910,13 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 300,
+    "Health": 250,
     "HP5": 20,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 30,
+    "MagicalProtection": 25,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 0,
@@ -11680,7 +11924,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 30,
+    "PhysicalProtection": 25,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -12024,7 +12268,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+25"
+          "Value": "+20"
         },
         {
           "Description": "Attack Speed",
@@ -12062,7 +12306,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 25,
+    "PhysicalPower": 20,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -12081,7 +12325,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+35"
+          "Value": "+25"
         },
         {
           "Description": "Attack Speed",
@@ -12119,7 +12363,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 35,
+    "PhysicalPower": 25,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -12138,7 +12382,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+35"
+          "Value": "+25"
         },
         {
           "Description": "Physical Lifesteal",
@@ -12146,7 +12390,7 @@
         },
         {
           "Description": "Physical Penetration",
-          "Value": "+16%"
+          "Value": "+20%"
         },
         {
           "Description": "Movement Speed",
@@ -12179,8 +12423,8 @@
     "MP5": 0,
     "PhysicalLifesteal": 0.1,
     "PhysicalPenetration": 0,
-    "PhysicalPenetrationPercent": 0.16,
-    "PhysicalPower": 35,
+    "PhysicalPenetrationPercent": 0.2,
+    "PhysicalPower": 25,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -12199,7 +12443,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+50"
+          "Value": "+35"
         },
         {
           "Description": "Physical Penetration",
@@ -12237,7 +12481,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 10,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 50,
+    "PhysicalPower": 35,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -12415,11 +12659,11 @@
       "Menuitems": [
         {
           "Description": "Health",
-          "Value": "+150"
+          "Value": "+100"
         },
         {
           "Description": "Magical Protection",
-          "Value": "+70"
+          "Value": "+60"
         },
         {
           "Description": "MP5",
@@ -12444,13 +12688,13 @@
     "CooldownReduction": 0.1,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 150,
+    "Health": 100,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 70,
+    "MagicalProtection": 60,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 40,
@@ -12476,11 +12720,11 @@
       "Menuitems": [
         {
           "Description": "Health",
-          "Value": "+200"
+          "Value": "+150"
         },
         {
           "Description": "Magical Protection",
-          "Value": "+60"
+          "Value": "+50"
         },
         {
           "Description": "MP5",
@@ -12491,7 +12735,7 @@
           "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - For each enemy God within 55 units of you, you gain a stack of 3% damage mitigation. This caps at 3 stacks."
+      "SecondaryDescription": "PASSIVE - For each enemy God within 55 units of you, you gain a stack of 3% Damage Mitigation. This caps at 3 stacks."
     },
     "ItemId": 12679,
     "ItemTier": 3,
@@ -12505,13 +12749,13 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0.2,
-    "Health": 200,
+    "Health": 150,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 60,
+    "MagicalProtection": 50,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 30,
@@ -12537,11 +12781,11 @@
       "Menuitems": [
         {
           "Description": "Magical Protection",
-          "Value": "+50"
+          "Value": "+40"
         },
         {
           "Description": "Health",
-          "Value": "+150"
+          "Value": "+100"
         },
         {
           "Description": "MP5",
@@ -12566,13 +12810,13 @@
     "CooldownReduction": 0.1,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 150,
+    "Health": 100,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 50,
+    "MagicalProtection": 40,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 20,
@@ -13059,18 +13303,18 @@
       "Menuitems": [
         {
           "Description": "Magical Protection",
-          "Value": "+40"
+          "Value": "+35"
         },
         {
           "Description": "Physical Protection",
-          "Value": "+40"
+          "Value": "+35"
         },
         {
           "Description": "Health",
-          "Value": "+250"
+          "Value": "+200"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Successfully hitting an enemy god with a Crowd Control ability will place a debuff on them, reducing their Physical and Magical Protections by 1 * your level for 5s."
+      "SecondaryDescription": "PASSIVE - Successfully hitting an enemy god with a Crowd Control ability will place a debuff on them, reducing their Physical and Magical Protections by 0.8 * your level for 5s."
     },
     "ItemId": 14175,
     "ItemTier": 3,
@@ -13084,13 +13328,13 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 250,
+    "Health": 200,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 40,
+    "MagicalProtection": 35,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 0,
@@ -13098,7 +13342,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 40,
+    "PhysicalProtection": 35,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -13116,26 +13360,26 @@
       "Menuitems": [
         {
           "Description": "Physical Protection",
-          "Value": "+35"
+          "Value": "+30"
         },
         {
           "Description": "Magical Protection ",
-          "Value": "+35"
+          "Value": "+30"
         },
         {
           "Description": "Health",
-          "Value": "+300"
+          "Value": "+250"
         },
         {
           "Description": "MP5",
           "Value": "+15"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Gain a stack (up to a max of 6) each time you take damage from enemy gods equal to 5% of your maximum Health. Your next basic attack on an enemy god consumes all stacks and deals 40 (+ 2 Per Level) Magical Damage per stack. This effect can only occur once every 15 seconds."
+      "SecondaryDescription": "PASSIVE - Gain a stack (up to a max of 6) each time you take damage from enemy gods equal to 5% of your maximum Health. Your next basic attack on an enemy god consumes all stacks and deals 40 (+ 2 Per Level) Magical Damage per stack. This effect can only occur once every 10 seconds."
     },
     "ItemId": 23975,
     "ItemTier": 3,
-    "Price": 1000,
+    "Price": 900,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 14071,
     "ShortDesc": "Gain stacks when taking damage and consume to deal damage back",
@@ -13145,13 +13389,13 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 300,
+    "Health": 250,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 35,
+    "MagicalProtection": 30,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 15,
@@ -13159,7 +13403,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 35,
+    "PhysicalProtection": 30,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -13177,18 +13421,18 @@
       "Menuitems": [
         {
           "Description": "Physical Protection",
-          "Value": "+40"
+          "Value": "+35"
         },
         {
           "Description": "Magical Protection",
-          "Value": "+40"
+          "Value": "+35"
         },
         {
           "Description": "Health",
-          "Value": "+300"
+          "Value": "+250"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Successful ability damage to an enemy god applies a debuff that afflicts them with 20% Negative CDR for 4s. This can only occur once every 6s."
+      "SecondaryDescription": "PASSIVE - Successful ability damage to an enemy god applies a debuff that afflicts them with 20% Negative CDR for 5s. This can only occur once every 5s."
     },
     "ItemId": 24011,
     "ItemTier": 3,
@@ -13202,13 +13446,13 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 300,
+    "Health": 250,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 40,
+    "MagicalProtection": 35,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 0,
@@ -13216,7 +13460,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 40,
+    "PhysicalProtection": 35,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -13234,15 +13478,15 @@
       "Menuitems": [
         {
           "Description": "Physical Protection",
-          "Value": "+30"
+          "Value": "+25"
         },
         {
           "Description": "Magical Protection",
-          "Value": "+30"
+          "Value": "+25"
         },
         {
           "Description": "Health",
-          "Value": "+350"
+          "Value": "+300"
         }
       ],
       "SecondaryDescription": "PSV - Every time an enemy within 30 units gains a shield, you gain 15% Movement Speed for 4s. This effect can only occur once every 10s.\n\nAURA - Any Shields applied on enemy gods within 30 units will be reduced by 30%.\n"
@@ -13259,13 +13503,13 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 350,
+    "Health": 300,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 30,
+    "MagicalProtection": 25,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 0,
@@ -13273,7 +13517,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 30,
+    "PhysicalProtection": 25,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -14442,11 +14686,11 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+60"
+          "Value": "+50"
         },
         {
           "Description": "Magical Power",
-          "Value": "+80"
+          "Value": "+70"
         },
         {
           "Description": "HP5",
@@ -14457,7 +14701,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "Gain 5 stacks of <font color='#F44242'>Weakness. Each stack increases your damage taken by 10%. For each 55 Physical Power or 90 Magical Power from items, remove a stack of <font color='#F44242'>Weakness. When you remove a stack of <font color='#F44242'>Weakness  gain a stack of <font color='#42F46E'>Strength. For each stack of <font color='#42F46E'>Strength gain +3% damage dealt and 2% movement speed."
+      "SecondaryDescription": "Gain 5 stacks of <font color='#F44242'>Weakness. Each stack increases your damage taken by 10%. For each 40 Physical Power or 60 Magical Power from items, remove a stack of <font color='#F44242'>Weakness. When you remove a stack of <font color='#F44242'>Weakness  gain a stack of <font color='#42F46E'>Strength. For each stack of <font color='#42F46E'>Strength gain +3% damage dealt and 2% movement speed."
     },
     "ItemId": 14098,
     "ItemTier": 2,
@@ -14476,7 +14720,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 80,
+    "MagicalPower": 70,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -14484,7 +14728,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 60,
+    "PhysicalPower": 50,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
@@ -14772,18 +15016,18 @@
       "Menuitems": [
         {
           "Description": "Physical Protection",
-          "Value": "+30"
+          "Value": "+25"
         },
         {
           "Description": "Magical Protection",
-          "Value": "+30"
+          "Value": "+25"
         },
         {
           "Description": "Cooldown Reduction",
           "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - When your Ultimate ability has finished casting, you gain a Shield equal to 90% of your Protections from items and abilities for 5s. When destroyed, by timing out or being depleted, it explodes and deals Magical damage equal to 75% of the Shield’s initial Health and slows targets by 25% for 3s. This can only occur once every 45 seconds."
+      "SecondaryDescription": "PASSIVE - When your Ultimate ability has finished casting, you gain a Shield equal to 90% of your Protections from items and abilities for 5s. When destroyed, by timing out or being depleted, it explodes in a 30 unit radius and deals Magical damage equal to 75% of your Protections from items and abilities and slows targets by 25% for 3s. This can only occur once every 45 seconds."
     },
     "ItemId": 17355,
     "ItemTier": 3,
@@ -14803,7 +15047,7 @@
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 30,
+    "MagicalProtection": 25,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 0,
@@ -14811,7 +15055,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 30,
+    "PhysicalProtection": 25,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -14829,7 +15073,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+75"
+          "Value": "+50"
         },
         {
           "Description": "Cooldown Reduction",
@@ -14863,7 +15107,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 75,
+    "PhysicalPower": 50,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -14882,7 +15126,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+40"
+          "Value": "+35"
         },
         {
           "Description": "Critical Strike Chance",
@@ -14894,7 +15138,7 @@
         },
         {
           "Description": "Physical Penetration",
-          "Value": "+8%"
+          "Value": "+10%"
         }
       ],
       "SecondaryDescription": "PASSIVE - When your Ultimate ability has finished casting, your next ability or basic attack within 8s that damages an enemy god marks them, increasing the chance you and your allies can land a Critical Strike by 20% and reduces their damage output by 10% for 10 seconds. This can only occur once every 45 seconds. This item is only available to Hunters."
@@ -14923,8 +15167,8 @@
     "MP5": 0,
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
-    "PhysicalPenetrationPercent": 0.08,
-    "PhysicalPower": 40,
+    "PhysicalPenetrationPercent": 0.1,
+    "PhysicalPower": 35,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -14943,11 +15187,11 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+105"
+          "Value": "+75"
         },
         {
           "Description": "Magical Penetration",
-          "Value": "+8%"
+          "Value": "+10%"
         },
         {
           "Description": "Cooldown Reduction",
@@ -14972,8 +15216,8 @@
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
-    "MagicalPenetrationPercent": 0.08,
-    "MagicalPower": 105,
+    "MagicalPenetrationPercent": 0.1,
+    "MagicalPower": 75,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -14988,6 +15232,120 @@
     "ActivelyStacks": false,
     "IsEvolved": false,
     "IsGlyph": false
+  },
+  {
+    "DeviceName": "Glorious Pridwen",
+    "ActiveFlag": "y",
+    "ChildItemId": 17355,
+    "IconId": 12848,
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/glorious-pridwen.jpg",
+    "ItemDescription": {
+      "Description": "Explode on ultimate use, then gain a defensive shield to punish attacks.",
+      "Menuitems": [
+        {
+          "Description": "Physical Protection",
+          "Value": "+25"
+        },
+        {
+          "Description": "Magical Protection",
+          "Value": "+25"
+        },
+        {
+          "Description": "Cooldown Reduction",
+          "Value": "+20%"
+        }
+      ],
+      "SecondaryDescription": "<n>GLYPH - When your Ultimate ability has finished casting, you create an explosion, dealing 75% of your Protections from items and abilities as Magical Damage and slowing targets by 25% for 3s in a 30 unit radius. Then you gain a Shield equal to 90% of your Protections from items and abilities for 5s. When destroyed, by timing out or being depleted, you explode again. This can only occur once every 45 seconds. "
+    },
+    "ItemId": 24824,
+    "ItemTier": 4,
+    "Price": 600,
+    "RestrictedRoles": "no restrictions",
+    "RootItemId": 17352,
+    "ShortDesc": "Explode on ultimate use, then gain a defensive shield to punish attacks",
+    "StartingItem": false,
+    "Type": "Item",
+    "AttackSpeed": 0,
+    "CooldownReduction": 0.2,
+    "CriticalStrikeChance": 0,
+    "CrowdControlReduction": 0,
+    "Health": 0,
+    "HP5": 0,
+    "MagicalLifesteal": 0,
+    "MagicalPenetration": 0,
+    "MagicalPenetrationPercent": 0,
+    "MagicalPower": 0,
+    "MagicalProtection": 25,
+    "Mana": 0,
+    "MovementSpeed": 0,
+    "MP5": 0,
+    "PhysicalLifesteal": 0,
+    "PhysicalPenetration": 0,
+    "PhysicalPenetrationPercent": 0,
+    "PhysicalPower": 0,
+    "PhysicalProtection": 25,
+    "IsPhysicalOnly": false,
+    "IsMagicalOnly": false,
+    "ActivelyStacks": false,
+    "IsEvolved": false,
+    "IsGlyph": true
+  },
+  {
+    "DeviceName": "Reverent Pridwen",
+    "ActiveFlag": "y",
+    "ChildItemId": 17355,
+    "IconId": 12855,
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/reverent-pridwen.jpg",
+    "ItemDescription": {
+      "Description": "On ultimate use, gain a large defensive shield to punish attacks.",
+      "Menuitems": [
+        {
+          "Description": "Physical Protection",
+          "Value": "+25"
+        },
+        {
+          "Description": "Magical Protection",
+          "Value": "+25"
+        },
+        {
+          "Description": "Cooldown Reduction",
+          "Value": "+20%"
+        }
+      ],
+      "SecondaryDescription": "<n>GLYPH - When your Ultimate ability has finished casting, you gain a Shield equal to 200% of your Protections from items and abilities for 5s. When destroyed, by timing out or being depleted, it explodes in a 30 unit radius and deals Magical damage equal to 75% of your Protections from items and abilities and slows targets by 25% for 3s. This can only occur once every 45 seconds."
+    },
+    "ItemId": 24825,
+    "ItemTier": 4,
+    "Price": 600,
+    "RestrictedRoles": "no restrictions",
+    "RootItemId": 17352,
+    "ShortDesc": "On ultimate use, gain a large defensive shield to punish attacks",
+    "StartingItem": false,
+    "Type": "Item",
+    "AttackSpeed": 0,
+    "CooldownReduction": 0.2,
+    "CriticalStrikeChance": 0,
+    "CrowdControlReduction": 0,
+    "Health": 0,
+    "HP5": 0,
+    "MagicalLifesteal": 0,
+    "MagicalPenetration": 0,
+    "MagicalPenetrationPercent": 0,
+    "MagicalPower": 0,
+    "MagicalProtection": 25,
+    "Mana": 0,
+    "MovementSpeed": 0,
+    "MP5": 0,
+    "PhysicalLifesteal": 0,
+    "PhysicalPenetration": 0,
+    "PhysicalPenetrationPercent": 0,
+    "PhysicalPower": 0,
+    "PhysicalProtection": 25,
+    "IsPhysicalOnly": false,
+    "IsMagicalOnly": false,
+    "ActivelyStacks": false,
+    "IsEvolved": false,
+    "IsGlyph": true
   },
   {
     "DeviceName": "Ring of Hecate",
@@ -15062,7 +15420,7 @@
     "Price": 500,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 18194,
-    "ShortDesc": "Increases Physical and Magical Power on use",
+    "ShortDesc": "Increases Physical, Magical Power and Cooldown Reduction on use",
     "StartingItem": false,
     "Type": "Consumable",
     "AttackSpeed": 0,
@@ -15740,7 +16098,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+50"
+          "Value": "+40"
         },
         {
           "Description": "Movement Speed",
@@ -15778,7 +16136,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 50,
+    "PhysicalPower": 40,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -15797,7 +16155,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+50"
+          "Value": "+40"
         },
         {
           "Description": "Movement Speed",
@@ -15831,7 +16189,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 50,
+    "PhysicalPower": 40,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -15850,7 +16208,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+40"
+          "Value": "+35"
         },
         {
           "Description": "Movement Speed",
@@ -15888,7 +16246,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 40,
+    "PhysicalPower": 35,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -15907,7 +16265,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+40"
+          "Value": "+35"
         },
         {
           "Description": "Movement Speed",
@@ -15945,7 +16303,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 40,
+    "PhysicalPower": 35,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -15975,7 +16333,7 @@
           "Value": "+75"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Hitting an enemy with a Basic Attack restores 2 Health (+0.2% of your Maximum Health) and 1 Mana (+1% of your Maximum Mana). Basic Attacks that deal damage in an AoE restore less health (75% for Melee Attacks, 50% for Ranged Attacks) for each enemy hit after the first. Can be upgraded at level 20."
+      "SecondaryDescription": "PASSIVE - Hitting an enemy with a Basic Attack restores 2 Health (+0.3% of your Maximum Health) and 1 Mana (+1% of your Maximum Mana). Basic Attacks that deal damage in an AoE restore less health (75% for Melee Attacks, 50% for Ranged Attacks) for each enemy hit after the first. Can be upgraded at level 20."
     },
     "ItemId": 19492,
     "ItemTier": 1,
@@ -16021,15 +16379,15 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+65"
+          "Value": "+45"
         },
         {
           "Description": "Magical Power",
-          "Value": "+110"
+          "Value": "+80"
         },
         {
           "Description": "Health",
-          "Value": "+200"
+          "Value": "+150"
         }
       ],
       "SecondaryDescription": "PASSIVE - Hitting an enemy with a Basic Attack restores 1.4% of your Health, 2% of your Mana and reduces your active non-Ultimate Cooldowns by 0.33s. Basic Attacks that deal damage in an AoE restore less health (75% for Melee Attacks, 50% for Ranged Attacks) for each enemy hit after the first and only count once for the Cooldown reduction effect."
@@ -16046,12 +16404,12 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 200,
+    "Health": 150,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 110,
+    "MagicalPower": 80,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -16059,7 +16417,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 65,
+    "PhysicalPower": 45,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
@@ -16078,15 +16436,15 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+50"
+          "Value": "+35"
         },
         {
           "Description": "Magical power",
-          "Value": "+75"
+          "Value": "+50"
         },
         {
           "Description": "Health",
-          "Value": "+100"
+          "Value": "+75"
         },
         {
           "Description": "Attack Speed",
@@ -16107,7 +16465,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 100,
+    "Health": 75,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -16120,7 +16478,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 50,
+    "PhysicalPower": 35,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
@@ -16196,15 +16554,15 @@
       "Menuitems": [
         {
           "Description": "Basic Attack Damage",
-          "Value": "+80"
+          "Value": "+70"
         },
         {
           "Description": "Health",
-          "Value": "+150"
+          "Value": "+100"
         },
         {
           "Description": "Penetration",
-          "Value": "+8%"
+          "Value": "+10%"
         }
       ],
       "SecondaryDescription": "PASSIVE - When you kill an enemy you gain 7 gold and 25% Attack Speed for 8s. This can stack up to 3 times. If you kill an enemy god you gain 3 stacks and 21 gold immediately."
@@ -16221,7 +16579,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 150,
+    "Health": 100,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -16253,11 +16611,11 @@
       "Menuitems": [
         {
           "Description": "Basic Attack Damage",
-          "Value": "+70"
+          "Value": "+60"
         },
         {
           "Description": "Health",
-          "Value": "+150"
+          "Value": "+100"
         },
         {
           "Description": "Attack Speed",
@@ -16282,7 +16640,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 150,
+    "Health": 100,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -16375,19 +16733,19 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+40"
+          "Value": "+30"
         },
         {
           "Description": "Magical Power",
-          "Value": "+65"
+          "Value": "+45"
         },
         {
           "Description": "Physical Protection",
-          "Value": "+30"
+          "Value": "+25"
         },
         {
           "Description": "Magical Protection",
-          "Value": "+30"
+          "Value": "+25"
         }
       ],
       "SecondaryDescription": "PASSIVE - Damaging an enemy god steals 3% (+1.5% of your Protection from items) of their Current Health away from your target and restores it to you. This effect can only occur once every 10s."
@@ -16409,16 +16767,16 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 65,
-    "MagicalProtection": 30,
+    "MagicalPower": 45,
+    "MagicalProtection": 25,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 0,
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 40,
-    "PhysicalProtection": 30,
+    "PhysicalPower": 30,
+    "PhysicalProtection": 25,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -16436,15 +16794,15 @@
       "Menuitems": [
         {
           "Description": "Physical Protection",
-          "Value": "+35"
+          "Value": "+30"
         },
         {
           "Description": "Magical Protection",
-          "Value": "+35"
+          "Value": "+30"
         },
         {
           "Description": "Health",
-          "Value": "+300"
+          "Value": "+250"
         },
         {
           "Description": "Crowd Control Reduction",
@@ -16465,13 +16823,13 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0.3,
-    "Health": 300,
+    "Health": 250,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 35,
+    "MagicalProtection": 30,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 0,
@@ -16479,7 +16837,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 35,
+    "PhysicalProtection": 30,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -16554,11 +16912,11 @@
         },
         {
           "Description": "Health",
-          "Value": "+100"
+          "Value": "+75"
         },
         {
           "Description": "Physical Protection",
-          "Value": "+30"
+          "Value": "+25"
         }
       ],
       "SecondaryDescription": "PASSIVE - Enemies hit by your Basic Attacks are burned, taking 60 physical damage over 2s and have their Attack Speed slowed by 10%. Jungle Monsters and Bosses take 4x damage and restore 2.5% Health and 5% Mana when they die if they are burned. This effect can stack up to 4 times."
@@ -16575,7 +16933,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 100,
+    "Health": 75,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -16589,7 +16947,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 30,
+    "PhysicalProtection": 25,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -16607,15 +16965,15 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+90"
+          "Value": "+65"
         },
         {
           "Description": "Physical Power",
-          "Value": "+60"
+          "Value": "+45"
         },
         {
           "Description": "Physical Protection",
-          "Value": "+30"
+          "Value": "+25"
         },
         {
           "Description": "Damage Reduction",
@@ -16641,7 +16999,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 90,
+    "MagicalPower": 65,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -16649,8 +17007,8 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 60,
-    "PhysicalProtection": 30,
+    "PhysicalPower": 45,
+    "PhysicalProtection": 25,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -16668,11 +17026,11 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+10"
+          "Value": "+13"
         },
         {
           "Description": "Magical Power",
-          "Value": "+15"
+          "Value": "+25"
         },
         {
           "Description": "Health",
@@ -16683,7 +17041,7 @@
           "Value": "+50"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your Basic Attacks deal +25 True Damage and your Abilities deal +35% Damage versus Jungle Monsters. When you kill a Jungle Monster you are restored for 8% of the Monster's Health and 25 Mana. Can be upgraded at level 20."
+      "SecondaryDescription": "PASSIVE - Your Basic Attacks deal +25 True Damage and your Abilities deal +35% Damage versus Jungle Monsters. When you kill a Jungle Monster you are restored for 10% of the Monster's Health and 25 Mana. Can be upgraded at level 20."
     },
     "ItemId": 19502,
     "ItemTier": 1,
@@ -16702,7 +17060,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 15,
+    "MagicalPower": 25,
     "MagicalProtection": 0,
     "Mana": 50,
     "MovementSpeed": 0,
@@ -16710,7 +17068,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 10,
+    "PhysicalPower": 13,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
@@ -16729,15 +17087,15 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+70"
+          "Value": "+50"
         },
         {
           "Description": "Magical Power",
-          "Value": "+105"
+          "Value": "+75"
         },
         {
           "Description": "Penetration",
-          "Value": "+8%"
+          "Value": "+10%"
         },
         {
           "Description": "Cooldown Reduction",
@@ -16763,7 +17121,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 105,
+    "MagicalPower": 75,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -16771,7 +17129,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 70,
+    "PhysicalPower": 50,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
@@ -16790,15 +17148,15 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+60"
+          "Value": "+45"
         },
         {
           "Description": "Magical Power",
-          "Value": "+80"
+          "Value": "+60"
         },
         {
           "Description": "Health",
-          "Value": "+150"
+          "Value": "+100"
         },
         {
           "Description": "Cooldown Reduction",
@@ -16819,12 +17177,12 @@
     "CooldownReduction": 0.1,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 150,
+    "Health": 100,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 80,
+    "MagicalPower": 60,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -16832,7 +17190,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 60,
+    "PhysicalPower": 45,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
@@ -16908,7 +17266,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+90"
+          "Value": "+60"
         },
         {
           "Description": "MP5",
@@ -16919,7 +17277,7 @@
           "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - This item grants 4 MP5 per 10% of your missing Mana. This item grants 10 Magical power per 10% of your available Mana."
+      "SecondaryDescription": "PASSIVE - This item grants 4 MP5 per 10% of your missing Mana. This item grants 7 Magical power per 10% of your available Mana."
     },
     "ItemId": 19509,
     "ItemTier": 2,
@@ -16938,7 +17296,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 90,
+    "MagicalPower": 60,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -16965,15 +17323,15 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+70"
+          "Value": "+50"
         },
         {
           "Description": "Physical Protection",
-          "Value": "+45"
+          "Value": "+40"
         },
         {
           "Description": "Magical Protections",
-          "Value": "+45"
+          "Value": "+40"
         },
         {
           "Description": "Cooldown Reduction",
@@ -16999,7 +17357,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 70,
+    "MagicalPower": 50,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -17008,7 +17366,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 45,
+    "PhysicalProtection": 40,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -17083,11 +17441,11 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+110"
+          "Value": "+80"
         },
         {
           "Description": "Health",
-          "Value": "+350"
+          "Value": "+300"
         },
         {
           "Description": "MP5",
@@ -17112,12 +17470,12 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 350,
+    "Health": 300,
     "HP5": 0,
     "MagicalLifesteal": 0.1,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 110,
+    "MagicalPower": 80,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -17144,11 +17502,11 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+125"
+          "Value": "+95"
         },
         {
           "Description": "Physical Protection",
-          "Value": "+50"
+          "Value": "+40"
         },
         {
           "Description": "MP5",
@@ -17178,7 +17536,7 @@
     "MagicalLifesteal": 0.1,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 125,
+    "MagicalPower": 95,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -17187,7 +17545,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 50,
+    "PhysicalProtection": 40,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -17266,15 +17624,15 @@
       "Menuitems": [
         {
           "Description": "Physical Protection",
-          "Value": "+45"
+          "Value": "+40"
         },
         {
           "Description": "Magical Protection",
-          "Value": "+45"
+          "Value": "+40"
         },
         {
           "Description": "Health",
-          "Value": "+300"
+          "Value": "+250"
         },
         {
           "Description": "MP5",
@@ -17295,13 +17653,13 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 300,
+    "Health": 250,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 45,
+    "MagicalProtection": 40,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 20,
@@ -17309,7 +17667,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 45,
+    "PhysicalProtection": 40,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -17327,22 +17685,22 @@
       "Menuitems": [
         {
           "Description": "Physical Protection",
-          "Value": "+30"
+          "Value": "+25"
         },
         {
           "Description": "Magical Protection",
-          "Value": "+30"
+          "Value": "+25"
         },
         {
           "Description": "Health",
-          "Value": "+200"
+          "Value": "+150"
         },
         {
           "Description": "MP5",
           "Value": "+20"
         }
       ],
-      "SecondaryDescription": "AURA - You gain 8 GP5 if you have the lowest gold on your team. Evenly split 80 Physical and Magical Protection among all allied gods within 55 units and yourself. If you are alone you only gain 40 Physical and Magical Protections."
+      "SecondaryDescription": "AURA - You gain 8 GP5 if you have the lowest gold on your team. Evenly split 60 Physical and Magical Protection among all allied gods within 55 units and yourself. If you are alone you only gain 30 Physical and Magical Protections."
     },
     "ItemId": 19627,
     "ItemTier": 2,
@@ -17356,13 +17714,13 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 200,
+    "Health": 150,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 30,
+    "MagicalProtection": 25,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 20,
@@ -17370,7 +17728,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 30,
+    "PhysicalProtection": 25,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -17445,11 +17803,11 @@
       "Menuitems": [
         {
           "Description": "Magical Protection",
-          "Value": "+60"
+          "Value": "+50"
         },
         {
           "Description": "Health",
-          "Value": "+300"
+          "Value": "+250"
         },
         {
           "Description": "HP5",
@@ -17474,13 +17832,13 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 300,
+    "Health": 250,
     "HP5": 45,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 60,
+    "MagicalProtection": 50,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 15,
@@ -17506,7 +17864,7 @@
       "Menuitems": [
         {
           "Description": "Health",
-          "Value": "+400"
+          "Value": "+350"
         },
         {
           "Description": "HP5",
@@ -17531,7 +17889,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 400,
+    "Health": 350,
     "HP5": 20,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -17624,19 +17982,19 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+30"
+          "Value": "+20"
         },
         {
           "Description": "Magical Power",
-          "Value": "+50"
+          "Value": "+35"
         },
         {
           "Description": "Physical Protection",
-          "Value": "+30"
+          "Value": "+25"
         },
         {
           "Description": "Magical Protection",
-          "Value": "+90"
+          "Value": "+75"
         }
       ],
       "SecondaryDescription": "PASSIVE - Enemy Gods that you hit have their healing taken reduced by 30% for 5s. You are healed for 120% of the healing reduced. "
@@ -17658,16 +18016,16 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 50,
-    "MagicalProtection": 90,
+    "MagicalPower": 35,
+    "MagicalProtection": 75,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 0,
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 30,
-    "PhysicalProtection": 30,
+    "PhysicalPower": 20,
+    "PhysicalProtection": 25,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -17685,19 +18043,19 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+50"
+          "Value": "+35"
         },
         {
           "Description": "Magical Power",
-          "Value": "+75"
+          "Value": "+55"
         },
         {
           "Description": "Physical Protection",
-          "Value": "+80"
+          "Value": "+70"
         },
         {
           "Description": "Magical Protection",
-          "Value": "+30"
+          "Value": "+25"
         }
       ],
       "SecondaryDescription": "PASSIVE - Enemy gods that you hit have their healing taken reduced by 50% for 5s."
@@ -17719,16 +18077,16 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 75,
-    "MagicalProtection": 30,
+    "MagicalPower": 55,
+    "MagicalProtection": 25,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 0,
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 50,
-    "PhysicalProtection": 80,
+    "PhysicalPower": 35,
+    "PhysicalProtection": 70,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -17746,7 +18104,7 @@
       "Menuitems": [
         {
           "Description": "Physical power",
-          "Value": "+18"
+          "Value": "+15"
         },
         {
           "Description": "MP5",
@@ -17807,7 +18165,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+70"
+          "Value": "+50"
         },
         {
           "Description": "MP5",
@@ -17849,7 +18207,7 @@
     "PhysicalLifesteal": 0.1,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 70,
+    "PhysicalPower": 50,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
@@ -17868,11 +18226,11 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+70"
+          "Value": "+50"
         },
         {
           "Description": "Health",
-          "Value": "+300"
+          "Value": "+250"
         },
         {
           "Description": "Attack Speed",
@@ -17897,7 +18255,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 300,
+    "Health": 250,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -17910,7 +18268,7 @@
     "PhysicalLifesteal": 0.1,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 70,
+    "PhysicalPower": 50,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
@@ -17986,7 +18344,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+120"
+          "Value": "+85"
         },
         {
           "Description": "Mana",
@@ -18016,7 +18374,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 120,
+    "MagicalPower": 85,
     "MagicalProtection": 0,
     "Mana": 200,
     "MovementSpeed": 0,
@@ -18043,11 +18401,11 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+100"
+          "Value": "+70"
         },
         {
           "Description": "Health",
-          "Value": "+150"
+          "Value": "+100"
         },
         {
           "Description": "MP5",
@@ -18068,12 +18426,12 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 150,
+    "Health": 100,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 100,
+    "MagicalPower": 70,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -18161,15 +18519,15 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+70"
+          "Value": "+50"
         },
         {
           "Description": "Magical Power",
-          "Value": "+100"
+          "Value": "+70"
         },
         {
           "Description": "Physical Protection",
-          "Value": "+40"
+          "Value": "+35"
         },
         {
           "Description": "Attack Speed",
@@ -18195,7 +18553,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 100,
+    "MagicalPower": 70,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -18203,8 +18561,8 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 70,
-    "PhysicalProtection": 40,
+    "PhysicalPower": 50,
+    "PhysicalProtection": 35,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -18222,22 +18580,22 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+70"
+          "Value": "+50"
         },
         {
           "Description": "Magical Power",
-          "Value": "+100"
+          "Value": "+70"
         },
         {
           "Description": "Physical Protection",
-          "Value": "+35"
+          "Value": "+30"
         },
         {
           "Description": "Attack Speed",
           "Value": "+35%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - While in the jungle you gain 15% Power and 12% Protections. "
+      "SecondaryDescription": "PASSIVE - While in the jungle you gain 15% Power and 7% Protections. "
     },
     "ItemId": 19697,
     "ItemTier": 2,
@@ -18256,7 +18614,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 100,
+    "MagicalPower": 70,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -18264,8 +18622,8 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 70,
-    "PhysicalProtection": 35,
+    "PhysicalPower": 50,
+    "PhysicalProtection": 30,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -18344,19 +18702,19 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+35"
+          "Value": "+25"
         },
         {
           "Description": "Physical Protection",
-          "Value": "+45"
+          "Value": "+40"
         },
         {
           "Description": "Magical Protection",
-          "Value": "+75"
+          "Value": "+65"
         },
         {
           "Description": "Health",
-          "Value": "+200"
+          "Value": "+150"
         }
       ],
       "SecondaryDescription": "PASSIVE - You gain 3% Damage Mitigation. Whenever you are hit by an ability you gain a stack of Rebuke, providing an additional 3% Damage Mitigation for 8s and healing for 1% of your Max Health. This occurs only once per ability cast. This can stack up to three times. "
@@ -18373,21 +18731,21 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 200,
+    "Health": 150,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 75,
+    "MagicalProtection": 65,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 0,
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 35,
-    "PhysicalProtection": 45,
+    "PhysicalPower": 25,
+    "PhysicalProtection": 40,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -18405,19 +18763,19 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+50"
+          "Value": "+35"
         },
         {
           "Description": "Physical Protection",
-          "Value": "+35"
+          "Value": "+30"
         },
         {
           "Description": "Magical Protection",
-          "Value": "+35"
+          "Value": "+30"
         },
         {
           "Description": "Health",
-          "Value": "+350"
+          "Value": "+300"
         }
       ],
       "SecondaryDescription": "PASSIVE - When you are hit by an ability the Infused Sigil gains a stack. This can occur only once per ability cast. At 4 stacks it explodes after 0.5s, dealing 600 Physical Damage to enemies within 30 units of you. "
@@ -18434,21 +18792,21 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 350,
+    "Health": 300,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 35,
+    "MagicalProtection": 30,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 0,
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 50,
-    "PhysicalProtection": 35,
+    "PhysicalPower": 35,
+    "PhysicalProtection": 30,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -18789,7 +19147,7 @@
     "ItemDescription": {
       "Description": "Provides vision and warmth to allies.",
       "Menuitems": [],
-      "SecondaryDescription": "Place a radiant glow at a target location for 90s. Allies who move through this field gain 15% increased Power if above half health or 20% Movement Speed if below Half Health for 12s. This fragment acts as a Sentry Ward. If destroyed the cooldown of the relic is reduced by 20s. On use, a light sprite appears that patrols back and forth on a 80 unit line, revealing enemies along the way. Cooldown - 90s."
+      "SecondaryDescription": "Place a radiant glow at a target location for 90s. Allies who move through this field gain 10% increased Power if above half health or 10% Movement Speed if below Half Health for 12s. This fragment acts as a Sentry Ward. If destroyed the cooldown of the relic is reduced by 20s. On use, a light sprite appears that patrols back and forth on a 80 unit line, revealing enemies along the way. Cooldown - 90s."
     },
     "ItemId": 21477,
     "ItemTier": 4,
@@ -18833,7 +19191,7 @@
     "ItemDescription": {
       "Description": "Provides vision and warmth to allies.",
       "Menuitems": [],
-      "SecondaryDescription": "Place a radiant glow at a target location for 90s. Allies who move through this field gain 15% increased Power and 20% Movement Speed for 8s. This fragment acts as a Sentry Ward. If destroyed the cooldown of the relic is reduced by 20s. Cooldown - 100s."
+      "SecondaryDescription": "Place a radiant glow at a target location for 90s. Allies who move through this field gain 10% increased Power and 15% Movement Speed for 6s. This fragment acts as a Sentry Ward. If destroyed the cooldown of the relic is reduced by 20s. Cooldown - 100s."
     },
     "ItemId": 21508,
     "ItemTier": 4,
@@ -19724,7 +20082,7 @@
       "Menuitems": [
         {
           "Description": "Health",
-          "Value": "+300"
+          "Value": "+250"
         },
         {
           "Description": "Mana",
@@ -19735,7 +20093,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "Gain 6 GP5 if you have the lowest gold on your team. Gain 5 stacks of <font color='#F44242'>Cowardice. Each stack reduces your damage dealt and healing output by 10%. For each 55 protections from items, remove a stack of <font color='#F44242'>Cowardice. When you remove a stack of <font color='#F44242'>Cowardice gain a stack of <font color='#42F46E'> Bravery. For each stack of <font color='#42F46E'>Bravery, gain +3% damage mitigation and provide 7 Physical and Magical Protections to all allied gods within 55 units."
+      "SecondaryDescription": "Gain 6 GP5 if you have the lowest gold on your team. Gain 5 stacks of <font color='#F44242'>Cowardice. Each stack reduces your damage dealt and healing output by 10%. For each 50 protections from items, remove a stack of <font color='#F44242'>Cowardice. When you remove a stack of <font color='#F44242'>Cowardice gain a stack of <font color='#42F46E'> Bravery. For each stack of <font color='#42F46E'>Bravery, gain +2% Damage Mitigation and provide 4 Physical and Magical Protections to all allied gods within 55 units."
     },
     "ItemId": 23131,
     "ItemTier": 2,
@@ -19749,7 +20107,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0.1,
-    "Health": 300,
+    "Health": 250,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -20009,11 +20367,11 @@
       "Menuitems": [
         {
           "Description": "Magical Protections",
-          "Value": "+50"
+          "Value": "+40"
         },
         {
           "Description": "Health",
-          "Value": "+300"
+          "Value": "+250"
         },
         {
           "Description": "MP5",
@@ -20038,7 +20396,7 @@
     "CooldownReduction": 0.1,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 300,
+    "Health": 250,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -20070,11 +20428,11 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+50"
+          "Value": "+40"
         },
         {
           "Description": "Magical Power",
-          "Value": "+80"
+          "Value": "+60"
         },
         {
           "Description": "MP5",
@@ -20089,7 +20447,7 @@
     },
     "ItemId": 23102,
     "ItemTier": 3,
-    "Price": 1150,
+    "Price": 1050,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 23147,
     "ShortDesc": "Overcap your Cooldown Reduction at the cost of protections",
@@ -20104,7 +20462,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 80,
+    "MagicalPower": 60,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -20112,7 +20470,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 50,
+    "PhysicalPower": 40,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
@@ -20131,26 +20489,26 @@
       "Menuitems": [
         {
           "Description": "Physical Protection",
-          "Value": "+35"
+          "Value": "+30"
         },
         {
           "Description": "Magical Protection",
-          "Value": "+35"
+          "Value": "+30"
         },
         {
           "Description": "Health",
-          "Value": "+300"
+          "Value": "+250"
         },
         {
           "Description": "MP5",
           "Value": "+20"
         }
       ],
-      "SecondaryDescription": "PASSIVE - When you hit an enemy god with Hard Crowd Control, they drop Spikes on the ground that lasts for 7s. When you or an allied god pick up a Spike, they gain a buff that causes their next ability to deal bonus Magic damage equal to 3% of their own Max HP. This effect lasts 15s and is doubled if you are the one who picks up the Spike."
+      "SecondaryDescription": "PASSIVE - When you hit an enemy god with Hard Crowd Control, they drop Spikes on the ground that lasts for 7s. When you or an allied god pick up a Spike, they gain a buff that causes their next ability to deal bonus Magic damage equal to 4% of their own Max HP. This effect lasts 15s and is doubled if you are the one who picks up the Spike."
     },
     "ItemId": 23143,
     "ItemTier": 3,
-    "Price": 1200,
+    "Price": 1100,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 23147,
     "ShortDesc": "Hard Crowd Control an enemy to create a buff your team can pick up.",
@@ -20160,13 +20518,13 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 300,
+    "Health": 250,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 35,
+    "MagicalProtection": 30,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 20,
@@ -20174,7 +20532,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 35,
+    "PhysicalProtection": 30,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -20192,11 +20550,11 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+55"
+          "Value": "+40"
         },
         {
           "Description": "Magical Power",
-          "Value": "+80"
+          "Value": "+60"
         },
         {
           "Description": "Attack Speed",
@@ -20226,7 +20584,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 80,
+    "MagicalPower": 60,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -20234,7 +20592,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 55,
+    "PhysicalPower": 40,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
@@ -20471,7 +20829,7 @@
     "ItemDescription": {
       "Description": null,
       "Menuitems": [],
-      "SecondaryDescription": "Your Movement Speed is increased by 15% and your Attack Speed is increased by 40% for the next 3s. Shard Relics can be upgraded to a new Relic once you reach Level 12. Cooldown - 120s."
+      "SecondaryDescription": "Your Movement Speed is increased by 10% and your Attack Speed is increased by 40% for the next 3s. Shard Relics can be upgraded to a new Relic once you reach Level 12. Cooldown - 120s."
     },
     "ItemId": 24015,
     "ItemTier": 2,
@@ -20647,7 +21005,7 @@
     "ItemDescription": {
       "Description": "Provides vision and warmth to allies.",
       "Menuitems": [],
-      "SecondaryDescription": "Place a radiant glow at a target location for 90s. Allies who move through this glow gain 10% increased Power if above half health or 15% Movement Speed if below Half Health for 8s. This fragment acts as a ward. If destroyed the cooldown of the relic is reduced by 20s. Cooldown - 120s."
+      "SecondaryDescription": "Place a radiant glow at a target location for 90s. Allies who move through this glow gain 10% increased Power if above half health or 10% Movement Speed if below Half Health for 6s. This fragment acts as a ward. If destroyed the cooldown of the relic is reduced by 20s. Cooldown - 120s."
     },
     "ItemId": 21558,
     "ItemTier": 3,
@@ -21148,7 +21506,7 @@
     },
     "ItemId": 23855,
     "ItemTier": 1,
-    "Price": 700,
+    "Price": 650,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 23855,
     "ShortDesc": "Deal additional damage with abilities",
@@ -21190,11 +21548,11 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+45"
+          "Value": "+30"
         },
         {
           "Description": "Health",
-          "Value": "+200"
+          "Value": "+150"
         },
         {
           "Description": "HP5",
@@ -21219,7 +21577,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 200,
+    "Health": 150,
     "HP5": 30,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -21232,7 +21590,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 45,
+    "PhysicalPower": 30,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
@@ -21251,11 +21609,11 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+50"
+          "Value": "+35"
         },
         {
           "Description": "Health",
-          "Value": "+150"
+          "Value": "+100"
         },
         {
           "Description": "HP5",
@@ -21280,7 +21638,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 150,
+    "Health": 100,
     "HP5": 20,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -21293,7 +21651,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 50,
+    "PhysicalPower": 35,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
@@ -21442,7 +21800,7 @@
     "ItemDescription": {
       "Description": "Provides vision and warmth to allies.",
       "Menuitems": [],
-      "SecondaryDescription": "Place a radiant glow at a target location for 90s. Allies who move through this glow gain 10% increased Power if above half health or 15% Movement Speed if below Half Health for 8s. This fragment acts as a ward. If destroyed the cooldown of the relic is reduced by 20s. Cooldown - 100s."
+      "SecondaryDescription": "Place a radiant glow at a target location for 90s. Allies who move through this glow gain 10% increased Power if above half health or 10% Movement Speed if below Half Health for 6s. This fragment acts as a ward. If destroyed the cooldown of the relic is reduced by 20s. Cooldown - 100s."
     },
     "ItemId": 21559,
     "ItemTier": 4,
@@ -21899,7 +22257,7 @@
           "Value": "+10"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Getting the assist for an enemy minion or jungle monster dying will provide 8 Bonus gold and restore 4 Health and 5 Mana. You and nearby allied gods also receive a stack that gives 1% Movement Speed and 2% Attack Speed for 10s to nearby allies up to 10 stacks. Can be upgraded at level 15."
+      "SecondaryDescription": "PASSIVE - Getting the assist for an enemy minion or jungle monster dying will provide 8 Bonus gold and restore 8 Health and 5 Mana. You and nearby allied gods also receive a stack that gives 1% Movement Speed and 2% Attack Speed for 10s to nearby allies up to 10 stacks. Can be upgraded at level 15."
     },
     "ItemId": 24195,
     "ItemTier": 1,
@@ -21945,15 +22303,15 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+40"
+          "Value": "+30"
         },
         {
           "Description": "Magical Power",
-          "Value": "+65"
+          "Value": "+50"
         },
         {
           "Description": "Health",
-          "Value": "+300"
+          "Value": "+250"
         },
         {
           "Description": "MP5",
@@ -21974,12 +22332,12 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 300,
+    "Health": 250,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 65,
+    "MagicalPower": 50,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -21987,7 +22345,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 40,
+    "PhysicalPower": 30,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
@@ -22006,15 +22364,15 @@
       "Menuitems": [
         {
           "Description": "Physical Protection",
-          "Value": "+40"
+          "Value": "+35"
         },
         {
           "Description": "Magical Protection",
-          "Value": "+40"
+          "Value": "+35"
         },
         {
           "Description": "Health",
-          "Value": "+300"
+          "Value": "+250"
         },
         {
           "Description": "MP5",
@@ -22035,13 +22393,13 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 300,
+    "Health": 250,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 40,
+    "MagicalProtection": 35,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 15,
@@ -22049,7 +22407,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 40,
+    "PhysicalProtection": 35,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -22181,11 +22539,11 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+90"
+          "Value": "+60"
         },
         {
           "Description": "Health",
-          "Value": "+250"
+          "Value": "+200"
         },
         {
           "Description": "Mana",
@@ -22206,12 +22564,12 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 250,
+    "Health": 200,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 90,
+    "MagicalPower": 60,
     "MagicalProtection": 0,
     "Mana": 250,
     "MovementSpeed": 0,
@@ -22238,11 +22596,11 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+70"
+          "Value": "+50"
         },
         {
           "Description": "Health",
-          "Value": "+300"
+          "Value": "+250"
         },
         {
           "Description": "Mana",
@@ -22263,12 +22621,12 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 300,
+    "Health": 250,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 70,
+    "MagicalPower": 50,
     "MagicalProtection": 0,
     "Mana": 300,
     "MovementSpeed": 0,
@@ -22295,11 +22653,11 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+100"
+          "Value": "+70"
         },
         {
           "Description": "Health",
-          "Value": "+200"
+          "Value": "+150"
         },
         {
           "Description": "Mana",
@@ -22324,12 +22682,12 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 200,
+    "Health": 150,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 15,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 100,
+    "MagicalPower": 70,
     "MagicalProtection": 0,
     "Mana": 200,
     "MovementSpeed": 0,
@@ -22470,11 +22828,11 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+30"
+          "Value": "+20"
         },
         {
           "Description": "Health",
-          "Value": "+250"
+          "Value": "+200"
         },
         {
           "Description": "MP5",
@@ -22485,7 +22843,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Healing Dealt is increased by 30%.\n\nAURA - Allied gods within 70 units have 10% increased Crowd Control Reduction and 4% Movement Speed."
+      "SecondaryDescription": "PASSIVE - Healing Dealt is increased by 30%.\n\nAURA - Allied gods within 70 units have 10% increased Crowd Control Reduction and 3% Movement Speed."
     },
     "ItemId": 24409,
     "ItemTier": 3,
@@ -22499,7 +22857,7 @@
     "CooldownReduction": 0.1,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 250,
+    "Health": 200,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -22512,7 +22870,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 30,
+    "PhysicalPower": 20,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -22531,11 +22889,11 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+40"
+          "Value": "+30"
         },
         {
           "Description": "Health",
-          "Value": "+200"
+          "Value": "+150"
         },
         {
           "Description": "MP5",
@@ -22560,7 +22918,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 200,
+    "Health": 150,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -22573,7 +22931,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 40,
+    "PhysicalPower": 30,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -22592,11 +22950,11 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+45"
+          "Value": "+35"
         },
         {
           "Description": "Health",
-          "Value": "+200"
+          "Value": "+150"
         },
         {
           "Description": "MP5",
@@ -22621,7 +22979,7 @@
     "CooldownReduction": 0.1,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 200,
+    "Health": 150,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -22634,7 +22992,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 45,
+    "PhysicalPower": 35,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
