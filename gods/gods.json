@@ -580,7 +580,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/glorious-charge.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "16s",
+          "cooldown": "15s",
           "cost": "70/75/80/85/90 ",
           "description": "Amaterasu shines light off of her sacred blade, silencing all enemies in front of her. She then dashes forward while dealing damage, piercing through minions or stopping at the first god hit. ",
           "menuItems": null
@@ -2844,7 +2844,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/razor-whip.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "11s",
+          "cooldown": "10s",
           "cost": "40/45/50/55/60",
           "description": "Bastet swipes at her enemies, causing them to Bleed for damage every 0.66 seconds for the duration.",
           "menuItems": null
@@ -3366,7 +3366,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/paralyzing-spit.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "13s",
+          "cooldown": "13/12.5/12/11.5/11s",
           "cost": "60/65/70/75/80",
           "description": "Cerberus's snake tail spits venom that passes through and damages Enemies. If Cerberus's dog heads are Alert, they then also spit venom when the ability is fired. Each head is alerted upon hitting an Enemy with a Basic Attack, and all are alerted after Ghastly Breath. Each projectile that hits the same target deals 20% less damage, but hitting an Enemy with all 4 Stuns them.",
           "menuItems": null
@@ -3380,7 +3380,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/ghastly-breath.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15s",
+          "cooldown": "14s",
           "cost": "60/65/70/75/80",
           "description": "Each of Cerberus's 3 heads releases a cone of noxious breath in front of them, damaging all Enemies in range 7 times over 2.4s and reducing their Magical Protection up to three times. Enemies in the center of his breath are also Slowed up to three times. This attack immediately puts all three of Cerberus's heads on Alert for Paralyzing Spit.",
           "menuItems": null
@@ -3880,6 +3880,140 @@
     "IsGuardian": false,
     "IsHunter": false,
     "IsMage": true,
+    "IsWarrior": false,
+    "IsMagical": true,
+    "IsPhysical": false,
+    "IsRatatoskr": false
+  },
+  {
+    "Ability1": "Spectral Surge",
+    "Ability2": "Damnation",
+    "Ability3": "Swift Voyage",
+    "Ability4": "Summon Styx",
+    "Ability5": "Ferryman of Souls",
+    "AbilityId1": 24455,
+    "AbilityId2": 24456,
+    "AbilityId3": 24457,
+    "AbilityId4": 24458,
+    "AbilityId5": 24459,
+    "Ability_1": {
+      "Id": 24455,
+      "Summary": "Spectral Surge",
+      "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/spectral-surge.jpg",
+      "Description": {
+        "itemDescription": {
+          "cooldown": "15s",
+          "cost": "60/65/70/75/80",
+          "description": "Charon plucks a soul out of the Styx, firing it as a line projectile that damages and Slows all enemies while stopping on the first god hit. If the soul hits an enemy god, it then explodes in a damaging and Silencing area around the target. All enemy gods hit by the explosion leave behind a damaging trail of the Styx for the next 3s. ",
+          "menuItems": null
+        },
+        "rankItems": null
+      }
+    },
+    "Ability_2": {
+      "Id": 24456,
+      "Summary": "Damnation",
+      "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/damnation.jpg",
+      "Description": {
+        "itemDescription": {
+          "cooldown": "14/13.5/13/12.5/12s",
+          "cost": "60/65/70/75/80",
+          "description": "After a short delay, Charon creates a rift to the underworld in an area, dealing damage and marking all enemy gods hit for the next 3s. The marked gods are revealed and have their Attack Speed reduced. Additionally, any time an allied god hits a marked god once per mark per ability or basic attack, that ally gains a shield for 3s. Subsequent shields only grant 25% of the original value.",
+          "menuItems": null
+        },
+        "rankItems": null
+      }
+    },
+    "Ability_3": {
+      "Id": 24457,
+      "Summary": "Swift Voyage",
+      "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/swift-voyage.jpg",
+      "Description": {
+        "itemDescription": {
+          "cooldown": "15s",
+          "cost": "60/65/70/75/80",
+          "description": "Charon forcibly rows at a break-neck pace, charging forward with increased Movement Speed and reduced turn radius for 2.5s. Charon is Slow and Knockback immune while charging. Charon deals damage to and Roots enemies he collides with as well as those directly to his sides in the wake of his boat.",
+          "menuItems": null
+        },
+        "rankItems": null
+      }
+    },
+    "Ability_4": {
+      "Id": 24458,
+      "Summary": "Summon Styx",
+      "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/summon-styx.jpg",
+      "Description": {
+        "itemDescription": {
+          "cooldown": "110s",
+          "cost": "100",
+          "description": "Charon gains CC immunity and summons a massive tidal wave that he sends forth across the entire battlefield. Enemy gods hit by the wave are Feared, while allied gods gain Protections for 3s. Additionally, if an allied god is within 60 units directly behind the wave, they gain Movement Speed.",
+          "menuItems": null
+        },
+        "rankItems": null
+      }
+    },
+    "Ability_5": {
+      "Id": 24459,
+      "Summary": "Ferryman of Souls",
+      "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/ferryman-of-souls.jpg",
+      "Description": {
+        "itemDescription": {
+          "cooldown": "",
+          "cost": "",
+          "description": "If Charon is in assist range while any friendly lane minion or jungle monster dies, their essence persists for Charon to collect for 8s, granting him 1 gold and a Soul stack each. When Charon returns to base, he loses all Soul stacks and gains a permanent 2 Max Health per stack.",
+          "menuItems": null
+        },
+        "rankItems": null
+      }
+    },
+    "AttackSpeed": 1,
+    "AttackSpeedPerLevel": 0.012,
+    "AutoBanned": "y",
+    "Cons": "",
+    "Health": 686,
+    "HealthPerFive": 6,
+    "HealthPerLevel": 93,
+    "HP5PerLevel": 0.75,
+    "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/charon.jpg",
+    "id": 4268,
+    "Lore": "One coin is all that it costs to enter the Elysian Fields. \\n\\nOne coin, no more, no less. That is the toll Charon expects. The Ferryman of Hades, is a simple being at heart. He has but one task, and does it well. Neither judge nor jury, he is a fixed point in the cosmology of the Underworld. A deliverer of souls to their final rest...so long as the proper rites have been performed and payment made. But attempting to board his craft without permission or payment is sure to arouse his wrath, which is never far from the surface. \\n\\nThis is not to say that Charon is as irascible as some stories claim. Rather, he is a professional; a being of boundaries and permissions. To cross the one, you must have the other. But those who defy the ancient laws which govern the threshold between the living and dead, find that Charon is the first to confront them – and often the last. \\n\\nYet, while he is a bellicose defender of the underworld’s sanctity, he has also been known to console the souls of the grieving or the frightened. Though he is fearsome, Charon is not frightening. The souls of the dead have nothing to fear from him. \\n\\nHe is both guardian and escort in one. He has guided his boat along the shadowed lengths of the Styx and the Acheron for millennia, and souls who book passage upon his craft are thenceforth under his protection against the myriad dangers of the underworld. To ride with Charon is to be ensured a safe journey to one’s ultimate and final destination. \\n\\nBut the time is coming where Charon must sail on unfamiliar waters. The pantheons are in upheaval, and the souls of the fallen are at the mercy of unfriendly forces. So the Ferryman must set forth and bring these lost souls home, whatever the cost.",
+    "MagicalPower": 175,
+    "MagicalPowerPerLevel": 7.5,
+    "MagicProtection": 35,
+    "MagicProtectionPerLevel": 1.6,
+    "Mana": 210,
+    "ManaPerFive": 4.6,
+    "ManaPerLevel": 38,
+    "MP5PerLevel": 0.42,
+    "Name": "Charon",
+    "OnFreeRotation": "",
+    "Pantheon": "Greek",
+    "PhysicalPower": 0,
+    "PhysicalPowerPerLevel": 0,
+    "PhysicalProtection": 26.6,
+    "PhysicalProtectionPerLevel": 3.2,
+    "Pros": "High Mobility",
+    "Roles": "Guardian",
+    "Speed": 370,
+    "Title": "The Ferryman",
+    "Type": "Ranged, Magical",
+    "basicAttack": {
+      "cooldown": null,
+      "cost": null,
+      "description": null,
+      "menuItems": null
+    },
+    "godAbility1_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/spectral-surge.jpg",
+    "godAbility2_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/damnation.jpg",
+    "godAbility3_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/swift-voyage.jpg",
+    "godAbility4_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/summon-styx.jpg",
+    "godAbility5_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/ferryman-of-souls.jpg",
+    "godCard_URL": "https://webcdn.hirezstudios.com/smite/god-cards/charon.jpg",
+    "latestGod": "y",
+    "IsAssassin": false,
+    "IsGuardian": true,
+    "IsHunter": false,
+    "IsMage": false,
     "IsWarrior": false,
     "IsMagical": true,
     "IsPhysical": false,
@@ -6448,7 +6582,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/conviction.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "13s",
+          "cooldown": "14s",
           "cost": "60",
           "description": "Guan Yu's courageous leadership is infectious and, when focused, heals himself and his allies. Healing friendly gods reduces all Cooldowns by 2s for Guan Yu and 1s for his allies.",
           "menuItems": null
@@ -8100,7 +8234,7 @@
         "itemDescription": {
           "cooldown": "90s",
           "cost": "90",
-          "description": "Ix Chel becomes CC immune and channels all of her energy into a single intense beam of light. The beam deals damage to enemies and heals allies every 0.2s for 3s, increasing in duration if Ix Chel can do both at the same time.\nEnemies take increasing damage per tick which decays rapidly if not hit recently.\n\nHealing an ally also heals Ix Chel. Ix Chel gains 6 stacks of Rainbow Weaver on firing.",
+          "description": "Ix Chel becomes CC immune and channels all of her energy into a single intense beam of light. The beam deals damage to enemies and heals allied gods every 0.2s for 3s, increasing in duration if Ix Chel hits allied and enemy gods at the same time.\nEnemy gods take increasing damage per tick which decays rapidly if not hit recently.\n\nHealing an ally also heals Ix Chel. Ix Chel gains 6 stacks of Rainbow Weaver on firing.",
           "menuItems": null
         },
         "rankItems": null
@@ -8163,7 +8297,7 @@
     "godAbility4_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/great-end.jpg",
     "godAbility5_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/rainbow-weaver.jpg",
     "godCard_URL": "https://webcdn.hirezstudios.com/smite/god-cards/ix-chel.jpg",
-    "latestGod": "y",
+    "latestGod": "n",
     "IsAssassin": false,
     "IsGuardian": false,
     "IsHunter": false,
@@ -11732,7 +11866,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Upon reaching 150 Magical Power from Items, Olorun gains 15% Critical Hit Chance and a further 1% per 10 Magical Power from Items.\nOlorun's Critical hits only deal 50% increased damage.\nAdditionally Olorun gains 5% extra scaling on his basic attacks.",
+          "description": "Upon reaching 100 Magical Power from Items, Olorun gains 20% Critical Hit Chance and a further 2% per 10 Magical Power from Items.\nOlorun's Critical hits only deal 50% increased damage.\nAdditionally Olorun gains 5% extra scaling on his basic attacks.",
           "menuItems": null
         },
         "rankItems": null
@@ -12938,7 +13072,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Successful Basic Attacks and abilities against an Enemy add to Ravana's Combo Chain. Each time his Chain reaches 8 he receives a Shield equal to 9% of his Maximum Health as well as 3% Movement Speed. This may stack up to 3 times. ",
+          "description": "Successful Basic Attacks and abilities against an Enemy add to Ravana's Combo Chain. Each time his Chain reaches 8 he receives a Shield equal to 8% of his Maximum Health as well as 3% Movement Speed. This may stack up to 3 times. ",
           "menuItems": null
         },
         "rankItems": null
@@ -15455,7 +15589,7 @@
       "Description": {
         "itemDescription": {
           "cooldown": "10s",
-          "cost": "",
+          "cost": "0",
           "description": "Tyr changes between Assault and Guard stances. Changing stances refreshes the cooldown on Fearless and Power Cleave. Tyr gains benefits depending on his current stance, and also gains half the benefits of the opposing stance. \n\nAssault Stance: Gain Physical Power.\n\nGuard Stance: Gain Protections.",
           "menuItems": null
         },
@@ -15468,7 +15602,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/lawbringer.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "90/85/80/75/70s",
+          "cooldown": "90s",
           "cost": "80/90/100/110/120",
           "description": "Tyr leaps through the air, bringing indiscriminate justice upon all enemies in the target area, and Slowing them with additional effects depending on what stance he is in.\n\nAssault Stance: Deal additional damage.\n\nGuard Stance: Stun enemies hit.",
           "menuItems": null
@@ -15604,7 +15738,7 @@
         "itemDescription": {
           "cooldown": "1s",
           "cost": "0",
-          "description": "Ullr changes stance.\n\nRanged: Ullr uses his yew bow, removing Disarms and gaining additional attack speed.\n\nMelee: Ullr uses his axes, removing Disarms and gaining additional Physical Lifesteal.",
+          "description": "Ullr changes stance and gains benefits depending on which stance he is in. Ullr also gains half the benefits of the opposing stance. \n\nRanged: Ullr uses his yew bow, removing Disarms and gaining additional attack speed.\n\nMelee: Ullr uses his axes, removing Disarms and gaining additional Physical Lifesteal.",
           "menuItems": null
         },
         "rankItems": null

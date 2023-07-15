@@ -874,7 +874,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+65"
+          "Value": "+55"
         },
         {
           "Description": "Mana",
@@ -904,7 +904,7 @@
     "MagicalLifesteal": 0.05,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 65,
+    "MagicalPower": 55,
     "MagicalProtection": 0,
     "Mana": 100,
     "MovementSpeed": 0,
@@ -1049,7 +1049,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+60"
+          "Value": "+65"
         },
         {
           "Description": "Mana",
@@ -1083,7 +1083,7 @@
     "MagicalLifesteal": 0.1,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0.2,
-    "MagicalPower": 60,
+    "MagicalPower": 65,
     "MagicalProtection": 0,
     "Mana": 200,
     "MovementSpeed": 0,
@@ -4783,7 +4783,7 @@
     "DeviceName": "Relic Dagger",
     "ActiveFlag": "y",
     "ChildItemId": 8239,
-    "IconId": 4673,
+    "IconId": 12927,
     "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/relic-dagger.jpg",
     "ItemDescription": {
       "Description": "This item Reduces the cooldown of equipped Relics.",
@@ -4927,11 +4927,11 @@
           "Value": "+7%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Enemy Gods hit by your basic attacks have 15% reduced Healing and 5% reduced Attack Speed while you gain 5% increased Attack Speed, stacking up to 4 times and lasting 5s."
+      "SecondaryDescription": "PASSIVE - Enemy Gods hit by your basic attacks have 20% reduced Healing and 7% reduced Attack Speed while you gain 7% increased Attack Speed, stacking up to 3 times and lasting 5s."
     },
     "ItemId": 24189,
     "ItemTier": 3,
-    "Price": 1150,
+    "Price": 1050,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 9828,
     "ShortDesc": "Basic Attack Anti-Heal and Attack Speed reduction",
@@ -5426,7 +5426,7 @@
     "DeviceName": "Runeforged Hammer",
     "ActiveFlag": "y",
     "ChildItemId": 9831,
-    "IconId": 2897,
+    "IconId": 12926,
     "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/runeforged-hammer.jpg",
     "ItemDescription": {
       "Description": "Crowd Controlled Enemies near you take more damage.",
@@ -5509,7 +5509,7 @@
           "Value": "+20"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your next successful Hard CC on an enemy god creates a runic symbol on the ground that lasts for 5s. Enemies in the symbol take 10% more damage. This can only occur once every 15 seconds. <n>GLYPH - Additionally, enemy gods within the rune are burned, dealing 5 + 10% of your Protections from items and abilities as Magical Damage every 1s while inside the rune and for 3s after leaving it. "
+      "SecondaryDescription": "PASSIVE - Your next successful Hard CC on an enemy god creates a runic symbol on the ground that lasts for 5s. Enemies in the symbol take 10% more damage. This can only occur once every 15 seconds. <n>GLYPH - Additionally, enemy gods within the rune are burned, dealing 5 + 7% of your Protections from items and abilities as Magical Damage every 1s while inside the rune and for 2s after leaving it. "
     },
     "ItemId": 24728,
     "ItemTier": 4,
@@ -7377,7 +7377,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "AURA - Allies within 70 units gain 20 Physical and Magical Protections.\n\nPASSIVE - If you have over 400 total Protections, you gain 7.5% Damage Mitigation. If you have over 600 total Protections, you gain an additional 7.5% Damage Mitigation."
+      "SecondaryDescription": "AURA - Allies within 70 units gain 20 Physical and Magical Protections.\n\nPASSIVE - If you have over 325 total Protections, you gain 7.5% Damage Mitigation. If you have over 525 total Protections, you gain an additional 7.5% Damage Mitigation."
     },
     "ItemId": 24172,
     "ItemTier": 4,
@@ -8075,7 +8075,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+55"
+          "Value": "+45"
         },
         {
           "Description": "Attack Speed",
@@ -8101,7 +8101,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 55,
+    "MagicalPower": 45,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -8620,7 +8620,7 @@
           "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your first ability cast gains 10% Magical Penetration. This can only occur once every 10 seconds."
+      "SecondaryDescription": "PASSIVE - Your first ability cast gains 20% Magical Penetration. This can only occur once every 10 seconds."
     },
     "ItemId": 18179,
     "ItemTier": 3,
@@ -9068,7 +9068,7 @@
           "Value": "+200"
         }
       ],
-      "SecondaryDescription": "PASSIVE - You permanently gain +1 Health and +0.6 Magical Power per Stack, and receive 5 Stacks for a god kill and 1 Stack per minion kill. At 75 stacks this item Evolves, gaining 10% Magical Penetration."
+      "SecondaryDescription": "PASSIVE - You permanently gain +1 Health and +0.6 Magical Power per Stack, and receive 5 Stacks for a god kill and 1 Stack per minion kill. At 75 stacks this item Evolves, gaining 10% Magical Penetration and 25 Health."
     },
     "ItemId": 7917,
     "ItemTier": 3,
@@ -9285,7 +9285,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+65"
+          "Value": "+55"
         },
         {
           "Description": "Mana",
@@ -9311,7 +9311,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 65,
+    "MagicalPower": 55,
     "MagicalProtection": 0,
     "Mana": 125,
     "MovementSpeed": 0,
@@ -9338,7 +9338,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+50"
+          "Value": "+60"
         },
         {
           "Description": "Mana",
@@ -9368,7 +9368,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 50,
+    "MagicalPower": 60,
     "MagicalProtection": 0,
     "Mana": 250,
     "MovementSpeed": 0,
@@ -9619,7 +9619,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+50"
+          "Value": "+60"
         },
         {
           "Description": "Magical Penetration",
@@ -9653,7 +9653,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 10,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 50,
+    "MagicalPower": 60,
     "MagicalProtection": 0,
     "Mana": 775,
     "MovementSpeed": 0,
@@ -11084,7 +11084,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - For each 0.02 Attack Speed you go over 2.5 Attack Speed, you gain 2 Physical Power. You can not gain more than 40 Physical Power in this way."
+      "SecondaryDescription": "PASSIVE - For each 0.02 Attack Speed you go over 2.5 Attack Speed, you gain 2 Physical Power. You can not gain more than 80 Physical Power in this way."
     },
     "ItemId": 14084,
     "ItemTier": 3,
@@ -15009,7 +15009,7 @@
     "DeviceName": "Pridwen",
     "ActiveFlag": "y",
     "ChildItemId": 17352,
-    "IconId": 7724,
+    "IconId": 12928,
     "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/pridwen.jpg",
     "ItemDescription": {
       "Description": "On ultimate use, gain a defensive shield to punish attacks.",
@@ -19411,7 +19411,7 @@
     "ItemDescription": {
       "Description": "Reduces enemy gods Attack Speed and Movement Speed.",
       "Menuitems": [],
-      "SecondaryDescription": "Using this item Slows the Movement Speed of all enemy gods within 35 units by 30% for 5s. Their Attack Speed is reduced by 25% for the duration. Additionally, their Damage Dealt is reduced by 15%. If an enemy deals 10% of an Allied God's Maximum Health within the duration, the debuff's effects are increased by 10% each, stacking up to 3 times. Cooldown - 110s."
+      "SecondaryDescription": "Using this item Slows the Movement Speed of all enemy gods within 35 units by 30% for 5s. Their Attack Speed is reduced by 25% for the duration. Additionally, their Damage Dealt is reduced by 10%. If an enemy deals 10% of an Allied God's Maximum Health within the duration, the debuff's effects are increased by 5% each, stacking up to 3 times. Cooldown - 110s."
     },
     "ItemId": 21493,
     "ItemTier": 4,
@@ -19851,7 +19851,7 @@
     "ItemDescription": {
       "Description": "Fires True Damage Projectile.",
       "Menuitems": [],
-      "SecondaryDescription": "Fire a bolt that travels 70 units, stopping on the first Enemy God hit and splashing in a 20 unit radius, dealing 15% of their Current Health as True Damage and reducing any active shields by 75%. Targets hit take 7.5% increased damage for 5s, stacking 2 times. This relic has 2 charges. Cooldown - 110s."
+      "SecondaryDescription": "Fire a bolt that travels 70 units, stopping on the first Enemy God hit and splashing in a 20 unit radius, dealing 10% of their Current Health as True Damage and reducing any active shields by 75%. Targets hit take 7.5% increased damage for 5s. This relic has 2 charges. Cooldown - 110s."
     },
     "ItemId": 21481,
     "ItemTier": 4,
@@ -20504,7 +20504,7 @@
           "Value": "+20"
         }
       ],
-      "SecondaryDescription": "PASSIVE - When you hit an enemy god with Hard Crowd Control, they drop Spikes on the ground that lasts for 7s. When you or an allied god pick up a Spike, they gain a buff that causes their next ability to deal bonus Magic damage equal to 4% of their own Max HP. This effect lasts 15s and is doubled if you are the one who picks up the Spike."
+      "SecondaryDescription": "PASSIVE - When you hit an enemy god with Hard Crowd Control, they drop Spikes on the ground that lasts for 7s. When you or an allied god pick up a Spike, they gain a buff that causes their next ability to deal bonus Magic damage equal to 3% of their own Max HP. This effect lasts 15s and is doubled if you are the one who picks up the Spike."
     },
     "ItemId": 23143,
     "ItemTier": 3,
@@ -21137,7 +21137,7 @@
     "ItemDescription": {
       "Description": "Reduces enemy gods Attack Speed and Movement Speed.",
       "Menuitems": [],
-      "SecondaryDescription": "Using this item Slows the Movement Speed of all enemy gods within 35 units by 30% for 5s. Their Attack Speed is reduced by 25% for the duration. Additionally, their Damage Dealt is reduced by 15%. Cooldown - 130s."
+      "SecondaryDescription": "Using this item Slows the Movement Speed of all enemy gods within 35 units by 30% for 5s. Their Attack Speed is reduced by 25% for the duration. Additionally, their Damage Dealt is reduced by 10%. Cooldown - 130s."
     },
     "ItemId": 21566,
     "ItemTier": 3,
@@ -21357,7 +21357,7 @@
     "ItemDescription": {
       "Description": "Fires True Damage Projectile.",
       "Menuitems": [],
-      "SecondaryDescription": "Fire a bolt that travels 70 units, stopping on first god hit dealing 7.5% of their Current Health as True Damage and reducing any active shields by 75%. Targets hit take 5% increased damage for 5s, stacking 2 times. This relic has 2 charges. Cooldown - 130s."
+      "SecondaryDescription": "Fire a bolt that travels 70 units, stopping on first god hit dealing 7.5% of their Current Health as True Damage and reducing any active shields by 75%. Targets hit take 5% increased damage for 5s. This relic has 2 charges. Cooldown - 130s."
     },
     "ItemId": 21577,
     "ItemTier": 3,
@@ -21932,7 +21932,7 @@
     "ItemDescription": {
       "Description": "Reduces enemy gods Attack Speed and Movement Speed.",
       "Menuitems": [],
-      "SecondaryDescription": "Using this item Slows the Movement Speed of all enemy gods within 35 units by 30% for 5s. Their Attack Speed is reduced by 25% for the duration. Additionally, their Damage Dealt is reduced by 15%. Cooldown - 110s."
+      "SecondaryDescription": "Using this item Slows the Movement Speed of all enemy gods within 35 units by 30% for 5s. Their Attack Speed is reduced by 25% for the duration. Additionally, their Damage Dealt is reduced by 10%. Cooldown - 110s."
     },
     "ItemId": 21567,
     "ItemTier": 4,
@@ -22152,7 +22152,7 @@
     "ItemDescription": {
       "Description": "Fires True Damage Projectile.",
       "Menuitems": [],
-      "SecondaryDescription": "Fire a bolt that travels 70 units, stopping on first god hit dealing 7.5% of their Current Health as True Damage and reducing any active shields by 75%. Targets hit take 5% increased damage for 5s, stacking 2 times. This relic has 2 charges. Cooldown - 110s."
+      "SecondaryDescription": "Fire a bolt that travels 70 units, stopping on first god hit dealing 7.5% of their Current Health as True Damage and reducing any active shields by 75%. Targets hit take 5% increased damage for 5s. This relic has 2 charges. Cooldown - 110s."
     },
     "ItemId": 21578,
     "ItemTier": 4,
@@ -22596,7 +22596,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+50"
+          "Value": "+60"
         },
         {
           "Description": "Health",
@@ -22626,7 +22626,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 50,
+    "MagicalPower": 60,
     "MagicalProtection": 0,
     "Mana": 300,
     "MovementSpeed": 0,
