@@ -1490,7 +1490,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/shackles.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15s",
+          "cooldown": "13s",
           "cost": "70/75/80/85/90",
           "description": "Chains extend from Ares' shield, doing damage to all enemies in its path. Hitting a god shackles them to Ares, Cripples them, preventing movement abilities, dealing the same damage every second while slowing them by 15% and buffing Ares. While shackled, Ares can fire another chain for free within 2s. Jungle Camps take an extra +40% damage.",
           "menuItems": null
@@ -2576,7 +2576,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/eat-minion.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "8s",
+          "cooldown": "10/9.5/9/8.5/8s",
           "cost": "40",
           "description": "Bakasura grabs a minion and devours it, healing himself, restoring Mana, reducing His 1st and 3rd ability cooldowns, and gaining a Protections Buff. Large Jungle monsters must be at 33% Health to be eaten, but will provide 2 minions toward Regurgitate. Up to 6 minions can be stored for Regurgitate.",
           "menuItems": null
@@ -3650,7 +3650,7 @@
         "itemDescription": {
           "cooldown": "13/12/11/10/9s",
           "cost": "60/65/70/75/80",
-          "description": "Chaac spins his axe around him, damaging all enemies, and gaining Protections for each enemy hit (max. 5). Gods hits provide 2 stacks.\n\nIf his axe is out from Thunder Strike, he will first dash to the axe location, doing 50% base damage to enemies he passes through and then executing his spin attack. This dash can go through walls.",
+          "description": "Chaac spins his axe around him, damaging all enemies, and gaining Protections for each enemy hit (max. 4). Gods hits provide 2 stacks.\n\nIf his axe is out from Thunder Strike, he will first dash to the axe location, doing 50% base damage to enemies he passes through and then executing his spin attack. This dash can go through walls.",
           "menuItems": null
         },
         "rankItems": null
@@ -3662,7 +3662,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/rain-dance.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "16s",
+          "cooldown": "15s",
           "cost": "75/80/85/90/95",
           "description": "Chaac summons a rainstorm around his current location for 6s. While it rains, he regains Health, and enemies are caught in the mud and have their Movement Speed, Attack Speed, and Power reduced.\n\nIf his axe is out from Thunder Strike, a rainstorm will also spawn at that location. Enemies caught in the area of both rainstorms will have the Movement Slow and Attack Speed Reduction applied twice.",
           "menuItems": null
@@ -3946,7 +3946,7 @@
         "itemDescription": {
           "cooldown": "110s",
           "cost": "100",
-          "description": "Charon gains CC immunity and summons a massive tidal wave that he sends forth across the entire battlefield. Enemy gods hit by the wave are Feared, while allied gods gain Protections for 3s. Additionally, if an allied god is within 60 units directly behind the wave, they gain Movement Speed.",
+          "description": "Charon gains Crowd Control immunity and summons a massive tidal wave that he sends forth across the entire battlefield. Enemy gods hit by the wave are Feared, while allied gods gain Protections for 3s. Additionally, if an allied god is within 60 units directly behind the wave, they gain Movement Speed.",
           "menuItems": null
         },
         "rankItems": null
@@ -6450,7 +6450,7 @@
         "itemDescription": {
           "cooldown": "14/13/12/11/10",
           "cost": "60/65/70/75/80",
-          "description": "Gilgamesh ignites his sword with the ferocity of the Sun for 3s. Enemies around the ignition take damage and are slowed for 2s. Lane Minions take an extra +25% damage. Gilgamesh's Basic Attack deals bonus damage equal to 2.5% of his Maximum Health to enemies hit. When Gilgamesh successfully hits an enemy with his Basic Attack the duration of this effect is extended for 0.8s, up to a maximum of 6s. While this effect is active, Gilgamesh gains HP5.",
+          "description": "Gilgamesh ignites his sword with the ferocity of the Sun for 3s. Enemies around the ignition take damage and are slowed for 2s. Lane Minions take an extra +25% damage. Gilgamesh's Basic Attack deals bonus damage equal to 3% of his Maximum Health to enemies hit. When Gilgamesh successfully hits an enemy with his Basic Attack the duration of this effect is extended for 0.8s, up to a maximum of 6s. While this effect is active, Gilgamesh gains HP5.",
           "menuItems": null
         },
         "rankItems": null
@@ -8382,7 +8382,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "The closer Izanami gets to death, the more powerful she becomes. Izanami gains 4% Physical Penetration for each 10% of her Health that is missing, up to a maximum of 20%.\nIzanami's Basic Attacks increase in projectile speed with higher Attack Speed and only trigger Item effects on the first target hit per attack.",
+          "description": "The closer Izanami gets to death, the more powerful she becomes. Izanami gains 3% Physical Penetration for each 10% of her Health that is missing, up to a maximum of 15%.\nIzanami's Basic Attacks increase in projectile speed with higher Attack Speed and only trigger Item effects on the first target hit per attack.",
           "menuItems": null
         },
         "rankItems": null
@@ -10244,7 +10244,7 @@
         "itemDescription": {
           "cooldown": "90s",
           "cost": "100",
-          "description": "Medusa removes her mask revealing her true face, delivering a powerful blast from her horrifying Gorgon gaze. Enemies take damage and are stunned if they are looking at Medusa. Enemies not looking at Medusa take 75% damage and are slowed. Enemy gods that are killed during Medusa's gaze will turn to a stone statue and remain behind as a reminder to others.",
+          "description": "Medusa removes her mask revealing her true face, delivering a powerful blast from her horrifying Gorgon gaze. Enemies take damage and are stunned if they are looking at Medusa. Enemies not looking at Medusa take 85% damage and are slowed. Enemy gods that are killed during Medusa's gaze will turn to a stone statue and remain behind as a reminder to others.",
           "menuItems": null
         },
         "rankItems": null
@@ -11004,7 +11004,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/spirit-arrow.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "13s",
+          "cooldown": "13/12.5/12/11.5/11s",
           "cost": "40/45/50/55/60",
           "description": "Neith fires a shot that passes through everything. Each enemy hit takes damage and is Rooted. If the Spirit Arrow hits a Broken Weave, the Weave detonates, dealing an additional 100% of the damage and applying the Root to all enemies in the area.",
           "menuItems": null
@@ -11018,7 +11018,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/unravel.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15s",
+          "cooldown": "14/13.5/13/12.5/12s",
           "cost": "70",
           "description": "Neith neatly unravels the world weaves, damaging all enemies in the target area, reducing their Attack Speed while increasing her own, and healing Neith for each enemy hit, up to 3. Any Broken Weaves in the area are removed, healing Neith an additional amount.",
           "menuItems": null
@@ -11866,7 +11866,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Upon reaching 100 Magical Power from Items, Olorun gains 20% Critical Hit Chance and a further 2% per 10 Magical Power from Items.\nOlorun's Critical hits only deal 50% increased damage.\nAdditionally Olorun gains 5% extra scaling on his basic attacks.",
+          "description": "Upon reaching 100 Magical Power from Items, Olorun gains 20% Critical Hit Chance and a further 2% per 10 Magical Power from Items.\nOlorun's Critical hits only deal 30% increased damage.\nAdditionally Olorun gains 5% extra scaling on his basic attacks.",
           "menuItems": null
         },
         "rankItems": null
@@ -14144,7 +14144,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "When Sun Wukong is below 60% Health, he gains +10 Physical Power and +10 Protections, plus another 2 Physical Power and 2 Protections for his current level. While Undefeated Body is active, if Sun Wukong goes above 50% Health, he maintains the buff for 12s.",
+          "description": "When Sun Wukong is below 60% Health, he gains +10 Physical Power and +10 Protections, plus another 1.5 Physical Power and 2 Protections for his current level. While Undefeated Body is active, if Sun Wukong goes above 50% Health, he maintains the buff for 12s.",
           "menuItems": null
         },
         "rankItems": null
@@ -16660,7 +16660,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/celestial-flight.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "20s",
+          "cooldown": "20/19.5/19/18.5/18s",
           "cost": "70",
           "description": "Yu Huang calls forth the Pearl Dragon from beneath him, banishing himself into the air and becoming untargetable. He then gracefully floats back down to the ground in a controlled flight, damaging enemies where he lands. While Yu Huang is floating, he may refire this ability to increase his downward momentum, causing him to fall faster. If Yu Huang is Attuned, the Pearl Dragon follows him as he descends, knocking back any enemies beneath him.",
           "menuItems": null
@@ -16690,7 +16690,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Yu Huang attunes himself to the Dao, giving his Basic Attacks and Abilities additional effects. He gains a stack of Dao every 8s. He may also gain a stack by hitting an enemy after not taking or dealing damage for 3s. Once he has 6 or more stacks, Yu Huang becomes Attuned, allowing his Basic Attacks chain to one additional enemy.",
+          "description": "Yu Huang attunes himself to the Dao, giving his Basic Attacks and Abilities additional effects. He gains a stack of Dao every 6s. He may also gain 2 stacks by hitting an enemy after not taking or dealing damage for 3s. Once he has 6 or more stacks, Yu Huang becomes Attuned, allowing his Basic Attacks chain to one additional enemy.",
           "menuItems": null
         },
         "rankItems": null

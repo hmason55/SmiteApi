@@ -992,7 +992,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+70"
+          "Value": "+80"
         },
         {
           "Description": "Mana",
@@ -1022,7 +1022,7 @@
     "MagicalLifesteal": 0.1,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 70,
+    "MagicalPower": 80,
     "MagicalProtection": 0,
     "Mana": 200,
     "MovementSpeed": 0,
@@ -1660,7 +1660,7 @@
         },
         {
           "Description": "Attack Speed",
-          "Value": "+15%"
+          "Value": "+20%"
         },
         {
           "Description": "Physical Penetration",
@@ -1671,13 +1671,13 @@
     },
     "ItemId": 23858,
     "ItemTier": 3,
-    "Price": 1100,
+    "Price": 1000,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 7827,
     "ShortDesc": "Bonus damage on Abilities",
     "StartingItem": false,
     "Type": "Item",
-    "AttackSpeed": 0.15,
+    "AttackSpeed": 0.2,
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
@@ -1724,7 +1724,7 @@
     },
     "ItemId": 24170,
     "ItemTier": 3,
-    "Price": 1050,
+    "Price": 950,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 7827,
     "ShortDesc": "Ability Damage reduces enemy healing",
@@ -2188,7 +2188,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your abilities deal an additional 2% of the targets maximum Health as Physical Damage. If you have over 150 Physical Power, your ability bonus damage scales up. This effect reaches a maximum of 6% Maximum Health damage at 300 Physical Power. Subsequent hits on the same target do 75% of the bonus damage for the next 3s."
+      "SecondaryDescription": "PASSIVE - Your abilities deal an additional 2% of the targets maximum Health as Physical Damage. If you have over 150 Physical Power, your ability bonus damage scales up. This effect reaches a maximum of 6% Maximum Health damage at 250 Physical Power. Subsequent hits on the same target do 75% of the bonus damage for the next 3s."
     },
     "ItemId": 12680,
     "ItemTier": 3,
@@ -2641,7 +2641,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+70"
+          "Value": "+80"
         },
         {
           "Description": "Mana",
@@ -2671,7 +2671,7 @@
     "MagicalLifesteal": 0.1,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 70,
+    "MagicalPower": 80,
     "MagicalProtection": 0,
     "Mana": 200,
     "MovementSpeed": 0,
@@ -2698,7 +2698,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+70"
+          "Value": "+80"
         },
         {
           "Description": "Mana",
@@ -2728,7 +2728,7 @@
     "MagicalLifesteal": 0.1,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 70,
+    "MagicalPower": 80,
     "MagicalProtection": 0,
     "Mana": 200,
     "MovementSpeed": 0,
@@ -5904,11 +5904,11 @@
           "Value": "+20"
         }
       ],
-      "SecondaryDescription": "PASSIVE - While below 50% Health you become Berserk for 5s. While Berserk, you gain 5% Damage Mitigation and 20% Attack Speed. This effect can only occur once every 15 seconds."
+      "SecondaryDescription": "PASSIVE - While below 60% Health you become Berserk for 5s. While Berserk, you gain 5% Damage Mitigation and 20% Attack Speed. This effect can only occur once every 15 seconds."
     },
     "ItemId": 16544,
     "ItemTier": 3,
-    "Price": 1250,
+    "Price": 1150,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 9833,
     "ShortDesc": "When dropping low, go Berserk",
@@ -5965,11 +5965,11 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - When damaging an enemy god with an ability you deal an additional 15 + 30% of your Protections from items and abilities as Physical Damage. Can only trigger once per enemy per ability. Subsequent hits on the same target do half the bonus damage for the next 3s."
+      "SecondaryDescription": "PASSIVE - When damaging an enemy god with an ability you deal an additional 15 + 25% of your Protections from items and abilities as Physical Damage. Can only trigger once per enemy per ability. Subsequent hits on the same target do half the bonus damage for the next 3s."
     },
     "ItemId": 23853,
     "ItemTier": 3,
-    "Price": 1100,
+    "Price": 1200,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 9833,
     "ShortDesc": "Deal bonus damage with more Protections",
@@ -9125,7 +9125,7 @@
           "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Whenever you damage an enemy god with an ability you steal 8% maximum mana as well as 8% maximum health from the target. The Stats remain stolen for 45s and targets affected can have multiple Buffs and Debuffs at once. This can only occur once every 15 seconds."
+      "SecondaryDescription": "PASSIVE - Whenever you damage an enemy god with an ability you steal 8% maximum mana as well as 6% maximum health from the target. The Stats remain stolen for 45s and targets affected can have multiple Buffs and Debuffs at once. This can only occur once every 15 seconds."
     },
     "ItemId": 8599,
     "ItemTier": 3,
@@ -9338,7 +9338,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+60"
+          "Value": "+70"
         },
         {
           "Description": "Mana",
@@ -9349,7 +9349,7 @@
           "Value": "+20"
         }
       ],
-      "SecondaryDescription": "PASSIVE - You permanently gain 7 Mana per Stack, and receive 5 Stacks for a god kill and 1 Stack for a minion kill (max. 75 Stacks). You gain Magical Power equal to 4% of your Mana from items. At 75 stacks this item Evolves, gaining 10 Magical Penetration and Increasing the Magical Power gained from Mana to 6%."
+      "SecondaryDescription": "PASSIVE - You permanently gain 7 Mana per Stack, and receive 5 Stacks for a god kill and 1 Stack for a minion kill (max. 75 Stacks). You gain Magical Power equal to 4% of your Mana from items. At 75 stacks this item Evolves, gaining 10 Magical Penetration and Increasing the Magical Power gained from Mana to 7%."
     },
     "ItemId": 7334,
     "ItemTier": 3,
@@ -9368,7 +9368,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 60,
+    "MagicalPower": 70,
     "MagicalProtection": 0,
     "Mana": 250,
     "MovementSpeed": 0,
@@ -9619,7 +9619,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+60"
+          "Value": "+70"
         },
         {
           "Description": "Magical Penetration",
@@ -9634,7 +9634,7 @@
           "Value": "+20"
         }
       ],
-      "SecondaryDescription": "PASSIVE - You gain Magical Power equal to 6% of your Mana from items."
+      "SecondaryDescription": "PASSIVE - You gain Magical Power equal to 7% of your Mana from items."
     },
     "ItemId": 15725,
     "ItemTier": 4,
@@ -9653,7 +9653,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 10,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 60,
+    "MagicalPower": 70,
     "MagicalProtection": 0,
     "Mana": 775,
     "MovementSpeed": 0,
@@ -9847,7 +9847,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+100"
+          "Value": "+110"
         },
         {
           "Description": "MP5",
@@ -9877,7 +9877,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0.1,
-    "MagicalPower": 100,
+    "MagicalPower": 110,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -10144,7 +10144,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+100"
+          "Value": "+110"
         },
         {
           "Description": "MP5",
@@ -10174,7 +10174,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0.1,
-    "MagicalPower": 100,
+    "MagicalPower": 110,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -10201,7 +10201,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+100"
+          "Value": "+110"
         },
         {
           "Description": "MP5",
@@ -10231,7 +10231,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0.1,
-    "MagicalPower": 100,
+    "MagicalPower": 110,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -12397,7 +12397,7 @@
           "Value": "+7%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - For every non-ultimate ability on cooldown you gain a stack of Cruelty. Each stack provides 10 Physical Power and 2% Physical Lifesteal."
+      "SecondaryDescription": "PASSIVE - For every non-ultimate ability on cooldown you gain a stack of Cruelty. Each stack provides 7 Physical Power and 2% Physical Lifesteal."
     },
     "ItemId": 19003,
     "ItemTier": 3,
@@ -12781,11 +12781,11 @@
       "Menuitems": [
         {
           "Description": "Magical Protection",
-          "Value": "+40"
+          "Value": "+45"
         },
         {
           "Description": "Health",
-          "Value": "+100"
+          "Value": "+150"
         },
         {
           "Description": "MP5",
@@ -12810,13 +12810,13 @@
     "CooldownReduction": 0.1,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 100,
+    "Health": 150,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 40,
+    "MagicalProtection": 45,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 20,
@@ -13375,7 +13375,7 @@
           "Value": "+15"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Gain a stack (up to a max of 6) each time you take damage from enemy gods equal to 5% of your maximum Health. Your next basic attack on an enemy god consumes all stacks and deals 40 (+ 2 Per Level) Magical Damage per stack. This effect can only occur once every 10 seconds."
+      "SecondaryDescription": "PASSIVE - Gain a stack (up to a max of 6) each time you take damage from enemy gods equal to 5% of your maximum Health. Your next basic attack on an enemy god consumes all stacks and deals 30 (+ 2 Per Level) Magical Damage per stack. This effect can only occur once every 10 seconds."
     },
     "ItemId": 23975,
     "ItemTier": 3,
@@ -15255,7 +15255,7 @@
           "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "<n>GLYPH - When your Ultimate ability has finished casting, you create an explosion, dealing 75% of your Protections from items and abilities as Magical Damage and slowing targets by 25% for 3s in a 30 unit radius. Then you gain a Shield equal to 90% of your Protections from items and abilities for 5s. When destroyed, by timing out or being depleted, you explode again. This can only occur once every 45 seconds. "
+      "SecondaryDescription": "<n>GLYPH - When your Ultimate ability has finished casting, you create an explosion, dealing 65% of your Protections from items and abilities as Magical Damage and slowing targets by 25% for 3s in a 30 unit radius. Then you gain a Shield equal to 90% of your Protections from items and abilities for 5s. When destroyed, by timing out or being depleted, you explode again. This can only occur once every 45 seconds. "
     },
     "ItemId": 24824,
     "ItemTier": 4,
@@ -20093,7 +20093,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "Gain 6 GP5 if you have the lowest gold on your team. Gain 5 stacks of <font color='#F44242'>Cowardice. Each stack reduces your damage dealt and healing output by 10%. For each 50 protections from items, remove a stack of <font color='#F44242'>Cowardice. When you remove a stack of <font color='#F44242'>Cowardice gain a stack of <font color='#42F46E'> Bravery. For each stack of <font color='#42F46E'>Bravery, gain +2% Damage Mitigation and provide 4 Physical and Magical Protections to all allied gods within 55 units."
+      "SecondaryDescription": "Gain 6 GP5 if you have the lowest gold on your team. Gain 5 stacks of <font color='#F44242'>Cowardice. Each stack reduces your damage dealt and healing output by 10%. For each 45 protections from items, remove a stack of <font color='#F44242'>Cowardice. When you remove a stack of <font color='#F44242'>Cowardice gain a stack of <font color='#42F46E'> Bravery. For each stack of <font color='#42F46E'>Bravery, gain +2% Damage Mitigation and provide 4 Physical and Magical Protections to all allied gods within 55 units."
     },
     "ItemId": 23131,
     "ItemTier": 2,
@@ -22318,7 +22318,7 @@
           "Value": "+15"
         }
       ],
-      "SecondaryDescription": "PASSIVE - You gain 6 GP5 if you have the lowest gold on your team. When you damage an enemy god you call down a Spartan Flag at your location, providing 10% increased Power to allies standing in the radius. Lasts for 10s, can only occur once every 10s. "
+      "SecondaryDescription": "PASSIVE - You gain 8 GP5 if you have the lowest gold on your team. When you damage an enemy god you call down a Spartan Flag at your location, providing 10% increased Power and 10% Attack Speed to allies standing in the radius. Lasts for 10s, can only occur once every 10s. "
     },
     "ItemId": 19749,
     "ItemTier": 2,
@@ -22607,7 +22607,7 @@
           "Value": "+300"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Successfully hitting enemy gods with Basic attacks and Abilities provides a stack of 6% Healing Dealt that is consumed by the next heal from an Ability. Max 8 stacks. You may only gain one stack per god hit per ability."
+      "SecondaryDescription": "PASSIVE - Successfully hitting enemy gods with Basic attacks and Abilities provides a stack of 10% Healing Dealt that is consumed by the next heal from an Ability. Max 5 stacks. You may only gain one stack per god hit per ability."
     },
     "ItemId": 24418,
     "ItemTier": 3,
@@ -22965,11 +22965,11 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - After healing yourself or an allied god with an ability, for the next 6s each time you damage an enemy god your non-ultimate abilities' cooldowns are reduced by 0.5s. This reduction can only occur once per second and the effect may only occur once every 12s"
+      "SecondaryDescription": "PASSIVE - After healing yourself or an allied god with an ability, for the next 5s each time you damage an enemy god your non-ultimate abilities' cooldowns are reduced by 1s. This reduction can only occur once per second and the effect may only occur once every 12s"
     },
     "ItemId": 24423,
     "ItemTier": 3,
-    "Price": 1200,
+    "Price": 1100,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 24428,
     "ShortDesc": "Decreased Cooldowns in god combat after healing",
