@@ -368,7 +368,7 @@
     "ManaPerLevel": 40,
     "MP5PerLevel": 0.38,
     "Name": "Ah Muzen Cab",
-    "OnFreeRotation": "",
+    "OnFreeRotation": "true",
     "Pantheon": "Maya",
     "PhysicalPower": 33,
     "PhysicalPowerPerLevel": 2.5,
@@ -554,7 +554,7 @@
         "itemDescription": {
           "cooldown": "9s",
           "cost": "50/55/60/65/70 ",
-          "description": "Amaterasu harnesses the power of her jewel, healing herself every second for 4 seconds and creating a persistent aura that buffs nearby allied gods. Every time this ability is activated the aura switches between Valor and Benevolence. ",
+          "description": "Amaterasu harnesses the power of her jewel, gaining Attack Speed and healing herself every second for 4 seconds. She also creates a persistent aura that buffs nearby allied gods. Every time this ability is activated the aura switches between Valor and Benevolence. ",
           "menuItems": null
         },
         "rankItems": null
@@ -1238,7 +1238,7 @@
         "itemDescription": {
           "cooldown": "17/16/15/14/13s",
           "cost": "75",
-          "description": "Apollo uses his amazing voice to Mesmerize all nearby enemies and bolster himself with additional physical protection. Any damage done breaks the effect.",
+          "description": "Apollo uses his amazing voice to Mesmerize all nearby enemies and bolster himself with additional Protections. Any damage done breaks the effect.",
           "menuItems": null
         },
         "rankItems": null
@@ -1265,8 +1265,8 @@
       "Description": {
         "itemDescription": {
           "cooldown": "110s",
-          "cost": "10 + 40/50/60/70/80 per second",
-          "description": "Apollo rides his chariot across the sky, choosing when to land, dealing damage every .2s for .8s as he lands. Enemies hit by the last tick of the landing will also be knocked up.",
+          "cost": "10 + 35/40/45/50/55 per second",
+          "description": "Apollo rides his chariot across the sky, choosing when to land, dealing damage every .15s for .6s as he lands. Enemies hit by the last tick of the landing will also be knocked up.",
           "menuItems": null
         },
         "rankItems": null
@@ -1280,7 +1280,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "After 10 successful Basic Attacks, Apollo gains Audacity, increasing his Attack Speed by 100% for the next 5 Basic Attacks (hit or miss) he makes. Apollo also gains 1 stack of Audacity for each successful damaging ability on Enemy gods.",
+          "description": "After 10 successful Basic Attacks, Apollo gains Audacity, increasing his Attack Speed by 100% and his Basic Attack projectile speed for the next 5 Basic Attacks (hit or miss) he makes. Apollo also gains 1 stack of Audacity for each successful damaging ability on Enemy gods.",
           "menuItems": null
         },
         "rankItems": null
@@ -1306,7 +1306,7 @@
     "ManaPerLevel": 40,
     "MP5PerLevel": 0.4,
     "Name": "Apollo",
-    "OnFreeRotation": "true",
+    "OnFreeRotation": "",
     "Pantheon": "Greek",
     "PhysicalPower": 35,
     "PhysicalPowerPerLevel": 2.6,
@@ -1372,7 +1372,7 @@
         "itemDescription": {
           "cooldown": "14s",
           "cost": "70",
-          "description": "Arachne spindles her webbing, and her next 3 successful Basic Attacks are executed with increased Attack Speed for 6s. If all 3 Basic Attacks hit the same target, that target is Stunned and have their active Cooldowns increased.",
+          "description": "Arachne spindles her webbing, increasing her Attack Speed for 4s. If her next 2 Basic Attacks hit the same target, that target is Stunned and have their active Cooldowns increased.",
           "menuItems": null
         },
         "rankItems": null
@@ -1506,7 +1506,7 @@
         "itemDescription": {
           "cooldown": "15s",
           "cost": "40/45/50/55/60",
-          "description": "Ares strengthens the defenses of himself and all nearby allies, granting Protections, HP5, and reducing Crowd Control durations. For each shackled enemy, the Protection Buffs are increased.",
+          "description": "Ares strengthens the defenses of himself and all nearby allies for 6s, granting Basic Attack Damage, Protections, HP5, and reducing Crowd Control durations. For each shackled enemy, the Protection Buffs are increased.",
           "menuItems": null
         },
         "rankItems": null
@@ -1534,7 +1534,7 @@
         "itemDescription": {
           "cooldown": "90s",
           "cost": "80/85/90/95/100",
-          "description": "Ares throws chains out to all enemy gods in an area around him. All enemies hit by the chains are pulled to Ares after 2.5s, taking damage and are Stunned.",
+          "description": "Ares throws chains out to all enemy gods in an area around him, gaining Crowd Control immunity and Damage Mitigation. All enemies hit by the chains are pulled to Ares after 2.5s, taking damage and are Stunned.",
           "menuItems": null
         },
         "rankItems": null
@@ -1548,7 +1548,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Each completed aura item that Ares owns grants him 30 additional Magical Power.",
+          "description": "Each completed aura item that Ares owns grants him 30 additional Magical Power. Additionally, Ares gains bonus Basic Attack damage per level.",
           "menuItems": null
         },
         "rankItems": null
@@ -1565,8 +1565,8 @@
     "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/ares.jpg",
     "id": 1782,
     "Lore": "Feared by his enemies, reviled by his father, adored by the Goddess of Beauty, and worshipped by warriors, Ares, a tortured and lonely soul, is the bloodthirsty Greek God of War.\\n\\nAres is not loved by the people. He represents everything they fear and despise: war, strife, chaos, and murder. It’s said that the sky darkens when Ares takes the field. That he rides to battle on a chariot drawn by fire-breathing steeds and delights only in the clash of battle and smell of bloodshed.\\n\\nAres is not loved by his father. Zeus has many sons, but only two with his wife Hera. However, the thunder God has long suspected Hera of having an affair that led to the birth of Ares, perhaps as revenge for all of Zeus’ infidelity. For this, Zeus is disgusted by him.\\n\\nAres is not loved by his sister. Athena and Ares are both Gods of War. Where Ares represents violence, force, and slaughter, Athena is the embodiment of intelligence, strategy, and leadership. Ares is quick to act and leave a bloody trail. Athena is thoughtful and careful with lives. Often they have been on the opposite sides, most notably at the Battle of Troy, where Athena viciously wounded him and forced Ares to retreat.\\n\\nAres is the lover of the Goddess of Beauty. Though Aphrodite is married to Ares’ brother, Hephaestus, Ares takes what he wants, and Aphrodite gives in willingly. Their union created offspring almost as terrible as Ares himself: Phobos and Deimos, Fear and Terror.\\n\\nAres is loved only by the Spartans, who revere the God for his masculinity, his merciless warrior spirit, and tenacity against all odds. The Spartans, however, know the unpredictable fury of their patron, and bind his statues in chains. This is, in part, to prevent Ares’ spirit of victory from escaping Sparta, and a vain effort to keep the God of War contained.",
-    "MagicalPower": 190,
-    "MagicalPowerPerLevel": 7.75,
+    "MagicalPower": 200,
+    "MagicalPowerPerLevel": 20,
     "MagicProtection": 35,
     "MagicProtectionPerLevel": 1.6,
     "Mana": 200,
@@ -1894,7 +1894,7 @@
         "itemDescription": {
           "cooldown": "14s",
           "cost": "60/70/80/90/100",
-          "description": "Athena powers up for a dash. While dashing, Athena will pass through minions, stop and hit the first enemy god she encounters, dealing damage and slowing all she hits. If she hits an enemy, Athena gains one stack of Block (max 3), absorbing the next Basic Attack from any god that hits her.",
+          "description": "Athena powers up for a dash. While dashing, Athena will pass through minions, stop and hit the first enemy god she encounters, dealing damage. If she hits an enemy, Athena gains one stack of Block (max 3), absorbing the next Basic Attack from any god that hits her.",
           "menuItems": null
         },
         "rankItems": null
@@ -1908,7 +1908,7 @@
         "itemDescription": {
           "cooldown": "18/17.5/17/16.5/16s",
           "cost": "60/65/70/75/80",
-          "description": "Athena releases a shockwave of power from her shield, Taunting enemy gods, and forcing them to fight or chase her.",
+          "description": "Athena releases a shockwave of power from her shield, Taunting enemy gods and decreasing their Attack Speed as she forces them to fight or chase her.",
           "menuItems": null
         },
         "rankItems": null
@@ -1922,7 +1922,7 @@
         "itemDescription": {
           "cooldown": "14s",
           "cost": "60/65/70/75/80",
-          "description": "Athena summons a group of Athenian warriors who do damage upon arrival, and after 2s strike for additional damage.",
+          "description": "Athena summons a group of Athenian warriors who do damage and Slow upon arrival. After 2s, they strike again, dealing additional damage and Slowing.",
           "menuItems": null
         },
         "rankItems": null
@@ -1936,7 +1936,7 @@
         "itemDescription": {
           "cooldown": "110s ",
           "cost": "80/90/100/110/120",
-          "description": "Athena picks a single allied god anywhere in the world, and launches herself up into the air, landing next to that god 3.6 seconds later. During that 3.6 seconds, both Athena and the allied god gain 35% Damage Mitigation. Enemies nearby when Athena lands take damage.",
+          "description": "Athena picks a single allied god anywhere in the world, and launches herself up into the air, landing next to that god 3.6 seconds later. During that 3.6 seconds, both Athena and the allied god gain Damage Mitigation, and the allied god also gains Movement Speed. Enemies nearby when Athena lands take damage.",
           "menuItems": null
         },
         "rankItems": null
@@ -1976,7 +1976,7 @@
     "ManaPerLevel": 34,
     "MP5PerLevel": 0.42,
     "Name": "Athena",
-    "OnFreeRotation": "",
+    "OnFreeRotation": "true",
     "Pantheon": "Greek",
     "PhysicalPower": 0,
     "PhysicalPowerPerLevel": 0,
@@ -3113,8 +3113,8 @@
       "Description": {
         "itemDescription": {
           "cooldown": "10s",
-          "cost": "65/70/75/80/85",
-          "description": "Passive: As Cabrakan's shields take damage they store energy and gain Protection stacks.\n\nActive: Cabrakan slams his shields together creating a concussive blast and damaging enemies in front of him. If his shields have the maximum number of Stacks then the enemy gods hit are Stunned. Stacks are removed.",
+          "cost": "10",
+          "description": "Passive: As Cabrakan's shields take damage they store energy and gain Protection stacks.\n\nActive: Cabrakan slams his shields together creating a concussive blast and damaging enemies in front of him, granting him Mana per enemy hit. If his shields have the maximum number of Stacks then the enemy gods hit are Stunned. Stacks are removed.",
           "menuItems": null
         },
         "rankItems": null
@@ -3126,8 +3126,8 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/tremors.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "8s",
-          "cost": "10/15/20/25/30 every 0.5s.",
+          "cooldown": "3s",
+          "cost": "20/30/40/50/60 every 0.5s.",
           "description": "Cabrakan repeatedly slams the ground with his shields creating an earthquake and causing enemy gods around him to Tremble. Enemies in the earthquake also take damage and are caught in a Vortex which drags them towards Cabrakan. This ability can only be channeled for a maximum amount of 10s.",
           "menuItems": null
         },
@@ -3178,9 +3178,9 @@
     "MagicProtection": 35,
     "MagicProtectionPerLevel": 1.6,
     "Mana": 200,
-    "ManaPerFive": 4.6,
+    "ManaPerFive": 8,
     "ManaPerLevel": 38,
-    "MP5PerLevel": 0.42,
+    "MP5PerLevel": 0.8,
     "Name": "Cabrakan",
     "OnFreeRotation": "",
     "Pantheon": "Maya",
@@ -3316,7 +3316,7 @@
     "ManaPerLevel": 35,
     "MP5PerLevel": 0.3,
     "Name": "Camazotz",
-    "OnFreeRotation": "",
+    "OnFreeRotation": "true",
     "Pantheon": "Maya",
     "PhysicalPower": 39,
     "PhysicalPowerPerLevel": 2.3,
@@ -3930,7 +3930,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/swift-voyage.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15s",
+          "cooldown": "17/16.5/16/15.5/15s",
           "cost": "60/65/70/75/80",
           "description": "Charon forcibly rows at a break-neck pace, charging forward with increased Movement Speed and reduced turn radius for 2.5s. Charon is Slow and Knockback immune while charging. Charon deals damage to and Roots enemies he collides with as well as those directly to his sides in the wake of his boat.",
           "menuItems": null
@@ -4172,7 +4172,7 @@
         "itemDescription": {
           "cooldown": "15/14/13/12/11s",
           "cost": "50/55/60/65/70",
-          "description": "Chernobog conjures a large crystal of curses and hurls it at the target location dealing damage on landing. After several seconds the crystalline curses explode dealing damage again and rooting any enemy in the area. The crystal can be detonated early by firing at it with Vicious Barrage. ",
+          "description": "Chernobog conjures a large crystal of curses and hurls it at the target location dealing damage and Slowing enemies on landing. After several seconds the crystalline curses explode dealing damage again and Rooting any enemy in the area. The crystal can be detonated early by firing at it with Vicious Barrage. ",
           "menuItems": null
         },
         "rankItems": null
@@ -4184,8 +4184,8 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/vicious-barrage.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "12s",
-          "cost": "50/55/60/65/70",
+          "cooldown": "7s",
+          "cost": "30/35/40/45/50",
           "description": "Chernobog fires an enlarged crystal shard that can pierce enemies and deals damage like a Basic Attack. This applies a single stack of Heart of Cold to all enemies it passes through and instantly detonates Crystallized Curses. After firing, Chernobog gains increased Attack Speed for several seconds.",
           "menuItems": null
         },
@@ -4200,7 +4200,7 @@
         "itemDescription": {
           "cooldown": "16/15.5/15/14.5/14s",
           "cost": "50",
-          "description": "Chernobog dashes forward, dealing damage and slowing any enemy he collides with for 2s. If Chernobog comes in contact with a wall, he briefly enters it as a shadow, becoming untargetable and immune to damage for up to 3s. Chernobog can leave the wall early by dashing or just stepping out of the wall. If he remains for the full duration, Chernobog will automatically dash out as his time expires.",
+          "description": "Chernobog dashes forward, dealing damage to any enemy he collides with. If Chernobog comes in contact with a wall, he briefly enters it as a shadow, becoming untargetable and immune to damage for up to 3s. Chernobog can leave the wall early by dashing or just stepping out of the wall. If he remains for the full duration, Chernobog will automatically dash out as his time expires.",
           "menuItems": null
         },
         "rankItems": null
@@ -4790,7 +4790,7 @@
     "ManaPerLevel": 38,
     "MP5PerLevel": 0.42,
     "Name": "Cthulhu",
-    "OnFreeRotation": "true",
+    "OnFreeRotation": "",
     "Pantheon": "Great Old Ones",
     "PhysicalPower": 0,
     "PhysicalPowerPerLevel": 0,
@@ -6758,7 +6758,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/mounted-archery.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "90s",
+          "cooldown": "100s",
           "cost": "80/90/100/110/120",
           "description": "Hachiman leaps on his horse and charges forward. While mounted, he is immune to Crowd Control and can aim separately from the direction of his horse. He may fire to launch an arrow at every Enemy God within a cone.",
           "menuItems": null
@@ -9186,7 +9186,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Each ability that damages a god results in a stack of Steadfast, reducing damage taken and increasing energy gain. Each time King Arthur uses an ability he swaps between his Standard and Combo Abilities. All abilities are Instant Cast. Attack Speed and Item Passives do not benefit his Basic Attacks. Attack Speed increases his energy gain.",
+          "description": "Each ability that damages a god results in a stack of Steadfast, gaining HP5, reducing damage taken, and increasing energy gain. Each time King Arthur uses an ability he swaps between his Standard and Combo Abilities. All abilities are Instant Cast. Attack Speed and Item Passives do not benefit his Basic Attacks. Attack Speed increases his energy gain.",
           "menuItems": null
         },
         "rankItems": null
@@ -9263,7 +9263,7 @@
       "Description": {
         "itemDescription": {
           "cooldown": "7s",
-          "cost": "70/75/80/85/90",
+          "cost": "55/60/65/70/75",
           "description": "Kukulkan fires a projectile breath attack that hits the first enemy in its path, doing damage and Slowing all enemies in the area around the impact.",
           "menuItems": null
         },
@@ -9290,7 +9290,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/whirlwind.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15/14/13/12/11s",
+          "cooldown": "14/13/12/11/10s",
           "cost": "70/75/80/85/90",
           "description": "Kukulkan summons a tornado at his ground target location. A smaller tornado branches off onto any enemies that come within the radius, doing damage every .5s for 2.5s and is refreshed if enemies stay within the radius, for a maximum of 12 ticks.",
           "menuItems": null
@@ -9946,7 +9946,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/poisoned-barb.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "13/12.5/12/11.5/11s",
+          "cooldown": "13s",
           "cost": "40/45/50/55/60",
           "description": "Martichoras shoots a stinger, dealing damage, piercing minions, and stopping on the first enemy god hit. The stinger then persists for 3s attached to the enemy god, reducing their healing, or at a point on the ground. Martichoras can explode it by hitting it with a basic attack or ability. The explosion deals damage, reduces healing, and Roots the god who held the stinger.",
           "menuItems": null
@@ -9974,7 +9974,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/death-from-above.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "90s",
+          "cooldown": "100s",
           "cost": "100",
           "description": "Martichoras becomes Crowd Control immune and untargetable as he soars into the air, raining down 12 bursts of damaging toxins over 3s. Each time an enemy is hit with a burst, their Physical Protections are reduced.",
           "menuItems": null
@@ -9990,7 +9990,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Martichoras gains up to 100 stacks of Ferocity for hitting Basics, Abilities, and earning kills or assists. Once maxed, he loses all Ferocity and gains an Attack Speed buff that increases in duration by Basic Attacking gods. He also gains a permanent Monstrosity stack of 0.7% Physical Lifesteal and 0.7% Physical Ability Lifesteal.",
+          "description": "Martichoras gains up to 100 stacks of Ferocity for hitting Basics, Abilities, and earning kills or assists. Once maxed, he loses all Ferocity and gains an Attack Speed buff that increases in duration by Basic Attacking gods. He also gains a permanent Monstrosity stack of 0.5% Physical Lifesteal and 0.5% Physical Ability Lifesteal.",
           "menuItems": null
         },
         "rankItems": null
@@ -10066,7 +10066,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/master-fisherman.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "16/15.5/15/14.5/14s",
+          "cooldown": "14/13.5/13/12.5/12s",
           "cost": "60/65/70/75/80",
           "description": "Maui charges up, spinning his hook and preparing it to go farther the longer he charges. When he refires, the projectile damages enemies and stops on first god hit. If Maui hits an enemy god he reels them in, crippling and vortexing them towards himself for 1.5s. Maui can cancel this ability at any time.",
           "menuItems": null
@@ -10081,7 +10081,7 @@
       "Description": {
         "itemDescription": {
           "cooldown": "14/13/12/11/10s",
-          "cost": "55/60/65/70/75",
+          "cost": "55",
           "description": "Maui throws an Ulua made of magical water that explodes on landing, giving all allied gods within 35 units Protections and Movement Speed for 5s. The Ulua creates a pillar of water that lasts for 10s. If an allied god stands on the water for 1s, a bubble forms and carries them to Maui's location, where they receive Protections and Movement Speed for 5s. If Maui leaves the aura radius and no ally is on the water, it is destroyed.",
           "menuItems": null
         },
@@ -11139,7 +11139,7 @@
       "Description": {
         "itemDescription": {
           "cooldown": "14s",
-          "cost": "50/60/70/80/90",
+          "cost": "50",
           "description": "Nemesis dashes in a line, dealing damage to enemies in her path and may dash again within 2s. She may use Basic Attacks and Abilities between the dashes.",
           "menuItems": null
         },
@@ -11152,7 +11152,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/slice-and-dice.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "12s",
+          "cooldown": "11s",
           "cost": "60/65/70/75/80",
           "description": "Nemesis swings her blade, dealing damage in an area in front of her. Enemies in the center of her swing are struck for 2x damage and Slowed for 2s.",
           "menuItems": null
@@ -11944,7 +11944,7 @@
         "itemDescription": {
           "cooldown": "6s",
           "cost": "30",
-          "description": "Osiris throws his Sickle forward. It stops at the first enemy hit, dealing damage and Slowing them. The Sickle remains for the duration of the Slow.",
+          "description": "Osiris throws his Sickle forward. It passes through minions and stops on the first god hit, dealing damage and Slowing them. If the Sickle hits a god, it remains for the duration of the Slow. Additionally, the Sickle only deals 50% damage to minions.",
           "menuItems": null
         },
         "rankItems": null
@@ -11972,7 +11972,7 @@
         "itemDescription": {
           "cooldown": "15s ",
           "cost": "60/65/70/75/80",
-          "description": "Osiris flings out mummy wraps, tethering himself to all nearby enemy gods. Targets hit deal reduced damage over the next 4s. The tether can be broken by targets moving far enough away from Osiris. Targets still in range when the duration expires are Stunned.",
+          "description": "Osiris flings out mummy wraps, tethering himself to all nearby enemy gods. Targets hit have their Attack Speed reduced and deal reduced damage over the next 4s. The tether can be broken by targets moving far enough away from Osiris. Targets still in range when the duration expires are Stunned.",
           "menuItems": null
         },
         "rankItems": null
@@ -12000,7 +12000,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Each time Osiris uses an ability he burns away a fragment of his body, gaining Damage Mitigation for each missing fragment. After losing 8 fragments, he becomes his spirit form. He may walk through enemies and enemy blockers, and his Basic Attacks do not incur a movement penalty. This effect lasts for 6 successful Basic Attacks.",
+          "description": "Each time Osiris uses an ability he burns away a fragment of his body, gaining Damage Mitigation for each missing fragment. After losing 8 fragments, he becomes his spirit form. He may walk through enemies and enemy blockers, he gains additional Attack Speed, and his Basic Attacks do not incur a movement penalty. This effect lasts for 6 successful Basic Attacks.",
           "menuItems": null
         },
         "rankItems": null
@@ -12078,7 +12078,7 @@
         "itemDescription": {
           "cooldown": "14s",
           "cost": "40/45/50/55/60",
-          "description": "Pele flourishes and fires out a magma orb ahead of her in a line. Once the fiery projectile reaches maximum distance it hovers for a brief instant, solidifies, and then returns back in pieces, dealing damage to enemies on the way back. The number of shards returning is dependent on the rank of this ability.\n\nPele has 2 charges of this ability.",
+          "description": "Pele flourishes and fires out a magma orb ahead of her in a line, dealing damage and granting her fuel per enemy hit. Once the fiery projectile reaches maximum distance it hovers for a brief instant, solidifies, and then returns back in pieces, dealing damage to enemies on the way back. The number of shards returning is dependent on the rank of this ability.\n\nPele has 2 charges of this ability.",
           "menuItems": null
         },
         "rankItems": null
@@ -12120,7 +12120,7 @@
         "itemDescription": {
           "cooldown": "90s",
           "cost": "100",
-          "description": "After a short warm up, Pele dashes forwards dealing massive damage and a slow to the first enemy God hit, and dealing additional damage to enemies behind in a cone.\n\nFor the next 10 seconds or 3 attacks, every time Pele hits an enemy with a basic attack, she instead deals ability damage in a cone originating from that enemy. During this time Pele's basic attacks deal 50% reduced damage.",
+          "description": "After a short warm up, Pele dashes forwards dealing massive damage and a slow to the first enemy God hit, and dealing additional damage to enemies behind in a cone.\n\nFor the next 10 seconds or 4 attacks, every time Pele hits an enemy with a basic attack, she instead deals ability damage in a cone originating from that enemy. During this time Pele's basic attacks deal 40% reduced damage.",
           "menuItems": null
         },
         "rankItems": null
@@ -12628,7 +12628,7 @@
         "itemDescription": {
           "cooldown": "14/13/12/11/10s",
           "cost": "60/65/70/75/80",
-          "description": "Raijin marks a target enemy by dismissing his ally Raiju, who hides in the enemy's navel. While asleep, Raiju slows and reveals the target to Raijin's team on the minimap. The next time Raijin hits the target, Raiju awakens and claws his way out, doubling the slow and damaging the target and 5 nearby enemies every .5s for 2.5s in his attempt to flee. Enemies hit by the bouncing Raiju take decreased damage.",
+          "description": "Raijin marks a target enemy by dismissing his ally Raiju, who deals damage as he hides in the enemy's navel. While asleep, Raiju slows and reveals the target to Raijin's team on the minimap. The next time Raijin hits the target, Raiju awakens and claws his way out, doubling the slow and damaging the target and 5 nearby enemies every .5s for 2.5s in his attempt to flee. Enemies hit by the bouncing Raiju take decreased damage.",
           "menuItems": null
         },
         "rankItems": null
@@ -12656,7 +12656,7 @@
         "itemDescription": {
           "cooldown": "100s",
           "cost": "90",
-          "description": "Raijin flies above the battlefield, beating his drums 4 times to summon peals of thunder. With each hit, he has a choice of three beats:\n\nBeat one: 100% damage.\nBeat two: Taunt and 30% Damage\nBeat three: Fear and 30% Damage\n\nWhile in the air, Raijin suffers a 20% Movement Speed Slow.",
+          "description": "Passive: Raijin gains increased Attack Speed.\nActive: Raijin flies above the battlefield, beating his drums 4 times to summon peals of thunder. With each hit, he has a choice of three beats:\n\nBeat one: 100% damage.\nBeat two: Taunt and 30% Damage\nBeat three: Fear and 30% Damage\n\nWhile in the air, Raijin suffers a 20% Movement Speed Slow.",
           "menuItems": null
         },
         "rankItems": null
@@ -12670,7 +12670,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "For every 5 abilities cast, Raijin reduces the cooldown of all abilities currently on cooldown (including the one just cast) by 2s. Additionally, Raijin's Basic Attacks have a wider radius (+2).",
+          "description": "For every 5 abilities cast, Raijin reduces the cooldown of all abilities currently on cooldown (including the one just cast) by 2s. Additionally, Raijin's Basic Attacks have a wider radius (+2) and hits reduce his non-ultimate cooldowns by 0.2s.",
           "menuItems": null
         },
         "rankItems": null
@@ -13072,7 +13072,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Successful Basic Attacks and abilities against an Enemy add to Ravana's Combo Chain. Each time his Chain reaches 8 he receives a Shield equal to 8% of his Maximum Health as well as 3% Movement Speed. This may stack up to 3 times. ",
+          "description": "Successful Basic Attacks and abilities against an Enemy add to Ravana's Combo Chain. Each time his Chain reaches 8 he receives a Shield equal to 7% of his Maximum Health as well as 3% Movement Speed. This may stack up to 3 times. ",
           "menuItems": null
         },
         "rankItems": null
@@ -13634,7 +13634,7 @@
     "ManaPerLevel": 36,
     "MP5PerLevel": 0.39,
     "Name": "Shiva",
-    "OnFreeRotation": "true",
+    "OnFreeRotation": "",
     "Pantheon": "Hindu",
     "PhysicalPower": 39,
     "PhysicalPowerPerLevel": 2,
@@ -13714,7 +13714,7 @@
         "itemDescription": {
           "cooldown": "16s ",
           "cost": "70/75/80/85/90 ",
-          "description": "Skadi freezes the ground for 5s at a target location. The icy area deals damage to enemies that touch it and continues to deal additional damage every .5s they stay on it. Gods who step on the ice are slowed and lose control of their movement while sliding across. Also, Skadi's movement speed increases while standing on the area and persists for 3s after it fades or she leaves.",
+          "description": "Skadi freezes the ground for 5s at a target location. The icy area deals damage to enemies that touch it and continues to deal additional damage every .5s they stay on it. Gods who step on the ice are slowed and lose control of their movement while sliding across. Also, Skadi gains Movement Speed and Slow immunity while standing on the area and persists for 3s after it fades or she leaves.",
           "menuItems": null
         },
         "rankItems": null
@@ -15160,7 +15160,7 @@
         "itemDescription": {
           "cooldown": "8s",
           "cost": "50/55/60/65/70",
-          "description": "Thoth conjures three Hieroglyphs around him, ignoring the Basic Attack Movement penalty. His next 3 Basic Attacks pass through Enemies and apply Ability Damage instead. If these attacks pass through the Glyph of Pain, their range is increased by 30. Hitting an Enemy God with this ability increases the damage they take from each subsequent shot by 15% and reduces the cooldown by 0.5s (this can only occur once per shot).",
+          "description": "Thoth conjures three Hieroglyphs around him, ignoring the Basic Attack Movement penalty. His next 3 Basic Attacks pass through Enemies and apply Ability Damage instead. Additionally, these Basic Attacks deal an additional 25% damage to jungle minions. If these attacks pass through the Glyph of Pain, their range is increased by 30. Hitting an Enemy God with this ability increases the damage they take from each subsequent shot by 15% and reduces the cooldown by 0.5s (this can only occur once per shot).",
           "menuItems": null
         },
         "rankItems": null
@@ -15216,7 +15216,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Thoth pens the names of his fallen opponents in his book, recording their weaknesses. After killing 20 Enemies, Thoth gains a stack of 3 Magical Penetration, and killing an Enemy God will complete the current stack. He unlocks a new stack every 4 levels, up to a maximum of 5 stacks at level 17.",
+          "description": "Thoth pens the names of his fallen opponents in his book, recording their weaknesses. After killing 20 Enemies, Thoth gains a stack of 3 Flat Magical Penetration and 1% Magical Penetration, and killing an Enemy God will complete the current stack. He unlocks a new stack every 4 levels, up to a maximum of 5 stacks at level 17.",
           "menuItems": null
         },
         "rankItems": null
@@ -15510,7 +15510,7 @@
     "ManaPerLevel": 35,
     "MP5PerLevel": 0.46,
     "Name": "Tsukuyomi",
-    "OnFreeRotation": "true",
+    "OnFreeRotation": "",
     "Pantheon": "Japanese",
     "PhysicalPower": 35,
     "PhysicalPowerPerLevel": 2.4,
@@ -15912,7 +15912,7 @@
     "ManaPerLevel": 39,
     "MP5PerLevel": 0.41,
     "Name": "Vamana",
-    "OnFreeRotation": "",
+    "OnFreeRotation": "true",
     "Pantheon": "Hindu",
     "PhysicalPower": 37,
     "PhysicalPowerPerLevel": 2,
@@ -16498,7 +16498,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/ice-wall.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "13s",
+          "cooldown": "13/12.5/12/11.5/11s",
           "cost": "60/65/70/75/80",
           "description": "Ymir summons a wall of ice out of the ground that blocks player movement.",
           "menuItems": null
@@ -16580,7 +16580,7 @@
     "Mana": 200,
     "ManaPerFive": 4.5,
     "ManaPerLevel": 32,
-    "MP5PerLevel": 0.4,
+    "MP5PerLevel": 0.45,
     "Name": "Ymir",
     "OnFreeRotation": "",
     "Pantheon": "Norse",
