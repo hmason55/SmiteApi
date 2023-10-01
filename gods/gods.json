@@ -45,7 +45,7 @@
       "Description": {
         "itemDescription": {
           "cooldown": "14/13/12/11/10s",
-          "cost": "24/28/32/36/40",
+          "cost": "22/24/26/28/30",
           "description": "Achilles dodges his enemies' attacks before striking them in swift response. If Achilles successfully hits an enemy god with this strike, Achilles can use this ability once more before it goes on Cooldown.",
           "menuItems": null
         },
@@ -996,7 +996,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/king-of-the-eastern-seas.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "90s",
+          "cooldown": "100s",
           "cost": "90/100/110/120/130",
           "description": "Ao Kuang grabs a single target, damaging and knocking them into the air. If the target is below a Health threshold, Ao Kuang will also reveal his true form, becoming an airborne Dragon and executing them restoring Health. After transforming Ao Kuang then picks a new location to land, dealing damage to enemies within 20 units.",
           "menuItems": null
@@ -1265,7 +1265,7 @@
       "Description": {
         "itemDescription": {
           "cooldown": "110s",
-          "cost": "10 + 35/40/45/50/55 per second",
+          "cost": "40 + 40/45/50/55/60 per second",
           "description": "Apollo rides his chariot across the sky, choosing when to land, dealing damage every .15s for .6s as he lands. Enemies hit by the last tick of the landing will also be knocked up.",
           "menuItems": null
         },
@@ -1758,7 +1758,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/energy-surge.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15/14.5/14/13.5/13s",
+          "cooldown": "13s",
           "cost": "40/45/50/55/60",
           "description": "Druid: Artio pulses out a strong wave of energy that damages enemies. She will heal herself and allies within 65 units for each enemy god hit by this ability.\n\nBear Form: Artio slashes twice with her claws, damaging enemies with each swipe. ",
           "menuItems": null
@@ -2740,7 +2740,7 @@
         "itemDescription": {
           "cooldown": "90s",
           "cost": "70/75/80/85/90",
-          "description": "Baron Samedi pulls the souls of the living towards his Coffin, becoming immune to Crowd Control and taking 35% reduced damage. Enemy gods within range are caught in a Vortex, dragging them towards the Coffin and taking damage every .33s. When an enemy god reaches the Coffin their soul is ripped out, causing them to be stunned, take a large amount of damage based on their maximum health and gain max Hysteria. This ability persists for 3.5s or until an enemy god is pulled to the Coffin. If targets being pulled are above 30 Hysteria, the pull strength is increased.",
+          "description": "Baron Samedi pulls the souls of the living towards his Coffin, becoming immune to Crowd Control and taking 50% reduced damage. Enemy gods within range are caught in a Vortex, dragging them towards the Coffin and taking damage every .33s. When an enemy god reaches the Coffin their soul is ripped out, causing them to be stunned, take a large amount of damage based on their maximum health and gain max Hysteria. This ability persists for 3.5s or until an enemy god is pulled to the Coffin. If targets being pulled are above 30 Hysteria, the pull strength is increased.",
           "menuItems": null
         },
         "rankItems": null
@@ -3126,7 +3126,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/tremors.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "3s",
+          "cooldown": "4s",
           "cost": "20/30/40/50/60 every 0.5s.",
           "description": "Cabrakan repeatedly slams the ground with his shields creating an earthquake and causing enemy gods around him to Tremble. Enemies in the earthquake also take damage and are caught in a Vortex which drags them towards Cabrakan. This ability can only be channeled for a maximum amount of 10s.",
           "menuItems": null
@@ -3968,7 +3968,7 @@
     },
     "AttackSpeed": 1,
     "AttackSpeedPerLevel": 0.012,
-    "AutoBanned": "y",
+    "AutoBanned": "n",
     "Cons": "",
     "Health": 686,
     "HealthPerFive": 6,
@@ -4009,7 +4009,7 @@
     "godAbility4_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/summon-styx.jpg",
     "godAbility5_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/ferryman-of-souls.jpg",
     "godCard_URL": "https://webcdn.hirezstudios.com/smite/god-cards/charon.jpg",
-    "latestGod": "y",
+    "latestGod": "n",
     "IsAssassin": false,
     "IsGuardian": true,
     "IsHunter": false,
@@ -4050,7 +4050,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/capsize.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "16/15/14/13/12s",
+          "cooldown": "14/14.5/13/13.5/12s",
           "cost": "60/65/70/75/80",
           "description": "Charybdis absorbs water from around her before firing a quick blast from The Maw. Enemies are hit by a rapidly decaying Slow and Physical Protection debuff.\n\nThis ability can be channeled for longer, consuming Tide on fire, to become wider, strengthen the debuff effects and deal more damage.\n\nUp to 40% Tide consumed.",
           "menuItems": null
@@ -5136,7 +5136,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/trickster-spirit.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "17/16.5/16/15.5/15s",
+          "cooldown": "15s",
           "cost": "60/65/70/75/80",
           "description": "Da Ji selects a single allied or enemy target and teleports to their location after a short delay. Upon arriving at the target, she lashes out with her claws, dealing damage and applying the Bleed from Torture Blades to all enemies around her.",
           "menuItems": null
@@ -6984,7 +6984,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/water-cannon.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "3s",
+          "cooldown": "4s",
           "cost": "40/50/60/70/80",
           "description": "He Bo fires a short burst of water from his hands, damaging all enemies in front of him. Lane Minions and Jungle Camps take an extra 15% damage.",
           "menuItems": null
@@ -6998,7 +6998,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/atlas-of-the-yellow-river.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "12s",
+          "cooldown": "14s",
           "cost": "60/65/70/75/80",
           "description": "He Bo unfurls his scroll in a line, releasing the flood waters. Allies on the water are immune to Slows and move faster, while enemies are Slowed.",
           "menuItems": null
@@ -7118,7 +7118,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/piercing-sight.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14s",
+          "cooldown": "12s",
           "cost": "50/55/60/65/70",
           "description": "Heimdallr throws his sword, Hofuð, into the air. It shines with brilliant light that reveals enemies within 80 units. Heimdallr can refire this ability to call the sword down, causing it to fly to the target location and damage enemies.",
           "menuItems": null
@@ -9186,7 +9186,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Each ability that damages a god results in a stack of Steadfast, gaining HP5, reducing damage taken, and increasing energy gain. Each time King Arthur uses an ability he swaps between his Standard and Combo Abilities. All abilities are Instant Cast. Attack Speed and Item Passives do not benefit his Basic Attacks. Attack Speed increases his energy gain.",
+          "description": "Each ability that damages a god results in a stack of Steadfast, gaining 5 HP5, reducing damage taken, and increasing energy gain. Each time King Arthur uses an ability he swaps between his Standard and Combo Abilities. All abilities are Instant Cast. Attack Speed and Item Passives do not benefit his Basic Attacks. Attack Speed increases his energy gain.",
           "menuItems": null
         },
         "rankItems": null
@@ -9396,7 +9396,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/throw-back.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "13/12.5/12/11.5/11s",
+          "cooldown": "11s",
           "cost": "60/65/70/75/80",
           "description": "Kumbhakarna sleepily runs forward. If he hits an enemy he stops and deals damage. If the enemy is a minion, he throws them, dealing increased damage to each enemy they hit.",
           "menuItems": null
@@ -9664,7 +9664,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/piercing-thrust.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "12s",
+          "cooldown": "10s",
           "cost": "50/55/60/65/70",
           "description": "Lancelot does a quick dash and thrust forwards with his lance. He deals damage to enemies in his path and those hit by the extending lance. If he hits an enemy he may dash again within 3s.",
           "menuItems": null
@@ -9744,7 +9744,7 @@
     "MagicProtection": 30,
     "MagicProtectionPerLevel": 1.6,
     "Mana": 230,
-    "ManaPerFive": 1.6,
+    "ManaPerFive": 4.6,
     "ManaPerLevel": 40,
     "MP5PerLevel": 0.46,
     "Name": "Lancelot",
@@ -9916,6 +9916,132 @@
     "IsRatatoskr": false
   },
   {
+    "Ability1": "Party Trick",
+    "Ability2": "Madame Fangs",
+    "Ability3": "Spirit Seize",
+    "Ability4": "Explosion of Souls",
+    "Ability5": "Soul Spikes",
+    "AbilityId1": 24712,
+    "AbilityId2": 24713,
+    "AbilityId3": 24714,
+    "AbilityId4": 24715,
+    "AbilityId5": 24716,
+    "Ability_1": {
+      "Id": 24712,
+      "Summary": "Party Trick",
+      "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/party-trick.jpg",
+      "Description": {
+        "itemDescription": {
+          "cooldown": "6s",
+          "cost": "20/30/40/50/60",
+          "description": "Maman Brigitte drinks from her bottle and then breathes fire in a cone. Enemies are set aflame, damaged every 0.5s for 1.5s and refreshing if they stay in the area. This damage does not trigger Item effects. Maman Brigitte channels the fire for as long as she has Rum and can cancel at any time. When she runs out of Rum or upon reactivation, she slams her bottle on the ground, damaging and stunning enemies. This ability's cooldown is reduced based on Rum remaining when the slam occurs.",
+          "menuItems": null
+        },
+        "rankItems": null
+      }
+    },
+    "Ability_2": {
+      "Id": 24713,
+      "Summary": "Madame Fangs",
+      "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/madame-fangs.jpg",
+      "Description": {
+        "itemDescription": {
+          "cooldown": "13/12.5/12/11.5/11s",
+          "cost": "55",
+          "description": "Maman Brigitte's tattoo snake, Madame Fangs, slithers off of her arm and becomes a spectral snake that passes through enemies, damaging and applying Madame's Mark to all enemies hit. Subsequent hits from Madame Fangs deal 15% of the initial damage. Enemies with Madame's Mark take additional damage anytime Maman Brigitte damages them. This bonus damage does not trigger Item effects. Soul Spikes and Item effects do not trigger Madame's Mark.",
+          "menuItems": null
+        },
+        "rankItems": null
+      }
+    },
+    "Ability_3": {
+      "Id": 24714,
+      "Summary": "Spirit Seize",
+      "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/spirit-seize.jpg",
+      "Description": {
+        "itemDescription": {
+          "cooldown": "16s",
+          "cost": "50/60/70/80/90",
+          "description": "Maman Brigitte shrouds herself in ghostly energy as she dashes forward, passing through player made walls and damaging enemies. If she hits an enemy god she possesses them, traveling with them and dealing damage every 0.5s for up to 2s. Maman Brigitte can leave her target early by dashing or canceling to step out. If she remains for the full duration, she will dash out as time expires.",
+          "menuItems": null
+        },
+        "rankItems": null
+      }
+    },
+    "Ability_4": {
+      "Id": 24715,
+      "Summary": "Explosion of Souls",
+      "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/explosion-of-souls.jpg",
+      "Description": null
+    },
+    "Ability_5": {
+      "Id": 24716,
+      "Summary": "Soul Spikes",
+      "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/soul-spikes.jpg",
+      "Description": {
+        "itemDescription": {
+          "cooldown": "",
+          "cost": "",
+          "description": "Damaging an enemy with a basic attack or ability afflicts enemies with Soul Spikes. Upon reaching 5 stacks, Maman Brigitte absorbs a piece of their soul, dealing damage based on their missing Health and gaining a Soul Orb from enemy gods. Soul Orbs last 30s.",
+          "menuItems": null
+        },
+        "rankItems": null
+      }
+    },
+    "AttackSpeed": 1,
+    "AttackSpeedPerLevel": 0.018,
+    "AutoBanned": "n",
+    "Cons": "",
+    "Health": 570,
+    "HealthPerFive": 10,
+    "HealthPerLevel": 81,
+    "HP5PerLevel": 0.6,
+    "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/maman-brigitte.jpg",
+    "id": 4301,
+    "Lore": "It’s said that wherever there’s a party, Maman Brigitte won’t be far. She wanders between the burying grounds of the world, appearing to her worshippers as a stylish and sometimes fanciful young woman with a cup of hot-pepper infused rum in one hand and a cigar in the other. She doles out wisdom and insults equally, never hesitating to show her followers a bit of tough love if she feels its needed. \nBoisterous, foul-mouthed, and fiery of temperament, she is venerated as a protector and is called upon when there are people in need of healing, either physically or spiritually. Despite her sharp tongue and insouciant manner, Brigitte is considered one of the wisest of the Lwa who comprise the Gede nanchon. \nShe is the consort of Baron Samedi, and like him often acts as an intermediary between mortals and the creator spirit, Damballa, as well as the spirits of the dead. And, like Samedi, she enjoys a good celebration, especially those held in her honor. But this is not to say that she doesn’t take her role as a shepherdess of souls seriously, especially when it involves the spirits of women, for whom Brigitte feels a special affection. \nIn addition, she watches over the graves of her worshippers, and helps the souls of the dying pass safely into the afterlife. She also nurtures those who are sick, but not yet ready to die. In all things, she is a caretaker and a protector – if not always a kindly one. \nAnd it is in her capacity as protector that Maman Brigitte has been drawn to the current fray. As monsters rampage across the world, she is compelled to act in defence of mortals, whether they worship her or not. \nAfter all, the best parties are victory parties…\n",
+    "MagicalPower": 175,
+    "MagicalPowerPerLevel": 12,
+    "MagicProtection": 30,
+    "MagicProtectionPerLevel": 1.6,
+    "Mana": 240,
+    "ManaPerFive": 4.8,
+    "ManaPerLevel": 36,
+    "MP5PerLevel": 0.4,
+    "Name": "Maman Brigitte",
+    "OnFreeRotation": "",
+    "Pantheon": "Voodoo",
+    "PhysicalPower": 0,
+    "PhysicalPowerPerLevel": 0,
+    "PhysicalProtection": 16.8,
+    "PhysicalProtectionPerLevel": 3.2,
+    "Pros": "High Single Target Damage",
+    "Roles": "Mage",
+    "Speed": 375,
+    "Title": "Protector of the Dead",
+    "Type": "Melee, Magical",
+    "basicAttack": {
+      "cooldown": null,
+      "cost": null,
+      "description": null,
+      "menuItems": null
+    },
+    "godAbility1_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/party-trick.jpg",
+    "godAbility2_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/madame-fangs.jpg",
+    "godAbility3_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/spirit-seize.jpg",
+    "godAbility4_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/explosion-of-souls.jpg",
+    "godAbility5_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/soul-spikes.jpg",
+    "godCard_URL": "https://webcdn.hirezstudios.com/smite/god-cards/maman-brigitte.jpg",
+    "latestGod": "y",
+    "IsAssassin": false,
+    "IsGuardian": false,
+    "IsHunter": false,
+    "IsMage": true,
+    "IsWarrior": false,
+    "IsMagical": true,
+    "IsPhysical": false,
+    "IsRatatoskr": false
+  },
+  {
     "Ability1": "Acid Rain",
     "Ability2": "Poisoned Barb",
     "Ability3": "Stalk Prey",
@@ -9960,7 +10086,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/stalk-prey.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "25/22.5/20/17.5/15s",
+          "cooldown": "25/24/23/22/21s",
           "cost": "60/65/70/75/80",
           "description": "Martichoras creates a patch of stealth grass in which he and all allied gods may hide. While inside and on exiting the patch, Martichoras gains Movement Speed. Martichoras’ Basic Attacks from stealth apply 8 stacks of Venom. Enemies may reveal anyone hidden in the patch by entering it or by placing a ward inside its range.",
           "menuItems": null
@@ -12626,7 +12752,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/raiju.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14/13/12/11/10s",
+          "cooldown": "15/14/13/12/11s",
           "cost": "60/65/70/75/80",
           "description": "Raijin marks a target enemy by dismissing his ally Raiju, who deals damage as he hides in the enemy's navel. While asleep, Raiju slows and reveals the target to Raijin's team on the minimap. The next time Raijin hits the target, Raiju awakens and claws his way out, doubling the slow and damaging the target and 5 nearby enemies every .5s for 2.5s in his attempt to flee. Enemies hit by the bouncing Raiju take decreased damage.",
           "menuItems": null
@@ -14100,7 +14226,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/masters-will.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "10s",
+          "cooldown": "11s",
           "cost": "60",
           "description": "Sun Wukong strikes around him, damaging, Slowing, and Slowing the Attack Speed of all enemies hit.",
           "menuItems": null
@@ -15842,7 +15968,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/armored-umbrella.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15/14/13/12/11s",
+          "cooldown": "13/12.5/12/11.5/11s",
           "cost": "60/65/70/75/80",
           "description": "Vamana infuses his umbrella with his armor, reinforcing it while he strikes forth, doing damage to all enemies in a cone.",
           "menuItems": null

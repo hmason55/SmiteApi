@@ -5433,7 +5433,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+25"
+          "Value": "+30"
         },
         {
           "Description": "Health",
@@ -5448,7 +5448,7 @@
           "Value": "+20"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your next successful Hard CC on an enemy god creates a runic symbol on the ground that lasts for 5s. Enemies in the symbol take 10% more damage. This can only occur once every 15 seconds."
+      "SecondaryDescription": "PASSIVE - Your next successful Hard CC on an enemy god creates a runic symbol on the ground that lasts for 5s. Enemies in the symbol take 15% more damage. This can only occur once every 15 seconds."
     },
     "ItemId": 24177,
     "ItemTier": 3,
@@ -5475,7 +5475,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 25,
+    "PhysicalPower": 30,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -5494,7 +5494,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+25"
+          "Value": "+30"
         },
         {
           "Description": "Health",
@@ -5509,7 +5509,7 @@
           "Value": "+20"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your next successful Hard CC on an enemy god creates a runic symbol on the ground that lasts for 5s. Enemies in the symbol take 10% more damage. This can only occur once every 15 seconds. <n>GLYPH - Additionally, enemy gods within the rune are burned, dealing 5 + 7% of your Protections from items and abilities as Magical Damage every 1s while inside the rune and for 2s after leaving it. "
+      "SecondaryDescription": "PASSIVE - Your next successful Hard CC on an enemy god creates a runic symbol on the ground that lasts for 5s. Enemies in the symbol take 10% more damage. This can only occur once every 15 seconds. <n>GLYPH - Additionally, enemy gods within the rune are burned, dealing 10 + 8% of your Protections from items and abilities as Magical Damage every 1s while inside the rune and for 2s after leaving it. "
     },
     "ItemId": 24728,
     "ItemTier": 4,
@@ -5536,7 +5536,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 25,
+    "PhysicalPower": 30,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -5555,7 +5555,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+25"
+          "Value": "+30"
         },
         {
           "Description": "Health",
@@ -5570,7 +5570,7 @@
           "Value": "+20"
         }
       ],
-      "SecondaryDescription": "<n>GLYPH - Your next successful Hard CC on an enemy god creates a 30 unit shockwave around them. Enemies hit by the shockwave deal 10% less damage and take 10% more damage for 3s. This can only occur once every 15s. "
+      "SecondaryDescription": "<n>GLYPH - Your next successful Hard CC on an enemy god creates a 30 unit shockwave around them. Enemies hit by the shockwave deal 15% less damage and take 15% more damage for 3s. This can only occur once every 15s. "
     },
     "ItemId": 24839,
     "ItemTier": 4,
@@ -5597,7 +5597,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 25,
+    "PhysicalPower": 30,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -6243,7 +6243,7 @@
         },
         {
           "Description": "MP5",
-          "Value": "+10"
+          "Value": "+20"
         },
         {
           "Description": "Cooldown Reduction",
@@ -6254,7 +6254,7 @@
     },
     "ItemId": 7641,
     "ItemTier": 3,
-    "Price": 1250,
+    "Price": 1200,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 9837,
     "ShortDesc": "Provides Cooldown Reduction and Physical Protection",
@@ -6273,7 +6273,7 @@
     "MagicalProtection": 0,
     "Mana": 300,
     "MovementSpeed": 0,
-    "MP5": 10,
+    "MP5": 20,
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
@@ -6548,14 +6548,14 @@
         },
         {
           "Description": "MP5",
-          "Value": "+10"
+          "Value": "+20"
         },
         {
           "Description": "Cooldown Reduction",
           "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "GLYPH - Each time you are hit by an ability, gain a stack of 5 Protections that corresponds to the damage type you were hit with, up to a max of 4 of each type. Once you reach max stacks of both kinds, gain a burst of 20% Movement Speed and double your Protections gained by this effect for 8s, after which all stacks are removed."
+      "SecondaryDescription": "GLYPH - Each time you are hit by an ability, gain a stack of 7 Protections that corresponds to the damage type you were hit with, up to a max of 4 of each type. Once you reach max stacks of both kinds, gain a burst of 20% Movement Speed and double your Protections gained by this effect for 8s, after which all stacks are removed."
     },
     "ItemId": 21483,
     "ItemTier": 4,
@@ -6578,7 +6578,7 @@
     "MagicalProtection": 0,
     "Mana": 300,
     "MovementSpeed": 0,
-    "MP5": 10,
+    "MP5": 20,
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
@@ -6609,14 +6609,14 @@
         },
         {
           "Description": "MP5",
-          "Value": "+10"
+          "Value": "+20"
         },
         {
           "Description": "Cooldown Reduction",
           "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "GLYPH - When your ultimate ability has finished casting you provide an aura in a 60 unit range around you reducing basic attack damage from enemies by 15% for 5s. This effect may only occur once every 45s."
+      "SecondaryDescription": "GLYPH - When your ultimate ability has finished casting you provide an aura in a 60 unit range around you reducing basic attack damage from enemies by 25% for 5s. This effect may only occur once every 45s."
     },
     "ItemId": 21503,
     "ItemTier": 4,
@@ -6639,7 +6639,7 @@
     "MagicalProtection": 0,
     "Mana": 300,
     "MovementSpeed": 0,
-    "MP5": 10,
+    "MP5": 20,
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
@@ -8128,7 +8128,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+55"
+          "Value": "+65"
         },
         {
           "Description": "Attack Speed",
@@ -8154,7 +8154,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 55,
+    "MagicalPower": 65,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -11130,7 +11130,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+30"
+          "Value": "+35"
         },
         {
           "Description": "Attack Speed",
@@ -11145,7 +11145,7 @@
     },
     "ItemId": 14849,
     "ItemTier": 3,
-    "Price": 1200,
+    "Price": 1100,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 10662,
     "ShortDesc": "Reduce Attacking and Movement Penalties",
@@ -11168,7 +11168,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 10,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 30,
+    "PhysicalPower": 35,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -13489,7 +13489,7 @@
           "Value": "+300"
         }
       ],
-      "SecondaryDescription": "PSV - Every time an enemy within 40 units gains a shield, you gain 15% Movement Speed for 4s. This effect can only occur once every 10s.\n\nAURA - Any Shields applied on enemy gods within 40 units will be reduced by 30%.\n"
+      "SecondaryDescription": "PASSIVE - Every time an enemy within 40 units gains a shield, you gain 15% Movement Speed for 4s. This effect can only occur once every 10s.\n\nAURA - Any Shields applied on enemy gods within 40 units will be reduced by 30%.\n"
     },
     "ItemId": 24436,
     "ItemTier": 3,
@@ -20386,7 +20386,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Each time an allied god dies within 70 units of you or you heal an allied god with an ability, a flower drops from your ally that can be picked up by you or an allied god. Picking up the flower gives that god a shield equal to 3% of their Max HP that lasts for 8s. Flowers last 7s on ground. Picking up a new flower refreshes shield."
+      "SecondaryDescription": "PASSIVE - Each time an allied god dies within 70 units of you or you heal an allied god with an ability, a flower drops from your ally that can be picked up by you or an allied god. Picking up the flower gives that god a shield equal to 5% of their Max HP that lasts for 8s. Flowers last 7s on ground. Picking up a new flower refreshes shield."
     },
     "ItemId": 23009,
     "ItemTier": 3,
@@ -23145,14 +23145,14 @@
     "ItemDescription": {
       "Description": "Complete Recipe steps to progress",
       "Menuitems": [],
-      "SecondaryDescription": "<font color='#f59b56'>Step 1 - Obtain 40 minion assists.\nStep 2 - CC enemy gods 10 times. You may not gain more than one stack per 1s.\nDish - Being hit by a hard CC creates a pulse that provides 5 + 1 per level Protections to yourself and allies within 55 units for 5s. This effect can only occur once every 10s."
+      "SecondaryDescription": "<font color='#f59b56'>Step 1 - Obtain 40 minion assists.\nStep 2 - Crowd Control enemy gods 10 times. You may not gain more than one stack per 1s.\nDish - Being hit by a hard Crowd Control creates a pulse that provides 10 + 1 per level Protections to yourself and allies within 55 units for 5s. This effect can only occur once every 10s."
     },
     "ItemId": 25255,
     "ItemTier": 1,
     "Price": 0,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 25255,
-    "ShortDesc": "Grant allies Protections when hit by CC",
+    "ShortDesc": "Grant allies Protections when hit by Crowd Control",
     "StartingItem": false,
     "Type": "Item",
     "AttackSpeed": 0,
@@ -23189,14 +23189,14 @@
     "ItemDescription": {
       "Description": "Complete Recipe steps to progress",
       "Menuitems": [],
-      "SecondaryDescription": "Step 1 - Obtain 40 minion assists.\n<font color='#f59b56'>Step 2 - CC enemy gods 10 times. You may not gain more than one stack per 1s.\nDish - Being hit by a hard CC creates a pulse that provides 5 + 1 per level Protections to yourself and allies within 55 units for 5s. This effect can only occur once every 10s."
+      "SecondaryDescription": "Step 1 - Obtain 40 minion assists.\n<font color='#f59b56'>Step 2 - Crowd Control enemy gods 10 times. You may not gain more than one stack per 1s.\nDish - Being hit by a hard Crowd Control creates a pulse that provides 10 + 1 per level Protections to yourself and allies within 55 units for 5s. This effect can only occur once every 10s."
     },
     "ItemId": 25267,
     "ItemTier": 2,
     "Price": 0,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 25255,
-    "ShortDesc": "Grant allies Protections when hit by CC",
+    "ShortDesc": "Grant allies Protections when hit by Crowd Control",
     "StartingItem": false,
     "Type": "Item",
     "AttackSpeed": 0,
@@ -23233,14 +23233,14 @@
     "ItemDescription": {
       "Description": "Complete Recipe steps to progress",
       "Menuitems": [],
-      "SecondaryDescription": "PASSIVE - Being hit by a hard CC creates a pulse that provides 5 + 1 per level Protections to yourself and allies within 55 units for 5s. This effect can only occur once every 10s."
+      "SecondaryDescription": "PASSIVE - Being hit by a hard Crowd Control creates a pulse that provides 10 + 1 per level Protections to yourself and allies within 55 units for 5s. This effect can only occur once every 10s."
     },
     "ItemId": 25285,
     "ItemTier": 3,
     "Price": 0,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 25255,
-    "ShortDesc": "Grant allies Protections when hit by CC",
+    "ShortDesc": "Grant allies Protections when hit by Crowd Control",
     "StartingItem": false,
     "Type": "Item",
     "AttackSpeed": 0,
@@ -23409,7 +23409,7 @@
     "ItemDescription": {
       "Description": "Complete Recipe steps to progress",
       "Menuitems": [],
-      "SecondaryDescription": "<font color='#f59b56'>Step 1 - Deal or take 1500 god damage.\nStep 2 - Successfully damage an enemy god 20 times with basic attacks or abilities. ICD - 2s.\nDish - Being out of combat for 5s grants you a buff that reduces the damage of the next Basic Attack or ability from a god by 20%."
+      "SecondaryDescription": "<font color='#f59b56'>Step 1 - Deal or take 1500 god damage.\nStep 2 - Successfully damage an enemy god 20 times with basic attacks or abilities. This effect may only occur once every 2s.\nDish - Being out of combat for 5s grants you a buff that reduces the damage of the next Basic Attack or ability from a god by 40%."
     },
     "ItemId": 25290,
     "ItemTier": 1,
@@ -23453,7 +23453,7 @@
     "ItemDescription": {
       "Description": "Complete Recipe steps to progress",
       "Menuitems": [],
-      "SecondaryDescription": "Step 1 - Deal/Take 1500 god damage.\n<font color='#f59b56'>Step 2 - Successfully damage an enemy god 20 times with basic attacks or abilities. ICD - 2s.\nDish - Being out of combat for 5s grants you a buff that reduces the damage of the next Basic Attack or ability from a god by 20%."
+      "SecondaryDescription": "Step 1 - Deal/Take 1500 god damage.\n<font color='#f59b56'>Step 2 - Successfully damage an enemy god 20 times with basic attacks or abilities. This effect may only occur once every 2s.\nDish - Being out of combat for 5s grants you a buff that reduces the damage of the next Basic Attack or ability from a god by 40%."
     },
     "ItemId": 25291,
     "ItemTier": 2,
@@ -23497,7 +23497,7 @@
     "ItemDescription": {
       "Description": "Complete Recipe steps to progress",
       "Menuitems": [],
-      "SecondaryDescription": "PASSIVE - Being out of combat for 5s grants you a buff that reduces the damage of the next Basic Attack or ability from a god by 20%."
+      "SecondaryDescription": "PASSIVE - Being out of combat for 5s grants you a buff that reduces the damage of the next Basic Attack or ability from a god by 40%."
     },
     "ItemId": 25292,
     "ItemTier": 3,
@@ -23541,7 +23541,7 @@
     "ItemDescription": {
       "Description": "Complete Recipe steps to progress",
       "Menuitems": [],
-      "SecondaryDescription": "<font color='#f59b56'>Step 1 - Kill or assist 30 jungle minions.\nStep 2 - Traverse 1500 units.\nDish - Every 100 units traveled, you gain a buff that deals 20 (+15% of your Power) to the next enemy hit with your next Basic Attack or ability."
+      "SecondaryDescription": "<font color='#f59b56'>Step 1 - Kill or assist 30 jungle minions.\nStep 2 - Traverse 1500 units.\nDish - Every 100 units traveled, you gain a buff that deals 20 (+30%/20% of your Physical/Magical Power) Physical Damage to the next enemy hit with your next Basic Attack or ability."
     },
     "ItemId": 25302,
     "ItemTier": 1,
@@ -23585,7 +23585,7 @@
     "ItemDescription": {
       "Description": "Complete Recipe steps to progress",
       "Menuitems": [],
-      "SecondaryDescription": "Step 1 - Kill or assist 30 jungle minions.\n<font color='#f59b56'>Step 2 - Traverse 1500 units.\nDish - Every 100 units traveled, you gain a buff that deals 20 (+15% of your Power) to the next enemy hit with your next Basic Attack or ability."
+      "SecondaryDescription": "Step 1 - Kill or assist 30 jungle minions.\n<font color='#f59b56'>Step 2 - Traverse 1500 units.\nDish - Every 100 units traveled, you gain a buff that deals 20 (+30%/20% of your Physical/Magical Power) Physical Damage to the next enemy hit with your next Basic Attack or ability."
     },
     "ItemId": 25304,
     "ItemTier": 2,
@@ -23629,7 +23629,7 @@
     "ItemDescription": {
       "Description": "Complete Recipe steps to progress",
       "Menuitems": [],
-      "SecondaryDescription": "PASSIVE - Every 100 units traveled, you gain a buff that deals 20 (+15% of your Power) to the next enemy hit with your next Basic Attack or ability."
+      "SecondaryDescription": "PASSIVE - Every 100 units traveled, you gain a buff that deals 20 (+30%/20% of your Physical/Magical Power) Physical Damage to the next enemy hit with your next Basic Attack or ability."
     },
     "ItemId": 25305,
     "ItemTier": 3,
