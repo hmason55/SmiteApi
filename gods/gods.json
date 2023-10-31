@@ -1490,7 +1490,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/shackles.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "13s",
+          "cooldown": "15/14.5/14/13.5/13s",
           "cost": "70/75/80/85/90",
           "description": "Chains extend from Ares' shield, doing damage to all enemies in its path. Hitting a god shackles them to Ares, Cripples them, preventing movement abilities, dealing the same damage every second while slowing them by 15% and buffing Ares. While shackled, Ares can fire another chain for free within 2s. Jungle Camps take an extra +40% damage.",
           "menuItems": null
@@ -4050,7 +4050,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/capsize.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14/14.5/13/13.5/12s",
+          "cooldown": "14/13.5/13/12.5/12s",
           "cost": "60/65/70/75/80",
           "description": "Charybdis absorbs water from around her before firing a quick blast from The Maw. Enemies are hit by a rapidly decaying Slow and Physical Protection debuff.\n\nThis ability can be channeled for longer, consuming Tide on fire, to become wider, strengthen the debuff effects and deal more damage.\n\nUp to 40% Tide consumed.",
           "menuItems": null
@@ -4720,7 +4720,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/the-mire.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "18/17/16/15/14s",
+          "cooldown": "14s",
           "cost": "50/55/60/65/70",
           "description": "Cthulhu summons a portal creating a slowing field of eldritch mire at the target location. While Cthulhu channels, The Mire continues to grow as the portal fires out two masses of corruption that hit and damage all enemies in the field.\nThe first shot also Slows enemies while the second Roots them, both hits applying 1 stack of Torment. Cancelling the ability early stops The Mire from growing or the portal from firing additional shots.",
           "menuItems": null
@@ -4990,7 +4990,7 @@
         "itemDescription": {
           "cooldown": "13s",
           "cost": "50",
-          "description": "Cupid places 3 floating hearts at his ground target location that heal himself or allied gods and provide a passive stack when picked up. Cupid regenerates Mana for each heart that is picked up by an ally.",
+          "description": "Cupid places 3 floating hearts at his ground target location that heal himself or allied gods and provide a passive stack when picked up. Cupid regenerates Mana and heals for 60% of the value for each heart that is picked up by an ally.",
           "menuItems": null
         },
         "rankItems": null
@@ -6088,7 +6088,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/valkyries-discretion.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "90s",
+          "cooldown": "100s",
           "cost": "90/95/100/105/110",
           "description": "Freya uses her Cloak of Feathers to fly above the battlefield where she fires down blasts of Magical damage up to 4 times while flying. Freya can't be hit when at full ascension and can cancel it anytime.",
           "menuItems": null
@@ -7414,7 +7414,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/divine-shroud.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "16s",
+          "cooldown": "16/15.5/15/14.5/14s",
           "cost": "45/50/55/60/65",
           "description": "Hera shrouds herself in her divine power, granting her a shield from damage and temporary movement speed that lasts as long as the shield remains.\n\nIf Argus is active, Argus shines with the same Divine power as Hera, causing him to deal radiant damage and move at an increased rate.",
           "menuItems": null
@@ -7922,7 +7922,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/somersault.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15/14/13/12/11s",
+          "cooldown": "13/12.5/12/11.5/11s",
           "cost": "60",
           "description": "Hun Batz flips through the air, crashing down at his target location, doing damage to all nearby enemies and Slowing them.",
           "menuItems": null
@@ -8002,9 +8002,9 @@
     "MagicProtection": 30,
     "MagicProtectionPerLevel": 1.6,
     "Mana": 220,
-    "ManaPerFive": 3.9,
+    "ManaPerFive": 4.4,
     "ManaPerLevel": 38,
-    "MP5PerLevel": 0.27,
+    "MP5PerLevel": 0.38,
     "Name": "Hun Batz",
     "OnFreeRotation": "",
     "Pantheon": "Maya",
@@ -8234,7 +8234,7 @@
         "itemDescription": {
           "cooldown": "90s",
           "cost": "90",
-          "description": "Ix Chel becomes CC immune and channels all of her energy into a single intense beam of light. The beam deals damage to enemies and heals allied gods every 0.2s for 3s, increasing in duration if Ix Chel hits allied and enemy gods at the same time.\nEnemy gods take increasing damage per tick which decays rapidly if not hit recently.\n\nHealing an ally also heals Ix Chel. Ix Chel gains 6 stacks of Rainbow Weaver on firing.",
+          "description": "Ix Chel becomes CC immune, gaining 15% Damage Mitigation as she channels all of her energy into a single intense beam of light. The beam deals damage to enemies and heals allied gods every 0.2s for 3s, increasing in duration if Ix Chel hits allied and enemy gods at the same time.\nEnemy gods take increasing damage per tick which decays rapidly if not hit recently.\n\nHealing an ally also heals Ix Chel. Ix Chel gains 6 stacks of Rainbow Weaver on firing.",
           "menuItems": null
         },
         "rankItems": null
@@ -9278,7 +9278,7 @@
         "itemDescription": {
           "cooldown": "15/14/13/12/11s",
           "cost": "65",
-          "description": "Kukulkan channels the wind, allowing him to move faster. This speed boost is strong at first but scales down gradually over the 4s duration. Additionally, Kukulkan cleanses himself of slows and becomes immune to Slows for 0.6s when activated.",
+          "description": "Kukulkan channels the wind, allowing him to move faster and cleansing himself of Slows and becoming immune to Slows. This speed boost is strong at first but scales down gradually over the 4s duration.",
           "menuItems": null
         },
         "rankItems": null
@@ -9934,7 +9934,7 @@
         "itemDescription": {
           "cooldown": "6s",
           "cost": "20/30/40/50/60",
-          "description": "Maman Brigitte drinks from her bottle and then breathes fire in a cone. Enemies are set aflame, damaged every 0.5s for 1.5s and refreshing if they stay in the area. This damage does not trigger Item effects. Maman Brigitte channels the fire for as long as she has Rum and can cancel at any time. When she runs out of Rum or upon reactivation, she slams her bottle on the ground, damaging and stunning enemies. This ability's cooldown is reduced based on Rum remaining when the slam occurs.",
+          "description": "Maman Brigitte drinks from her bottle and breathes out fire. Enemies are set aflame, damaged every 0.5s for 1.5s, refreshing if they stay in the area. This damage does not trigger Item effects. Maman Brigitte is knockback immune, channeling the fire as long as she has Rum and can cancel at any time. When out of Rum or upon reactivation, she slams her bottle on the ground, damaging and stunning enemies. This ability's cooldown is reduced based on Rum remaining when the slam occurs.",
           "menuItems": null
         },
         "rankItems": null
@@ -9972,7 +9972,15 @@
       "Id": 24715,
       "Summary": "Explosion of Souls",
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/explosion-of-souls.jpg",
-      "Description": null
+      "Description": {
+        "itemDescription": {
+          "cooldown": "90s",
+          "cost": "100",
+          "description": "Maman Brigitte gains Crowd Control immunity and gathers a large orb of spiritual energy that she throws at the target location. The orb's size is determined by the amount of Soul Orbs that Maman Brigitte has collected through Soul Spikes. Enemies hit are damaged, knocked up, and receive Madame's Mark for 5s. Maman Brigitte loses all Soul Orbs after using Explosion of Souls.",
+          "menuItems": null
+        },
+        "rankItems": null
+      }
     },
     "Ability_5": {
       "Id": 24716,
@@ -10234,7 +10242,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/landfall.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "110s",
+          "cooldown": "110/105/100/95/90s",
           "cost": "100",
           "description": "Maui selects an area, becomes CC immune and leaps into the air. He throws his hook at the target area and pulls up an island, knocking all enemies in the area up into the air and pulls them in front of himself. The island remains on the battleground, blocking player movement for 4s. Maui can reactivate this ability to destroy the island early.",
           "menuItems": null
@@ -12070,7 +12078,7 @@
         "itemDescription": {
           "cooldown": "6s",
           "cost": "30",
-          "description": "Osiris throws his Sickle forward. It passes through minions and stops on the first god hit, dealing damage and Slowing them. If the Sickle hits a god, it remains for the duration of the Slow. Additionally, the Sickle only deals 50% damage to minions.",
+          "description": "Osiris throws his Sickle forward. It passes through minions and stops on the first god hit, dealing damage and Slowing them. If the Sickle hits a god, it remains for the duration of the Slow. Additionally, the Sickle only deals 75% damage to minions.",
           "menuItems": null
         },
         "rankItems": null
@@ -12096,7 +12104,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/judgement-tether.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15s ",
+          "cooldown": "14s ",
           "cost": "60/65/70/75/80",
           "description": "Osiris flings out mummy wraps, tethering himself to all nearby enemy gods. Targets hit have their Attack Speed reduced and deal reduced damage over the next 4s. The tether can be broken by targets moving far enough away from Osiris. Targets still in range when the duration expires are Stunned.",
           "menuItems": null
@@ -12112,7 +12120,7 @@
         "itemDescription": {
           "cooldown": "75s",
           "cost": "100",
-          "description": "Osiris sheds any remaining fragments, gaining the benefit of his Passive, and leaps forward. Osiris targets all enemy gods in the landing area, and rips a fragment of their spirits out, dealing damage and preventing them from healing. Targets are Rooted for 0.4s during the attack. Enemy minions in the target area also take damage.",
+          "description": "Osiris sheds any remaining fragments, gaining the benefit of his Passive, and leaps forward. Osiris targets all enemy gods in the landing area, and rips a fragment of their spirits out, dealing damage, afflicting them with negative Cooldown Reduction, and preventing them from healing. Targets are Rooted for 0.4s during the attack. Enemy minions in the target area also take damage.",
           "menuItems": null
         },
         "rankItems": null
@@ -12202,7 +12210,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/pyroclast.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14s",
+          "cooldown": "15s",
           "cost": "40/45/50/55/60",
           "description": "Pele flourishes and fires out a magma orb ahead of her in a line, dealing damage and granting her fuel per enemy hit. Once the fiery projectile reaches maximum distance it hovers for a brief instant, solidifies, and then returns back in pieces, dealing damage to enemies on the way back. The number of shards returning is dependent on the rank of this ability.\n\nPele has 2 charges of this ability.",
           "menuItems": null
@@ -12246,7 +12254,7 @@
         "itemDescription": {
           "cooldown": "90s",
           "cost": "100",
-          "description": "After a short warm up, Pele dashes forwards dealing massive damage and a slow to the first enemy God hit, and dealing additional damage to enemies behind in a cone.\n\nFor the next 10 seconds or 4 attacks, every time Pele hits an enemy with a basic attack, she instead deals ability damage in a cone originating from that enemy. During this time Pele's basic attacks deal 40% reduced damage.",
+          "description": "After a short warm up, Pele dashes forwards dealing massive damage and a slow to the first enemy God hit, and dealing additional damage to enemies behind in a cone.\n\nFor the next 10 seconds or 4 attacks, every time Pele hits an enemy with a basic attack, she instead deals ability damage in a cone originating from that enemy. During this time Pele's basic attacks deal 50% reduced damage.",
           "menuItems": null
         },
         "rankItems": null
@@ -14522,7 +14530,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/typhoon.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "90s",
+          "cooldown": "100s",
           "cost": "80/85/90/95/100",
           "description": "Susano summons a hurricane at his location, creating a Vortex that drags enemies towards the center while growing to up to twice its size, increasing the damage as it grows. Upon reaching full size, the storm is launched in the direction he is facing, knocking up opponents in its path. Susano may re-activate this ability early to fire the storm at it's current size for reduced damage. If fired at less than half of its maximum size, he also foregoes the knock-up.",
           "menuItems": null
@@ -14628,7 +14636,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/wisps.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "16s",
+          "cooldown": "14s",
           "cost": "60/65/70/75/80",
           "description": "Sylvanus releases wisps that seek out nearby allies and enemies. Allied gods are Protected and all allies are Healed while enemies take damage over time.\n\nThe initial wisp heals allied gods and damages enemy gods for twice the normal amount. This ability does not create seed pods when hitting minions.",
           "menuItems": null
@@ -15836,7 +15844,7 @@
         "itemDescription": {
           "cooldown": "14s",
           "cost": "50",
-          "description": "Ranged: Ullr gains bonus Physical Power for 5s.\n\nMelee: Ullr gains bonus move speed for 5s.",
+          "description": "Ranged: Ullr gains bonus Attack Speed for 5s.\n\nMelee: Ullr gains bonus move speed for 5s.",
           "menuItems": null
         },
         "rankItems": null
@@ -15864,7 +15872,7 @@
         "itemDescription": {
           "cooldown": "1s",
           "cost": "0",
-          "description": "Ullr changes stance and gains benefits depending on which stance he is in. Ullr also gains half the benefits of the opposing stance. \n\nRanged: Ullr uses his yew bow, removing Disarms and gaining additional attack speed.\n\nMelee: Ullr uses his axes, removing Disarms and gaining additional Physical Lifesteal.",
+          "description": "Ullr changes stance and gains benefits depending on which stance he is in. Ullr also gains half the benefits of the opposing stance. \n\nRanged: Ullr uses his yew bow, removing Disarms and gaining additional Physical Power.\n\nMelee: Ullr uses his axes, removing Disarms and gaining additional Physical Lifesteal.",
           "menuItems": null
         },
         "rankItems": null
@@ -16399,7 +16407,7 @@
       "Description": {
         "itemDescription": {
           "cooldown": "90s",
-          "cost": "110/100/90/80/70",
+          "cost": "70/80/90/100/110",
           "description": "Xing Tian spins grabbing and hitting enemies with his axe before throwing them in the direction he is facing.\n\nDamage is dealt to enemies once each on the grab and throw as well as three times during the spin.",
           "menuItems": null
         },
@@ -16758,7 +16766,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/flames-of-the-phoenix.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "11/10.5/10/9.5/9s",
+          "cooldown": "9s",
           "cost": "60/65/70/75/80",
           "description": "Yu Huang conjures four cinders of the phoenix, spreading them in an X shape. The cinders rush inward, dealing damage once as they travel. When the cinders meet, they explode in a field of flames that persists for 3s, burning enemies inside. If Yu Huang is Attuned, when the cinders explode, all enemies in the area have their Magical Protections reduced.",
           "menuItems": null

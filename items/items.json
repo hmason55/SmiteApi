@@ -1110,7 +1110,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+60"
+          "Value": "+70"
         },
         {
           "Description": "Health",
@@ -1129,7 +1129,7 @@
     },
     "ItemId": 15582,
     "ItemTier": 3,
-    "Price": 1300,
+    "Price": 1250,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 7610,
     "ShortDesc": "Build stacks to get bonus damage and healing",
@@ -1144,7 +1144,7 @@
     "MagicalLifesteal": 0.08,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 60,
+    "MagicalPower": 70,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -2371,7 +2371,7 @@
           "Value": "+7%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your relics receive 40s Cooldown Reduction. <n>GLYPH - When you activate a relic, your Protections are increased by 15% and you gain the ability to see wards for 10s. "
+      "SecondaryDescription": "PASSIVE - Your relics receive 40s Cooldown Reduction. <n>GLYPH - When you activate a relic, your Protections are increased by 15% and you gain the ability to see wards for 20s. "
     },
     "ItemId": 24727,
     "ItemTier": 4,
@@ -3845,11 +3845,11 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+25"
+          "Value": "+30"
         },
         {
           "Description": "Attack Speed",
-          "Value": "+10%"
+          "Value": "+15%"
         },
         {
           "Description": "Critical Strike Chance",
@@ -3866,7 +3866,7 @@
     "ShortDesc": "Critical Hits give increased Penetration and Attack Speed",
     "StartingItem": false,
     "Type": "Item",
-    "AttackSpeed": 0.1,
+    "AttackSpeed": 0.15,
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0.2,
     "CrowdControlReduction": 0,
@@ -3883,7 +3883,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 25,
+    "PhysicalPower": 30,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -4296,7 +4296,7 @@
     },
     "ItemId": 7539,
     "ItemTier": 3,
-    "Price": 1050,
+    "Price": 1200,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 9825,
     "ShortDesc": "Cooldown Reduction and Lifesteal",
@@ -5509,7 +5509,7 @@
           "Value": "+20"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your next successful Hard CC on an enemy god creates a runic symbol on the ground that lasts for 5s. Enemies in the symbol take 10% more damage. This can only occur once every 15 seconds. <n>GLYPH - Additionally, enemy gods within the rune are burned, dealing 10 + 8% of your Protections from items and abilities as Magical Damage every 1s while inside the rune and for 2s after leaving it. "
+      "SecondaryDescription": "PASSIVE - Your next successful Hard CC on an enemy god creates a runic symbol on the ground that lasts for 5s. Enemies in the symbol take 15% more damage. This can only occur once every 15 seconds. <n>GLYPH - Additionally, enemy gods within the rune are burned, dealing 10 + 8% of your Protections from items and abilities as Magical Damage every 1s while inside the rune and for 2s after leaving it. "
     },
     "ItemId": 24728,
     "ItemTier": 4,
@@ -10971,7 +10971,7 @@
       "Menuitems": [
         {
           "Description": "Attack Speed",
-          "Value": "+30%"
+          "Value": "+35%"
         }
       ],
       "SecondaryDescription": "PASSIVE - Every fourth Basic Attack triggers a chain lightning, damaging the target and up to 4 nearby enemies for 15 damage +60% of your total Basic Attack Power."
@@ -10984,7 +10984,7 @@
     "ShortDesc": "Every four basic attacks trigger chain lightning",
     "StartingItem": false,
     "Type": "Item",
-    "AttackSpeed": 0.3,
+    "AttackSpeed": 0.35,
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
@@ -11588,7 +11588,7 @@
     "IconId": 2579,
     "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/stone-of-gaia.jpg",
     "ItemDescription": {
-      "Description": "This item grants CC immunity after Knockups.",
+      "Description": "This item grants Regeneration and Power after Knockups.",
       "Menuitems": [
         {
           "Description": "Health",
@@ -11603,7 +11603,7 @@
           "Value": "+15"
         }
       ],
-      "SecondaryDescription": "PASSIVE - If you are hit by a Knockup, Knockback, Pull, or Grab you gain 7% of your max Health over the next 5 seconds. This effect does not trigger on Vortexes. Can only occur once every 15s.\n\nPASSIVE - Regenerates 0.4% of your max health every second."
+      "SecondaryDescription": "PASSIVE - If you are hit by a Knockup, Knockback, Pull, or Grab you gain 7% of your max Health over the next 5 seconds, as well as 15 Physical Power and 25 Magical Power while this regeneration is in effect. This effect does not trigger on Vortexes. Can only occur once every 15s.\n\nPASSIVE - Regenerates 0.4% of your max health every second."
     },
     "ItemId": 7572,
     "ItemTier": 3,
@@ -12458,7 +12458,7 @@
     },
     "ItemId": 23868,
     "ItemTier": 3,
-    "Price": 1050,
+    "Price": 950,
     "RestrictedRoles": "guardian,hunter,mage",
     "RootItemId": 12671,
     "ShortDesc": "Enter stealth and gain Movement Speed by killing enemy gods",
@@ -13489,11 +13489,11 @@
           "Value": "+300"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Every time an enemy within 40 units gains a shield, you gain 15% Movement Speed for 4s. This effect can only occur once every 10s.\n\nAURA - Any Shields applied on enemy gods within 40 units will be reduced by 30%.\n"
+      "SecondaryDescription": "PASSIVE - Every time an enemy within 40 units gains a shield, you gain 15% Movement Speed for 4s. This effect can only occur once every 10s.\n\nAURA - Any Shields applied on enemy gods within 55 units will be reduced by 30%.\n"
     },
     "ItemId": 24436,
     "ItemTier": 3,
-    "Price": 850,
+    "Price": 800,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 14071,
     "ShortDesc": "Movement Speed on enemy Shield application and enemy Shield reduction aura",
@@ -16109,7 +16109,7 @@
           "Value": "+25%"
         }
       ],
-      "SecondaryDescription": "PASSIVE: Dart deals 35% increased damage and can Critically Strike. When Dart damages an enemy Ratatoskr gains 15% Physical Lifesteal and 20% Basic Attack damage for 6s."
+      "SecondaryDescription": "PASSIVE: Dart deals 40% increased damage and can Critically Strike. When Dart damages an enemy Ratatoskr gains 15% Physical Lifesteal and 20% Basic Attack damage for 6s."
     },
     "ItemId": 18706,
     "ItemTier": 3,
@@ -16216,7 +16216,7 @@
         },
         {
           "Description": "Maximum Health",
-          "Value": "+10%"
+          "Value": "+15%"
         }
       ],
       "SecondaryDescription": "PASSIVE: When Ratatoskr deals damage to an enemy god with an ability he restores 5% of his Maximum Health and Mana."
@@ -17342,7 +17342,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - When you would die you instead find a timeline you are still alive, becoming CC Immune, Damage Immune, and unable to act. After 1.75s you are restored to 25% Health and Mana and can act again. This can only occur once every 6 minutes."
+      "SecondaryDescription": "PASSIVE - When you would die you instead find a timeline you are still alive, becoming CC Immune, Damage Immune, and unable to act. After 1.75s you are restored to 40% Health and Mana and can act again. This can only occur once every 6 minutes."
     },
     "ItemId": 19654,
     "ItemTier": 2,
@@ -17822,7 +17822,7 @@
           "Value": "+15"
         }
       ],
-      "SecondaryDescription": "AURA - You gain 8 GP5 if you have the lowest gold on your team. Damage taken by allied gods within 70 units of you is reduced by 15%, up to a maximum of 100 damage. The reduced damage is redirected to you as Magical Damage. If you would die from this damage it does not get reduced or redirected."
+      "SecondaryDescription": "AURA - You gain 8 GP5 if you have the lowest gold on your team. Damage taken by allied gods within 70 units of you is reduced by 12%, up to a maximum of 100 damage. The reduced damage is redirected to you as Magical Damage. If you would die from this damage it does not get reduced or redirected."
     },
     "ItemId": 19635,
     "ItemTier": 2,
@@ -23277,7 +23277,7 @@
     "ItemDescription": {
       "Description": "Complete Recipe steps to progress",
       "Menuitems": [],
-      "SecondaryDescription": "<font color='#f59b56'>Step 1 - Spend 1000 mana.\nStep 2 - Deal 2000 god damage with abilities.\nDish - When you use a non-ultimate ability, its cooldown is reduced by 1.5s. This effect may only occur once every 8s."
+      "SecondaryDescription": "<font color='#f59b56'>Step 1 - Spend 1000 mana.\nStep 2 - Deal 2000 god damage with abilities.\nDish - When you use a non-ultimate ability, its cooldown is reduced by 1s. This effect may only occur once every 8s."
     },
     "ItemId": 25286,
     "ItemTier": 1,
@@ -23321,7 +23321,7 @@
     "ItemDescription": {
       "Description": "Complete Recipe steps to progress",
       "Menuitems": [],
-      "SecondaryDescription": "Step 1 - Spend 1000 mana.\n<font color='#f59b56'>Step 2 - Deal 2000 god damage with abilities.\nDish - When you use a non-ultimate ability, its cooldown is reduced by 1.5s. This effect may only occur once every 8s."
+      "SecondaryDescription": "Step 1 - Spend 1000 mana.\n<font color='#f59b56'>Step 2 - Deal 2000 god damage with abilities.\nDish - When you use a non-ultimate ability, its cooldown is reduced by 1s. This effect may only occur once every 8s."
     },
     "ItemId": 25287,
     "ItemTier": 2,
@@ -23365,7 +23365,7 @@
     "ItemDescription": {
       "Description": "Complete Recipe steps to progress",
       "Menuitems": [],
-      "SecondaryDescription": "PASSIVE - When you use a non-ultimate ability, its cooldown is reduced by 1.5s. This effect may only occur once every 8s."
+      "SecondaryDescription": "PASSIVE - When you use a non-ultimate ability, its cooldown is reduced by 1s. This effect may only occur once every 8s."
     },
     "ItemId": 25294,
     "ItemTier": 3,
