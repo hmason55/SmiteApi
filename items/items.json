@@ -775,7 +775,7 @@
     },
     "ItemId": 7610,
     "ItemTier": 1,
-    "Price": 550,
+    "Price": 600,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 7610,
     "ShortDesc": "Magical Power and Magical Lifesteal",
@@ -889,7 +889,7 @@
     },
     "ItemId": 8574,
     "ItemTier": 2,
-    "Price": 850,
+    "Price": 800,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 7610,
     "ShortDesc": "Magical Power and Magical Lifesteal",
@@ -935,7 +935,7 @@
         },
         {
           "Description": "Health",
-          "Value": "+200"
+          "Value": "+150"
         },
         {
           "Description": "Magical Lifesteal",
@@ -960,7 +960,7 @@
     "CooldownReduction": 0.1,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 200,
+    "Health": 150,
     "HP5": 0,
     "MagicalLifesteal": 0.08,
     "MagicalPenetration": 0,
@@ -1129,7 +1129,7 @@
     },
     "ItemId": 15582,
     "ItemTier": 3,
-    "Price": 1250,
+    "Price": 1200,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 7610,
     "ShortDesc": "Build stacks to get bonus damage and healing",
@@ -1713,7 +1713,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+40"
+          "Value": "+45"
         },
         {
           "Description": "Physical Penetration",
@@ -1747,7 +1747,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 15,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 40,
+    "PhysicalPower": 45,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -2310,7 +2310,7 @@
           "Value": "+7%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your relics receive 40s Cooldown Reduction. <n>GLYPH - All enemy gods have 25% reduced Attack Speed in a 55 unit radius around you. "
+      "SecondaryDescription": "PASSIVE - Your relics receive 50s Cooldown Reduction. <n>GLYPH - All enemy gods have 25% reduced Attack Speed in a 55 unit radius around you. "
     },
     "ItemId": 24726,
     "ItemTier": 4,
@@ -2371,7 +2371,7 @@
           "Value": "+7%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your relics receive 40s Cooldown Reduction. <n>GLYPH - When you activate a relic, your Protections are increased by 15% and you gain the ability to see wards for 20s. "
+      "SecondaryDescription": "PASSIVE - Your relics receive 50s Cooldown Reduction. <n>GLYPH - When you activate a relic, your Protections are increased by 15% and you gain the ability to see wards for 20s. "
     },
     "ItemId": 24727,
     "ItemTier": 4,
@@ -4805,7 +4805,7 @@
           "Value": "+7%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your relics receive 40s Cooldown Reduction"
+      "SecondaryDescription": "PASSIVE - Your relics receive 50s Cooldown Reduction"
     },
     "ItemId": 13187,
     "ItemTier": 3,
@@ -6555,7 +6555,7 @@
           "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "GLYPH - Each time you are hit by an ability, gain a stack of 7 Protections that corresponds to the damage type you were hit with, up to a max of 4 of each type. Once you reach max stacks of both kinds, gain a burst of 20% Movement Speed and double your Protections gained by this effect for 8s, after which all stacks are removed."
+      "SecondaryDescription": "GLYPH - Each time you are hit by an ability, gain a stack of 5 Protections that corresponds to the damage type you were hit with, up to a max of 4 of each type. Once you reach max stacks of both kinds, gain a burst of 20% Movement Speed and double your Protections gained by this effect for 8s, after which all stacks are removed."
     },
     "ItemId": 21483,
     "ItemTier": 4,
@@ -7145,7 +7145,7 @@
     },
     "ItemId": 12666,
     "ItemTier": 3,
-    "Price": 1400,
+    "Price": 1250,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 9840,
     "ShortDesc": "Stun all nearby Enemies upon falling below 30% Health.",
@@ -7810,7 +7810,7 @@
         },
         {
           "Description": "Health",
-          "Value": "+200"
+          "Value": "+250"
         },
         {
           "Description": "Crowd Control Reduction",
@@ -7831,7 +7831,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0.2,
-    "Health": 200,
+    "Health": 250,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -7923,7 +7923,7 @@
           "Value": "+200"
         }
       ],
-      "SecondaryDescription": "AURA - Allied gods within 70 units have their Magical Protections increased by 15 and their MP5 increased by 30. <n>GLYPH - Gain a stack each time an enemy within 40 units casts an ability. At 4 stacks, your next basic attack against an enemy god will silence them for 1.5s. This effect can only occur every 15s."
+      "SecondaryDescription": "AURA - Allied gods within 70 units have their Magical Protections increased by 15 and their MP5 increased by 30. <n>GLYPH - Gain a stack each time an enemy within 40 units casts an ability. At 3 stacks, your next basic attack against an enemy god will silence them for 1.5s. This effect can only occur every 12s."
     },
     "ItemId": 21504,
     "ItemTier": 4,
@@ -8075,7 +8075,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+45"
+          "Value": "+40"
         },
         {
           "Description": "Attack Speed",
@@ -8101,7 +8101,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 45,
+    "MagicalPower": 40,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -8181,7 +8181,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+50"
+          "Value": "+45"
         },
         {
           "Description": "Attack Speed",
@@ -8192,7 +8192,7 @@
           "Value": "+6%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your Basic Attacks deal bonus damage of 10 (+3 Per Level). This effect does not hit structures."
+      "SecondaryDescription": "PASSIVE - Your Basic Attacks deal bonus damage of 5 (+3 Per Level). This effect does not hit structures."
     },
     "ItemId": 9351,
     "ItemTier": 3,
@@ -8211,7 +8211,7 @@
     "MagicalLifesteal": 0.06,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 50,
+    "MagicalPower": 45,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -11084,7 +11084,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - For each 0.02 Attack Speed you go over 2.5 Attack Speed, you gain 2 Physical Power. You can not gain more than 80 Physical Power in this way."
+      "SecondaryDescription": "PASSIVE - For each 0.02 Attack Speed you go over 2.5 Attack Speed, you gain 3 Physical Power. You can not gain more than 120 Physical Power in this way."
     },
     "ItemId": 14084,
     "ItemTier": 3,
@@ -11835,7 +11835,7 @@
           "Value": "+15"
         }
       ],
-      "SecondaryDescription": "PASSIVE - When you are hit by an enemy god you gain a stack, up to once a second, increasing your protections by 5. Max of 4 stacks, lasts for 5s each. At max stacks, upon being hit you are immediately healed for 10% of your maximum health. Allies within 35 units heal for 10% of their maximum health over 10s. This effect can only occur once every 45 seconds."
+      "SecondaryDescription": "PASSIVE - When you are hit by an enemy god you gain a stack, up to once a second, increasing your protections by 5. Max of 4 stacks, lasts for 5s each. At max stacks, upon being hit you are immediately healed for 10% of your maximum health. Allies within 35 units heal for 10% of their maximum health over 5s. This effect can only occur once every 45 seconds."
     },
     "ItemId": 20217,
     "ItemTier": 3,
@@ -13425,7 +13425,7 @@
         },
         {
           "Description": "Magical Protection",
-          "Value": "+35"
+          "Value": "+40"
         },
         {
           "Description": "Health",
@@ -13452,7 +13452,7 @@
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 35,
+    "MagicalProtection": 40,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 0,
@@ -15078,9 +15078,13 @@
         {
           "Description": "Cooldown Reduction",
           "Value": "+10%"
+        },
+        {
+          "Description": "Movement Speed",
+          "Value": "+7%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - When your Ultimate ability has finished casting, reveal all enemy gods within 120 units for 8s. While moving towards revealed enemies gain 30% Movement Speed. When first striking a revealed target they take an additional 20 + 50% of your Physical Power. This can only occur once every 45 seconds. This item is only available to Assassins and Warriors."
+      "SecondaryDescription": "PASSIVE - When your Ultimate ability has finished casting, reveal all enemy gods within 120 units for 8s. While moving towards revealed enemies gain 20% Movement Speed. When first striking a revealed target they take an additional 20 + 50% of your Physical Power. This can only occur once every 45 seconds. This item is only available to Assassins and Warriors."
     },
     "ItemId": 17356,
     "ItemTier": 3,
@@ -15102,7 +15106,7 @@
     "MagicalPower": 0,
     "MagicalProtection": 0,
     "Mana": 0,
-    "MovementSpeed": 0,
+    "MovementSpeed": 0.07,
     "MP5": 0,
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
@@ -15141,7 +15145,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - When your Ultimate ability has finished casting, your next ability or basic attack within 8s that damages an enemy god marks them, increasing the chance you and your allies can land a Critical Strike by 20% and reduces their damage output by 10% for 10 seconds. This can only occur once every 45 seconds. This item is only available to Hunters."
+      "SecondaryDescription": "PASSIVE - When your Ultimate ability has finished casting, your next ability or basic attack within 8s that damages an enemy god marks them, increasing the chance you and your allies can land a Critical Strike by 20% for 10 seconds. This can only occur once every 45 seconds. This item is only available to Hunters."
     },
     "ItemId": 17357,
     "ItemTier": 3,
@@ -15202,7 +15206,7 @@
     },
     "ItemId": 20694,
     "ItemTier": 3,
-    "Price": 1000,
+    "Price": 950,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 17349,
     "ShortDesc": "On ultimate use you deal massive damage.",
@@ -16687,7 +16691,7 @@
           "Value": "+10"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Damaging an enemy god deals 30  (+1.5 per level) damage and restores 20 (+1 per level) Health and Mana. This effect can only occur once every 10s. Can be upgraded at level 20."
+      "SecondaryDescription": "PASSIVE - Damaging an enemy god deals 30  (+1.5 per level) damage and restores 30 (+1.5 per level) Health and Mana. This effect can only occur once every 10s. Can be upgraded at level 20."
     },
     "ItemId": 19496,
     "ItemTier": 1,
@@ -16748,7 +16752,7 @@
           "Value": "+25"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Damaging an enemy god steals 3% (+1.5% of your Protection from items) of their Current Health away from your target and restores it to you. This effect can only occur once every 10s."
+      "SecondaryDescription": "PASSIVE - Damaging an enemy god steals 3% (+2% of your Protection from items) of their Current Health away from your target and restores it to you. This effect can only occur once every 10s."
     },
     "ItemId": 19512,
     "ItemTier": 2,
@@ -16802,7 +16806,7 @@
         },
         {
           "Description": "Health",
-          "Value": "+250"
+          "Value": "+300"
         },
         {
           "Description": "Crowd Control Reduction",
@@ -16823,7 +16827,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0.3,
-    "Health": 250,
+    "Health": 300,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -17388,7 +17392,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+35"
+          "Value": "+30"
         },
         {
           "Description": "MP5",
@@ -17418,7 +17422,7 @@
     "MagicalLifesteal": 0.06,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 35,
+    "MagicalPower": 30,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -17445,7 +17449,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+85"
+          "Value": "+80"
         },
         {
           "Description": "Health",
@@ -17479,7 +17483,7 @@
     "MagicalLifesteal": 0.12,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 85,
+    "MagicalPower": 80,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -17643,7 +17647,7 @@
           "Value": "+20"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Getting the assist when an enemy dies restores 3% of your Health and 4% of your Mana. If you have the lowest gold on your team, the assists also provides 15 Bonus Gold."
+      "SecondaryDescription": "PASSIVE - Getting the assist when an enemy dies restores 4% of your Health and 4% of your Mana. If you have the lowest gold on your team, the assists also provides 20 Bonus Gold."
     },
     "ItemId": 19625,
     "ItemTier": 2,
@@ -20386,7 +20390,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Each time an allied god dies within 70 units of you or you heal an allied god with an ability, a flower drops from your ally that can be picked up by you or an allied god. Picking up the flower gives that god a shield equal to 5% of their Max HP that lasts for 8s. Flowers last 7s on ground. Picking up a new flower refreshes shield."
+      "SecondaryDescription": "PASSIVE - Each time an allied god dies within 70 units of you or you heal an allied god with an ability, a flower drops from your ally that can be picked up by you or an allied god. After healing with an ability, you cannot drop more flowers this way for 10s. Picking up the flower gives that god a shield equal to 5% of their Max HP that lasts for 8s. Flowers last 7s on ground. Picking up a new flower refreshes shield."
     },
     "ItemId": 23009,
     "ItemTier": 3,
@@ -20501,7 +20505,7 @@
         },
         {
           "Description": "Health",
-          "Value": "+250"
+          "Value": "+300"
         },
         {
           "Description": "MP5",
@@ -20522,7 +20526,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 250,
+    "Health": 300,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -20701,7 +20705,7 @@
     "ItemDescription": {
       "Description": null,
       "Menuitems": [],
-      "SecondaryDescription": "Using this item places a ward that lasts 60 seconds. Shard Relics can be upgraded to a new Relic once you reach Level 12. Cooldown - 120s."
+      "SecondaryDescription": "Using this item places a ward that lasts 90 seconds. Shard Relics can be upgraded to a new Relic once you reach Level 12. Cooldown - 120s."
     },
     "ItemId": 23832,
     "ItemTier": 2,
@@ -21628,7 +21632,7 @@
           "Value": "+20"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Enemies hit by your damaging Abilities are corrupted, taking 250 Physical Damage over 5s and reducing their Attack Speed by 10%. Subsequent hits on the same target do half the bonus damage for the next 3s. Each time you apply corruption you gain 10% Attack Speed and 4% increased Protections for 6s, up to a maximum of 5 stacks."
+      "SecondaryDescription": "PASSIVE - Enemies hit by your damaging Abilities are corrupted, taking 300 Physical Damage over 6s and reducing their Attack Speed by 10%. Subsequent hits on the same target do half the bonus damage for the next 3s. Each time you apply corruption you gain 10% Attack Speed and 5% increased Protections for 6s, up to a maximum of 5 stacks."
     },
     "ItemId": 23860,
     "ItemTier": 2,
@@ -22672,7 +22676,7 @@
           "Value": "+15"
         }
       ],
-      "SecondaryDescription": "PASSIVE - After healing an allied god with an ability you gain 10 Magical Power per 10% of their missing Health for 6s. This effect can only occur once every 10s."
+      "SecondaryDescription": "PASSIVE - After healing an allied god with an ability you gain 10 Magical Power per 10% of their missing Health for 8s. This effect can only occur once every 8s."
     },
     "ItemId": 24421,
     "ItemTier": 3,

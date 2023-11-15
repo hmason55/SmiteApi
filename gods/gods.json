@@ -2115,7 +2115,7 @@
     "PhysicalPower": 0,
     "PhysicalPowerPerLevel": 0,
     "PhysicalProtection": 28,
-    "PhysicalProtectionPerLevel": 3.5,
+    "PhysicalProtectionPerLevel": 3.7,
     "Pros": "High Crowd Control, High Defense",
     "Roles": "Guardian",
     "Speed": 370,
@@ -4170,7 +4170,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/crystallized-curses.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15/14/13/12/11s",
+          "cooldown": "15/14.5/14/13.5/13s",
           "cost": "50/55/60/65/70",
           "description": "Chernobog conjures a large crystal of curses and hurls it at the target location dealing damage and Slowing enemies on landing. After several seconds the crystalline curses explode dealing damage again and Rooting any enemy in the area. The crystal can be detonated early by firing at it with Vicious Barrage. ",
           "menuItems": null
@@ -4184,7 +4184,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/vicious-barrage.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "7s",
+          "cooldown": "8s",
           "cost": "30/35/40/45/50",
           "description": "Chernobog fires an enlarged crystal shard that can pierce enemies and deals damage like a Basic Attack. This applies a single stack of Heart of Cold to all enemies it passes through and instantly detonates Crystallized Curses. After firing, Chernobog gains increased Attack Speed for several seconds.",
           "menuItems": null
@@ -4882,7 +4882,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/spear-of-mortal-pain.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "100s",
+          "cooldown": "100/95/90/85/80s",
           "cost": "14 Rage",
           "description": "Cu Chulainn swings his spear Gae Bulg in a circle around him, Damaging and Knocking Up all Enemies. Successfully hitting an enemy minion with this ability restores 10 Rage, 26 for a god (to a max of 36).\n\nIn his Berserk Form, Cu Chulainn instead gives a terrifying yell, Damaging all Enemies and causing them to Tremble. This yell costs no Rage and has a 35s cooldown.",
           "menuItems": null
@@ -5272,7 +5272,7 @@
         "itemDescription": {
           "cooldown": "16s",
           "cost": "70",
-          "description": "Danzaburou creates a field where he moves faster, is slow immune, takes less basic attack damage, and has no basic attack penalty. Enemies are slowed by 20%. If he leaves the field it fades turning him into a leaf with other decoys that mimic his movement. As a leaf his movement speed is increased, he is slow immune and can pass through enemies and allies. After a short delay from transforming, any hit from Enemy gods or if Danzaburou himself attacks, he will revert back.",
+          "description": "Danzaburou creates a field where he moves faster, is slow immune, takes less damage, and has no basic attack penalty. Enemies are slowed by 20%. If he leaves the field it fades turning him into a leaf with other decoys that mimic his movement. As a leaf his movement speed is increased, he is slow immune and can pass through enemies and allies. After a short delay from transforming, any hit from Enemy gods or if Danzaburou himself attacks, he will revert back.",
           "menuItems": null
         },
         "rankItems": null
@@ -5912,7 +5912,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/unchained.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15s",
+          "cooldown": "14s",
           "cost": "60/65/70/75/80",
           "description": "Fenrir leaps forward, dealing damage to all enemies when he lands. At full Runes, the leap Stuns the enemies hit. If the leap hits a god, the Cooldown is reduced by 30%.",
           "menuItems": null
@@ -7802,7 +7802,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/mark-of-the-golden-crow.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "18/17/16/15/14s",
+          "cooldown": "16/15.5/15/14.5/14s",
           "cost": "50",
           "description": "Hou Yi marks an enemy with Mark of the Golden Crow. Marked enemies take extra damage for every 10% of their missing health from Hou Yi’s abilities and basic attacks. Also, marked enemies, including stealthed gods, are visible to Hou Yi on the minimap. The mark lasts for 10s.",
           "menuItems": null
@@ -9934,7 +9934,7 @@
         "itemDescription": {
           "cooldown": "6s",
           "cost": "20/30/40/50/60",
-          "description": "Maman Brigitte drinks from her bottle and breathes out fire. Enemies are set aflame, damaged every 0.5s for 1.5s, refreshing if they stay in the area. This damage does not trigger Item effects. Maman Brigitte is knockback immune, channeling the fire as long as she has Rum and can cancel at any time. When out of Rum or upon reactivation, she slams her bottle on the ground, damaging and stunning enemies. This ability's cooldown is reduced based on Rum remaining when the slam occurs.",
+          "description": "Maman Brigitte drinks from her bottle and breathes out fire. Enemies are set aflame, damaged every 0.5s for 1.5s, refreshing if they stay in the area. This damage does not trigger Item effects. Maman Brigitte channels the fire for as long as she has Rum and can cancel at any time. When out of Rum or upon reactivation, she slams her bottle on the ground, damaging and stunning enemies. This ability's cooldown is reduced based on Rum remaining when the slam occurs.",
           "menuItems": null
         },
         "rankItems": null
@@ -11272,7 +11272,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/swift-vengeance.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14s",
+          "cooldown": "13/12.5/12/11.5/11s",
           "cost": "50",
           "description": "Nemesis dashes in a line, dealing damage to enemies in her path and may dash again within 2s. She may use Basic Attacks and Abilities between the dashes.",
           "menuItems": null
@@ -12640,7 +12640,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/solar-blessing.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "16s",
+          "cooldown": "15s",
           "cost": "50/60/70/80/90",
           "description": "Ra summons a pillar of blessed light that persists for 6s. Allies inside the blessing have increased Protections and Power and are Healed every second. Enemies are damaged every second.",
           "menuItems": null
@@ -12746,7 +12746,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/percussive-storm.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "10s",
+          "cooldown": "12s",
           "cost": "50/55/60/65/70",
           "description": "Raijin pounds his drums sending forth a peal of thunder in a line, then another, then two at once, each growing wider as it travels. The thunder deals Magical Damage to Enemies it hits.",
           "menuItems": null
@@ -12774,7 +12774,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/thunder-crash.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15s",
+          "cooldown": "17/16.5/16/15.5/15s",
           "cost": "70/75/80/85/90",
           "description": "Raijin sends a bolt of lightning crashing down at his ground target location mesmerizing enemies, while Raijin himself ascends into the sky. Shortly thereafter he crashes down at that location, doing a burst of damage to all enemies in the area. ",
           "menuItems": null
@@ -12804,7 +12804,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "For every 5 abilities cast, Raijin reduces the cooldown of all abilities currently on cooldown (including the one just cast) by 2s. Additionally, Raijin's Basic Attacks have a wider radius (+2) and hits reduce his non-ultimate cooldowns by 0.2s.",
+          "description": "For every 5 abilities cast, Raijin reduces the cooldown of all abilities currently on cooldown (including the one just cast) by 1.5s. Additionally, Raijin's Basic Attacks have a wider radius (+2) and hits reduce his non-ultimate cooldowns by 0.2s.",
           "menuItems": null
         },
         "rankItems": null
@@ -15576,7 +15576,7 @@
         "itemDescription": {
           "cooldown": "14s",
           "cost": "70/75/80/85/90",
-          "description": "Shingetsu and Mangetsu form themselves into a Kusarigama. Tsukuyomi swings the weapon to his left and right, damaging and disarming enemies hit. He then swings the weapon forward with more force stunning enemies hit. While channeling Tsukuyomi gains 25% Movement Speed.",
+          "description": "Shingetsu and Mangetsu form themselves into a Kusarigama. Tsukuyomi swings the weapon to his left and right, damaging and disarming enemies hit. He then swings the weapon forward with more force stunning enemies hit. While channeling Tsukuyomi gains 25% Movement Speed and is immune to Knockups.",
           "menuItems": null
         },
         "rankItems": null
@@ -16140,7 +16140,7 @@
         "itemDescription": {
           "cooldown": "90/85/80/75/70s",
           "cost": "80/90/100/110/120",
-          "description": "Vulcan launches a rocket that explodes on impact with the ground. The rocket starts at 75% strength, and increases damage the further it travels from Vulcan.",
+          "description": "Vulcan launches a rocket that explodes on impact with the ground. The rocket starts at 80% strength, and increases damage the further it travels from Vulcan.",
           "menuItems": null
         },
         "rankItems": null
