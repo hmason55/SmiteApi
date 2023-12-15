@@ -817,7 +817,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+35"
+          "Value": "+30"
         },
         {
           "Description": "Health",
@@ -825,7 +825,7 @@
         },
         {
           "Description": "Magical Lifesteal",
-          "Value": "+8%"
+          "Value": "+6%"
         }
       ],
       "SecondaryDescription": null
@@ -844,10 +844,10 @@
     "CrowdControlReduction": 0,
     "Health": 100,
     "HP5": 0,
-    "MagicalLifesteal": 0.08,
+    "MagicalLifesteal": 0.06,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 35,
+    "MagicalPower": 30,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -931,7 +931,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+40"
+          "Value": "+35"
         },
         {
           "Description": "Health",
@@ -939,14 +939,14 @@
         },
         {
           "Description": "Magical Lifesteal",
-          "Value": "+8%"
+          "Value": "+6%"
         },
         {
           "Description": "Cooldown Reduction",
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "AURA - Allied gods within 70 units have their Magical Lifesteal increased by 8% and their Magical Power increased by 20 or their Physical Lifesteal increased by 6% and their Physical Power increased by 15."
+      "SecondaryDescription": "AURA - Allied gods within 70 units have their Magical Lifesteal increased by 6% and their Magical Power increased by 15 or their Physical Lifesteal increased by 6% and their Physical Power increased by 15."
     },
     "ItemId": 7534,
     "ItemTier": 3,
@@ -962,10 +962,10 @@
     "CrowdControlReduction": 0,
     "Health": 150,
     "HP5": 0,
-    "MagicalLifesteal": 0.08,
+    "MagicalLifesteal": 0.06,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 40,
+    "MagicalPower": 35,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -1049,7 +1049,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+65"
+          "Value": "+60"
         },
         {
           "Description": "Mana",
@@ -1064,7 +1064,7 @@
           "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your Healing obtained from Magical Lifesteal is increased by 15%. Your Magical power is increased by twice the amount of Magical Lifesteal you have."
+      "SecondaryDescription": "PASSIVE - Your Healing obtained from Magical Lifesteal is increased by 15%. Your Magical power is increased by 1.5x the amount of Magical Lifesteal you have."
     },
     "ItemId": 15579,
     "ItemTier": 3,
@@ -1083,7 +1083,7 @@
     "MagicalLifesteal": 0.1,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0.2,
-    "MagicalPower": 65,
+    "MagicalPower": 60,
     "MagicalProtection": 0,
     "Mana": 200,
     "MovementSpeed": 0,
@@ -5322,6 +5322,10 @@
           "Value": "+250"
         },
         {
+          "Description": "HP5",
+          "Value": "+15"
+        },
+        {
           "Description": "Crowd Control Reduction",
           "Value": "+20%"
         }
@@ -5341,7 +5345,7 @@
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0.2,
     "Health": 250,
-    "HP5": 0,
+    "HP5": 15,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
@@ -5824,7 +5828,7 @@
   {
     "DeviceName": "Void Shield",
     "ActiveFlag": "n",
-    "ChildItemId": 9834,
+    "ChildItemId": 8566,
     "IconId": 2901,
     "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/void-shield.jpg",
     "ItemDescription": {
@@ -5847,7 +5851,7 @@
     },
     "ItemId": 9836,
     "ItemTier": 3,
-    "Price": 1200,
+    "Price": 1250,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 9833,
     "ShortDesc": "Physical Protection debuff Aura",
@@ -5893,7 +5897,7 @@
         },
         {
           "Description": "Health",
-          "Value": "+100"
+          "Value": "+150"
         },
         {
           "Description": "Attack Speed",
@@ -5908,7 +5912,7 @@
     },
     "ItemId": 16544,
     "ItemTier": 3,
-    "Price": 1150,
+    "Price": 1100,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 9833,
     "ShortDesc": "When dropping low, go Berserk",
@@ -5918,7 +5922,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 100,
+    "Health": 150,
     "HP5": 20,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -5954,7 +5958,7 @@
         },
         {
           "Description": "Health",
-          "Value": "+150"
+          "Value": "+200"
         },
         {
           "Description": "HP5",
@@ -5969,7 +5973,7 @@
     },
     "ItemId": 23853,
     "ItemTier": 3,
-    "Price": 1200,
+    "Price": 1150,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 9833,
     "ShortDesc": "Deal bonus damage with more Protections",
@@ -5979,7 +5983,7 @@
     "CooldownReduction": 0.1,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 150,
+    "Health": 200,
     "HP5": 25,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -6015,7 +6019,7 @@
         },
         {
           "Description": "Health",
-          "Value": "+150"
+          "Value": "+200"
         },
         {
           "Description": "HP5",
@@ -6030,7 +6034,7 @@
     },
     "ItemId": 23863,
     "ItemTier": 3,
-    "Price": 1050,
+    "Price": 1000,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 9833,
     "ShortDesc": "Empower your minions when you are Basic Attacked",
@@ -6040,7 +6044,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0.1,
-    "Health": 150,
+    "Health": 200,
     "HP5": 20,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -6235,7 +6239,7 @@
       "Menuitems": [
         {
           "Description": "Physical Protection",
-          "Value": "+55"
+          "Value": "+50"
         },
         {
           "Description": "Mana",
@@ -6243,7 +6247,7 @@
         },
         {
           "Description": "MP5",
-          "Value": "+20"
+          "Value": "+15"
         },
         {
           "Description": "Cooldown Reduction",
@@ -6273,12 +6277,12 @@
     "MagicalProtection": 0,
     "Mana": 300,
     "MovementSpeed": 0,
-    "MP5": 20,
+    "MP5": 15,
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 55,
+    "PhysicalProtection": 50,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -6540,7 +6544,7 @@
       "Menuitems": [
         {
           "Description": "Physical Protection",
-          "Value": "+55"
+          "Value": "+50"
         },
         {
           "Description": "Mana",
@@ -6548,7 +6552,7 @@
         },
         {
           "Description": "MP5",
-          "Value": "+20"
+          "Value": "+15"
         },
         {
           "Description": "Cooldown Reduction",
@@ -6578,12 +6582,12 @@
     "MagicalProtection": 0,
     "Mana": 300,
     "MovementSpeed": 0,
-    "MP5": 20,
+    "MP5": 15,
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 55,
+    "PhysicalProtection": 50,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -6601,7 +6605,7 @@
       "Menuitems": [
         {
           "Description": "Physical Protection",
-          "Value": "+55"
+          "Value": "+50"
         },
         {
           "Description": "Mana",
@@ -6609,7 +6613,7 @@
         },
         {
           "Description": "MP5",
-          "Value": "+20"
+          "Value": "+15"
         },
         {
           "Description": "Cooldown Reduction",
@@ -6639,12 +6643,12 @@
     "MagicalProtection": 0,
     "Mana": 300,
     "MovementSpeed": 0,
-    "MP5": 20,
+    "MP5": 15,
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 55,
+    "PhysicalProtection": 50,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -7868,13 +7872,17 @@
         {
           "Description": "Health",
           "Value": "+200"
+        },
+        {
+          "Description": "HP5",
+          "Value": "+15"
         }
       ],
       "SecondaryDescription": "AURA - Enemy gods within 55 units have their healing reduced by 25%. This does not stack with similar Auras.\n\nPASSIVE - Enemies that successfully damage you have their Healing reduced by an additional 5% for 3s. This can stack up to 6 times."
     },
     "ItemId": 23870,
     "ItemTier": 3,
-    "Price": 1150,
+    "Price": 1050,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 9844,
     "ShortDesc": "Aura that reduces healing of nearby enemies. Increased on enemies that hit you",
@@ -7885,7 +7893,7 @@
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
     "Health": 200,
-    "HP5": 0,
+    "HP5": 15,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
@@ -12649,6 +12657,63 @@
     "IsGlyph": false
   },
   {
+    "DeviceName": "Void Stone",
+    "ActiveFlag": "n",
+    "ChildItemId": 12676,
+    "IconId": 2439,
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/void-stone.jpg",
+    "ItemDescription": {
+      "Description": "This item gives the owner an aura that reduces magical protections.",
+      "Menuitems": [
+        {
+          "Description": "Health",
+          "Value": "+200"
+        },
+        {
+          "Description": "Magical Power",
+          "Value": "+40"
+        },
+        {
+          "Description": "Magical Protection",
+          "Value": "+50"
+        }
+      ],
+      "SecondaryDescription": "AURA - Enemy gods within 55 units have their Magical Protection reduced by 10%."
+    },
+    "ItemId": 7791,
+    "ItemTier": 3,
+    "Price": 1050,
+    "RestrictedRoles": "no restrictions",
+    "RootItemId": 12675,
+    "ShortDesc": "Aura reduces magical protection on enemies",
+    "StartingItem": false,
+    "Type": "Item",
+    "AttackSpeed": 0,
+    "CooldownReduction": 0,
+    "CriticalStrikeChance": 0,
+    "CrowdControlReduction": 0,
+    "Health": 200,
+    "HP5": 0,
+    "MagicalLifesteal": 0,
+    "MagicalPenetration": 0,
+    "MagicalPenetrationPercent": 0,
+    "MagicalPower": 40,
+    "MagicalProtection": 50,
+    "Mana": 0,
+    "MovementSpeed": 0,
+    "MP5": 0,
+    "PhysicalLifesteal": 0,
+    "PhysicalPenetration": 0,
+    "PhysicalPenetrationPercent": 0,
+    "PhysicalPower": 0,
+    "PhysicalProtection": 0,
+    "IsPhysicalOnly": false,
+    "IsMagicalOnly": true,
+    "ActivelyStacks": false,
+    "IsEvolved": false,
+    "IsGlyph": false
+  },
+  {
     "DeviceName": "Genji's Guard",
     "ActiveFlag": "y",
     "ChildItemId": 12676,
@@ -13179,63 +13244,6 @@
     "IsGlyph": false
   },
   {
-    "DeviceName": "Void Stone",
-    "ActiveFlag": "n",
-    "ChildItemId": 9853,
-    "IconId": 2439,
-    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/void-stone.jpg",
-    "ItemDescription": {
-      "Description": "This item gives the owner an aura that reduces magical protections.",
-      "Menuitems": [
-        {
-          "Description": "Health",
-          "Value": "+200"
-        },
-        {
-          "Description": "Magical Power",
-          "Value": "+40"
-        },
-        {
-          "Description": "Magical Protection",
-          "Value": "+50"
-        }
-      ],
-      "SecondaryDescription": "AURA - Enemy gods within 55 units have their Magical Protection reduced by 10%."
-    },
-    "ItemId": 7791,
-    "ItemTier": 3,
-    "Price": 900,
-    "RestrictedRoles": "no restrictions",
-    "RootItemId": 14071,
-    "ShortDesc": "Aura reduces magical protection on enemies",
-    "StartingItem": false,
-    "Type": "Item",
-    "AttackSpeed": 0,
-    "CooldownReduction": 0,
-    "CriticalStrikeChance": 0,
-    "CrowdControlReduction": 0,
-    "Health": 200,
-    "HP5": 0,
-    "MagicalLifesteal": 0,
-    "MagicalPenetration": 0,
-    "MagicalPenetrationPercent": 0,
-    "MagicalPower": 40,
-    "MagicalProtection": 50,
-    "Mana": 0,
-    "MovementSpeed": 0,
-    "MP5": 0,
-    "PhysicalLifesteal": 0,
-    "PhysicalPenetration": 0,
-    "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 0,
-    "PhysicalProtection": 0,
-    "IsPhysicalOnly": false,
-    "IsMagicalOnly": true,
-    "ActivelyStacks": false,
-    "IsEvolved": false,
-    "IsGlyph": false
-  },
-  {
     "DeviceName": "Stone of Fal (old)",
     "ActiveFlag": "n",
     "ChildItemId": 14072,
@@ -13360,11 +13368,11 @@
       "Menuitems": [
         {
           "Description": "Physical Protection",
-          "Value": "+30"
+          "Value": "+35"
         },
         {
           "Description": "Magical Protection ",
-          "Value": "+30"
+          "Value": "+35"
         },
         {
           "Description": "Health",
@@ -13395,7 +13403,7 @@
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 30,
+    "MagicalProtection": 35,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 15,
@@ -13403,7 +13411,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 30,
+    "PhysicalProtection": 35,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -17392,7 +17400,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+30"
+          "Value": "+25"
         },
         {
           "Description": "MP5",
@@ -17400,10 +17408,10 @@
         },
         {
           "Description": "Magical Lifesteal",
-          "Value": "+6%"
+          "Value": "+4%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Damaging any enemy with an ability restores 3 health and 8 mana. Can only trigger once per target per ability. Can be upgraded at level 20."
+      "SecondaryDescription": "PASSIVE - Damaging any enemy with an ability restores 2 health and 6 mana. Can only trigger once per target per ability. Can be upgraded at level 20."
     },
     "ItemId": 19510,
     "ItemTier": 1,
@@ -17419,10 +17427,10 @@
     "CrowdControlReduction": 0,
     "Health": 0,
     "HP5": 0,
-    "MagicalLifesteal": 0.06,
+    "MagicalLifesteal": 0.04,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 30,
+    "MagicalPower": 25,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -17449,7 +17457,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+80"
+          "Value": "+70"
         },
         {
           "Description": "Health",
@@ -17464,7 +17472,7 @@
           "Value": "+12%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Damaging any enemy with an ability restores 1.2% Health and 1.5% Mana. Can only trigger once per target per ability."
+      "SecondaryDescription": "PASSIVE - Damaging any enemy with an ability restores 1% Health and Mana. Can only trigger once per target per ability."
     },
     "ItemId": 19511,
     "ItemTier": 2,
@@ -17483,7 +17491,7 @@
     "MagicalLifesteal": 0.12,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 80,
+    "MagicalPower": 70,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,

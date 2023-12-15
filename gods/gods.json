@@ -44,7 +44,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/combat-dodge.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14/13/12/11/10s",
+          "cooldown": "12/11.5/11/10.5/10s",
           "cost": "22/24/26/28/30",
           "description": "Achilles dodges his enemies' attacks before striking them in swift response. If Achilles successfully hits an enemy god with this strike, Achilles can use this ability once more before it goes on Cooldown.",
           "menuItems": null
@@ -476,7 +476,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Ah Puch is closely attuned with the dead and may exhume corpses at his will. When walking over a decaying corpse, Ah Puch lowers the cooldown of Undead Surge and Corpse Explosion by 2s, restores 5% of his maximum Health and 3% of his maximum Mana.",
+          "description": "Ah Puch is closely attuned with the dead and may exhume corpses at his will. When walking over a decaying corpse, Ah Puch lowers the cooldown of Undead Surge and Corpse Explosion by 1s, restores 4% of his maximum Health and 3% of his maximum Mana.",
           "menuItems": null
         },
         "rankItems": null
@@ -1265,7 +1265,7 @@
       "Description": {
         "itemDescription": {
           "cooldown": "110s",
-          "cost": "40 + 40/45/50/55/60 per second",
+          "cost": "20 + 35/40/45/50/55 per second",
           "description": "Apollo rides his chariot across the sky, choosing when to land, dealing damage every .15s for .6s as he lands. Enemies hit by the last tick of the landing will also be knocked up.",
           "menuItems": null
         },
@@ -1906,7 +1906,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/confound.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "18/17.5/17/16.5/16s",
+          "cooldown": "18s",
           "cost": "60/65/70/75/80",
           "description": "Athena releases a shockwave of power from her shield, Taunting enemy gods and decreasing their Attack Speed as she forces them to fight or chase her.",
           "menuItems": null
@@ -1934,7 +1934,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/defender-of-olympus.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "110s ",
+          "cooldown": "120s ",
           "cost": "80/90/100/110/120",
           "description": "Athena picks a single allied god anywhere in the world, and launches herself up into the air, landing next to that god 3.6 seconds later. During that 3.6 seconds, both Athena and the allied god gain Damage Mitigation, and the allied god also gains Movement Speed. Enemies nearby when Athena lands take damage.",
           "menuItems": null
@@ -1963,7 +1963,7 @@
     "Health": 700,
     "HealthPerFive": 8,
     "HealthPerLevel": 105,
-    "HP5PerLevel": 0.9,
+    "HP5PerLevel": 0.8,
     "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/athena.jpg",
     "id": 1919,
     "Lore": "In war, there are two kinds of soldiers: those that fight for blood, and those that fight for honor. The first crave the clash of steel and smell of slaughter, the latter know the wisdom of justice, the kindness of mercy, and that life should never be taken wantonly. These different warriors seek different Gods. Ares, God of War revels in the bloodletting, but his sister, Athena, Goddess of Wisdom, is patron to those who fight with dignity, and only when there is no other alternative.\\n\\nFavored daughter of Zeus, wise as ten thousand scholars, just as the scales themselves; Athena is a paragon of incorruptible virtue, and worshipped with righteous fervor. So revered is she that Athens, greatest city in all the world, is named for her, and regal temples adorn the countryside in her honor, each tended by loyal priestesses. To Athena, a life is a precious thing that need not be wasted in frivolous battle. Bloodthirsty Ares, on the other hand, is reviled by their father and chained by his ravenous subjects.\\n\\nAt the Siege of Troy, Ares disobeyed Zeus and joined with the battle, fighting for the mortal Trojans. Athena rose to stop him, indirectly championing the Greeks, but directly keeping the order of divine law. Their fierce battle clashed in unspeakable proportions, ending only when Ares limped from the battle field, cowed by his sister and rival. With Ares diminished, the tide of the war shifted and the heroes of the Greek Army toppled Troy.\\n\\nIn times of war, prayers are sent to both Gods. Ares, for bloodstained victory, Athena for honor, valor, and the wisdom to fight with dignity. Make no mistake, these are times of war, and Ares has already answered the call to arms. Athena, ever cautious with lives, goes to battle without eagerness, but solemn necessity, for the Goddess of Wisdom knows honor is for the living. The dead have no need of it.",
@@ -2677,6 +2677,140 @@
     "IsWarrior": false,
     "IsMagical": false,
     "IsPhysical": true,
+    "IsRatatoskr": false
+  },
+  {
+    "Ability1": "Rough Waters",
+    "Ability2": "Sonic Wave",
+    "Ability3": "Twisting Dive",
+    "Ability4": "Yokai's Lament",
+    "Ability5": "Curse of the Ghost Whale",
+    "AbilityId1": 25104,
+    "AbilityId2": 25105,
+    "AbilityId3": 25106,
+    "AbilityId4": 25107,
+    "AbilityId5": 25108,
+    "Ability_1": {
+      "Id": 25104,
+      "Summary": "Rough Waters",
+      "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/rough-waters.jpg",
+      "Description": {
+        "itemDescription": {
+          "cooldown": "12s",
+          "cost": "60/65/70/75/80",
+          "description": "Bake Kujira imbues himself with cursed energy. When activated, Bake Kujira gains increased Basic Attack range and reduced Movement Penalty when Basic Attacking. He also gains a stack of Protections for each enemy hit with his Basic Attacks.",
+          "menuItems": null
+        },
+        "rankItems": null
+      }
+    },
+    "Ability_2": {
+      "Id": 25105,
+      "Summary": "Sonic Wave",
+      "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/sonic-wave.jpg",
+      "Description": {
+        "itemDescription": {
+          "cooldown": "10s",
+          "cost": "40/45/50/55/60",
+          "description": "Bake Kujira sends out a wave of cursed energy. Enemies hit are slowed, damaged, and Cursed. Enemies that are Cursed deal reduced damage for 6s. If a Cursed enemy is hit by this ability, the slow is doubled and their Curse becomes amplified. Bake Kujira's Basic Attacks reduce this ability's Cooldown by 1s when hitting an enemy god and 0.1s when hitting an enemy minion.",
+          "menuItems": null
+        },
+        "rankItems": null
+      }
+    },
+    "Ability_3": {
+      "Id": 25106,
+      "Summary": "Twisting Dive",
+      "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/twisting-dive.jpg",
+      "Description": {
+        "itemDescription": {
+          "cooldown": "14s",
+          "cost": "50/55/60/65/70",
+          "description": "Bake Kujira gathers power then dashes straight ahead, damaging enemies around him. Enemies hit by the dash take additional damage, stunned, and pushed to Bake Kujira's ending location. Bake Kujira is immune to Knockback while using this ability.",
+          "menuItems": null
+        },
+        "rankItems": null
+      }
+    },
+    "Ability_4": {
+      "Id": 25107,
+      "Summary": "Yokai's Lament",
+      "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/yokais-lament.jpg",
+      "Description": {
+        "itemDescription": {
+          "cooldown": "110/105/100/95/90s",
+          "cost": "100",
+          "description": "Bake Kujira begins to sing for the next 5s, gaining bonus Basic Attack Damage, increasing his Basic Attack range to 20, and distorting a large area around himself with the sound waves. Enemies between 20 and 50 units away gain stacks of time dilation every 0.25s, causing all of their actions to happen more slowly. Leaving the time dilation area will cause the stacks of time dilation to decay over time. Enemies within 20 units are not time dilated, but instead take increased damage.",
+          "menuItems": null
+        },
+        "rankItems": null
+      }
+    },
+    "Ability_5": {
+      "Id": 25108,
+      "Summary": "Curse of the Ghost Whale",
+      "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/curse-of-the-ghost-whale.jpg",
+      "Description": {
+        "itemDescription": {
+          "cooldown": "10s",
+          "cost": "",
+          "description": "Enemies that hard Crowd Control Bake Kujira are Cursed. If an enemy is already Cursed, the duration is refreshed and the Curse increases in strength. Bake Kujira converts Protections from Items and Abilities into Basic Attack damage and converts Attack Speed into reduced Basic Attack movement penalty. Attack Speed and Item Passives do not benefit his Basic Attacks.",
+          "menuItems": null
+        },
+        "rankItems": null
+      }
+    },
+    "AttackSpeed": 1.25,
+    "AttackSpeedPerLevel": 0,
+    "AutoBanned": "n",
+    "Cons": "",
+    "Health": 700,
+    "HealthPerFive": 7,
+    "HealthPerLevel": 105,
+    "HP5PerLevel": 0.8,
+    "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/bake-kujira.jpg",
+    "id": 4312,
+    "Lore": "The world is full of omens, for those prepared to see. But some are easier to discern than\nothers. Such is the case with the Bakekujira, the Ghost-Whale. Appearing as a great, skeletal\nwhale, composed of bleached bone and an eerie aura, the Ghost-Whale haunts the world as a\nbringer of uncertain tidings and bad fortune. Or so the stories say.\nTo see the Bakekujira is to drown in hopelessness and despair. To witness its passing is to\nfeel the cold clutch of fear on one’s heart, and to know that there are bad times ahead.\nSome believe that the Bakekujira is the soul of a whale slain by hunters, come back to seek\nrevenge against those who killed it. Others believe it is a spirit of the sea, called forth as\npunishment for those who abuse the largesse of the ocean. Some few believe it is a servant of\nthe cosmic balance, summoned to set right a world gone wrong.\nWhether Bakekujira is a ghost, or a devil, or something else entirely is unknown. All that is\nknown is that where it goes, bad things follow. Accompanied by swarms of strange birds and\nshoals of hideous fish, the Ghost-Whale is not bound by the sea but can also swim through\nthe sky, if that is where its course should take it.\nNo barrier can slow it, no witchery can divert it. Wherever it goes, it brings death and disease\nwith it. Those who are unfortunate enough to witness its passing are marked by its curse and\nsubject to all manner of disasters to come.\nSome few mortals worship the Ghost-Whale, in hopes of propitiating it and preventing the\ndoom it foretells. Others seek the aid of the gods in breaking the curse of the Bakekujira. But\nwhat can even the gods do against such a being?\nOnly time will tell.",
+    "MagicalPower": 120,
+    "MagicalPowerPerLevel": 7.5,
+    "MagicProtection": 35,
+    "MagicProtectionPerLevel": 1.6,
+    "Mana": 200,
+    "ManaPerFive": 4.6,
+    "ManaPerLevel": 38,
+    "MP5PerLevel": 0.42,
+    "Name": "Bake Kujira",
+    "OnFreeRotation": "",
+    "Pantheon": "Japanese",
+    "PhysicalPower": 0,
+    "PhysicalPowerPerLevel": 0,
+    "PhysicalProtection": 30,
+    "PhysicalProtectionPerLevel": 3.6,
+    "Pros": "High Defense",
+    "Roles": "Guardian",
+    "Speed": 370,
+    "Title": "Yokai of Despair",
+    "Type": "Melee, Magical",
+    "basicAttack": {
+      "cooldown": null,
+      "cost": null,
+      "description": null,
+      "menuItems": null
+    },
+    "godAbility1_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/rough-waters.jpg",
+    "godAbility2_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/sonic-wave.jpg",
+    "godAbility3_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/twisting-dive.jpg",
+    "godAbility4_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/yokais-lament.jpg",
+    "godAbility5_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/curse-of-the-ghost-whale.jpg",
+    "godCard_URL": "https://webcdn.hirezstudios.com/smite/god-cards/bake-kujira.jpg",
+    "latestGod": "y",
+    "IsAssassin": false,
+    "IsGuardian": true,
+    "IsHunter": false,
+    "IsMage": false,
+    "IsWarrior": false,
+    "IsMagical": true,
+    "IsPhysical": false,
     "IsRatatoskr": false
   },
   {
@@ -4212,7 +4346,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/living-nightmare.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "110s",
+          "cooldown": "120s",
           "cost": "80/90/100/110/120",
           "description": "During a brief channeling period, Chernobog summons shadows at the location of all enemies that last for 8s and apply a short stacking Slow. Chernobog can select any of his shadow clones to fly towards. Once he reaches the location he takes the place of his shadow, refreshing his cooldowns, as well as temporarily obtaining damage mitigations and extra movement speed.",
           "menuItems": null
@@ -4452,7 +4586,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/accelerate.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15s",
+          "cooldown": "14s",
           "cost": "60/65/70/75/80",
           "description": "Chronos accelerates himself over time, allowing him to move faster initially and gain speed over time. While active, his Attack Speed is increased. This ability also stops the Wheel of Time.\n\nSection I: Heal 1% Max Health Per Second.\nSection II: 100% Mana Refund On Abilities.\nSection III: +35% Magical Power.\nSection IV: +35% Magical Power Contribution to Basic Attacks.",
           "menuItems": null
@@ -4502,8 +4636,8 @@
         "rankItems": null
       }
     },
-    "AttackSpeed": 1,
-    "AttackSpeedPerLevel": 0.015,
+    "AttackSpeed": 1.05,
+    "AttackSpeedPerLevel": 0.016,
     "AutoBanned": "n",
     "Cons": "",
     "Health": 560,
@@ -6330,7 +6464,7 @@
         "itemDescription": {
           "cooldown": "14s",
           "cost": "60/65/70/75/80",
-          "description": "Geb creates a shock wave, which ripples out from him in a cone, causing damage and Knockup to all enemies. The damage decreases the further the enemy is from Geb, down to 70% at the maximum range.",
+          "description": "Geb creates a shock wave, which ripples out from him in a cone, causing damage and Knockup to all enemies. The damage decreases the further the enemy is from Geb, down to 80% at the maximum range.",
           "menuItems": null
         },
         "rankItems": null
@@ -6342,7 +6476,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/stone-shield.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "18s",
+          "cooldown": "17s",
           "cost": "60",
           "description": "Geb targets himself or an ally to put a Shield around. The Shield blocks all damage and lasts until its time expires or it takes enough damage to be destroyed. The Shield also cleanses any Crowd Control when applied.",
           "menuItems": null
@@ -6450,7 +6584,7 @@
         "itemDescription": {
           "cooldown": "14/13/12/11/10",
           "cost": "60/65/70/75/80",
-          "description": "Gilgamesh ignites his sword with the ferocity of the Sun for 3s. Enemies around the ignition take damage and are slowed for 2s. Lane Minions take an extra +25% damage. Gilgamesh's Basic Attack deals bonus damage equal to 3% of his Maximum Health to enemies hit. When Gilgamesh successfully hits an enemy with his Basic Attack the duration of this effect is extended for 0.8s, up to a maximum of 6s. While this effect is active, Gilgamesh gains HP5.",
+          "description": "Gilgamesh ignites his sword with the ferocity of the Sun for 3s. Enemies around the ignition take damage and are slowed for 2s. Lane Minions take an extra +40% damage. Gilgamesh's Basic Attack deals bonus damage equal to 3% of his Maximum Health to enemies hit. When Gilgamesh successfully hits an enemy with his Basic Attack the duration of this effect is extended for 0.8s, up to a maximum of 6s. Gilgamesh gains HP5 per rank of this ability.",
           "menuItems": null
         },
         "rankItems": null
@@ -10039,7 +10173,7 @@
     "godAbility4_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/explosion-of-souls.jpg",
     "godAbility5_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/soul-spikes.jpg",
     "godCard_URL": "https://webcdn.hirezstudios.com/smite/god-cards/maman-brigitte.jpg",
-    "latestGod": "y",
+    "latestGod": "n",
     "IsAssassin": false,
     "IsGuardian": false,
     "IsHunter": false,
@@ -10335,7 +10469,7 @@
       "Description": {
         "itemDescription": {
           "cooldown": "10s",
-          "cost": "50/55/60/65/70",
+          "cost": "50",
           "description": "Medusa gains increased attack speed and her basic attacks become augmented, shooting Vipers that poison the targets hit dealing damage over time.",
           "menuItems": null
         },
@@ -10349,7 +10483,7 @@
       "Description": {
         "itemDescription": {
           "cooldown": "14s ",
-          "cost": "60/65/70/75/80 ",
+          "cost": "40/45/50/55/60 ",
           "description": "Medusa hurls back and spits out acid that damages the first enemy hit and sprays out acid in a cone behind them. Enemies hit by Acid Spray will have their healing taken reduced. Acid Spray will explode on statues Medusa has created.",
           "menuItems": null
         },
@@ -12492,7 +12626,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/trident.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "16/15/14/13/12s",
+          "cooldown": "15s",
           "cost": "55/60/65/70/75",
           "description": "Poseidon activates his Trident, granting additional Attack Speed, Movement Speed and increases his Basic Attack damage by 25% for 6s. While this effect is active, Poseidon's Basic Attacks also fire two additional shots that apply ability damage and trigger ability on-hit effects. All shots increase Poseidon's Tide on successful hit.",
           "menuItems": null
@@ -14652,7 +14786,7 @@
         "itemDescription": {
           "cooldown": "14/13.5/13/12.5/12s",
           "cost": "70/65/60/55/50",
-          "description": "Sylvanus's treant launches his rooty hand out in front of him. The hand stops at the first enemy god hit, Stunning them and pulling them back towards Sylvanus.",
+          "description": "Sylvanus's treant launches his rooty hand out in front of him. The hand stops at the first enemy god hit, Stunning them with no diminishing returns and pulling them back towards Sylvanus.",
           "menuItems": null
         },
         "rankItems": null
@@ -15694,7 +15828,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/fearless.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15s",
+          "cooldown": "15/14.5/14/13.5/13s",
           "cost": "50/55/60/65/70",
           "description": "Tyr charges forward, immune to Knockup, damaging enemies. Assault Stance: Tyr pushes all enemies along with him, hitting them 2 times and knocking them up in the air. Guard Stance: Tyr hits each enemy only once, passing through and knocking them up in the air.",
           "menuItems": null
