@@ -1786,7 +1786,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/life-tap.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "17s",
+          "cooldown": "15s",
           "cost": "50/55/60/65/70",
           "description": "Druid Form: Artio channels for 2s, draining the life from enemies. While channeling she deals damage up to 5 times and heals herself up to 5 times. Each hit increasingly Slows enemies and enemies hit all 5 times are Rooted for 1s.\n\nBear Form: Artio charges forward at an increased movement speed for 3s. Enemies she charges through take damage and are Slowed for 2s.",
           "menuItems": null
@@ -2726,7 +2726,7 @@
         "itemDescription": {
           "cooldown": "14s",
           "cost": "50/55/60/65/70",
-          "description": "Bake Kujira gathers power then dashes straight ahead, damaging enemies around him. Enemies hit by the dash take additional damage, stunned, and pushed to Bake Kujira's ending location. Bake Kujira is immune to Knockback while using this ability.",
+          "description": "Bake Kujira gathers power then dashes straight ahead, damaging enemies around him. Enemies hit by the dash take additional damage and are stunned and pushed to Bake Kujira's ending location. Bake Kujira is immune to Knockback while using this ability.",
           "menuItems": null
         },
         "rankItems": null
@@ -2754,7 +2754,7 @@
         "itemDescription": {
           "cooldown": "10s",
           "cost": "",
-          "description": "Enemies that hard Crowd Control Bake Kujira are Cursed. If an enemy is already Cursed, the duration is refreshed and the Curse increases in strength. Bake Kujira converts Protections from Items and Abilities into Basic Attack damage and converts Attack Speed into reduced Basic Attack movement penalty. Attack Speed and Item Passives do not benefit his Basic Attacks.",
+          "description": "Enemies that hard Crowd Control Bake Kujira are Cursed. If an enemy is already Cursed, the duration is refreshed and increases in strength. Bake Kujira converts Protections from Items and Abilities into Basic Attack damage and converts Attack Speed into Haste. Attack Speed and Item Passives do not benefit his Basic Attacks.",
           "menuItems": null
         },
         "rankItems": null
@@ -2770,7 +2770,7 @@
     "HP5PerLevel": 0.8,
     "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/bake-kujira.jpg",
     "id": 4312,
-    "Lore": "The world is full of omens, for those prepared to see. But some are easier to discern than\nothers. Such is the case with the Bakekujira, the Ghost-Whale. Appearing as a great, skeletal\nwhale, composed of bleached bone and an eerie aura, the Ghost-Whale haunts the world as a\nbringer of uncertain tidings and bad fortune. Or so the stories say.\nTo see the Bakekujira is to drown in hopelessness and despair. To witness its passing is to\nfeel the cold clutch of fear on one’s heart, and to know that there are bad times ahead.\nSome believe that the Bakekujira is the soul of a whale slain by hunters, come back to seek\nrevenge against those who killed it. Others believe it is a spirit of the sea, called forth as\npunishment for those who abuse the largesse of the ocean. Some few believe it is a servant of\nthe cosmic balance, summoned to set right a world gone wrong.\nWhether Bakekujira is a ghost, or a devil, or something else entirely is unknown. All that is\nknown is that where it goes, bad things follow. Accompanied by swarms of strange birds and\nshoals of hideous fish, the Ghost-Whale is not bound by the sea but can also swim through\nthe sky, if that is where its course should take it.\nNo barrier can slow it, no witchery can divert it. Wherever it goes, it brings death and disease\nwith it. Those who are unfortunate enough to witness its passing are marked by its curse and\nsubject to all manner of disasters to come.\nSome few mortals worship the Ghost-Whale, in hopes of propitiating it and preventing the\ndoom it foretells. Others seek the aid of the gods in breaking the curse of the Bakekujira. But\nwhat can even the gods do against such a being?\nOnly time will tell.",
+    "Lore": "The world is full of omens, for those prepared to see. But some are easier to discern than others. Such is the case with Bake Kujira, the Ghost-Whale. Appearing as a great, skeletal whale, composed of bleached bone and an eerie aura, the Ghost-Whale haunts the world as a bringer of uncertain tidings and bad fortune. Or so the stories say.\\n\\nTo see Bake Kujira is to drown in hopelessness and despair. To witness its passing is to feel the cold clutch of fear on one’s heart, and to know that there are bad times ahead. Some believe that Bake Kujira is the soul of a whale slain by hunters, come back to seek revenge against those who killed it. Others believe it is a spirit of the sea, called forth as punishment for those who abuse the largesse of the ocean. Some few believe it is a servant of the cosmic balance, summoned to set right a world gone wrong.\\n\\nWhether Bake Kujira is a ghost, or a devil, or something else entirely is unknown. All that is known is that where it goes, bad things follow. Accompanied by swarms of strange birds and shoals of hideous fish, the Ghost-Whale is not bound by the sea but can also swim through the sky, if that is where its course should take it.\\n\\nNo barrier can slow it, no witchery can divert it. Wherever it goes, it brings death and disease with it. Those who are unfortunate enough to witness its passing are marked by its curse and subject to all manner of disasters to come.\\n\\nSome few mortals worship the Ghost-Whale, in hopes of propitiating it and preventing the doom it foretells. Others seek the aid of the gods in breaking the curse of Bake Kujira. But what can even the gods do against such a being?\\n\\nOnly time will tell.",
     "MagicalPower": 120,
     "MagicalPowerPerLevel": 7.5,
     "MagicProtection": 35,
@@ -3232,7 +3232,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/seismic-crush.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "18/17/16/15/14s",
+          "cooldown": "16/15.5/15/14.5/14s",
           "cost": "50/55/60/65/70 ",
           "description": "Cabrakan becomes enraged, increasing his movement speed. While active, Cabrakan gains 70% increased Attack Speed and his next successful Basic Attack will Stun with no diminishing returns and do bonus damage. Additionally, Cabrakan gains Haste and is immune to Slows and Roots while this ability is active.",
           "menuItems": null
@@ -4748,7 +4748,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/tearing-the-veil.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "60",
+          "cooldown": "55",
           "cost": "30/35/40/45/50",
           "description": "Cliodhna tears the veil between life and death. When the rift first opens it deals heavy damage and then deals rift damage to targets in a line and slows them. Enemies hit by subsequent hits take 40% less damage, stacking twice up to 80%. This ability has 2 charges. Rifts can be destroyed by basic attacks. Cliodhna can use this ability while inside a wall. When used this way the veil is not fully torn, instead activating when a target gets too close. Cliodhna can have up to 3 rifts active.",
           "menuItems": null
@@ -4764,7 +4764,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Cliodhna can walk into walls once every 13s. While inside a wall she can move freely and use some of her abilities. Every 0.4s she loses 0.12% of her health, stacking in intensity up to 40 times. She cannot enter a wall while below 25% Health or crippled. For 5s after exiting she gains 10% Physical Ability Lifesteal.",
+          "description": "Cliodhna can walk into walls once every 13s. While inside a wall she can move freely and use some of her abilities. Every 0.4s she loses 0.12% of her health, stacking in intensity up to 40 times. She cannot enter a wall while below 25% Health or crippled. For 5s after exiting she gains 15% Physical Ability Lifesteal.",
           "menuItems": null
         },
         "rankItems": null
@@ -6717,7 +6717,7 @@
       "Description": {
         "itemDescription": {
           "cooldown": "14s",
-          "cost": "60",
+          "cost": "45",
           "description": "Guan Yu's courageous leadership is infectious and, when focused, heals himself and his allies. Healing friendly gods reduces all Cooldowns by 2s for Guan Yu and 1s for his allies.",
           "menuItems": null
         },
@@ -10258,7 +10258,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Martichoras gains up to 100 stacks of Ferocity for hitting Basics, Abilities, and earning kills or assists. Once maxed, he loses all Ferocity and gains an Attack Speed buff that increases in duration by Basic Attacking gods. He also gains a permanent Monstrosity stack of 0.5% Physical Lifesteal and 0.5% Physical Ability Lifesteal.",
+          "description": "Martichoras gains up to 100 stacks of Ferocity for hitting Basics, Abilities, and earning kills or assists. Once maxed, he loses all Ferocity and gains an Attack Speed buff that increases in duration by Basic Attacking gods. He also gains a permanent Monstrosity stack of 0.75% Physical Lifesteal and 0.75% Physical Ability Lifesteal.",
           "menuItems": null
         },
         "rankItems": null
@@ -10778,7 +10778,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/elemental-mastery.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "32/29/26/23/20s",
+          "cooldown": "30/27.5/25/22.5/20s",
           "cost": "40/50/60/70/80",
           "description": "Merlin taps into his inner potential, exploding with energy in the stance he is currently attuned to. During this time Merlin can choose which stance to enter into next. \n\nAfter the explosion reaches its apex, it collapses in on itself. Enemies are dealt damage from the both the explosion and the implosion and suffer different effects depending on which stance's energy they are being hit by.",
           "menuItems": null
@@ -12000,7 +12000,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Odin is empowered as he escorts fallen warriors to Valhalla. Whenever any god dies on the battleground, Odin gains a bonus to Movement Speed and Power. This effect can stack up to 5 times.",
+          "description": "Odin is empowered as he escorts fallen warriors to Valhalla. Whenever any god dies on the battleground, Odin gains a bonus to Movement Speed and Power. This effect can stack up to 4 times.",
           "menuItems": null
         },
         "rankItems": null
@@ -12252,7 +12252,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/lord-of-the-afterlife.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "75s",
+          "cooldown": "70s",
           "cost": "100",
           "description": "Osiris sheds any remaining fragments, gaining the benefit of his Passive, and leaps forward. Osiris targets all enemy gods in the landing area, and rips a fragment of their spirits out, dealing damage, afflicting them with negative Cooldown Reduction, and preventing them from healing. Targets are Rooted for 0.4s during the attack. Enemy minions in the target area also take damage.",
           "menuItems": null
@@ -15588,7 +15588,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/grounding-dive.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "22/20/18/16/14s",
+          "cooldown": "20/18.5/17/15.5/14s",
           "cost": "40",
           "description": "Tiamat dives into the fight landing on all fours, dealing damage and switching to her Ground stance. This ability also provides Tiamat one Hardened Scale.",
           "menuItems": null
@@ -16140,7 +16140,7 @@
         "itemDescription": {
           "cooldown": "90s",
           "cost": "100",
-          "description": "Vamana grows to an enormous giant for 4s gaining immunity to Crowd Control, Protections, Physical Power, Physical Lifesteal, a stacking shield that cannot exceed 1000 Health, and his Basic Attacks now damage all nearby enemies. His Movement Penalty for Attacking, Backpedaling, and Strafing are reduced by 20% while in this state.\nSuccessful attacks on enemies also provide stacking Movement Speed for 3s. When Vamana is in Colossal form, taking damage from gods increases the duration to a max of 8s and Vamana can pass through player made walls.\nYou may cancel his giant form early.",
+          "description": "Vamana grows to an enormous giant for 5s gaining immunity to Crowd Control, Protections, Physical Power, Physical Lifesteal, a stacking shield that cannot exceed 1000 Health, and his Basic Attacks now damage all nearby enemies. His Movement Penalty for Attacking, Backpedaling, and Strafing are reduced by 20% while in this state.\nSuccessful attacks on enemies also provide stacking Movement Speed for 3s. When Vamana is in Colossal form, taking damage from gods increases the duration to a max of 9s and Vamana can pass through player made walls.\nYou may cancel his giant form early.",
           "menuItems": null
         },
         "rankItems": null
