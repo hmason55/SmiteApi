@@ -1599,14 +1599,14 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+35"
+          "Value": "+40"
         },
         {
           "Description": "Physical Penetration",
           "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your first ability cast gains 20% Physical Penetration. This can only occur once every 6 seconds."
+      "SecondaryDescription": "PASSIVE - Your first ability cast gains 20% Physical Penetration. This can only occur once every 5 seconds."
     },
     "ItemId": 7523,
     "ItemTier": 3,
@@ -1633,7 +1633,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0.2,
-    "PhysicalPower": 35,
+    "PhysicalPower": 40,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -3917,7 +3917,7 @@
           "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your Critical Hits provide you with 10% Physical Penetration and increase your Attack Speed by 10% for 4s."
+      "SecondaryDescription": "PASSIVE - Your Critical Hits provide you with 10% Physical Penetration for 4s."
     },
     "ItemId": 12674,
     "ItemTier": 3,
@@ -4133,7 +4133,7 @@
           "Value": "+30%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Critical Strike bonus damage dealt is increased by 25%. <n>GLYPH - Your Critical Strike Chance is multiplied by 1.25. For each 5% Critical Strike Chance you go over 100% Critical Strike Chance, you gain 5 Physical Power."
+      "SecondaryDescription": "PASSIVE - Critical Strike bonus damage dealt is increased by 25%. <n>GLYPH - Your Critical Strike Chance is multiplied by 1.2. For each 5% Critical Strike Chance you go over 100% Critical Strike Chance, you gain 5 Physical Power."
     },
     "ItemId": 25931,
     "ItemTier": 4,
@@ -5323,7 +5323,7 @@
         },
         {
           "Description": "Health",
-          "Value": "+250"
+          "Value": "+300"
         },
         {
           "Description": "Mana",
@@ -5334,7 +5334,7 @@
     },
     "ItemId": 14096,
     "ItemTier": 3,
-    "Price": 1000,
+    "Price": 850,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 9830,
     "ShortDesc": "Increased Cooldown at high Mana, Increased MP5 at low Mana",
@@ -5344,7 +5344,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 250,
+    "Health": 300,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -12357,11 +12357,11 @@
       "Menuitems": [
         {
           "Description": "Physical Protection",
-          "Value": "+25"
+          "Value": "+30"
         },
         {
           "Description": "Magical Protection",
-          "Value": "+25"
+          "Value": "+30"
         },
         {
           "Description": "Health",
@@ -12392,7 +12392,7 @@
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 25,
+    "MagicalProtection": 30,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 0,
@@ -12400,7 +12400,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 25,
+    "PhysicalProtection": 30,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -16989,14 +16989,14 @@
         },
         {
           "Description": "Health",
-          "Value": "+75"
+          "Value": "+150"
         },
         {
           "Description": "Attack Speed",
           "Value": "+30%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - When an enemy dies within 80 units of you gain 1 stack of Temper that provides 3.5% increased Basic Attack Damage for 10s. This can stack up to 10 times. If an enemy god dies near you immediately gain 10 stacks."
+      "SecondaryDescription": "PASSIVE - When an enemy dies within 80 units of you gain 1 stack of Temper that provides 7% increased Basic Attack Damage for 10s. This can stack up to 5 times. If an enemy god dies near you immediately gain 5 stacks."
     },
     "ItemId": 19587,
     "ItemTier": 2,
@@ -17010,7 +17010,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 75,
+    "Health": 150,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -17217,7 +17217,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+20"
+          "Value": "+15"
         },
         {
           "Description": "Magical Power",
@@ -17259,7 +17259,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 20,
+    "PhysicalPower": 15,
     "PhysicalProtection": 10,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
@@ -17876,11 +17876,11 @@
         },
         {
           "Description": "Physical Protection",
-          "Value": "+40"
+          "Value": "+35"
         },
         {
           "Description": "Magical Protections",
-          "Value": "+40"
+          "Value": "+35"
         },
         {
           "Description": "Cooldown Reduction",
@@ -17915,7 +17915,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 40,
+    "PhysicalProtection": 35,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -18485,7 +18485,7 @@
           "Value": "+10"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Every second you gain a stack of Arcane Energy, causing your next damaging ability to deal an additional 2 True Damage and remove all stacks. Also deals an additional 2 true damage per stack to minions. This effect stacks up to 20 times. Can be upgraded at level 20."
+      "SecondaryDescription": "PASSIVE - Every 0.5 seconds you gain a stack of Arcane Energy, causing your next damaging ability to deal an additional 1 True Damage and remove all stacks. Also deals an additional 2 true damage per stack to minions. This effect stacks up to 20 times. Can be upgraded at level 20."
     },
     "ItemId": 19677,
     "ItemTier": 1,
@@ -18542,7 +18542,7 @@
           "Value": "+25"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Every 1s you gain a stack of Demise, causing your next damaging ability that hits an enemy god deals an additional 1.5% of your Magical Power in damage and remove all stacks. This effect stacks up to 20 times."
+      "SecondaryDescription": "PASSIVE - Every 0.5s you gain a stack of Demise, causing your next damaging ability that hits an enemy god deals an additional 1.5% of your Magical Power in damage and remove all stacks. This effect stacks up to 20 times."
     },
     "ItemId": 19678,
     "ItemTier": 2,
@@ -20136,7 +20136,7 @@
     "ItemDescription": {
       "Description": null,
       "Menuitems": [],
-      "SecondaryDescription": "PASSIVE - Every 100 units traveled, you gain a buff that deals 10 (+15%/10% of your Physical/Magical Power) Physical Damage to the next enemy hit with your next Basic Attack or ability. Shard Relics can be upgraded to a new Relic once you reach Level 12."
+      "SecondaryDescription": "PASSIVE - Every 100 units traveled, you gain a buff that deals 10 (+20%/15% of your Physical/Magical Power) Physical Damage to the next enemy hit with your next Basic Attack or ability. Shard Relics can be upgraded to a new Relic once you reach Level 12."
     },
     "ItemId": 25599,
     "ItemTier": 2,
@@ -20752,7 +20752,7 @@
     "ItemDescription": {
       "Description": "Reduces enemy gods' Movement Speed, Damage, and Healing.",
       "Menuitems": [],
-      "SecondaryDescription": "Using this item Slows the Movement Speed of all enemy gods within 35 units by 30% and decreases their Damage Dealt by 10% for 5s. Additionally, all Healing received by enemy gods is reduced by 40%, their shield effectiveness is decreased by 50%, and 75% of any currently applied shield is removed. Cooldown - 130s.\n<font color='#f59b56'>Kill or assist minions to upgrade this Relic for free."
+      "SecondaryDescription": "Using this item Slows the Movement Speed of all enemy gods within 35 units by 25% and decreases their Damage Dealt by 10% for 5s. Additionally, all Healing received by enemy gods is reduced by 40%, their shield effectiveness is decreased by 50%, and 75% of any currently applied shield is removed. Cooldown - 140s.\n<font color='#f59b56'>Kill or assist minions to upgrade this Relic for free."
     },
     "ItemId": 25618,
     "ItemTier": 3,
@@ -22287,7 +22287,7 @@
           "Value": "+15%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Lifestealing off of enemy gods heals yourself and nearby allies within 40 units of you by 33% of that healing."
+      "SecondaryDescription": "PASSIVE - Lifestealing off of enemy gods heals yourself and nearby allies within 40 units of you by 75% of that healing."
     },
     "ItemId": 25728,
     "ItemTier": 3,
@@ -22716,7 +22716,7 @@
     "ItemDescription": {
       "Description": "Reduces enemy gods' Movement Speed, Damage, and Healing.",
       "Menuitems": [],
-      "SecondaryDescription": "Using this item Slows the Movement Speed of all enemy gods within 35 units by 30% and decreases their Damage Dealt by 10% for 5s. Additionally, all Healing received by enemy gods is reduced by 40%, their shield effectiveness is decreased by 50%, and 75% of any currently applied shield is removed. Cooldown - 110s.\n<font color='#f59b56'>Deal instances of damage or Crowd Control to enemy Gods to upgrade this Relic for free. You may only gain one stack per second."
+      "SecondaryDescription": "Using this item Slows the Movement Speed of all enemy gods within 35 units by 25% and decreases their Damage Dealt by 10% for 5s. Additionally, all Healing received by enemy gods is reduced by 40%, their shield effectiveness is decreased by 50%, and 75% of any currently applied shield is removed. Cooldown - 120s.\n<font color='#f59b56'>Deal instances of damage or Crowd Control to enemy Gods to upgrade this Relic for free. You may only gain one stack per second."
     },
     "ItemId": 25619,
     "ItemTier": 4,
@@ -25024,7 +25024,7 @@
     "ItemDescription": {
       "Description": "This is a ward that allows you to see enemy movements.",
       "Menuitems": [],
-      "SecondaryDescription": "This is a ward that flies along a 500 unit line that allows you to see enemy movements within 50 units. It does not respect line of sight but can't see through stealth. Can only carry one at a time."
+      "SecondaryDescription": "This is a ward that flies along a 500 unit line that allows you to see enemy movements within 50 units. It does not respect line of sight and can see through stealth. Can only carry one at a time."
     },
     "ItemId": 25855,
     "ItemTier": 1,
@@ -25112,7 +25112,7 @@
     "ItemDescription": {
       "Description": "This is a ward that allows you to see enemy movements.",
       "Menuitems": [],
-      "SecondaryDescription": "This is a ward that allows you to see enemy movements within 20 units. It does respect line of sight and can't see through walls or stealth. If an enemy god enters its vision range, the ward will explode after 1.5s in a 45 unit radius, Slowing enemy gods by 20% for 3s and revealing them for 10s. It remains for 5 minutes or until killed. Can only carry one at a time."
+      "SecondaryDescription": "This is a ward that allows you to see enemy movements within 20 units. It does respect line of sight and can't see through walls or stealth. If an enemy god enters its vision range, the ward will explode after 1.5s in a 45 unit radius, Slowing enemy gods by 20% for 3s and revealing them for 10s. It remains for 5 minutes or until killed. Can only carry one at a time. Unlocks at level 5."
     },
     "ItemId": 25912,
     "ItemTier": 1,

@@ -2803,7 +2803,7 @@
     "godAbility4_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/yokais-lament.jpg",
     "godAbility5_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/curse-of-the-ghost-whale.jpg",
     "godCard_URL": "https://webcdn.hirezstudios.com/smite/god-cards/bake-kujira.jpg",
-    "latestGod": "y",
+    "latestGod": "n",
     "IsAssassin": false,
     "IsGuardian": true,
     "IsHunter": false,
@@ -3530,7 +3530,7 @@
         "itemDescription": {
           "cooldown": "14s",
           "cost": "55",
-          "description": "Cerberus leaps a short distance forward, dealing damage on impact and severing the souls of Enemies. These souls will not block Cerberus's attacks, and killing the souls heals Cerberus.",
+          "description": "Cerberus leaps a short distance forward, dealing damage on impact and severing the souls of Enemies. These souls will not block Cerberus's attacks, and killing the souls heals Cerberus, and for each god soul killed, the cooldown of Soul Expulsion is reduced by 2s.",
           "menuItems": null
         },
         "rankItems": null
@@ -4467,7 +4467,7 @@
       "Description": {
         "itemDescription": {
           "cooldown": "16s",
-          "cost": "70/75/80/85/90",
+          "cost": "70",
           "description": "Chiron gallops forward damaging enemies, knocking up minions, and kicking enemy gods behind him. Chiron is immune to knockups while charging.\nChiron may fire Basic Attacks while charging.",
           "menuItems": null
         },
@@ -6864,7 +6864,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/heavenly-banner.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "13s",
+          "cooldown": "14s",
           "cost": "60/65/70/75/80",
           "description": "Hachiman calls down sacred banners from heaven, damaging all enemies in range, granting himself Attack Speed, and leaving a banner which buffs his and allied Attack Speed while within range.",
           "menuItems": null
@@ -6892,7 +6892,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/mounted-archery.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "100s",
+          "cooldown": "110s",
           "cost": "80/90/100/110/120",
           "description": "Hachiman leaps on his horse and charges forward. While mounted, he is immune to Crowd Control and can aim separately from the direction of his horse. He may fire to launch an arrow at every Enemy God within a cone.",
           "menuItems": null
@@ -7119,8 +7119,8 @@
       "Description": {
         "itemDescription": {
           "cooldown": "4s",
-          "cost": "40/50/60/70/80",
-          "description": "He Bo fires a short burst of water from his hands, damaging all enemies in front of him. Lane Minions and Jungle Camps take an extra 15% damage.",
+          "cost": "40/45/50/55/60",
+          "description": "He Bo fires a short burst of water from his hands, damaging all enemies in front of him. Lane Minions and Jungle Camps take an extra 20% damage.",
           "menuItems": null
         },
         "rankItems": null
@@ -7856,9 +7856,9 @@
     "AttackSpeedPerLevel": 0.012,
     "AutoBanned": "n",
     "Cons": "",
-    "Health": 679,
+    "Health": 683,
     "HealthPerFive": 6,
-    "HealthPerLevel": 88,
+    "HealthPerLevel": 100,
     "HP5PerLevel": 0.8,
     "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/horus.jpg",
     "id": 3611,
@@ -9022,7 +9022,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/incense.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15s",
+          "cooldown": "14s",
           "cost": "60",
           "description": "Kali hurls her incense at her feet, exploding it. Enemies hit are Stunned, while Kali gains a Physical Power bonus.",
           "menuItems": null
@@ -9410,7 +9410,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/slipstream.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15/14/13/12/11s",
+          "cooldown": "15/14.5/14/13.5/13s",
           "cost": "65",
           "description": "Kukulkan channels the wind, allowing him to move faster and cleansing himself of Slows and becoming immune to Slows. This speed boost is strong at first but scales down gradually over the 4s duration.",
           "menuItems": null
@@ -10066,7 +10066,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/party-trick.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "6s",
+          "cooldown": "8s",
           "cost": "20/30/40/50/60",
           "description": "Maman Brigitte drinks from her bottle and breathes out fire. Enemies are set aflame, damaged every 0.5s for 1.5s, refreshing if they stay in the area. This damage does not trigger Item effects. Maman Brigitte channels the fire for as long as she has Rum and can cancel at any time. When out of Rum or upon reactivation, she slams her bottle on the ground, damaging and stunning enemies. This ability's cooldown is reduced based on Rum remaining when the slam occurs.",
           "menuItems": null
@@ -11923,6 +11923,140 @@
     "IsWarrior": false,
     "IsMagical": true,
     "IsPhysical": false,
+    "IsRatatoskr": false
+  },
+  {
+    "Ability1": "Convergence",
+    "Ability2": "Crashing Comet",
+    "Ability3": "Warp",
+    "Ability4": "Skyfall",
+    "Ability5": "Flux",
+    "AbilityId1": 25530,
+    "AbilityId2": 25531,
+    "AbilityId3": 25532,
+    "AbilityId4": 25533,
+    "AbilityId5": 25534,
+    "Ability_1": {
+      "Id": 25530,
+      "Summary": "Convergence",
+      "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/convergence.jpg",
+      "Description": {
+        "itemDescription": {
+          "cooldown": "13s",
+          "cost": "45/50/55/60/65",
+          "description": "Nut enhances her Basic Attacks, firing 2 additional damaging projectiles from her sides at a converging angle. All projectiles pierce enemies but not walls, with the center dealing Basic Attack damage and the sides dealing ability damage. Nut always shoots at least once, but may fire up to an additional 4 shots by gaining stacks when hitting enemies with Basic Attacks. Nut gains 2 stacks for hitting enemy gods. Nut may cancel this ability to refund unused shots as stacks.",
+          "menuItems": null
+        },
+        "rankItems": null
+      }
+    },
+    "Ability_2": {
+      "Id": 25531,
+      "Summary": "Crashing Comet",
+      "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/crashing-comet.jpg",
+      "Description": {
+        "itemDescription": {
+          "cooldown": "15s",
+          "cost": "65",
+          "description": "Nut calls down a comet from the sky, which crashes in a circular area, dealing damage. After it lands, it sends out a damaging shockwave in a larger area. Enemies hit by the comet take a second instance of damage and are Rooted, while enemies in the shockwave are Trembled.",
+          "menuItems": null
+        },
+        "rankItems": null
+      }
+    },
+    "Ability_3": {
+      "Id": 25532,
+      "Summary": "Warp",
+      "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/warp.jpg",
+      "Description": {
+        "itemDescription": {
+          "cooldown": "14/13.5/13/12.5/12s",
+          "cost": "40/45/50/55/60",
+          "description": "Nut warps in the direction she is currently traveling. After she warps, she automatically fires 3 homing projectiles that spread out among nearby enemies, prioritizing gods. These projectiles deal damage and apply a stacking Slow to enemies. Additionally, Nut resets the cooldown of Convergence after using this ability.",
+          "menuItems": null
+        },
+        "rankItems": null
+      }
+    },
+    "Ability_4": {
+      "Id": 25533,
+      "Summary": "Skyfall",
+      "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/skyfall.jpg",
+      "Description": {
+        "itemDescription": {
+          "cooldown": "100s",
+          "cost": "100",
+          "description": "Nut becomes Crowd Control immune and gathers all her energy, flying high into the air and becoming untargetable for 3s. Nut then may move and aim before firing a massive black hole toward the battleground that lands after a short delay, dealing damage to all enemies. After the black hole lands, a gravity surge extends outward, damaging and pulling all enemies toward the center. Nut then lands, returning to her initial location.",
+          "menuItems": null
+        },
+        "rankItems": null
+      }
+    },
+    "Ability_5": {
+      "Id": 25534,
+      "Summary": "Flux",
+      "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/flux.jpg",
+      "Description": {
+        "itemDescription": {
+          "cooldown": "",
+          "cost": "",
+          "description": "When Nut hits an enemy god with a damaging ability, she gains a stacking Attack Speed buff for 5s. Nut may gain multiple stacks from a single ability.",
+          "menuItems": null
+        },
+        "rankItems": null
+      }
+    },
+    "AttackSpeed": 1,
+    "AttackSpeedPerLevel": 0.017,
+    "AutoBanned": "y",
+    "Cons": "",
+    "Health": 672,
+    "HealthPerFive": 7,
+    "HealthPerLevel": 80,
+    "HP5PerLevel": 0.71,
+    "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/nut.jpg",
+    "id": 4318,
+    "Lore": "Nut, the goddess of the nighttime sky, is known to those who seek her protection by many names. To some, she is She Who Protects, for it is her task to guard against any who might interfere with the rising of the sun. To others, she is Coverer of the Sky, for she is the night\nand her body is the stars. But to most, she is simply the Mistress of All, for it was said to be Nut who bore the first gods and brought them into the world. \\n\\nWhatever her title, Nut is a protector of the innocent, both in life and the afterlife. As a mother cares for her children, so too does she care for the mortals who live and thrive beneath her stars. The dead ask her to intercede on their behalf, and she nourishes them with food and drink before they make their final journey into the afterlife. She also ensures that the sun and moon make their journeys uninterrupted, and that the ordered cosmos is kept safe from the sea of chaos that threatens to engulf it. \\n\\nShe is mother of Osiris and Set, and guardian of Ra. She is wife of Geb, though Ra deemed their union unfit and sent Shu, God of the Wind, to separate them eternally. But now that separation might be coming to an early end. \\n\\nThe world is changing, and the gods change with it. The old stories fade, and new ones are written. Who is to say what the future holds for Nut? \\n\\nAll she knows is that she is eager to find out.",
+    "MagicalPower": 0,
+    "MagicalPowerPerLevel": 0,
+    "MagicProtection": 30,
+    "MagicProtectionPerLevel": 1.6,
+    "Mana": 230,
+    "ManaPerFive": 4.5,
+    "ManaPerLevel": 37,
+    "MP5PerLevel": 0.4,
+    "Name": "Nut",
+    "OnFreeRotation": "",
+    "Pantheon": "Egyptian",
+    "PhysicalPower": 35,
+    "PhysicalPowerPerLevel": 2.7,
+    "PhysicalProtection": 18.2,
+    "PhysicalProtectionPerLevel": 3.1,
+    "Pros": "Medium Area Damage, High Attack Speed",
+    "Roles": "Hunter",
+    "Speed": 370,
+    "Title": "Goddess of the Sky",
+    "Type": "Ranged, Physical",
+    "basicAttack": {
+      "cooldown": null,
+      "cost": null,
+      "description": null,
+      "menuItems": null
+    },
+    "godAbility1_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/convergence.jpg",
+    "godAbility2_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/crashing-comet.jpg",
+    "godAbility3_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/warp.jpg",
+    "godAbility4_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/skyfall.jpg",
+    "godAbility5_URL": "https://webcdn.hirezstudios.com/smite/god-abilities/flux.jpg",
+    "godCard_URL": "https://webcdn.hirezstudios.com/smite/god-cards/nut.jpg",
+    "latestGod": "y",
+    "IsAssassin": false,
+    "IsGuardian": false,
+    "IsHunter": true,
+    "IsMage": false,
+    "IsWarrior": false,
+    "IsMagical": false,
+    "IsPhysical": true,
     "IsRatatoskr": false
   },
   {
@@ -15428,7 +15562,7 @@
         "itemDescription": {
           "cooldown": "8s",
           "cost": "50/55/60/65/70",
-          "description": "Thoth conjures three Hieroglyphs around him, ignoring the Basic Attack Movement penalty. His next 3 Basic Attacks pass through Enemies and apply Ability Damage instead. Additionally, these Basic Attacks deal an additional 25% damage to jungle minions. If these attacks pass through the Glyph of Pain, their range is increased by 30. Hitting an Enemy God with this ability increases the damage they take from each subsequent shot by 15% and reduces the cooldown by 0.5s (this can only occur once per shot).",
+          "description": "Thoth conjures three Hieroglyphs around him, ignoring the Basic Attack Movement penalty. His next 3 Basic Attacks pass through Enemies and apply Ability Damage instead. Additionally, these Basic Attacks deal an additional 25% damage to jungle minions. If these attacks pass through the Glyph of Pain, their range is increased by 30. Hitting an Enemy God with this ability increases the damage they take from each subsequent shot by 10% and reduces the cooldown by 0.5s (this can only occur once per shot).",
           "menuItems": null
         },
         "rankItems": null
@@ -16512,7 +16646,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/hook-slam.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14s",
+          "cooldown": "14/13.5/13/12.5/12s",
           "cost": "50/55/60/65/70",
           "description": "Xing Tian first launches an attack with his axe, knocking the opponents into the air before slamming them into the ground and rooting them.",
           "menuItems": null
@@ -17232,8 +17366,8 @@
         "rankItems": null
       }
     },
-    "AttackSpeed": 0.86,
-    "AttackSpeedPerLevel": 0.009,
+    "AttackSpeed": 0.95,
+    "AttackSpeedPerLevel": 0.01,
     "AutoBanned": "n",
     "Cons": "",
     "Health": 630,
