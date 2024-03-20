@@ -1372,7 +1372,7 @@
         "itemDescription": {
           "cooldown": "14s",
           "cost": "70",
-          "description": "Arachne spindles her webbing, increasing her Attack Speed for 4s. If her next 2 Basic Attacks hit the same target, that target is Stunned and have their active Cooldowns increased.",
+          "description": "Arachne spindles her webbing, increasing her Attack Speed for 4s. If 3 enhanced Basic Attacks hit the same target, that target is Stunned and have their active Cooldowns increased.",
           "menuItems": null
         },
         "rankItems": null
@@ -1894,7 +1894,7 @@
         "itemDescription": {
           "cooldown": "14s",
           "cost": "60/70/80/90/100",
-          "description": "Athena powers up for a dash. While dashing, Athena will pass through minions, stop and hit the first enemy god she encounters, dealing damage. If she hits an enemy, Athena gains one stack of Block (max 3), absorbing the next Basic Attack from any god that hits her.",
+          "description": "Athena powers up for a dash. While dashing, Athena will pass through minions, stop and hit the first enemy god she encounters, dealing damage. If she hits an enemy, Athena gains a stack (max 3), reducing the next source of Basic Attack damage from any god that hits her. Athena may also gain these stacks by hitting an enemy god with Reach, once per attack.",
           "menuItems": null
         },
         "rankItems": null
@@ -2966,7 +2966,7 @@
         "itemDescription": {
           "cooldown": "14/13.5/13/12.5/12s",
           "cost": "60/65/70/75/80",
-          "description": "Bastet pounces to her target location, damaging enemies within the radius. For 4 seconds after pouncing, you can press the button again to pounce back to your initial location. Bastet moves 25% faster while in the return pounce state.",
+          "description": "Bastet pounces to her target location, damaging enemies within the radius. For 4 seconds after pouncing, you can press the button again to pounce back to your initial location. Bastet moves 25% faster while in the return pounce state. Bastet may cancel this ability early to put it on cooldown.",
           "menuItems": null
         },
         "rankItems": null
@@ -3140,7 +3140,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/eagles-rally.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "75s",
+          "cooldown": "90s",
           "cost": "100",
           "description": "Bellona plants a Roman flag, granting Protections and increased Power to allied gods. Enemies directly under where the flag is placed take damage and are Stunned for 1.25s.",
           "menuItems": null
@@ -4468,7 +4468,7 @@
         "itemDescription": {
           "cooldown": "16s",
           "cost": "70",
-          "description": "Chiron gallops forward damaging enemies, knocking up minions, and kicking enemy gods behind him. Chiron is immune to knockups while charging.\nChiron may fire Basic Attacks while charging.",
+          "description": "Chiron gallops forward damaging enemies, knocking up minions, and kicking enemy gods behind him. Chiron is immune to knockups while charging.\nChiron may fire Basic Attacks and Masterful Shot while charging.",
           "menuItems": null
         },
         "rankItems": null
@@ -4600,7 +4600,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/stop-time.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "18/17/16/15/14s",
+          "cooldown": "16/15.5/15/14.5/14s",
           "cost": "65/70/75/80/85",
           "description": "Shooting forward spinning gears of time, any enemies hit by Chronos' attack have their Attack Speed reduced and Ramp to a Stun, taking damage on the initial hit and again when they are stunned.",
           "menuItems": null
@@ -4856,7 +4856,7 @@
         "itemDescription": {
           "cooldown": "14s",
           "cost": "50/55/60/65/70",
-          "description": "Cthulhu summons a portal creating a slowing field of eldritch mire at the target location. While Cthulhu channels, The Mire continues to grow as the portal fires out two masses of corruption that hit and damage all enemies in the field.\nThe first shot also Slows enemies while the second Roots them, both hits applying 1 stack of Torment. Cancelling the ability early stops The Mire from growing or the portal from firing additional shots.",
+          "description": "Cthulhu summons a portal creating a slowing field of eldritch mire at the target location. The Mire continues to grow as the portal fires out two masses of corruption that hit and damage all enemies in the field.\nThe first shot also Slows enemies while the second Roots them, both hits applying 1 stack of Torment.",
           "menuItems": null
         },
         "rankItems": null
@@ -5166,7 +5166,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Every hit with a Basic Attack gives Cupid a Heart Stack that increases the damage or healing of his abilities. Heart Bomb and Fields of Love will always consume the Heart Stacks and at 8 Stacks they will have additional effects.",
+          "description": "Every hit with a Basic Attack gives Cupid a Heart Stack that increases the damage or healing of his abilities. Hitting an enemy god grants an additional stack. Heart Bomb and Fields of Love will always consume the Heart Stacks and at 8 Stacks they will have additional effects.",
           "menuItems": null
         },
         "rankItems": null
@@ -6180,9 +6180,9 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/irradiate.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "11s",
+          "cooldown": "8s",
           "cost": "45/50/55/60/65",
-          "description": "Freya activates a Buff that makes her Basic Attacks do bonus Magical damage.",
+          "description": "Freya activates a Buff that makes her Basic Attacks do bonus Magical damage. Freya may cancel this ability early to put it on cooldown.",
           "menuItems": null
         },
         "rankItems": null
@@ -9396,7 +9396,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/zephyr.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "7s",
+          "cooldown": "8s",
           "cost": "55/60/65/70/75",
           "description": "Kukulkan fires a projectile breath attack that hits the first enemy in its path, doing damage and Slowing all enemies in the area around the impact.",
           "menuItems": null
@@ -11944,7 +11944,7 @@
         "itemDescription": {
           "cooldown": "13s",
           "cost": "45/50/55/60/65",
-          "description": "Nut enhances her Basic Attacks, firing 2 additional damaging projectiles from her sides at a converging angle. All projectiles pierce enemies but not walls, with the center dealing Basic Attack damage and the sides dealing ability damage. Nut always shoots at least once, but may fire up to an additional 4 shots by gaining stacks when hitting enemies with Basic Attacks. Nut gains 2 stacks for hitting enemy gods. Nut may cancel this ability to refund unused shots as stacks.",
+          "description": "Nut enhances her Basic Attacks, firing 2 additional damaging projectiles from her sides at a converging angle. All projectiles pierce enemies but not walls, with the center dealing Basic Attack damage and the sides dealing ability damage. Nut always shoots at least once, but may fire up to an additional 4 shots by gaining stacks when damaging enemies with Basic Attacks. Nut gains 2 stacks for damaging enemy gods. Nut may cancel this ability to refund unused shots as stacks.",
           "menuItems": null
         },
         "rankItems": null
@@ -12016,7 +12016,7 @@
     "HP5PerLevel": 0.71,
     "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/nut.jpg",
     "id": 4318,
-    "Lore": "Nut, the goddess of the nighttime sky, is known to those who seek her protection by many names. To some, she is She Who Protects, for it is her task to guard against any who might interfere with the rising of the sun. To others, she is Coverer of the Sky, for she is the night\nand her body is the stars. But to most, she is simply the Mistress of All, for it was said to be Nut who bore the first gods and brought them into the world. \\n\\nWhatever her title, Nut is a protector of the innocent, both in life and the afterlife. As a mother cares for her children, so too does she care for the mortals who live and thrive beneath her stars. The dead ask her to intercede on their behalf, and she nourishes them with food and drink before they make their final journey into the afterlife. She also ensures that the sun and moon make their journeys uninterrupted, and that the ordered cosmos is kept safe from the sea of chaos that threatens to engulf it. \\n\\nShe is mother of Osiris and Set, and guardian of Ra. She is wife of Geb, though Ra deemed their union unfit and sent Shu, God of the Wind, to separate them eternally. But now that separation might be coming to an early end. \\n\\nThe world is changing, and the gods change with it. The old stories fade, and new ones are written. Who is to say what the future holds for Nut? \\n\\nAll she knows is that she is eager to find out.",
+    "Lore": "Nut, the goddess of the nighttime sky, is known to those who seek her protection by many names. To some, she is She Who Protects, for it is her task to guard against any who might interfere with the rising of the sun. To others, she is Coverer of the Sky, for she is the night and her body is the stars. But to most, she is simply the Mistress of All, for it was said to be Nut who bore the first gods and brought them into the world. \\n\\nWhatever her title, Nut is a protector of the innocent, both in life and the afterlife. As a mother cares for her children, so too does she care for the mortals who live and thrive beneath her stars. The dead ask her to intercede on their behalf, and she nourishes them with food and drink before they make their final journey into the afterlife. She also ensures that the sun and moon make their journeys uninterrupted, and that the ordered cosmos is kept safe from the sea of chaos that threatens to engulf it. \\n\\nShe is mother of Osiris and Set, and guardian of Ra. She is wife of Geb, though Ra deemed their union unfit and sent Shu, God of the Wind, to separate them eternally. But now that separation might be coming to an early end. \\n\\nThe world is changing, and the gods change with it. The old stories fade, and new ones are written. Who is to say what the future holds for Nut? \\n\\nAll she knows is that she is eager to find out.",
     "MagicalPower": 0,
     "MagicalPowerPerLevel": 0,
     "MagicProtection": 30,
@@ -12092,7 +12092,7 @@
         "itemDescription": {
           "cooldown": "14/13.5/13/12.5/12s",
           "cost": "50/55/60/65/70",
-          "description": "Odin summons a flock of Ravens that create a Shield around him. When the Shield expires it explodes outward, dealing damage to nearby enemies based on how much Health it had remaining. If the Shield is at full Health, it deals additional bonus damage. The Shield will not expire while Odin is using Lunge, and will always detonate upon landing.",
+          "description": "Odin summons a flock of Ravens that create a Shield around him. When the Shield expires it explodes outward, dealing damage to nearby enemies based on how much Health it had remaining. The Shield will not expire while Odin is using Lunge, and will always detonate upon landing, dealing bonus damage.",
           "menuItems": null
         },
         "rankItems": null
@@ -12106,7 +12106,7 @@
         "itemDescription": {
           "cooldown": "12s",
           "cost": "70",
-          "description": "Odin begins empowering Gungnir with Runic Magic, becoming immune to knockbacks. Every .7s Gungnir changes runes and Odin pulses out damage around him, slowing enemies for 2s. When Odin releases Gungnir it travels forward, damaging enemies and stopping on the first god hit. The first rune causes allies around Odin to gain Attack Speed for 3s. The second allows Gungnir to home onto enemy gods. The last rune allows Gungnir to stun.",
+          "description": "Odin begins empowering Gungnir with Runic Magic, becoming immune to knockbacks. Every second, Gungnir changes runes and Odin pulses out damage around him, slowing enemies for 2s. When Odin releases Gungnir it travels forward, damaging enemies and stopping on the first god hit. The first rune causes allies around Odin to gain Attack Speed for 3s. The second rune allows Gungnir to stun.",
           "menuItems": null
         },
         "rankItems": null
@@ -13698,7 +13698,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/cobras-kiss.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14s",
+          "cooldown": "12s",
           "cost": "70/75/80/85/90",
           "description": "Serqet launches her two blades forward, dealing damage and applying the Cobra's Kiss Poison. Cobra's Kiss Poison drives gods to madness, forcing them to attack nearby allies dealing this damage again, or walk harmlessly towards Serqet. Cobra's Kiss remains in a lingering dormant state for 20s.",
           "menuItems": null
@@ -14264,7 +14264,7 @@
         "itemDescription": {
           "cooldown": "90s",
           "cost": "80/90/100/110/120",
-          "description": "Sobek submerges himself, where he gains 20% protections, regenerates Mana, is immune to Crowd Control and he Slows all enemies. When Sobek emerges, he damages all enemies in the radius. Cancelling the ability decreases the damage.",
+          "description": "Sobek submerges himself, where he gains 20% protections, regenerates Mana, is immune to Crowd Control, may passthrough player-made walls, and he Slows all enemies. When Sobek emerges, he damages all enemies in the radius. Cancelling the ability decreases the damage.",
           "menuItems": null
         },
         "rankItems": null
@@ -15026,7 +15026,7 @@
         "itemDescription": {
           "cooldown": "11s",
           "cost": "50 ",
-          "description": "Terra gains momentum, causing her to charge forward and deal damage to enemies she passes through.\n\nTerra may charge through her own Standing Stones to Shatter them. If she does she may charge one more time within the next 3s.",
+          "description": "Terra gains momentum, causing her to charge forward and deal damage to enemies she passes through.\n\nTerra may charge through her own Standing Stones to Shatter them. If she does she may charge one more time within the next 3s. Terra may use this ability without putting a point into it, but it deals no damage and has a 20s cooldown.",
           "menuItems": null
         },
         "rankItems": null
@@ -15426,7 +15426,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/mjolnirs-attunement.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "12s",
+          "cooldown": "14s",
           "cost": "55/60/65/70/75 ",
           "description": "Thor throws Mjolnir forward, doing damage to all enemies in its path. If hit twice, minions will take 100% damage while gods take 200% damage from the return. While the hammer is flying, pressing the button again will teleport Thor to his hammer.",
           "menuItems": null
@@ -16690,7 +16690,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Xing Tian gains stacks of Smouldering Rage each time he hits an enemy with an ability. For each stack of rage Xing Tian has, he gains HP5.\n\nStacks last 18s.",
+          "description": "Xing Tian gains stacks of Smouldering Rage each time he hits an enemy with an ability. For each stack of rage Xing Tian has, he gains HP5 and temporary maximum Health for 18s. Xing Tian's HP5 has no cap.",
           "menuItems": null
         },
         "rankItems": null
@@ -17184,7 +17184,7 @@
         "itemDescription": {
           "cooldown": "12s",
           "cost": "60/65/70/75/80",
-          "description": "Zeus throws his shield forward dealing damage to nearby enemies. The shield remains for 5s, and Zeus may target it with Basic Attacks or Chain Lightning. Each Basic Attack or first Chain Lightning arc that hits the shield will deal additional static damage and apply a charge in the area. Additionally, while Zeus' shield is deployed, he gains Attack and Movement Speed.",
+          "description": "Zeus throws his shield forward dealing damage to nearby enemies and apply a charge. The shield remains for 5s, and Zeus may target it with Basic Attacks or Chain Lightning. Each Basic Attack or first Chain Lightning arc that hits the shield will deal additional static damage and apply a charge in the area. While Zeus' shield is deployed, he gains Attack and Movement Speed. Zeus may refire the ability to recall the shield early.",
           "menuItems": null
         },
         "rankItems": null
