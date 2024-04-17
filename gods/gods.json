@@ -312,7 +312,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/honey.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "10s",
+          "cooldown": "12s",
           "cost": "60",
           "description": "Ah Muzen Cab sprays honey that lasts for 4s at a moveable ground target location, Slowing all enemies in the area. Bees from Hives within 90 units and Swarm will fly over to protect the honey, dealing damage every .5 second and applying Bees! to all enemies as they leave the honey.",
           "menuItems": null
@@ -2696,7 +2696,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/rough-waters.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "12s",
+          "cooldown": "14s",
           "cost": "60/65/70/75/80",
           "description": "Bake Kujira imbues himself with cursed energy. When activated, Bake Kujira gains increased Basic Attack range and reduced Movement Penalty when Basic Attacking. He also gains a stack of Protections for each enemy hit with his Basic Attacks.",
           "menuItems": null
@@ -2771,8 +2771,8 @@
     "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/bake-kujira.jpg",
     "id": 4312,
     "Lore": "The world is full of omens, for those prepared to see. But some are easier to discern than others. Such is the case with Bake Kujira, the Ghost-Whale. Appearing as a great, skeletal whale, composed of bleached bone and an eerie aura, the Ghost-Whale haunts the world as a bringer of uncertain tidings and bad fortune. Or so the stories say.\\n\\nTo see Bake Kujira is to drown in hopelessness and despair. To witness its passing is to feel the cold clutch of fear on one’s heart, and to know that there are bad times ahead. Some believe that Bake Kujira is the soul of a whale slain by hunters, come back to seek revenge against those who killed it. Others believe it is a spirit of the sea, called forth as punishment for those who abuse the largesse of the ocean. Some few believe it is a servant of the cosmic balance, summoned to set right a world gone wrong.\\n\\nWhether Bake Kujira is a ghost, or a devil, or something else entirely is unknown. All that is known is that where it goes, bad things follow. Accompanied by swarms of strange birds and shoals of hideous fish, the Ghost-Whale is not bound by the sea but can also swim through the sky, if that is where its course should take it.\\n\\nNo barrier can slow it, no witchery can divert it. Wherever it goes, it brings death and disease with it. Those who are unfortunate enough to witness its passing are marked by its curse and subject to all manner of disasters to come.\\n\\nSome few mortals worship the Ghost-Whale, in hopes of propitiating it and preventing the doom it foretells. Others seek the aid of the gods in breaking the curse of Bake Kujira. But what can even the gods do against such a being?\\n\\nOnly time will tell.",
-    "MagicalPower": 120,
-    "MagicalPowerPerLevel": 7.5,
+    "MagicalPower": 90,
+    "MagicalPowerPerLevel": 9,
     "MagicProtection": 35,
     "MagicProtectionPerLevel": 1.6,
     "Mana": 200,
@@ -3960,7 +3960,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Chang'e can purchase/sell items anywhere and her Jade Rabbit will fetch them. Only one item can be purchased/sold in this way at a time. Chang'e also gains +25% movement speed with no backpedal penalty when using her dances and her abilities apply a debuff to enemies, causing them to take 5% extra damage from her abilities within the next 4s, stacking 3 times.",
+          "description": "Chang'e can purchase/sell items anywhere and her Jade Rabbit will fetch them. Only one item can be purchased/sold in this way at a time. Chang'e also gains +40% movement speed with no backpedal penalty when using her dances and her abilities apply a debuff to enemies, causing them to take 5% extra damage from her abilities within the next 5s, stacking 3 times.",
           "menuItems": null
         },
         "rankItems": null
@@ -4050,7 +4050,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/damnation.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14/13.5/13/12.5/12s",
+          "cooldown": "16/15.5/15/14.5/14s",
           "cost": "60/65/70/75/80",
           "description": "After a short delay, Charon creates a rift to the underworld in an area, dealing damage and marking all enemy gods hit for the next 3s. The marked gods are revealed and have their Attack Speed reduced. Additionally, any time an allied god hits a marked god once per mark per ability or basic attack, that ally gains a shield for 3s. Subsequent shields only grant 25% of the original value.",
           "menuItems": null
@@ -7254,7 +7254,7 @@
         "itemDescription": {
           "cooldown": "12s",
           "cost": "50/55/60/65/70",
-          "description": "Heimdallr throws his sword, Hofuð, into the air. It shines with brilliant light that reveals enemies within 80 units. Heimdallr can refire this ability to call the sword down, causing it to fly to the target location and damage enemies.",
+          "description": "Heimdallr throws his sword, Hofuð, into the air in front of him. It shines with brilliant light that reveals enemies within 80 units. Heimdallr can refire this ability to call the sword down, causing it to fly to the target location and damage enemies.",
           "menuItems": null
         },
         "rankItems": null
@@ -8474,7 +8474,7 @@
         "itemDescription": {
           "cooldown": "14/13.5/13/12.5/12s",
           "cost": "70",
-          "description": "Izanami sends forth a demonic visage of herself to strike down her enemies, damaging and Slowing all Enemies in a line.\n\nIf an Enemy God is killed while slowed by this ability, future uses of the slow will be increased by 6% per kill up to twice, for a maximum of 30%.",
+          "description": "Izanami sends forth a demonic visage of herself to strike down her enemies, damaging and Slowing all Enemies in a line.\n\nIf an Enemy God is killed while slowed by this ability, future uses of the slow will be increased by 10% per kill up to twice, for a maximum of 40%.",
           "menuItems": null
         },
         "rankItems": null
@@ -8486,7 +8486,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/fade-away.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "17/16.5/16/15.5/15s",
+          "cooldown": "15s",
           "cost": "70",
           "description": "Izanami descends into the underworld, becoming Stealthed, and leaps away from her current position.\n\nTaking damage, or firing a damaging Ability or Basic Attack breaks her Stealth.",
           "menuItems": null
@@ -9320,7 +9320,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Each ability that damages a god results in a stack of Steadfast, gaining 5 HP5, reducing damage taken, and increasing energy gain. Each time King Arthur uses an ability he swaps between his Standard and Combo Abilities. All abilities are Instant Cast. Attack Speed and Item Passives do not benefit his Basic Attacks. Attack Speed increases his energy gain.",
+          "description": "Each ability that damages a god results in a stack of Steadfast, gaining 5 HP5, reducing damage taken, and increasing energy gain. Each time King Arthur uses an ability he swaps between his Standard and Combo Abilities. All abilities are Instant Cast. Attack Speed does not benefit his Basic Attacks, and instead increases his energy gain.",
           "menuItems": null
         },
         "rankItems": null
@@ -9424,7 +9424,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/whirlwind.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14/13/12/11/10s",
+          "cooldown": "14/13.5/13/12.5/12s",
           "cost": "70/75/80/85/90",
           "description": "Kukulkan summons a tornado at his ground target location. A smaller tornado branches off onto any enemies that come within the radius, doing damage every .5s for 2.5s and is refreshed if enemies stay within the radius, for a maximum of 12 ticks.",
           "menuItems": null
@@ -9438,7 +9438,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/spirit-of-the-nine-winds.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "90s",
+          "cooldown": "100s",
           "cost": "100/110/120/130/140",
           "description": "Kukulkan summons the Spirit Of The Nine Winds to breathe down destruction onto his enemies in a path in front of him, doing damage and knocking all of the enemies to the side.",
           "menuItems": null
@@ -9692,7 +9692,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/sumo-slam.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "12s",
+          "cooldown": "14s",
           "cost": "60/65/70/75/80",
           "description": "Kuzenbo charges forward, immune to slows, damaging Enemy minions and silencing using his immense strength to push the first Enemy God he hits along with him. Each subsequent Enemy he hits deals damage to both that Enemy and the god Kuzenbo is pushing. Colliding with a wall will also deal damage to the pushed god. Pushed targets can be hit a maximum of 3 times.",
           "menuItems": null
@@ -9708,7 +9708,7 @@
         "itemDescription": {
           "cooldown": "75s",
           "cost": "100",
-          "description": "Kuzenbo pulls himself inwards under his shell and spins, summoning fierce currents that knock enemies back, increase his Movement Speed, grant him 10% Damage Mitigation, render him immune to Crowd Control, and allow him to move freely in all directions for 2.1s. Each hit after the first on an enemy deals 40% reduced damage.",
+          "description": "Kuzenbo pulls himself inwards under his shell and spins, summoning fierce currents that knock enemies back, increase his Movement Speed, grant him Damage Mitigation, render him immune to Crowd Control, and allow him to move freely in all directions for 2.1s. Each hit after the first on an enemy deals 40% reduced damage.",
           "menuItems": null
         },
         "rankItems": null
@@ -9856,7 +9856,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Lancelot receives 1 Stack for a god kill/assist and 1 Stack for every 5 minion kills (max. 60 Stacks).\nWhile Mounted, each stack provides increased Movement Speed.\nWhile Unmounted, each stack provides reduced basic attack damage received from directly in front.",
+          "description": "Lancelot receives 1 Stack for a god kill/assist and 1 Stack for every 5 minion kills (max. 40 Stacks).\nWhile Mounted, each stack provides increased Movement Speed.\nWhile Unmounted, each stack provides reduced basic attack damage received from directly in front.",
           "menuItems": null
         },
         "rankItems": null
@@ -10242,7 +10242,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/death-from-above.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "100s",
+          "cooldown": "110s",
           "cost": "100",
           "description": "Martichoras becomes Crowd Control immune and untargetable as he soars into the air, raining down 12 bursts of damaging toxins over 3s. Each time an enemy is hit with a burst, their Physical Protections are reduced.",
           "menuItems": null
@@ -10399,7 +10399,7 @@
       }
     },
     "AttackSpeed": 0.85,
-    "AttackSpeedPerLevel": 0.01,
+    "AttackSpeedPerLevel": 0.012,
     "AutoBanned": "n",
     "Cons": "",
     "Health": 693,
@@ -11048,7 +11048,7 @@
         "itemDescription": {
           "cooldown": "90s",
           "cost": "100",
-          "description": "Mulan brings forth her entire arsenal dashing forwards with sword slashes, dealing damage and rooting enemies for 1s.\nIf she hits an enemy god during the dash, Mulan uses her new divine energy to knock up enemies with her spear before firing a large projectile attack with her bow.\nDealing damage with any part of this ability gains Skill towards the weapon used. Mulan also gains Protections for the duration.",
+          "description": "Mulan brings forth her entire arsenal dashing forwards with sword slashes, dealing damage and rooting enemies for 1s. Then, Mulan uses her new divine energy to knock up enemies with her spear before firing a large projectile attack with her bow.\nDealing damage with any part of this ability gains Skill towards the weapon used. Mulan also gains Protections for the duration.",
           "menuItems": null
         },
         "rankItems": null
@@ -13401,7 +13401,7 @@
   },
   {
     "Ability1": "Prana Onslaught",
-    "Ability2": "Overhead kick",
+    "Ability2": "Overhead Kick",
     "Ability3": "10-Hand Shadow Fist",
     "Ability4": "Mystic Rush",
     "Ability5": "Chain of Blows",
@@ -13426,7 +13426,7 @@
     },
     "Ability_2": {
       "Id": 11528,
-      "Summary": "Overhead kick",
+      "Summary": "Overhead Kick",
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/overhead-kick.jpg",
       "Description": {
         "itemDescription": {
@@ -14624,7 +14624,7 @@
         "itemDescription": {
           "cooldown": "14/13/12/11/10s",
           "cost": "50 ",
-          "description": "Surtr sets his sword ablaze gaining Haste while this buff is active. Surtr's next successful Basic Attack will deal bonus magical damage, ignite the target causing them to take damage over time as well as spawning a Fiery Imp.\n\nThis ability's bonus damage increases per stack (max. of 200) when an enemy dies while the burning effect is active.",
+          "description": "Surtr sets his sword ablaze gaining Haste while this buff is active. Surtr's next successful Basic Attack will deal bonus magical damage, ignite the target causing them to take damage over time as well as spawning a Fiery Imp.\n\nThis ability's bonus damage increases per stack (max. of 999). Surtr gains 1 stack when hitting an enemy, or 3 if the target is a god. Surtr also gains 2 stacks when killing an enemy, or 5 if the target is a god.",
           "menuItems": null
         },
         "rankItems": null
@@ -15200,7 +15200,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/hovering-death.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "90s",
+          "cooldown": "110/105/100/95/90s",
           "cost": "40/50/60/70/80",
           "description": "Thanatos flaps his wings and ascends for 5s, unable to be hit. While airborne, he moves unimpeded at an increased speed before diving to his target location, dealing damage. Enemies below a Health threshold are instantly killed. All others are Stunned. Consumes 8% of Thanatos' current HP when used.",
           "menuItems": null
@@ -17092,7 +17092,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Yu Huang attunes himself to the Dao, giving his Basic Attacks and Abilities additional effects. He gains a stack of Dao every 6s. He may also gain 2 stacks by hitting an enemy after not taking or dealing damage for 3s. Once he has 6 or more stacks, Yu Huang becomes Attuned, allowing his Basic Attacks chain to one additional enemy.",
+          "description": "Yu Huang attunes himself to the Dao, giving his Basic Attacks and Abilities additional effects. He gains a stack of Dao every 3s. He may also gain 2 stacks by hitting an enemy after not taking or dealing damage for 3s. Once he has 6 or more stacks, Yu Huang becomes Attuned, allowing his Basic Attacks chain to one additional enemy.",
           "menuItems": null
         },
         "rankItems": null

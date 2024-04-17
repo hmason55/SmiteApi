@@ -5452,7 +5452,7 @@
           "Value": "+15"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your next basic attack on an enemy god creates a 30 unit shockwave of frost around them, slowing the Movement Speed and Attack Speed of enemy gods in the area by 25% for 3s. This effect can only occur once every 5 seconds. This item and all upgrades are only available to Assassins and Warriors."
+      "SecondaryDescription": "PASSIVE - Your next basic attack on an enemy god creates a 30 unit shockwave of frost around them, slowing the Movement Speed and Attack Speed of enemy gods in the area by 25% for 3s. This effect can only occur once every 3 seconds. This item and all upgrades are only available to Assassins and Warriors."
     },
     "ItemId": 24176,
     "ItemTier": 3,
@@ -9198,7 +9198,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Enemies hit by your damaging abilities will move 30% Slower and will have Shields applied on them reduced by 50% for 2.5 seconds. This can only occur once every 5 seconds."
+      "SecondaryDescription": "PASSIVE - Enemies hit by your damaging abilities will move 30% Slower and will have Shields applied on them reduced by 50% for 2.5 seconds. This can only occur once every 2.5 seconds."
     },
     "ItemId": 7594,
     "ItemTier": 3,
@@ -12795,63 +12795,6 @@
     "IsGlyph": false
   },
   {
-    "DeviceName": "Golden Blade",
-    "ActiveFlag": "y",
-    "ChildItemId": 12672,
-    "IconId": 7141,
-    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/golden-blade.jpg",
-    "ItemDescription": {
-      "Description": "This item causes the owner's Basic Attacks to hit nearby enemies.",
-      "Menuitems": [
-        {
-          "Description": "Physical Power",
-          "Value": "+25"
-        },
-        {
-          "Description": "Attack Speed",
-          "Value": "+20%"
-        },
-        {
-          "Description": "Movement Speed",
-          "Value": "+7%"
-        }
-      ],
-      "SecondaryDescription": "PASSIVE - All Basic Attacks will also hit enemies within a 15 unit radius of the target for 50% of the damage to Gods, Minions and Jungle Camps."
-    },
-    "ItemId": 16592,
-    "ItemTier": 3,
-    "Price": 900,
-    "RestrictedRoles": "guardian,hunter,mage",
-    "RootItemId": 12671,
-    "ShortDesc": "Basic Attack hits damage additional enemies",
-    "StartingItem": false,
-    "Type": "Item",
-    "AttackSpeed": 0.2,
-    "CooldownReduction": 0,
-    "CriticalStrikeChance": 0,
-    "CrowdControlReduction": 0,
-    "Health": 0,
-    "HP5": 0,
-    "MagicalLifesteal": 0,
-    "MagicalPenetration": 0,
-    "MagicalPenetrationPercent": 0,
-    "MagicalPower": 0,
-    "MagicalProtection": 0,
-    "Mana": 0,
-    "MovementSpeed": 0.07,
-    "MP5": 0,
-    "PhysicalLifesteal": 0,
-    "PhysicalPenetration": 0,
-    "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 25,
-    "PhysicalProtection": 0,
-    "IsPhysicalOnly": true,
-    "IsMagicalOnly": false,
-    "ActivelyStacks": false,
-    "IsEvolved": false,
-    "IsGlyph": false
-  },
-  {
     "DeviceName": "Y10 Serrated Edge",
     "ActiveFlag": "n",
     "ChildItemId": 12672,
@@ -15629,11 +15572,11 @@
           "Value": "+7%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - When your Ultimate ability has finished casting, reveal all enemy gods within 120 units for 8s. While moving towards revealed enemies gain 20% Movement Speed. When first striking a revealed target they take an additional 20 + 50% of your Physical Power. This can only occur once every 45 seconds. This item is only available to Assassins and Warriors."
+      "SecondaryDescription": "PASSIVE - When your Ultimate ability has finished casting, reveal all enemy gods within 120 units for 10s. While moving towards revealed enemies gain 20% Movement Speed. When first striking a revealed target they take an additional 30 + 50% of your Physical Power. This can only occur once every 45 seconds. This item is only available to Assassins and Warriors."
     },
     "ItemId": 17356,
     "ItemTier": 3,
-    "Price": 1000,
+    "Price": 900,
     "RestrictedRoles": "guardian,hunter,mage",
     "RootItemId": 17349,
     "ShortDesc": "On ultimate use seek out and banish evil",
@@ -17472,7 +17415,7 @@
           "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Enemies hit by your Basic Attacks are burned, taking 60 True damage over 2s and have their Attack Speed slowed by 10%. Jungle Monsters and Bosses take 4x damage and restore 2.5% Health and 5% Mana when they die. This effect can stack up to 4 times."
+      "SecondaryDescription": "PASSIVE - Enemies hit by your Basic Attacks are burned, taking 60 Physical damage over 2s and have their Attack Speed slowed by 10%. Jungle Monsters and Bosses take 4x damage and restore 2.5% Health and 5% Mana when they die. This effect can stack up to 4 times."
     },
     "ItemId": 19513,
     "ItemTier": 2,
@@ -18489,7 +18432,7 @@
           "Value": "+10"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Every 0.5 seconds you gain a stack of Arcane Energy, causing your next damaging ability to deal an additional 2 True Damage and remove all stacks. Also deals an additional 2 true damage per stack to minions. This effect stacks up to 20 times. Can be upgraded at level 20."
+      "SecondaryDescription": "PASSIVE - Every 0.5 seconds you gain a stack of Arcane Energy, causing your next damaging ability to deal an additional 2 True Damage and remove all stacks. Also deals an additional 1 true damage per stack to minions. This effect stacks up to 20 times. Can be upgraded at level 20."
     },
     "ItemId": 19677,
     "ItemTier": 1,
@@ -19758,10 +19701,10 @@
     },
     "ItemId": 23102,
     "ItemTier": 3,
-    "Price": 1050,
+    "Price": 1400,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 23147,
-    "ShortDesc": "Overcap your Cooldown Reduction at the cost of protections",
+    "ShortDesc": "Overcap your Cooldown Reduction",
     "StartingItem": false,
     "Type": "Item",
     "AttackSpeed": 0,
@@ -20052,7 +19995,7 @@
     "ItemDescription": {
       "Description": null,
       "Menuitems": [],
-      "SecondaryDescription": "Your Movement Speed is increased by 10% and your Attack Speed is increased by 40% for the next 3s. Shard Relics can be upgraded to a new Relic once you reach Level 12. Cooldown - 90s."
+      "SecondaryDescription": "Your Movement Speed is increased by 15% and your Attack Speed is increased by 40% for the next 3s. Shard Relics can be upgraded to a new Relic once you reach Level 12. Cooldown - 90s."
     },
     "ItemId": 24015,
     "ItemTier": 2,
@@ -21152,7 +21095,7 @@
     "ItemDescription": {
       "Description": "Deploy a wall of light to protect allies.",
       "Menuitems": [],
-      "SecondaryDescription": "Deploy a 40 unit wide wall of divine light that reduces the damage of all enemy Basic Attacks that pass through it by 30%. Additionally, all enemies that pass through the barrier are Slowed by 30% for 3s. The barrier lasts for 30s. Cooldown - 110s.\n<font color='#f59b56'>Kill or assist minions to upgrade this Relic for free."
+      "SecondaryDescription": "Deploy a 40 unit wide wall of divine light that reduces the damage of all enemy Basic Attacks that pass through it by 30%. Additionally, all enemies that pass through the barrier are Slowed by 30% for 3s. The barrier lasts for 30s. Cooldown - 100s.\n<font color='#f59b56'>Kill or assist minions to upgrade this Relic for free."
     },
     "ItemId": 25884,
     "ItemTier": 3,
@@ -21314,7 +21257,7 @@
           "Value": "+30"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Enemies hit by your damaging abilities take an additional 160 Physical Damage over 2s. Enemy gods take an additional 12% of their Current Health as Physical Damage over 2s. Subsequent hits on the same target do half the bonus damage for the next 3s."
+      "SecondaryDescription": "PASSIVE - Enemies hit by your damaging abilities take an additional 160 Physical Damage over 2s. Enemy gods take an additional 10% of their Current Health as Physical Damage over 2s. Subsequent hits on the same target do half the bonus damage for the next 3s."
     },
     "ItemId": 23859,
     "ItemTier": 2,
@@ -23116,7 +23059,7 @@
     "ItemDescription": {
       "Description": "Deploy a wall of light to protect allies.",
       "Menuitems": [],
-      "SecondaryDescription": "Deploy a 40 unit wide wall of divine light that reduces the damage of all enemy Basic Attacks that pass through it by 30%. Additionally, all enemies that pass through the barrier are Slowed by 30% for 3s. The barrier lasts for 30s. Cooldown - 90s.\n<font color='#f59b56'>Deal instances of damage or Crowd Control to enemy Gods to upgrade this Relic for free. You may only gain one stack per second."
+      "SecondaryDescription": "Deploy a 40 unit wide wall of divine light that reduces the damage of all enemy Basic Attacks that pass through it by 30%. Additionally, all enemies that pass through the barrier are Slowed by 30% for 3s. The barrier lasts for 30s. Cooldown - 80s.\n<font color='#f59b56'>Deal instances of damage or Crowd Control to enemy Gods to upgrade this Relic for free. You may only gain one stack per second."
     },
     "ItemId": 25889,
     "ItemTier": 4,
@@ -25072,7 +25015,7 @@
     "ItemDescription": {
       "Description": "Deploy a wall of light to protect and bolster allies.",
       "Menuitems": [],
-      "SecondaryDescription": "Deploy a 40 unit wide wall of divine light that reduces the damage of all enemy Basic Attacks that pass through it by 30% and increases the damage of all allied Basic Attacks by 10%. Additionally, all enemies that pass through the barrier are Slowed by 30% for 3s. The barrier lasts for 30s. Cooldown - 90s."
+      "SecondaryDescription": "Deploy a 40 unit wide wall of divine light that reduces the damage of all enemy Basic Attacks that pass through it by 30% and increases the damage of all allied Basic Attacks by 15%. Additionally, all enemies that pass through the barrier are Slowed by 30% for 3s. The barrier lasts for 30s. Cooldown - 80s."
     },
     "ItemId": 25890,
     "ItemTier": 4,
