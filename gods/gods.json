@@ -368,7 +368,7 @@
     "ManaPerLevel": 40,
     "MP5PerLevel": 0.38,
     "Name": "Ah Muzen Cab",
-    "OnFreeRotation": "true",
+    "OnFreeRotation": "",
     "Pantheon": "Maya",
     "PhysicalPower": 33,
     "PhysicalPowerPerLevel": 2.5,
@@ -1440,7 +1440,7 @@
     "ManaPerLevel": 41,
     "MP5PerLevel": 0.46,
     "Name": "Arachne",
-    "OnFreeRotation": "",
+    "OnFreeRotation": "true",
     "Pantheon": "Greek",
     "PhysicalPower": 38,
     "PhysicalPowerPerLevel": 2.2,
@@ -2754,7 +2754,7 @@
         "itemDescription": {
           "cooldown": "10s",
           "cost": "",
-          "description": "Enemies that hard Crowd Control Bake Kujira are Cursed. If an enemy is already Cursed, the duration is refreshed and increases in strength. Bake Kujira converts Protections from Items and Abilities into Basic Attack damage and converts Attack Speed into Haste. Attack Speed and Item Passives do not benefit his Basic Attacks.",
+          "description": "Enemies that hard Crowd Control Bake Kujira are Cursed. If an enemy is already Cursed, it refreshes and strengthens. Bake Kujira converts Protections from Items and Abilities into Basic Attack damage, and Attack Speed into Haste. His Basic Attacks do not benefit from Attack Speed and proc item hit effects for 50% damage and healing.",
           "menuItems": null
         },
         "rankItems": null
@@ -2994,7 +2994,7 @@
         "itemDescription": {
           "cooldown": "12s",
           "cost": "60/65/70/75/80",
-          "description": "Bastet sends a cat forward at her enemies. If a cat finds an enemy it ensnares them, damaging them and rooting them for .5s. The cat persists for 4s or until defeated, continuing to attack nearby enemies. The cats attacks will apply a 2s slow to the enemy.",
+          "description": "Bastet sends a cat forward at her enemies. If a cat finds an enemy, it ensnares them and all enemies around them, damaging them and rooting them for .5s. The cat persists for 4s or until defeated, continuing to attack nearby enemies. The cats attacks will apply a 2s slow to the enemy.",
           "menuItems": null
         },
         "rankItems": null
@@ -3098,7 +3098,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/shield-bash.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14s",
+          "cooldown": "15s",
           "cost": "60",
           "description": "Bellona dashes forward and bashes with her shield, dealing damage and Slowing enemies. Bellona gains 1 Stack of block for each enemy god hit. Block absorbs all damage from a single Basic Attack and reflects a portion of the damage around her.\nBellona then makes Basic Attacks with sword and shield until she has not taken or dealt damage in the last 7s. Every 3 successful basic attacks she gains another Stack of block (max. 3). ",
           "menuItems": null
@@ -4200,7 +4200,7 @@
         "itemDescription": {
           "cooldown": "17/16.5/16/15.5/15s",
           "cost": "70/75/80/85/90",
-          "description": "Charybdis dives into a whirlpool she creates, expanding and revealing the terrifying Maw. Charybdis moves faster and deals damage to enemies caught in the area.\nThis ability can be amplified by toggling it again and spending 30% Tide. Doing so increases the damage dealt and movement speed as well as providing extra damage and a knockup on exiting.\nWhile submerged, Charybdis is untargetable and immune to damage for up to 3s.",
+          "description": "Charybdis dives into a whirlpool she creates, expanding and revealing the terrifying Maw. Charybdis deals damage to enemies caught in the area.\nThis ability can be amplified by toggling it again and spending 30% Tide. Doing so increases the damage dealt as well as providing Movement Speed, extra damage, and a knockup on exiting.\nWhile submerged, Charybdis is untargetable and immune to damage for up to 3s.",
           "menuItems": null
         },
         "rankItems": null
@@ -4228,7 +4228,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Charybdis' attack speed increases as her Tide increases. Successful Basic Attack hits increase her Tide.\nCharybdis deals less damage with item effect procs.",
+          "description": "Charybdis' attack speed increases as her Tide increases. Successful Basic Attack hits increase her Tide.\nCharybdis deals less damage with item effect procs on only her rapid fire Basic Attacks.",
           "menuItems": null
         },
         "rankItems": null
@@ -5032,7 +5032,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Cu Chulainn's Mana, MP5, and Mana Heals are applied to his Health pool. Abilities consume Rage, which stops regen at 25, but he gains Rage upon hitting with his Abilities as well as 1 Rage for Basic Attacks and .5 when he or allies take damage. After 3s above 85, he goes Berserk. While Berserk, Cu Chulainn gains Power and a Health Shield.",
+          "description": "Cu Chulainn's Mana, MP5, and Mana Heals are applied to his Health pool. Abilities consume Rage, which stops regen at 25, but he gains Rage upon hitting with his Abilities as well as 1 Rage for Basic Attacks and .5 when he or allies take damage. After 2s above 85, he goes Berserk. While Berserk, Cu Chulainn gains Power and a Health Shield.",
           "menuItems": null
         },
         "rankItems": null
@@ -5728,7 +5728,7 @@
     "ManaPerLevel": 35,
     "MP5PerLevel": 0.3,
     "Name": "Erlang Shen",
-    "OnFreeRotation": "",
+    "OnFreeRotation": "true",
     "Pantheon": "Chinese",
     "PhysicalPower": 39,
     "PhysicalPowerPerLevel": 2,
@@ -5956,7 +5956,7 @@
         "itemDescription": {
           "cooldown": "90s",
           "cost": "70",
-          "description": "Fafnir transforms into a terrifying dragon and is untargetable during the process. When he emerges in dragon form, he regains 200 Mana and nearby enemies become poisoned, taking damage three times over 3s. He remains in this form for a duration or until the ability is activated again. As a dragon, his abilities have additional effects and his basic attack changes to a Dragon Breath that deals damage 3 times per second. Dragon Breath can not proc item hit effects.",
+          "description": "Fafnir transforms into a terrifying dragon and is untargetable during the process. When he emerges in dragon form, he regains 200 Mana and nearby enemies become poisoned, taking damage three times over 3s. He remains in this form for a duration or until the ability is activated again. As a dragon, his abilities have additional effects and his basic attack changes to a Dragon Breath that deals damage 3 times per second. Dragon Breath procs item hit effects for 25% damage and healing.",
           "menuItems": null
         },
         "rankItems": null
@@ -5970,7 +5970,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Fafnir gains 2 bonus gold from all enemy kills and assists, including minions. Fafnir also gains bonus Protections based on the amount of gold he is currently holding. The bonuses gained from this ability are capped at 1000 gold in hand.",
+          "description": "Fafnir gains 2 bonus gold from all enemy kills and assists, including minions. Fafnir also gains 1 gold as a Dwarf and 2 gold as a Dragon each time he hits an enemy god with an ability, once per god per ability. Fafnir gains Protections based on the amount of gold he is currently holding, capped at 1000 gold.",
           "menuItems": null
         },
         "rankItems": null
@@ -6731,7 +6731,7 @@
       "Description": {
         "itemDescription": {
           "cooldown": "13s",
-          "cost": "60/65/70/75/80",
+          "cost": "50",
           "description": "Guan Yu charges forward, his Green Dragon Crescent Blade extended in front of him. All enemies in his path take damage and are Slowed. Hitting enemy gods lowers all of Guan Yu's Cooldowns by 2s. Guan Yu is immune to Roots, Cripples, and Knockups while dashing.",
           "menuItems": null
         },
@@ -6745,7 +6745,7 @@
       "Description": {
         "itemDescription": {
           "cooldown": "13s",
-          "cost": "60/65/70/75/80",
+          "cost": "55/60/65/70/75",
           "description": "Guan Yu spins his blade in a controlled but furious display, slicing enemies for damage every .3s for 3s. Each hit steals enemy Protections, giving them to Guan Yu. Guan Yu is immune to Knockback for the duration.",
           "menuItems": null
         },
@@ -6804,7 +6804,7 @@
     "Pantheon": "Chinese",
     "PhysicalPower": 37,
     "PhysicalPowerPerLevel": 2,
-    "PhysicalProtection": 22.4,
+    "PhysicalProtection": 23.8,
     "PhysicalProtectionPerLevel": 3.2,
     "Pros": "High Sustain, High Mobility",
     "Roles": "Warrior",
@@ -6850,7 +6850,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/eagle-eye.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "12/11.5/11/10.5/10s",
+          "cooldown": "14/13/12/11/10s",
           "cost": "50",
           "description": "When Hachiman toggles on this ability, instead of Basic Attacking he fires a series of arrows that travel further and deal additional damage. Each hit may trigger item effects for basic attacks, and can critical hit.",
           "menuItems": null
@@ -8368,7 +8368,7 @@
         "itemDescription": {
           "cooldown": "90s",
           "cost": "90",
-          "description": "Ix Chel becomes CC immune, gaining 15% Damage Mitigation as she channels all of her energy into a single intense beam of light. The beam deals damage to enemies and heals allied gods every 0.2s for 3s, increasing in duration if Ix Chel hits allied and enemy gods at the same time.\nEnemy gods take increasing damage per tick which decays rapidly if not hit recently.\n\nHealing an ally also heals Ix Chel. Ix Chel gains 6 stacks of Rainbow Weaver on firing.",
+          "description": "Ix Chel becomes CC immune, gaining 15% Damage Mitigation as she channels all of her energy into a single intense beam of light. The beam deals damage to enemies and heals allied gods every 0.2s for 3s, increasing in duration if Ix Chel hits allied and enemy gods at the same time.\nEnemy gods take increasing damage per tick which decays rapidly if not hit recently.\n\nHealing an ally or damaging an enemy also heals Ix Chel. Ix Chel gains 6 stacks of Rainbow Weaver on firing.",
           "menuItems": null
         },
         "rankItems": null
@@ -8918,7 +8918,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Jormungandr is so large that he cannot be affected by Hard Displacement. Instead, he gets Dazed, a fading, non-cleansable slow that increases the damage he takes for the duration. Any Attack speed past base speeds up the recharge rate of Jormungandr's Basic Attack. Jormungandr's Basic Attacks do not proc item hit effects.",
+          "description": "Jormungandr cannot be affected by Hard Displacement. Instead, he is Dazed, a non-cleansable slow that increases the damage he takes for the duration. Any Attack Speed past base speeds up the recharge rate of his Basic Attack. Jormungandr's Basic Attacks proc item hit effects for 50% damage and healing.",
           "menuItems": null
         },
         "rankItems": null
@@ -9748,7 +9748,7 @@
     "ManaPerLevel": 34,
     "MP5PerLevel": 0.42,
     "Name": "Kuzenbo",
-    "OnFreeRotation": "",
+    "OnFreeRotation": "true",
     "Pantheon": "Japanese",
     "PhysicalPower": 0,
     "PhysicalPowerPerLevel": 0,
@@ -10016,7 +10016,7 @@
     "ManaPerLevel": 35,
     "MP5PerLevel": 0.35,
     "Name": "Loki",
-    "OnFreeRotation": "true",
+    "OnFreeRotation": "",
     "Pantheon": "Norse",
     "PhysicalPower": 38,
     "PhysicalPowerPerLevel": 2.4,
@@ -10348,7 +10348,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/mystical-ulua.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14/13/12/11/10s",
+          "cooldown": "12/11.5/11/10.5/10s",
           "cost": "55",
           "description": "Maui throws an Ulua made of magical water that explodes on landing, giving all allied gods within 35 units Protections and Movement Speed for 5s. The Ulua creates a pillar of water that lasts for 10s. If an allied god stands on the water for 1s, a bubble forms and carries them to Maui's location, where they receive Protections and Movement Speed for 5s. If Maui leaves the aura radius and no ally is on the water, it is destroyed.",
           "menuItems": null
@@ -10376,7 +10376,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/landfall.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "110/105/100/95/90s",
+          "cooldown": "90s",
           "cost": "100",
           "description": "Maui selects an area, becomes CC immune and leaps into the air. He throws his hook at the target area and pulls up an island, knocking all enemies in the area up into the air and pulls them in front of himself. The island remains on the battleground, blocking player movement for 4s. Maui can reactivate this ability to destroy the island early.",
           "menuItems": null
@@ -10482,7 +10482,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/acid-spray.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14s ",
+          "cooldown": "13s ",
           "cost": "40/45/50/55/60 ",
           "description": "Medusa hurls back and spits out acid that damages the first enemy hit and sprays out acid in a cone behind them. Enemies hit by Acid Spray will have their healing taken reduced. Acid Spray will explode on statues Medusa has created.",
           "menuItems": null
@@ -10560,7 +10560,7 @@
     "PhysicalProtectionPerLevel": 3.2,
     "Pros": "High Single Target Damage",
     "Roles": "Hunter",
-    "Speed": 365,
+    "Speed": 375,
     "Title": "The Gorgon",
     "Type": "Ranged, Physical",
     "basicAttack": {
@@ -11300,7 +11300,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/backflip.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15s",
+          "cooldown": "16s",
           "cost": "60/65/70/75/80",
           "description": "Neith backflips through the air, creating a Broken Weave as she leaps while damaging and Slowing enemies in the area in front of her.",
           "menuItems": null
@@ -11314,7 +11314,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/world-weaver.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "90s",
+          "cooldown": "100s",
           "cost": "80/90/100/110/120",
           "description": "Neith charges up and fires an arrow across the world, seeking its target through obstacles. Enemy gods take damage and are Stunned. The arrow can be fired quicker for diminished results.",
           "menuItems": null
@@ -11824,7 +11824,7 @@
         "itemDescription": {
           "cooldown": "16s",
           "cost": "60/70/80/90/100",
-          "description": "Nu Wa conjures Clay Soldiers from the Earth. If she marked a target while summoning them, they will pursue that target until it dies. If she summoned them with no target, they will attack enemy gods who damage Nu Wa, or closest enemies.\n\nSoldiers live for 10s. First they will dash at enemies within 30 units, applying a stack of protection reduction. Stacks up to 3 times, stacks last 2s. They will basic attack after that. ",
+          "description": "Nu Wa conjures Clay Soldiers from the Earth. If she marked a target while summoning them, they will pursue that target until it dies. If she summoned them with no target, they will attack enemy gods who damage Nu Wa, or closest enemies.\n\nSoldiers live for 10s. First they will dash at enemies within 30 units, dealing damage and applying a stack of protection reduction. Stacks up to 3 times, stacks last 2s. They will basic attack after that. ",
           "menuItems": null
         },
         "rankItems": null
@@ -12212,7 +12212,7 @@
         "itemDescription": {
           "cooldown": "12s",
           "cost": "50/60/70/80/90",
-          "description": "Olorun charges an orb of pure energy for up to 2s before firing it in front of him. The longer he charges the farther the projectile goes, passing through and damaging Enemy minions but stopping on colliding with Enemy gods.\n\nThis ability can Critically Hit and can provide stacks of Overflowing Divinity.",
+          "description": "Olorun charges an orb of pure energy for up to 2s before firing it in front of him. Charging the ability increases the range and damage of the orb. This ability passes through and damages Enemy minions but stops and collides with Enemy gods.\n\nThis ability can Critically Hit and can provide stacks of Overflowing Divinity.",
           "menuItems": null
         },
         "rankItems": null
@@ -12238,7 +12238,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/consecration.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14s",
+          "cooldown": "12s",
           "cost": "60/65/70/75/80",
           "description": "Olorun expends the light within himself knocking back and damaging nearby Enemies as well as slowing them for 2s.\n\nOlorun and allies are bathed in the light, gaining a heal over time that ticks every second for 5s. For every ally god healed, Olorun gains Physical and Magical protections.",
           "menuItems": null
@@ -12268,7 +12268,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Upon reaching 100 Magical Power from Items, Olorun gains 20% Critical Hit Chance and a further 2% per 10 Magical Power from Items.\nOlorun's Critical hits only deal 30% increased damage.\nAdditionally Olorun gains 5% extra scaling on his basic attacks.",
+          "description": "Upon reaching 100 Magical Power from Items, Olorun gains 20% Critical Hit Chance and a further 2% per 12 Magical Power from Items.\nOlorun's Critical hits only deal 40% increased damage.\nAdditionally Olorun gains 5% extra scaling on his basic attacks.",
           "menuItems": null
         },
         "rankItems": null
@@ -13752,9 +13752,9 @@
     "AttackSpeedPerLevel": 0.022,
     "AutoBanned": "n",
     "Cons": "",
-    "Health": 560,
+    "Health": 580,
     "HealthPerFive": 9,
-    "HealthPerLevel": 78,
+    "HealthPerLevel": 80,
     "HP5PerLevel": 0.7,
     "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/serqet.jpg",
     "id": 2005,
@@ -14490,7 +14490,7 @@
         "itemDescription": {
           "cooldown": "12s",
           "cost": "50/55/60/65/70",
-          "description": "Sun Wukong's Magic Cudgel grows in length, and he slams it down, damaging all enemies in front of him. Minions and Jungle Camps take an extra +30% damage.",
+          "description": "Sun Wukong's Magic Cudgel grows in length, and he slams it down, damaging all enemies in front of him. Minions and Jungle Camps take an extra +20% damage.",
           "menuItems": null
         },
         "rankItems": null
@@ -14546,7 +14546,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "When Sun Wukong is below 60% Health, he gains +10 Physical Power and +10 Protections, plus another 1.5 Physical Power and 2 Protections for his current level. While Undefeated Body is active, if Sun Wukong goes above 50% Health, he maintains the buff for 12s.",
+          "description": "When Sun Wukong is below 60% Health, he gains +10 Physical Power and +10 Protections, plus another 1.5 Physical Power and 2 Protections for his current level. While Undefeated Body is active, if Sun Wukong goes above 50% Health, he maintains the buff for 8s.",
           "menuItems": null
         },
         "rankItems": null
@@ -14974,7 +14974,7 @@
     "ManaPerLevel": 34,
     "MP5PerLevel": 0.4,
     "Name": "Sylvanus",
-    "OnFreeRotation": "true",
+    "OnFreeRotation": "",
     "Pantheon": "Roman",
     "PhysicalPower": 0,
     "PhysicalPowerPerLevel": 0,
@@ -15039,7 +15039,7 @@
       "Description": {
         "itemDescription": {
           "cooldown": "15s",
-          "cost": "60/65/70/75/80",
+          "cost": "50/55/60/65/70",
           "description": "Terra raises up two Standing Stone walls on either side of a target location. As long as both stones stand, Terra may activate this ability again to slam the stones together, damaging and Stunning enemies in between for 1.5s.\n\nThese stones can be Shattered into a cone of shrapnel with Force of Nature, damaging enemies in the area. ",
           "menuItems": null
         },
@@ -15066,7 +15066,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/earthen-fury.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "90s",
+          "cooldown": "90/85/80/75/70s",
           "cost": "100",
           "description": "Terra channels her strength into the world around her, buffing her allies and debuffing enemies for 10s.\nAllies gain 10% damage mitigation and protective stones that heal the ally if all 4 are activated.\nEnemies receive 5% more damage from all sources and harmful stones that damage the enemy if all 4 are activated. Stones are activated when an ally or enemy receives damage.",
           "menuItems": null
@@ -15560,7 +15560,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/hieroglyphic-assault.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "8s",
+          "cooldown": "10s",
           "cost": "50/55/60/65/70",
           "description": "Thoth conjures three Hieroglyphs around him, ignoring the Basic Attack Movement penalty. His next 3 Basic Attacks pass through Enemies and apply Ability Damage instead. Additionally, these Basic Attacks deal an additional 25% damage to jungle minions. If these attacks pass through the Glyph of Pain, their range is increased by 30. Hitting an Enemy God with this ability increases the damage they take from each subsequent shot by 10% and reduces the cooldown by 0.5s (this can only occur once per shot).",
           "menuItems": null

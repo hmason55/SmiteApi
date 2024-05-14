@@ -705,6 +705,59 @@
     "IsGlyph": false
   },
   {
+    "DeviceName": "Duality",
+    "ActiveFlag": "y",
+    "ChildItemId": 7574,
+    "IconId": 13541,
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/duality.jpg",
+    "ItemDescription": {
+      "Description": "This item causes your Basic Attacks to deal ability damage",
+      "Menuitems": [
+        {
+          "Description": "Physical Power",
+          "Value": "+40"
+        },
+        {
+          "Description": "Attack Speed",
+          "Value": "+15%"
+        }
+      ],
+      "SecondaryDescription": "PASSIVE - Once every 5s, your next Basic Attack has half of its damage converted to Physical ability damage. This damage can trigger ability item effects."
+    },
+    "ItemId": 26147,
+    "ItemTier": 3,
+    "Price": 1450,
+    "RestrictedRoles": "no restrictions",
+    "RootItemId": 7573,
+    "ShortDesc": "Convert Basic Attack damage to ability damage",
+    "StartingItem": false,
+    "Type": "Item",
+    "AttackSpeed": 0.15,
+    "CooldownReduction": 0,
+    "CriticalStrikeChance": 0,
+    "CrowdControlReduction": 0,
+    "Health": 0,
+    "HP5": 0,
+    "MagicalLifesteal": 0,
+    "MagicalPenetration": 0,
+    "MagicalPenetrationPercent": 0,
+    "MagicalPower": 0,
+    "MagicalProtection": 0,
+    "Mana": 0,
+    "MovementSpeed": 0,
+    "MP5": 0,
+    "PhysicalLifesteal": 0,
+    "PhysicalPenetration": 0,
+    "PhysicalPenetrationPercent": 0,
+    "PhysicalPower": 40,
+    "PhysicalProtection": 0,
+    "IsPhysicalOnly": true,
+    "IsMagicalOnly": false,
+    "ActivelyStacks": false,
+    "IsEvolved": false,
+    "IsGlyph": false
+  },
+  {
     "DeviceName": "The Ferocious Executioner",
     "ActiveFlag": "y",
     "ChildItemId": 7575,
@@ -1671,7 +1724,7 @@
     },
     "ItemId": 7904,
     "ItemTier": 3,
-    "Price": 750,
+    "Price": 850,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 7827,
     "ShortDesc": "Cooldown Reduction and Physical Penetration",
@@ -2184,7 +2237,7 @@
           "Value": "+200"
         }
       ],
-      "SecondaryDescription": "PASSIVE - For 8s after using an ability, your next Basic Attack will deal an additional 30% damage. Abilities that function like basic attacks do not benefit from this.\nPASSIVE - This item grants 2.5 MP5 per 10% of your missing Mana."
+      "SecondaryDescription": "PASSIVE - For 8s after using an ability, your next Basic Attack will deal an additional 25% damage. Abilities that function like basic attacks do not benefit from this.\nPASSIVE - This item grants 2.5 MP5 per 10% of your missing Mana."
     },
     "ItemId": 8550,
     "ItemTier": 3,
@@ -2356,14 +2409,14 @@
         },
         {
           "Description": "Mana",
-          "Value": "+300"
+          "Value": "+250"
         },
         {
           "Description": "MP5",
           "Value": "+10"
         }
       ],
-      "SecondaryDescription": "PASSIVE - You permanently gain 15 Mana per Stack, and receive 1 Stack per 800 Damage Dealt to minions or 350 Damage Dealt to gods. You gain Physical Power equal to 2% of your Maximum Mana. At 50 stacks this item Evolves, gaining 10 Physical Penetration."
+      "SecondaryDescription": "PASSIVE - You permanently gain 10 Mana per Stack, and receive 1 Stack per 800 Damage Dealt to minions or 350 Damage Dealt to gods. You gain Physical Power equal to 2% of your Maximum Mana. At 50 stacks this item Evolves, gaining 10 Physical Penetration."
     },
     "ItemId": 25669,
     "ItemTier": 3,
@@ -2384,7 +2437,7 @@
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
     "MagicalProtection": 0,
-    "Mana": 300,
+    "Mana": 250,
     "MovementSpeed": 0,
     "MP5": 10,
     "PhysicalLifesteal": 0,
@@ -2759,7 +2812,7 @@
         },
         {
           "Description": "Mana",
-          "Value": "+1050"
+          "Value": "+750"
         },
         {
           "Description": "MP5",
@@ -2791,7 +2844,7 @@
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
     "MagicalProtection": 0,
-    "Mana": 1050,
+    "Mana": 750,
     "MovementSpeed": 0,
     "MP5": 10,
     "PhysicalLifesteal": 0,
@@ -5319,11 +5372,11 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+35"
+          "Value": "+40"
         },
         {
           "Description": "Health",
-          "Value": "+300"
+          "Value": "+350"
         },
         {
           "Description": "Mana",
@@ -5344,7 +5397,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 300,
+    "Health": 350,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -5357,7 +5410,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 35,
+    "PhysicalPower": 40,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -8375,7 +8428,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your next basic attack against an enemy god deals bonus Magical Damage equal to 8% of the target's maximum Health. This effect can only occur once every 10s, reduced by 2s for each successful Basic Attack on an enemy god."
+      "SecondaryDescription": "PASSIVE - Your next basic attack against an enemy god deals bonus Magical Damage equal to 9% of the target's maximum Health. This effect can only occur once every 8s, reduced by 2s for each successful Basic Attack on an enemy god."
     },
     "ItemId": 23869,
     "ItemTier": 3,
@@ -9405,6 +9458,63 @@
     "IsGlyph": false
   },
   {
+    "DeviceName": "Curseweaver",
+    "ActiveFlag": "y",
+    "ChildItemId": 9856,
+    "IconId": 13540,
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/curseweaver.jpg",
+    "ItemDescription": {
+      "Description": "Curse enemies to take damage when they cast an ability.",
+      "Menuitems": [
+        {
+          "Description": "Magical Power",
+          "Value": "+60"
+        },
+        {
+          "Description": "Health",
+          "Value": "+250"
+        },
+        {
+          "Description": "Mana",
+          "Value": "+250"
+        }
+      ],
+      "SecondaryDescription": "PASSIVE - Hitting an enemy god with a Basic Attack or Ability marks them for 4s. When the marked enemy god casts an ability, they take 5% of your Maximum Health + 5% of your Maximum Mana as Magical damage. You heal for 100% of the damage dealt. You may only apply a mark once every 12s. Each time an enemy casts an ability within 55 units of you, reduce the cooldown of this item by 1s."
+    },
+    "ItemId": 26145,
+    "ItemTier": 3,
+    "Price": 1150,
+    "RestrictedRoles": "no restrictions",
+    "RootItemId": 9855,
+    "ShortDesc": "Curse enemies to take damage when they cast an ability",
+    "StartingItem": false,
+    "Type": "Item",
+    "AttackSpeed": 0,
+    "CooldownReduction": 0,
+    "CriticalStrikeChance": 0,
+    "CrowdControlReduction": 0,
+    "Health": 250,
+    "HP5": 0,
+    "MagicalLifesteal": 0,
+    "MagicalPenetration": 0,
+    "MagicalPenetrationPercent": 0,
+    "MagicalPower": 60,
+    "MagicalProtection": 0,
+    "Mana": 250,
+    "MovementSpeed": 0,
+    "MP5": 0,
+    "PhysicalLifesteal": 0,
+    "PhysicalPenetration": 0,
+    "PhysicalPenetrationPercent": 0,
+    "PhysicalPower": 0,
+    "PhysicalProtection": 0,
+    "IsPhysicalOnly": false,
+    "IsMagicalOnly": true,
+    "ActivelyStacks": false,
+    "IsEvolved": false,
+    "IsGlyph": false
+  },
+  {
     "DeviceName": "Y10 Evolved Warlock's Staff",
     "ActiveFlag": "n",
     "ChildItemId": 7917,
@@ -10232,7 +10342,7 @@
     },
     "ItemId": 7924,
     "ItemTier": 2,
-    "Price": 1050,
+    "Price": 950,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 9860,
     "ShortDesc": "Kills and assists provide stacking Movement Speed and Magical Power",
@@ -10460,7 +10570,7 @@
     },
     "ItemId": 16882,
     "ItemTier": 3,
-    "Price": 1250,
+    "Price": 1200,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 9860,
     "ShortDesc": "Kills and assists provide stacking Movement Speed and Magical Power",
@@ -11649,6 +11759,59 @@
     "PhysicalPenetration": 10,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 35,
+    "PhysicalProtection": 0,
+    "IsPhysicalOnly": true,
+    "IsMagicalOnly": false,
+    "ActivelyStacks": false,
+    "IsEvolved": false,
+    "IsGlyph": false
+  },
+  {
+    "DeviceName": "Stormseeker",
+    "ActiveFlag": "y",
+    "ChildItemId": 14848,
+    "IconId": 13542,
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/stormseeker.jpg",
+    "ItemDescription": {
+      "Description": null,
+      "Menuitems": [
+        {
+          "Description": "Physical Power",
+          "Value": "+25"
+        },
+        {
+          "Description": "Attack Speed",
+          "Value": "+20%"
+        }
+      ],
+      "SecondaryDescription": "PASSIVE - When you hit an enemy god with a Basic Attack, gain a permanent stacking Attack Speed buff. Each stack grants 0.25% Attack Speed for a max of 999 stacks."
+    },
+    "ItemId": 26100,
+    "ItemTier": 3,
+    "Price": 700,
+    "RestrictedRoles": "no restrictions",
+    "RootItemId": 10662,
+    "ShortDesc": "Gain infinitely stacking Attack Speed",
+    "StartingItem": false,
+    "Type": "Item",
+    "AttackSpeed": 0.2,
+    "CooldownReduction": 0,
+    "CriticalStrikeChance": 0,
+    "CrowdControlReduction": 0,
+    "Health": 0,
+    "HP5": 0,
+    "MagicalLifesteal": 0,
+    "MagicalPenetration": 0,
+    "MagicalPenetrationPercent": 0,
+    "MagicalPower": 0,
+    "MagicalProtection": 0,
+    "Mana": 0,
+    "MovementSpeed": 0,
+    "MP5": 0,
+    "PhysicalLifesteal": 0,
+    "PhysicalPenetration": 0,
+    "PhysicalPenetrationPercent": 0,
+    "PhysicalPower": 25,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -12965,6 +13128,63 @@
     "PhysicalLifesteal": 0.15,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0.2,
+    "PhysicalPower": 25,
+    "PhysicalProtection": 0,
+    "IsPhysicalOnly": true,
+    "IsMagicalOnly": false,
+    "ActivelyStacks": false,
+    "IsEvolved": false,
+    "IsGlyph": false
+  },
+  {
+    "DeviceName": "Equinox",
+    "ActiveFlag": "y",
+    "ChildItemId": 12672,
+    "IconId": 13543,
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/equinox.jpg",
+    "ItemDescription": {
+      "Description": null,
+      "Menuitems": [
+        {
+          "Description": "Physical Power",
+          "Value": "+25"
+        },
+        {
+          "Description": "Attack Speed",
+          "Value": "+20%"
+        },
+        {
+          "Description": "Movement Speed",
+          "Value": "+7%"
+        }
+      ],
+      "SecondaryDescription": "PASSIVE - When you hit an enemy with a Basic Attack from the front, you heal for 1 + 1 Health per level, which is increased by 50% if the target is a god. When you hit an enemy with a Basic Attack from the back, you deal an additional 15 + 2 Physical damage per level."
+    },
+    "ItemId": 26127,
+    "ItemTier": 3,
+    "Price": 900,
+    "RestrictedRoles": "no restrictions",
+    "RootItemId": 12671,
+    "ShortDesc": "Gain directional bonuses when hitting enemies",
+    "StartingItem": false,
+    "Type": "Item",
+    "AttackSpeed": 0.2,
+    "CooldownReduction": 0,
+    "CriticalStrikeChance": 0,
+    "CrowdControlReduction": 0,
+    "Health": 0,
+    "HP5": 0,
+    "MagicalLifesteal": 0,
+    "MagicalPenetration": 0,
+    "MagicalPenetrationPercent": 0,
+    "MagicalPower": 0,
+    "MagicalProtection": 0,
+    "Mana": 0,
+    "MovementSpeed": 0.07,
+    "MP5": 0,
+    "PhysicalLifesteal": 0,
+    "PhysicalPenetration": 0,
+    "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 25,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
@@ -15128,7 +15348,7 @@
           "Value": "+10"
         }
       ],
-      "SecondaryDescription": "PASSIVE - <font color='#42F46E'>Increase Damage Dealt by 6% + 0.25% per your god’s level.\n<font color='#F44242'>Increase Damage Taken by 6% + 0.25% per your god’s level.\nPASSIVE - This item grants 2 MP5 per 10% of your missing Mana. Your abilities deal +10 Bonus Ability True Damage to minions. <n>Can be upgraded at level 20."
+      "SecondaryDescription": "PASSIVE - <font color='#42F46E'>Increase Damage Dealt by 5% + 0.25% per your god’s level.\n<font color='#F44242'>Increase Damage Taken by 6% + 0.1% per your god’s level.\nPASSIVE - This item grants 2 MP5 per 10% of your missing Mana. Your abilities deal +10 Bonus Ability True Damage to minions. <n>Can be upgraded at level 20."
     },
     "ItemId": 16397,
     "ItemTier": 1,
@@ -18778,16 +18998,16 @@
           "Value": "+15"
         },
         {
+          "Description": "Magical Power",
+          "Value": "+20"
+        },
+        {
           "Description": "Physical Protection",
-          "Value": "+10"
+          "Value": "+15"
         },
         {
           "Description": "Magical Protection",
           "Value": "+15"
-        },
-        {
-          "Description": "Health",
-          "Value": "+75"
         }
       ],
       "SecondaryDescription": "PASSIVE - When you are hit by an ability you gain a stack of Dampening, gaining 5 Protections for 5s and healing for 1% of your Max Health. This occurs only once per ability cast. This can stack twice. Can be upgraded at level 20."
@@ -18804,12 +19024,12 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 75,
+    "Health": 0,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 0,
+    "MagicalPower": 20,
     "MagicalProtection": 15,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -18818,7 +19038,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 15,
-    "PhysicalProtection": 10,
+    "PhysicalProtection": 15,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -18839,19 +19059,19 @@
           "Value": "+25"
         },
         {
+          "Description": "Magical Power",
+          "Value": "+35"
+        },
+        {
           "Description": "Physical Protection",
           "Value": "+40"
         },
         {
           "Description": "Magical Protection",
           "Value": "+65"
-        },
-        {
-          "Description": "Health",
-          "Value": "+150"
         }
       ],
-      "SecondaryDescription": "PASSIVE - You gain 3% Damage Mitigation. Whenever you are hit by an ability you gain a stack of Rebuke, providing an additional 3% Damage Mitigation for 8s and healing for 1% of your Max Health. This occurs only once per ability cast. This can stack up to three times. "
+      "SecondaryDescription": "PASSIVE - You gain 3% Damage Mitigation. Whenever you are hit by an ability you gain a stack of Rebuke, providing an additional 3% Damage Mitigation for 8s and healing for 2% of your Max Health. This occurs only once per ability cast. This can stack up to three times. "
     },
     "ItemId": 19752,
     "ItemTier": 2,
@@ -18865,12 +19085,12 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 150,
+    "Health": 0,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 0,
+    "MagicalPower": 35,
     "MagicalProtection": 65,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -18900,16 +19120,16 @@
           "Value": "+35"
         },
         {
+          "Description": "Magical Power",
+          "Value": "+45"
+        },
+        {
           "Description": "Physical Protection",
-          "Value": "+30"
+          "Value": "+40"
         },
         {
           "Description": "Magical Protection",
-          "Value": "+30"
-        },
-        {
-          "Description": "Health",
-          "Value": "+300"
+          "Value": "+40"
         }
       ],
       "SecondaryDescription": "PASSIVE - When you are hit by an ability the Infused Sigil gains a stack. This can occur only once per ability cast. At 4 stacks it explodes after 0.5s, dealing 600 Physical Damage to enemies within 30 units of you. "
@@ -18926,13 +19146,13 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 300,
+    "Health": 0,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 0,
-    "MagicalProtection": 30,
+    "MagicalPower": 45,
+    "MagicalProtection": 40,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 0,
@@ -18940,7 +19160,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 35,
-    "PhysicalProtection": 30,
+    "PhysicalProtection": 40,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -24337,7 +24557,7 @@
     },
     "ItemId": 25762,
     "ItemTier": 3,
-    "Price": 1100,
+    "Price": 1000,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 25757,
     "ShortDesc": "Gain Magical Power as Health is lost",
@@ -24565,7 +24785,7 @@
           "Value": "+15%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - You gain additional Magical Power and Lifesteal scaled from missing Health. This caps at 70 power and 15% Lifesteal at 40% Health. <n>GLYPH - For every 30 Magical Power you have, you gain 2% Attack Speed. "
+      "SecondaryDescription": "PASSIVE - You gain additional Magical Power and Lifesteal scaled from missing Health. This caps at 70 power and 15% Lifesteal at 40% Health. <n>GLYPH - For every 30 Magical Power you have, you gain 2 Basic Attack Power and 2% Attack Speed. "
     },
     "ItemId": 25764,
     "ItemTier": 4,
@@ -25067,50 +25287,6 @@
     "RestrictedRoles": "no restrictions",
     "RootItemId": 25912,
     "ShortDesc": "Slows and reveals nearby enemies",
-    "StartingItem": false,
-    "Type": "Consumable",
-    "AttackSpeed": 0,
-    "CooldownReduction": 0,
-    "CriticalStrikeChance": 0,
-    "CrowdControlReduction": 0,
-    "Health": 0,
-    "HP5": 0,
-    "MagicalLifesteal": 0,
-    "MagicalPenetration": 0,
-    "MagicalPenetrationPercent": 0,
-    "MagicalPower": 0,
-    "MagicalProtection": 0,
-    "Mana": 0,
-    "MovementSpeed": 0,
-    "MP5": 0,
-    "PhysicalLifesteal": 0,
-    "PhysicalPenetration": 0,
-    "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 0,
-    "PhysicalProtection": 0,
-    "IsPhysicalOnly": false,
-    "IsMagicalOnly": false,
-    "ActivelyStacks": false,
-    "IsEvolved": false,
-    "IsGlyph": false
-  },
-  {
-    "DeviceName": "Secret Potion",
-    "ActiveFlag": "y",
-    "ChildItemId": 0,
-    "IconId": 4048,
-    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/secret-potion.jpg",
-    "ItemDescription": {
-      "Description": "You're curious... aren't you?",
-      "Menuitems": [],
-      "SecondaryDescription": "You're curious... aren't you?"
-    },
-    "ItemId": 26102,
-    "ItemTier": 1,
-    "Price": 1,
-    "RestrictedRoles": "no restrictions",
-    "RootItemId": 26102,
-    "ShortDesc": "You're curious... aren't you?",
     "StartingItem": false,
     "Type": "Consumable",
     "AttackSpeed": 0,
