@@ -150,7 +150,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/noxious-fumes.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "12s",
+          "cooldown": "13s",
           "cost": "60/65/70/75/80",
           "description": "Agni summons a cloud of noxious fumes at his ground target location, doing damage every second. Firing any of Agni's abilities into the fumes detonates the gas, Stunning and damaging all enemies in the radius.",
           "menuItems": null
@@ -164,7 +164,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/flame-wave.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15/14/13/12/11s",
+          "cooldown": "15/14.5/14/13.5/13s",
           "cost": "60/65/70/75/80",
           "description": "Agni summons a wave of fire in front of him that scorches all enemies in its path. Ignites Noxious Fumes.",
           "menuItems": null
@@ -178,7 +178,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/path-of-flames.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15s",
+          "cooldown": "16s",
           "cost": "70/75/80/85/90",
           "description": "Agni blazes a path forward in a quick dash, leaving flames trailing behind him. Any enemies passing through the flames catch fire and burn for damage every .5s for 2s. Ignites Noxious Fumes. Agni is immune to Knockback while dashing.",
           "menuItems": null
@@ -2442,7 +2442,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/belly-flop.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14s",
+          "cooldown": "15s",
           "cost": "60/65/70/75/80",
           "description": "Bacchus jumps into the air and, not so gracefully, comes slamming to the ground belly first, knocking all enemies into the air and dealing damage. If he is Tipsy, all enemies are also Slowed after they land.",
           "menuItems": null
@@ -2456,7 +2456,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/belch-of-the-gods.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "12s",
+          "cooldown": "14/13.5/13/12.5/12s",
           "cost": "60/65/70/75/80",
           "description": "Bacchus lets out an obnoxiously loud belch, doing damage every .5s for 2s and reducing enemy healing. Lane Minions take a small amount of extra damage. If he is Tipsy, enemies are Stunned for 1s. Bacchus is immune to knockback for the duration.",
           "menuItems": null
@@ -2992,7 +2992,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/ensnaring-claw.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "12s",
+          "cooldown": "14/13.5/13/12.5/12s",
           "cost": "60/65/70/75/80",
           "description": "Bastet sends a cat forward at her enemies. If a cat finds an enemy, it ensnares them and all enemies around them, damaging them and rooting them for .5s. The cat persists for 4s or until defeated, continuing to attack nearby enemies. The cats attacks will apply a 2s slow to the enemy.",
           "menuItems": null
@@ -3232,7 +3232,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/seismic-crush.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "16/15.5/15/14.5/14s",
+          "cooldown": "14s",
           "cost": "50/55/60/65/70 ",
           "description": "Cabrakan becomes enraged, increasing his movement speed. While active, Cabrakan gains 70% increased Attack Speed and his next successful Basic Attack will Stun with no diminishing returns and do bonus damage. Additionally, Cabrakan gains Haste and is immune to Slows and Roots while this ability is active.",
           "menuItems": null
@@ -3797,7 +3797,7 @@
       "Description": {
         "itemDescription": {
           "cooldown": "15s",
-          "cost": "75/80/85/90/95",
+          "cost": "75",
           "description": "Chaac summons a rainstorm around his current location for 6s. While it rains, he regains Health, and enemies are caught in the mud and have their Movement Speed, Attack Speed, and Power reduced.\n\nIf his axe is out from Thunder Strike, a rainstorm will also spawn at that location. Enemies caught in the area of both rainstorms will have the Movement Slow and Attack Speed Reduction applied twice.",
           "menuItems": null
         },
@@ -3960,7 +3960,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Chang'e can purchase/sell items anywhere and her Jade Rabbit will fetch them. Only one item can be purchased/sold in this way at a time. Chang'e also gains +40% movement speed with no backpedal penalty when using her dances and her abilities apply a debuff to enemies, causing them to take 5% extra damage from her abilities within the next 5s, stacking 3 times.",
+          "description": "Chang'e can purchase/sell items anywhere and her Jade Rabbit will fetch them. Only one item can be purchased/sold in this way at a time. Chang'e also gains +40% movement speed with no backpedal penalty when using her dances and her abilities apply a debuff to enemies, causing them to take 4% extra damage from her abilities within the next 5s, stacking 3 times.",
           "menuItems": null
         },
         "rankItems": null
@@ -4586,8 +4586,8 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/accelerate.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14s",
-          "cost": "60/65/70/75/80",
+          "cooldown": "12s",
+          "cost": "60",
           "description": "Chronos accelerates himself over time, allowing him to move faster initially and gain speed over time. While active, his Attack Speed is increased. This ability also stops the Wheel of Time.\n\nSection I: Heal 1% Max Health Per Second.\nSection II: 100% Mana Refund On Abilities.\nSection III: +35% Magical Power.\nSection IV: +35% Magical Power Contribution to Basic Attacks.",
           "menuItems": null
         },
@@ -4640,7 +4640,7 @@
     "AttackSpeedPerLevel": 0.016,
     "AutoBanned": "n",
     "Cons": "",
-    "Health": 400,
+    "Health": 425,
     "HealthPerFive": 7,
     "HealthPerLevel": 75,
     "HP5PerLevel": 0.48,
@@ -4660,7 +4660,7 @@
     "Pantheon": "Greek",
     "PhysicalPower": 0,
     "PhysicalPowerPerLevel": 0,
-    "PhysicalProtection": 11,
+    "PhysicalProtection": 13,
     "PhysicalProtectionPerLevel": 2.9,
     "Pros": "Medium Crowd Control, High Mobility",
     "Roles": "Mage",
@@ -4974,7 +4974,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/barbed-spear.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15/14/13/12/11s",
+          "cooldown": "16/15/13/13/12s",
           "cost": "9 Rage",
           "description": "Cu Chulainn thrusts his spear forward, damaging all enemies in front of him and stunning less powerful minions. Successfully hitting an enemy minion with this ability restores 5 Rage, 8 for a god (to a max of 18). Barbs from his spear stick in opponents and reduce their healing received for 5s.\nIn his Berserk Form, Cu Chulainn instead slams his massive arms down, damaging and rooting all enemies in front of him and this ability costs no Rage.",
           "menuItems": null
@@ -5016,7 +5016,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/spear-of-mortal-pain.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "100/95/90/85/80s",
+          "cooldown": "105/100/95/90/85s",
           "cost": "14 Rage",
           "description": "Cu Chulainn swings his spear Gae Bulg in a circle around him, Damaging and Knocking Up all Enemies. Successfully hitting an enemy minion with this ability restores 10 Rage, 26 for a god (to a max of 36).\n\nIn his Berserk Form, Cu Chulainn instead gives a terrifying yell, Damaging all Enemies and causing them to Tremble. This yell costs no Rage and has a 35s cooldown.",
           "menuItems": null
@@ -5674,7 +5674,7 @@
         "itemDescription": {
           "cooldown": "18/17.5/17/16.5/16s",
           "cost": "65/70/75/80/85",
-          "description": "Erlang Shen transforms into a Mink or Turtle and charges forward, becoming immune to knock ups and slows. Mink: Damages all enemies, stopping on first god hit and increasing Attack Speed and Movement Speed for 4s. Turtle: Gains a health shield that is boosted by 75% of your protections from items for 12s.",
+          "description": "Erlang Shen transforms into a Mink or Turtle and charges forward, becoming immune to knock ups and slows. Mink: Damages all enemies, stopping on first god hit and increasing Attack Speed and Movement Speed for 4s. Turtle: Knocka up enemy gods and gains a health shield that is boosted by 75% of your protections from items for 12s.",
           "menuItems": null
         },
         "rankItems": null
@@ -5926,7 +5926,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/coerce.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "16s",
+          "cooldown": "16/15.5/15/14.5/14s",
           "cost": "50/55/60/65/70",
           "description": "Fafnir coerces his allies into fighting harder, boosting Attack Speed for 5s and healing himself. While Coerce is active Fafnir deals bonus Magic Damage whenever the affected ally damages an enemy.\n\nIn dragon form, this ability has a larger area of effect and can buff multiple allies.",
           "menuItems": null
@@ -7026,7 +7026,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/pillar-of-agony.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "90s",
+          "cooldown": "90/85/80/75/70s",
           "cost": "100",
           "description": "Hades calls to all enemy souls nearby, creating a Vortex which drags targets toward him, dealing damage every .5s for 4s. For each enemy hit Hades reduces his ability cooldowns by 0.4s. If the enemy is Blighted, their Protections are reduced. Hades also gains Protections and 10% damage mitigation for the duration.",
           "menuItems": null
@@ -7520,7 +7520,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/royal-assault.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "10s",
+          "cooldown": "8s",
           "cost": "55/60/65/70/75 ",
           "description": "Hera damages enemies in a cone in front of her before opening a portal for Argus to attack through. Enemy minions hit by this cone are knocked into Argus' path. Argus then slams his fists at the target location dealing heavy damage. If both of his fists connects with an enemy, it deals 15% extra damage.",
           "menuItems": null
@@ -8516,7 +8516,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "The closer Izanami gets to death, the more powerful she becomes. Izanami gains 3% Physical Penetration for each 10% of her Health that is missing, up to a maximum of 15%.\nIzanami's Basic Attacks increase in projectile speed with higher Attack Speed and only trigger Item effects on the first target hit per attack.",
+          "description": "The closer Izanami gets to death, the more powerful she becomes. Izanami gains 4% Physical Penetration for each 10% of her Health that is missing, up to a maximum of 15%.\nIzanami's Basic Attacks increase in projectile speed with higher Attack Speed and only trigger Item effects on the first target hit per attack.",
           "menuItems": null
         },
         "rankItems": null
@@ -8754,8 +8754,8 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/agility.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "18/18/17/17/16s",
-          "cost": "75/70/65/60/55",
+          "cooldown": "18/17.5/17/16.5/16s",
+          "cost": "60",
           "description": "Jing Wei dashes straight forward. She may use this ability while knocked into the air for a longer range dash. She also gains a 4s increase to Physical Power and Movement Speed upon using Agility. The effect of this buff is increased if Agility is used from the air. ",
           "menuItems": null
         },
@@ -9827,7 +9827,7 @@
       "Description": {
         "itemDescription": {
           "cooldown": "14s",
-          "cost": "30/35/40/45/50",
+          "cost": "50",
           "description": "Lancelot mounts onto his trusty steed charging forwards with increased movement speed. While on his horse Lancelot gains a Health Shield that builds over time and his abilities change.\nLancelot can cancel this ability to dismount normally which will not trigger a Cooldown. If Lancelot's Health Shield is depleted, he is forced off his horse.\nWhile Mounted, Lancelot is immune to CC effects except Stuns and Time Dilation.",
           "menuItems": null
         },
@@ -10468,7 +10468,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/viper-shot.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "10s",
+          "cooldown": "12/11.5/11/10.5/10s",
           "cost": "50",
           "description": "Medusa gains increased attack speed and her basic attacks become augmented, shooting Vipers that poison the targets hit dealing damage over time.",
           "menuItems": null
@@ -10510,7 +10510,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/petrify.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "90s",
+          "cooldown": "100s",
           "cost": "100",
           "description": "Medusa removes her mask revealing her true face, delivering a powerful blast from her horrifying Gorgon gaze. Enemies take damage and are stunned if they are looking at Medusa. Enemies not looking at Medusa take 85% damage and are slowed. Enemy gods that are killed during Medusa's gaze will turn to a stone statue and remain behind as a reminder to others.",
           "menuItems": null
@@ -10616,7 +10616,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/maximum-velocity.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "18/17/16/15/14s",
+          "cooldown": "16/15.5/15/14.5/14s",
           "cost": "60/65/70/75/80",
           "description": "Passive: Mercury gains increased movement speed.\n\nActive: Mercury increases his Attack Speed, cleanses himself of Slows and becomes immune to Slows for the duration.",
           "menuItems": null
@@ -10644,7 +10644,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/sonic-boom.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "100s",
+          "cooldown": "90s",
           "cost": "80/90/100/110/120",
           "description": "Mercury gathers energy for a powerful Dash, with the range extending as he does so. He travels the distance faster than the speed of sound, dealing damage to all enemies, stunning them and spinning them around in a random direction.",
           "menuItems": null
@@ -11032,7 +11032,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/grapple.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "13s",
+          "cooldown": "15/14.5/14/13.5/13s",
           "cost": "60",
           "description": "Mulan readies herself and fires an arrow with a rope attached to it. If she hits an enemy god she stuns them, dealing damage and pulling them towards her while dashing and hitting them again for extra damage.\n\nSkilled - Mulan gains a Protection buff after hitting an enemy god.\nAdept - Mulan is able to dash to walls.\nMastered - Mulan gains 5% Movement Speed & 5% Protections.",
           "menuItems": null
@@ -11703,7 +11703,7 @@
       "Description": {
         "itemDescription": {
           "cooldown": "15s",
-          "cost": "90",
+          "cost": "75",
           "description": "Nox dashes forward, dealing damage to all enemies. If she hits an allied god, she leaps into their shadow, traveling with them. When Nox exits a shadow, she deals damage again in a radius around her. Nox may cancel this ability early to exit shadows.",
           "menuItems": null
         },
@@ -11732,7 +11732,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Nox’s candles gather energy from all abilities she uses. For every ability Nox casts, a candle is lit. For every candle lit Nox gains +3% magical power. When Nox takes damage from an enemy god one of her candles is blown out.",
+          "description": "Nox’s candles gather energy from all abilities she uses. For every ability Nox casts, a candle is lit. For every candle lit Nox gains +5% magical power. When Nox takes damage from an enemy god one of her candles is blown out.",
           "menuItems": null
         },
         "rankItems": null
@@ -11970,7 +11970,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/warp.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14/13.5/13/12.5/12s",
+          "cooldown": "12s",
           "cost": "40/45/50/55/60",
           "description": "Nut warps in the direction she is currently traveling. After she warps, she automatically fires 3 homing projectiles that spread out among nearby enemies, prioritizing gods. These projectiles deal damage and apply a stacking Slow to enemies. Additionally, Nut resets the cooldown of Convergence after using this ability.",
           "menuItems": null
@@ -12372,7 +12372,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/judgement-tether.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14s ",
+          "cooldown": "15s ",
           "cost": "60/65/70/75/80",
           "description": "Osiris flings out mummy wraps, tethering himself to all nearby enemy gods. Targets hit have their Attack Speed reduced and deal reduced damage over the next 4s. The tether can be broken by targets moving far enough away from Osiris. Targets still in range when the duration expires are Stunned.",
           "menuItems": null
@@ -12908,7 +12908,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/solar-blessing.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15s",
+          "cooldown": "15/14.5/14/13.5/13s",
           "cost": "50/60/70/80/90",
           "description": "Ra summons a pillar of blessed light that persists for 6s. Allies inside the blessing have increased Protections and Power and are Healed every second. Enemies are damaged every second.",
           "menuItems": null
@@ -12950,7 +12950,7 @@
     "Cons": "",
     "Health": 385,
     "HealthPerFive": 7,
-    "HealthPerLevel": 68,
+    "HealthPerLevel": 71,
     "HP5PerLevel": 0.48,
     "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/ra.jpg",
     "id": 1698,
@@ -13860,7 +13860,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/kingslayer.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "90s",
+          "cooldown": "90/85/80/75/70s",
           "cost": "80/85/90/95/100",
           "description": "Set enrages, channeling his rage towards his enemies, gaining increased Movement Speed. Each time Set's attacks damage a god they gain a Mark of Set. At 4 Marks the target erupts. Enemies take a burst of damage on each explosion while Set becomes empowered, restoring Health and immediately gaining a charge of Spawn of Set. Excess charges are immediately consumed, causing a Spawn to appear near Set.",
           "menuItems": null
@@ -15158,7 +15158,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/death-scythe.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "12s",
+          "cooldown": "14/13.5/13/12.5/12s",
           "cost": "25/35/45/55/65",
           "description": "Thanatos flings his scythe at an enemy, dealing damage and an additional 10% of the target's maximum Health against enemy gods. Enemies hit are slowed for 3s and heal Thanatos based on damage dealt. Consumes 4% of Thanatos' current HP when used.",
           "menuItems": null
@@ -15360,7 +15360,7 @@
     "AttackSpeedPerLevel": 0.009,
     "AutoBanned": "n",
     "Cons": "",
-    "Health": 400,
+    "Health": 450,
     "HealthPerFive": 10,
     "HealthPerLevel": 75,
     "HP5PerLevel": 0.7,
@@ -15380,7 +15380,7 @@
     "Pantheon": "Celtic",
     "PhysicalPower": 0,
     "PhysicalPowerPerLevel": 0,
-    "PhysicalProtection": 12,
+    "PhysicalProtection": 14,
     "PhysicalProtectionPerLevel": 3,
     "Pros": "High Area Damage",
     "Roles": "Mage",
@@ -15454,7 +15454,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/berserker-barrage.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "10s",
+          "cooldown": "12/11.5/11/10.5/10s",
           "cost": "55/60/65/70/75 ",
           "description": "Thor spins his hammer around him dealing damage to Enemies in front of him up to 3 times and those behind him up to 2 times. The final swing deals extra damage. Thor is immune to Knockup for the duration.",
           "menuItems": null
@@ -15494,7 +15494,7 @@
     "AttackSpeedPerLevel": 0.014,
     "AutoBanned": "n",
     "Cons": "",
-    "Health": 475,
+    "Health": 460,
     "HealthPerFive": 9,
     "HealthPerLevel": 76,
     "HP5PerLevel": 0.69,
@@ -16808,7 +16808,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/rivers-rebuke.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "140s",
+          "cooldown": "140/135/130/125/120s",
           "cost": "",
           "description": "Yemoja unleashes her full power creating two large walls of water that block enemy movement and projectiles. After a delay the river cascades down, damaging, trembling and slowing enemies.\n\nYemoja gains a buff to her Omi regeneration while she is in the river field that lingers briefly after she leaves it.",
           "menuItems": null
@@ -16928,7 +16928,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/frost-breath.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "16/15.5/15/14.5/14s",
+          "cooldown": "14s",
           "cost": "60/65/70/75/80",
           "description": "Ymir uses his breath to freeze enemies in blocks of ice, doing damage and Stunning them. Applies Frostbite.",
           "menuItems": null

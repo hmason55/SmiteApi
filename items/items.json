@@ -106,11 +106,11 @@
     "IsGlyph": false
   },
   {
-    "DeviceName": "Bronze Mail",
+    "DeviceName": "Steel Crest",
     "ActiveFlag": "y",
     "ChildItemId": 7526,
-    "IconId": 13605,
-    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/bronze-mail.jpg",
+    "IconId": 3493,
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/steel-crest.jpg",
     "ItemDescription": {
       "Description": null,
       "Menuitems": [
@@ -123,7 +123,7 @@
           "Value": "+150"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Every 4th Basic Attack you are damaged by grants you a 75 Health Shield that lasts for 5s or until destroyed."
+      "SecondaryDescription": "PASSIVE - Each time you are hit by a Basic Attack, gain a stack. You may only gain one stack per second. At 4 stacks, remove all stacks and gain a 75 Health Shield that lasts for 5s or until destroyed."
     },
     "ItemId": 26238,
     "ItemTier": 2,
@@ -825,14 +825,14 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+40"
+          "Value": "+55"
         },
         {
           "Description": "Attack Speed",
           "Value": "+15%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Once every 5s, your next Basic Attack has half of its damage converted to Physical ability damage. This damage can trigger ability item effects."
+      "SecondaryDescription": "PASSIVE - Once every 3s, your next Basic Attack will deal an additional 25% damage as Physical Ability damage. This damage can trigger ability item effects."
     },
     "ItemId": 26147,
     "ItemTier": 3,
@@ -859,7 +859,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 40,
+    "PhysicalPower": 55,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -1815,7 +1815,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+35"
+          "Value": "+40"
         },
         {
           "Description": "Mana",
@@ -1857,7 +1857,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 10,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 35,
+    "PhysicalPower": 40,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -1986,7 +1986,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+35"
+          "Value": "+40"
         },
         {
           "Description": "Mana",
@@ -2028,7 +2028,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 10,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 35,
+    "PhysicalPower": 40,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -2047,7 +2047,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+35"
+          "Value": "+40"
         },
         {
           "Description": "Mana",
@@ -2089,7 +2089,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 10,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 35,
+    "PhysicalPower": 40,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -4984,42 +4984,42 @@
     "IsGlyph": false
   },
   {
-    "DeviceName": "Cursed Blade",
+    "DeviceName": "Ritual Blade",
     "ActiveFlag": "y",
     "ChildItemId": 9828,
     "IconId": 2894,
-    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/cursed-blade.jpg",
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/ritual-blade.jpg",
     "ItemDescription": {
       "Description": null,
       "Menuitems": [
         {
           "Description": "Health",
-          "Value": "+75"
-        },
-        {
-          "Description": "Attack Speed",
-          "Value": "+10%"
+          "Value": "+150"
         },
         {
           "Description": "Movement Speed",
           "Value": "+5%"
+        },
+        {
+          "Description": "Cooldown Reduction",
+          "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Enemy gods hit by your Basic Attacks have 20% reduced Healing for 5s."
+      "SecondaryDescription": null
     },
     "ItemId": 18190,
     "ItemTier": 2,
-    "Price": 700,
+    "Price": 800,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 9828,
-    "ShortDesc": "Attack Speed and Movement Speed",
+    "ShortDesc": "Movement Speed and Cooldown Reduction",
     "StartingItem": false,
     "Type": "Item",
-    "AttackSpeed": 0.1,
-    "CooldownReduction": 0,
+    "AttackSpeed": 0,
+    "CooldownReduction": 0.1,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 75,
+    "Health": 150,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -5041,42 +5041,46 @@
     "IsGlyph": false
   },
   {
-    "DeviceName": "Defender's Blade",
+    "DeviceName": "Fatalis",
     "ActiveFlag": "y",
     "ChildItemId": 9828,
     "IconId": 2893,
-    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/defenders-blade.jpg",
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/fatalis.jpg",
     "ItemDescription": {
       "Description": null,
       "Menuitems": [
         {
           "Description": "Health",
-          "Value": "+150"
+          "Value": "+75"
+        },
+        {
+          "Description": "Penetration",
+          "Value": "+5"
+        },
+        {
+          "Description": "Attack Speed",
+          "Value": "+10%"
         },
         {
           "Description": "Movement Speed",
           "Value": "+5%"
-        },
-        {
-          "Description": "Cooldown Reduction",
-          "Value": "+10%"
         }
       ],
       "SecondaryDescription": null
     },
     "ItemId": 26234,
     "ItemTier": 2,
-    "Price": 800,
+    "Price": 850,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 9828,
     "ShortDesc": "",
     "StartingItem": false,
     "Type": "Item",
-    "AttackSpeed": 0,
-    "CooldownReduction": 0.1,
+    "AttackSpeed": 0.1,
+    "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 150,
+    "Health": 75,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -5161,7 +5165,7 @@
   {
     "DeviceName": "Relic Dagger",
     "ActiveFlag": "y",
-    "ChildItemId": 26234,
+    "ChildItemId": 18190,
     "IconId": 12927,
     "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/relic-dagger.jpg",
     "ItemDescription": {
@@ -5282,7 +5286,7 @@
   },
   {
     "DeviceName": "Toxic Blade",
-    "ActiveFlag": "y",
+    "ActiveFlag": "n",
     "ChildItemId": 18190,
     "IconId": 5454,
     "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/toxic-blade.jpg",
@@ -5344,7 +5348,7 @@
   {
     "DeviceName": "Lotus Sickle",
     "ActiveFlag": "y",
-    "ChildItemId": 26234,
+    "ChildItemId": 18190,
     "IconId": 11645,
     "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/lotus-sickle.jpg",
     "ItemDescription": {
@@ -5403,6 +5407,67 @@
     "IsGlyph": false
   },
   {
+    "DeviceName": "Hastened Fatalis",
+    "ActiveFlag": "y",
+    "ChildItemId": 26234,
+    "IconId": 2891,
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/hastened-fatalis.jpg",
+    "ItemDescription": {
+      "Description": "Successful Basic Attacks remove the Basic Attack Penalty",
+      "Menuitems": [
+        {
+          "Description": "Health",
+          "Value": "+100"
+        },
+        {
+          "Description": "Penetration",
+          "Value": "+10"
+        },
+        {
+          "Description": "Attack Speed",
+          "Value": "+20%"
+        },
+        {
+          "Description": "Movement Speed",
+          "Value": "+7%"
+        }
+      ],
+      "SecondaryDescription": "PASSIVE - Hitting an enemy with a Basic Attack grants Haste for 1s, causing you to be immune to the Basic Attack Movement Penalty."
+    },
+    "ItemId": 26318,
+    "ItemTier": 3,
+    "Price": 1100,
+    "RestrictedRoles": "no restrictions",
+    "RootItemId": 9828,
+    "ShortDesc": "Successful Basic Attacks remove the Basic Attack Penalty",
+    "StartingItem": false,
+    "Type": "Item",
+    "AttackSpeed": 0.2,
+    "CooldownReduction": 0,
+    "CriticalStrikeChance": 0,
+    "CrowdControlReduction": 0,
+    "Health": 100,
+    "HP5": 0,
+    "MagicalLifesteal": 0,
+    "MagicalPenetration": 0,
+    "MagicalPenetrationPercent": 0,
+    "MagicalPower": 0,
+    "MagicalProtection": 0,
+    "Mana": 0,
+    "MovementSpeed": 0.07,
+    "MP5": 0,
+    "PhysicalLifesteal": 0,
+    "PhysicalPenetration": 0,
+    "PhysicalPenetrationPercent": 0,
+    "PhysicalPower": 0,
+    "PhysicalProtection": 0,
+    "IsPhysicalOnly": false,
+    "IsMagicalOnly": false,
+    "ActivelyStacks": false,
+    "IsEvolved": false,
+    "IsGlyph": false
+  },
+  {
     "DeviceName": "Cudgel",
     "ActiveFlag": "y",
     "ChildItemId": 0,
@@ -5417,7 +5482,7 @@
         },
         {
           "Description": "Health",
-          "Value": "+75"
+          "Value": "+50"
         }
       ],
       "SecondaryDescription": null
@@ -5434,7 +5499,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 75,
+    "Health": 50,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -5519,7 +5584,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+25"
+          "Value": "+15"
         },
         {
           "Description": "Health",
@@ -5553,7 +5618,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 25,
+    "PhysicalPower": 15,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -5690,11 +5755,11 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+40"
+          "Value": "+35"
         },
         {
           "Description": "Health",
-          "Value": "+350"
+          "Value": "+300"
         },
         {
           "Description": "Mana",
@@ -5715,7 +5780,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 350,
+    "Health": 300,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -5728,7 +5793,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 40,
+    "PhysicalPower": 35,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -6083,11 +6148,11 @@
     "IsGlyph": false
   },
   {
-    "DeviceName": "Shifter's Shield",
+    "DeviceName": "OLD Shifter's Shield",
     "ActiveFlag": "n",
     "ChildItemId": 8566,
     "IconId": 2254,
-    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/shifters-shield.jpg",
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/old-shifters-shield.jpg",
     "ItemDescription": {
       "Description": "This item gives the owner additional Physical Power or Protections based on missing Health.",
       "Menuitems": [
@@ -6444,6 +6509,10 @@
         {
           "Description": "MP5",
           "Value": "+10"
+        },
+        {
+          "Description": "Cooldown Reduction",
+          "Value": "+10%"
         }
       ],
       "SecondaryDescription": ""
@@ -6457,7 +6526,7 @@
     "StartingItem": false,
     "Type": "Item",
     "AttackSpeed": 0,
-    "CooldownReduction": 0,
+    "CooldownReduction": 0.1,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
     "Health": 0,
@@ -6539,11 +6608,11 @@
     "IsGlyph": false
   },
   {
-    "DeviceName": "Hide of the Nemean Lion",
+    "DeviceName": "OLD Hide of the Nemean Lion",
     "ActiveFlag": "n",
     "ChildItemId": 9838,
     "IconId": 2862,
-    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/hide-of-the-nemean-lion.jpg",
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/old-hide-of-the-nemean-lion.jpg",
     "ItemDescription": {
       "Description": "This item provides block stacks.",
       "Menuitems": [
@@ -7150,7 +7219,7 @@
           "Value": "+5%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - When you are hit by a Hard Crowd Control, steal 10 Protections from all enemies within 20 units for 5s, ICD 5s."
+      "SecondaryDescription": "PASSIVE - When you are hit by a Hard Crowd Control, steal 10 Protections from all enemies within 20 units for 5s. This effect can only occur once every 5s."
     },
     "ItemId": 9360,
     "ItemTier": 2,
@@ -7740,7 +7809,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "AURA - Allies within 70 units gain 20 Physical and Magical Protections.\n\nPASSIVE - If you have over 325 total Protections, you gain 7.5% Damage Mitigation. If you have over 525 total Protections, you gain an additional 7.5% Damage Mitigation."
+      "SecondaryDescription": "AURA - Allies within 70 units gain 20 Physical and Magical Protections.\n\nPASSIVE - If you have over 300 total Protections, you gain 6% Damage Mitigation. If you have over 500 total Protections, you gain an additional 6% Damage Mitigation."
     },
     "ItemId": 24172,
     "ItemTier": 4,
@@ -8596,7 +8665,7 @@
   },
   {
     "DeviceName": "Hastened Ring",
-    "ActiveFlag": "y",
+    "ActiveFlag": "n",
     "ChildItemId": 26232,
     "IconId": 5450,
     "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/hastened-ring.jpg",
@@ -8750,6 +8819,63 @@
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 45,
+    "MagicalProtection": 0,
+    "Mana": 0,
+    "MovementSpeed": 0,
+    "MP5": 0,
+    "PhysicalLifesteal": 0,
+    "PhysicalPenetration": 0,
+    "PhysicalPenetrationPercent": 0,
+    "PhysicalPower": 0,
+    "PhysicalProtection": 0,
+    "IsPhysicalOnly": false,
+    "IsMagicalOnly": true,
+    "ActivelyStacks": false,
+    "IsEvolved": false,
+    "IsGlyph": false
+  },
+  {
+    "DeviceName": "Ring of Hecate",
+    "ActiveFlag": "y",
+    "ChildItemId": 26232,
+    "IconId": 8138,
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/ring-of-hecate.jpg",
+    "ItemDescription": {
+      "Description": "Basic Attacks steal Power",
+      "Menuitems": [
+        {
+          "Description": "Magical Power",
+          "Value": "+55"
+        },
+        {
+          "Description": "Attack Speed",
+          "Value": "+20%"
+        },
+        {
+          "Description": "Magical Penetration",
+          "Value": "+15"
+        }
+      ],
+      "SecondaryDescription": "PASSIVE - Each successful Basic Attack applies a hex to enemies and empowers you, increasing your Magical Power by 5% and reducing the Physical and Magical Power of your opponent by 5% for 5s. (Max. 3 Stacks)."
+    },
+    "ItemId": 26321,
+    "ItemTier": 3,
+    "Price": 1100,
+    "RestrictedRoles": "no restrictions",
+    "RootItemId": 9847,
+    "ShortDesc": "Basic Attacks steal Power",
+    "StartingItem": false,
+    "Type": "Item",
+    "AttackSpeed": 0.2,
+    "CooldownReduction": 0,
+    "CriticalStrikeChance": 0,
+    "CrowdControlReduction": 0,
+    "Health": 0,
+    "HP5": 0,
+    "MagicalLifesteal": 0,
+    "MagicalPenetration": 15,
+    "MagicalPenetrationPercent": 0,
+    "MagicalPower": 55,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -9382,7 +9508,7 @@
           "Value": "+100"
         }
       ],
-      "SecondaryDescription": "PASSIVE - On leveling up, heal 10% of your Maximum Health and Mana over 3s."
+      "SecondaryDescription": "PASSIVE - On leveling up, heal 15% of your Maximum Health and Mana over 3s."
     },
     "ItemId": 9856,
     "ItemTier": 2,
@@ -9610,7 +9736,7 @@
           "Value": "+20%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Whenever you damage an enemy god with an ability you steal 8% maximum mana as well as 6% maximum health from the target. The Stats remain stolen for 45s and targets affected can have multiple Buffs and Debuffs at once. This can only occur once every 15 seconds."
+      "SecondaryDescription": "PASSIVE - Whenever you damage an enemy god with an ability you steal 8% maximum mana as well as 6% maximum health from the target. The Stats remain stolen for 60s and targets affected can have up to 4 Buffs and Debuffs at once. This can only occur once every 15 seconds."
     },
     "ItemId": 8599,
     "ItemTier": 3,
@@ -9660,7 +9786,7 @@
         },
         {
           "Description": "Health",
-          "Value": "+100"
+          "Value": "+200"
         },
         {
           "Description": "Mana",
@@ -9681,7 +9807,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 100,
+    "Health": 200,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -9952,7 +10078,7 @@
           "Value": "+150"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Gain a stack each time you damage an enemy god with an ability or Basic Attack. At 5 stacks, your next ability or Basic Attack deals 20 + 4 per level Magical damage."
+      "SecondaryDescription": "PASSIVE - Gain a stack each time you damage an enemy god with an ability or Basic Attack. At 4 stacks, your next ability or Basic Attack deals 20 + 4 per level Magical damage."
     },
     "ItemId": 9859,
     "ItemTier": 2,
@@ -10005,7 +10131,7 @@
           "Value": "+200"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Each time you damage an enemy god with an ability, gain a stack. Each stack grants nothing, but when you upgrade this item, transfer your stacks to the upgraded item. ICD 4s"
+      "SecondaryDescription": "PASSIVE - Each time you damage an enemy god with an ability, gain a stack. Each stack grants nothing, but when you upgrade this item, these stacks transfer to the upgraded item. You may only gain one stack every 4s, and can only gain stacks once per god per ability hit. Max 50 stacks."
     },
     "ItemId": 26233,
     "ItemTier": 2,
@@ -11238,11 +11364,11 @@
     "IsGlyph": false
   },
   {
-    "DeviceName": "Ancile",
+    "DeviceName": "OLD Ancile",
     "ActiveFlag": "n",
     "ChildItemId": 9835,
     "IconId": 3145,
-    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/ancile.jpg",
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/old-ancile.jpg",
     "ItemDescription": {
       "Description": "The owner gains power as they lose health.",
       "Menuitems": [
@@ -11841,11 +11967,11 @@
     "IsGlyph": false
   },
   {
-    "DeviceName": "Ichaival",
+    "DeviceName": "OLD Ichaival",
     "ActiveFlag": "n",
     "ChildItemId": 14848,
     "IconId": 3285,
-    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/ichaival.jpg",
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/old-ichaival.jpg",
     "ItemDescription": {
       "Description": "",
       "Menuitems": [
@@ -11952,7 +12078,7 @@
   },
   {
     "DeviceName": "Atalanta's Bow",
-    "ActiveFlag": "y",
+    "ActiveFlag": "n",
     "ChildItemId": 14848,
     "IconId": 5451,
     "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/atalantas-bow.jpg",
@@ -12057,6 +12183,63 @@
     "PhysicalPenetration": 10,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 30,
+    "PhysicalProtection": 0,
+    "IsPhysicalOnly": true,
+    "IsMagicalOnly": false,
+    "ActivelyStacks": false,
+    "IsEvolved": false,
+    "IsGlyph": false
+  },
+  {
+    "DeviceName": "Ichaival",
+    "ActiveFlag": "y",
+    "ChildItemId": 14848,
+    "IconId": 3285,
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/ichaival.jpg",
+    "ItemDescription": {
+      "Description": "Basic Attacks steal Power",
+      "Menuitems": [
+        {
+          "Description": "Physical Power",
+          "Value": "+20"
+        },
+        {
+          "Description": "Attack Speed",
+          "Value": "+25%"
+        },
+        {
+          "Description": "Physical Penetration",
+          "Value": "+10"
+        }
+      ],
+      "SecondaryDescription": "PASSIVE - Every successful Basic Attack increases your Physical Power by 5, reduces your target's Physical Power from items by 5, and reduces your target’s Magical Power from items by 10 for 5s. (Max. 4 Stacks)"
+    },
+    "ItemId": 26319,
+    "ItemTier": 3,
+    "Price": 950,
+    "RestrictedRoles": "no restrictions",
+    "RootItemId": 10662,
+    "ShortDesc": "Basic Attacks steal Power",
+    "StartingItem": false,
+    "Type": "Item",
+    "AttackSpeed": 0.25,
+    "CooldownReduction": 0,
+    "CriticalStrikeChance": 0,
+    "CrowdControlReduction": 0,
+    "Health": 0,
+    "HP5": 0,
+    "MagicalLifesteal": 0,
+    "MagicalPenetration": 0,
+    "MagicalPenetrationPercent": 0,
+    "MagicalPower": 0,
+    "MagicalProtection": 0,
+    "Mana": 0,
+    "MovementSpeed": 0,
+    "MP5": 0,
+    "PhysicalLifesteal": 0,
+    "PhysicalPenetration": 10,
+    "PhysicalPenetrationPercent": 0,
+    "PhysicalPower": 20,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -12788,7 +12971,7 @@
     },
     "ItemId": 23974,
     "ItemTier": 3,
-    "Price": 650,
+    "Price": 500,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 12663,
     "ShortDesc": "Basic attacks can cause minions to explode granting bonus gold",
@@ -13033,7 +13216,7 @@
   },
   {
     "DeviceName": "Hastened Katana",
-    "ActiveFlag": "y",
+    "ActiveFlag": "n",
     "ChildItemId": 12672,
     "IconId": 5453,
     "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/hastened-katana.jpg",
@@ -13326,10 +13509,63 @@
   },
   {
     "DeviceName": "Stone Cutting Sword",
+    "ActiveFlag": "y",
+    "ChildItemId": 12672,
+    "IconId": 4320,
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/stone-cutting-sword.jpg",
+    "ItemDescription": {
+      "Description": "Basic Attacks steal Physical Protections",
+      "Menuitems": [
+        {
+          "Description": "Physical Power",
+          "Value": "+35"
+        },
+        {
+          "Description": "Movement Speed",
+          "Value": "+7%"
+        }
+      ],
+      "SecondaryDescription": "PASSIVE - Melee Basic Attacks decrease enemy Physical Protection by 7, and increase your Physical Protection by 7 for 3s (max. 3 Stacks)."
+    },
+    "ItemId": 26320,
+    "ItemTier": 3,
+    "Price": 1050,
+    "RestrictedRoles": "guardian,hunter,mage",
+    "RootItemId": 12671,
+    "ShortDesc": "Basic Attacks steal Physical Protections",
+    "StartingItem": false,
+    "Type": "Item",
+    "AttackSpeed": 0,
+    "CooldownReduction": 0,
+    "CriticalStrikeChance": 0,
+    "CrowdControlReduction": 0,
+    "Health": 0,
+    "HP5": 0,
+    "MagicalLifesteal": 0,
+    "MagicalPenetration": 0,
+    "MagicalPenetrationPercent": 0,
+    "MagicalPower": 0,
+    "MagicalProtection": 0,
+    "Mana": 0,
+    "MovementSpeed": 0.07,
+    "MP5": 0,
+    "PhysicalLifesteal": 0,
+    "PhysicalPenetration": 0,
+    "PhysicalPenetrationPercent": 0,
+    "PhysicalPower": 35,
+    "PhysicalProtection": 0,
+    "IsPhysicalOnly": true,
+    "IsMagicalOnly": false,
+    "ActivelyStacks": false,
+    "IsEvolved": false,
+    "IsGlyph": false
+  },
+  {
+    "DeviceName": "OLD Stone Cutting Sword",
     "ActiveFlag": "n",
     "ChildItemId": 0,
     "IconId": 4320,
-    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/stone-cutting-sword.jpg",
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/old-stone-cutting-sword.jpg",
     "ItemDescription": {
       "Description": "This item causes your Basic Attacks to reduce the target's Physical Protections.",
       "Menuitems": [
@@ -15574,11 +15810,11 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+10"
+          "Value": "+15"
         },
         {
           "Description": "Magical Power",
-          "Value": "+15"
+          "Value": "+25"
         },
         {
           "Description": "HP5",
@@ -15608,7 +15844,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 15,
+    "MagicalPower": 25,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -15616,7 +15852,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 10,
+    "PhysicalPower": 15,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
@@ -16033,12 +16269,12 @@
           "Value": "+7%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - When your Ultimate ability has finished casting, reveal all enemy gods within 120 units for 10s. While moving towards revealed enemies gain 20% Movement Speed. When first striking a revealed target they take an additional 30 + 50% of your Physical Power. This can only occur once every 45 seconds. This item is only available to Assassins and Warriors."
+      "SecondaryDescription": "PASSIVE - When your Ultimate ability has finished casting, reveal all enemy gods within 120 units for 10s. While moving towards revealed enemies gain 20% Movement Speed. When first striking a revealed target they take an additional 30 + 50% of your Physical Power. This can only occur once every 45 seconds."
     },
     "ItemId": 17356,
     "ItemTier": 3,
     "Price": 900,
-    "RestrictedRoles": "guardian,hunter,mage",
+    "RestrictedRoles": "guardian,mage",
     "RootItemId": 17349,
     "ShortDesc": "On ultimate use seek out and banish evil",
     "StartingItem": false,
@@ -16094,12 +16330,12 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - When your Ultimate ability has finished casting, your next ability or basic attack within 8s that damages an enemy god marks them, increasing the chance you and your allies can land a Critical Strike by 20% for 10 seconds. This can only occur once every 45 seconds. This item is only available to Hunters."
+      "SecondaryDescription": "PASSIVE - When your Ultimate ability has finished casting, your next ability or basic attack within 8s that damages an enemy god marks them, increasing the chance you and your allies can land a Critical Strike by 20% for 10 seconds. This can only occur once every 45 seconds."
     },
     "ItemId": 17357,
     "ItemTier": 3,
     "Price": 1150,
-    "RestrictedRoles": "assassin,guardian,mage,warrior",
+    "RestrictedRoles": "guardian,mage",
     "RootItemId": 17349,
     "ShortDesc": "On ultimate use your next damaging ability marks an enemies weak point",
     "StartingItem": false,
@@ -16151,7 +16387,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - When your ultimate ability has finished casting you gain Myrddin's Rage which provides 20% Increased Damage Dealt decaying over 8s. At the end of the 8s you lose Myrddin's Rage. This can only occur once every 45s."
+      "SecondaryDescription": "PASSIVE - When your ultimate ability has finished casting you gain Myrddin's Rage which provides 15% Increased Damage Dealt decaying over 8s. At the end of the 8s you lose Myrddin's Rage. This can only occur once every 45s."
     },
     "ItemId": 20694,
     "ItemTier": 3,
@@ -16301,11 +16537,133 @@
     "IsGlyph": true
   },
   {
-    "DeviceName": "Ring of Hecate",
+    "DeviceName": "Bewitched Dagger",
+    "ActiveFlag": "y",
+    "ChildItemId": 13187,
+    "IconId": 12844,
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/bewitched-dagger.jpg",
+    "ItemDescription": {
+      "Description": "Reduce the Attack Speed of enemies around you.",
+      "Menuitems": [
+        {
+          "Description": "Health",
+          "Value": "+300"
+        },
+        {
+          "Description": "Cooldown Reduction",
+          "Value": "+10%"
+        },
+        {
+          "Description": "Crowd Control Reduction",
+          "Value": "+10%"
+        },
+        {
+          "Description": "Movement Speed",
+          "Value": "+7%"
+        }
+      ],
+      "SecondaryDescription": "PASSIVE - Your relics receive 50s Cooldown Reduction. <n>GLYPH - All enemy gods have 25% reduced Attack Speed in a 55 unit radius around you. "
+    },
+    "ItemId": 24726,
+    "ItemTier": 4,
+    "Price": 600,
+    "RestrictedRoles": "no restrictions",
+    "RootItemId": 18190,
+    "ShortDesc": "Reduce the Attack Speed of enemies around you",
+    "StartingItem": false,
+    "Type": "Item",
+    "AttackSpeed": 0,
+    "CooldownReduction": 0.1,
+    "CriticalStrikeChance": 0,
+    "CrowdControlReduction": 0.1,
+    "Health": 300,
+    "HP5": 0,
+    "MagicalLifesteal": 0,
+    "MagicalPenetration": 0,
+    "MagicalPenetrationPercent": 0,
+    "MagicalPower": 0,
+    "MagicalProtection": 0,
+    "Mana": 0,
+    "MovementSpeed": 0.07,
+    "MP5": 0,
+    "PhysicalLifesteal": 0,
+    "PhysicalPenetration": 0,
+    "PhysicalPenetrationPercent": 0,
+    "PhysicalPower": 0,
+    "PhysicalProtection": 0,
+    "IsPhysicalOnly": false,
+    "IsMagicalOnly": false,
+    "ActivelyStacks": false,
+    "IsEvolved": false,
+    "IsGlyph": true
+  },
+  {
+    "DeviceName": "Eldritch Dagger",
+    "ActiveFlag": "y",
+    "ChildItemId": 13187,
+    "IconId": 12845,
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/eldritch-dagger.jpg",
+    "ItemDescription": {
+      "Description": "Gain Protections and ward vision on relic cast.",
+      "Menuitems": [
+        {
+          "Description": "Health",
+          "Value": "+300"
+        },
+        {
+          "Description": "Cooldown Reduction",
+          "Value": "+10%"
+        },
+        {
+          "Description": "Crowd Control Reduction",
+          "Value": "+10%"
+        },
+        {
+          "Description": "Movement Speed",
+          "Value": "+7%"
+        }
+      ],
+      "SecondaryDescription": "PASSIVE - Your relics receive 50s Cooldown Reduction. <n>GLYPH - When you activate a relic, your Protections are increased by 15% and you gain the ability to see wards for 20s. "
+    },
+    "ItemId": 24727,
+    "ItemTier": 4,
+    "Price": 600,
+    "RestrictedRoles": "no restrictions",
+    "RootItemId": 18190,
+    "ShortDesc": "Gain Protections and ward vision on relic cast",
+    "StartingItem": false,
+    "Type": "Item",
+    "AttackSpeed": 0,
+    "CooldownReduction": 0.1,
+    "CriticalStrikeChance": 0,
+    "CrowdControlReduction": 0.1,
+    "Health": 300,
+    "HP5": 0,
+    "MagicalLifesteal": 0,
+    "MagicalPenetration": 0,
+    "MagicalPenetrationPercent": 0,
+    "MagicalPower": 0,
+    "MagicalProtection": 0,
+    "Mana": 0,
+    "MovementSpeed": 0.07,
+    "MP5": 0,
+    "PhysicalLifesteal": 0,
+    "PhysicalPenetration": 0,
+    "PhysicalPenetrationPercent": 0,
+    "PhysicalPower": 0,
+    "PhysicalProtection": 0,
+    "IsPhysicalOnly": false,
+    "IsMagicalOnly": false,
+    "ActivelyStacks": false,
+    "IsEvolved": false,
+    "IsGlyph": true
+  },
+  {
+    "DeviceName": "OLD Ring of Hecate",
     "ActiveFlag": "n",
     "ChildItemId": 0,
     "IconId": 8138,
-    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/ring-of-hecate.jpg",
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/old-ring-of-hecate.jpg",
     "ItemDescription": {
       "Description": "",
       "Menuitems": [
@@ -16945,14 +17303,14 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+15"
+          "Value": "+20"
         },
         {
           "Description": "Movement Speed",
           "Value": "+4%"
         }
       ],
-      "SecondaryDescription": "PASSIVE: When Ratatoskr deals damage with an ability he restores 2% of his Maximum Health."
+      "SecondaryDescription": "PASSIVE: When Ratatoskr deals damage with an ability he restores 3% of his Maximum Health."
     },
     "ItemId": 18704,
     "ItemTier": 2,
@@ -16979,7 +17337,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 15,
+    "PhysicalPower": 20,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -16998,7 +17356,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+15"
+          "Value": "+20"
         },
         {
           "Description": "Movement Speed",
@@ -17032,7 +17390,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 15,
+    "PhysicalPower": 20,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -17051,7 +17409,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+40"
+          "Value": "+45"
         },
         {
           "Description": "Movement Speed",
@@ -17089,7 +17447,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 40,
+    "PhysicalPower": 45,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -17108,7 +17466,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+40"
+          "Value": "+45"
         },
         {
           "Description": "Movement Speed",
@@ -17142,7 +17500,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 40,
+    "PhysicalPower": 45,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -17161,7 +17519,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+35"
+          "Value": "+40"
         },
         {
           "Description": "Movement Speed",
@@ -17172,7 +17530,7 @@
           "Value": "+15%"
         }
       ],
-      "SecondaryDescription": "PASSIVE: When Ratatoskr deals damage to an enemy god with an ability he restores 5% of his Maximum Health and Mana."
+      "SecondaryDescription": "PASSIVE: When Ratatoskr deals damage to an enemy god with an ability he restores 6% of his Maximum Health and Mana."
     },
     "ItemId": 18708,
     "ItemTier": 3,
@@ -17199,7 +17557,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 35,
+    "PhysicalPower": 40,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -17218,7 +17576,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+35"
+          "Value": "+40"
         },
         {
           "Description": "Movement Speed",
@@ -17229,7 +17587,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE: When Ratatoskr deals damage with an ability he restores 2% of his Maximum Health. Flurry now provides protections equal to the protections shred from enemy gods. Flurry gains an additional charge."
+      "SecondaryDescription": "PASSIVE: When Ratatoskr deals damage with an ability he restores 3% of his Maximum Health. Flurry now provides protections equal to the protections shred from enemy gods. Flurry gains an additional charge."
     },
     "ItemId": 18709,
     "ItemTier": 3,
@@ -17256,7 +17614,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 35,
+    "PhysicalPower": 40,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -17461,7 +17819,7 @@
           "Value": "+7"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Every 10s the highest health enemy minion or jungle monster within 80 units of you is marked. If you secure the killing blow on that target you gain 4 bonus gold and 25% attack speed for 8s, and restore 30 Mana. Can be upgraded at level 20."
+      "SecondaryDescription": "PASSIVE - Every 8s the highest health enemy minion or jungle monster within 80 units of you is marked. If you secure the killing blow on that target you gain 4 bonus gold and 25% attack speed for 8s, and restore 30 Mana. Can be upgraded at level 20."
     },
     "ItemId": 19494,
     "ItemTier": 1,
@@ -17640,7 +17998,7 @@
           "Value": "+10"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Damaging an enemy god deals 30  (+1.5 per level) damage and restores 30 (+1.5 per level) Health and Mana. This effect can only occur once every 10s. Can be upgraded at level 20."
+      "SecondaryDescription": "PASSIVE - Damaging an enemy god deals 25  (+1.5 per level) damage and restores 25 (+1.5 per level) Health and Mana. This effect can only occur once every 10s. Can be upgraded at level 20."
     },
     "ItemId": 19496,
     "ItemTier": 1,
@@ -18349,7 +18707,7 @@
         },
         {
           "Description": "Health",
-          "Value": "+75"
+          "Value": "+100"
         },
         {
           "Description": "MP5",
@@ -18370,7 +18728,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 75,
+    "Health": 100,
     "HP5": 0,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -18524,7 +18882,7 @@
       "Menuitems": [
         {
           "Description": "Health",
-          "Value": "+75"
+          "Value": "+100"
         },
         {
           "Description": "MP5",
@@ -18535,7 +18893,7 @@
           "Value": "+10"
         }
       ],
-      "SecondaryDescription": "PASSIVE - While not near an ally god you gain 1 stack of Benevolence every second, up to a maximum of 50. Assists provide 4 stacks. While within 70 units of a hurt ally god you use up to 5 stacks a second to heal them and yourself for 0.6% of your Maximum Health. Each stack consumed provides you with 1 gold. If you overcap stacks they will still provide gold as long as you are near an ally god. Can be upgraded at level 15."
+      "SecondaryDescription": "PASSIVE - While not near an ally god you gain 1 stack of Benevolence every second, up to a maximum of 50. Assists provide 4 stacks. While within 70 units of a hurt ally god you use up to 5 stacks a second to heal them and yourself for 1% of your Maximum Health. Each stack consumed provides you with 1 gold. If you overcap stacks they will still provide gold as long as you are near an ally god. Can be upgraded at level 15."
     },
     "ItemId": 19634,
     "ItemTier": 1,
@@ -18549,7 +18907,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 75,
+    "Health": 100,
     "HP5": 10,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -19755,7 +20113,7 @@
     },
     "ItemId": 23048,
     "ItemTier": 1,
-    "Price": 650,
+    "Price": 550,
     "RestrictedRoles": "guardian,warrior",
     "RootItemId": 23048,
     "ShortDesc": "Trade damage for tankiness.",
@@ -21116,7 +21474,7 @@
     "ItemDescription": {
       "Description": "Increases ally Movement and Attack Speed",
       "Menuitems": [],
-      "SecondaryDescription": "Using this item grants allied gods within 55 units 20% increased Movement Speed, 10% increased Attack Speed, and Slow immunity for 5s. Cooldown - 130s\n<font color='#f59b56'>Kill or assist minions to upgrade this Relic for free."
+      "SecondaryDescription": "Using this item grants allied gods within 55 units 20% increased Movement Speed, 10% increased Attack Speed, and Slow immunity for 5s. Cooldown - 120s\n<font color='#f59b56'>Kill or assist minions to upgrade this Relic for free."
     },
     "ItemId": 25611,
     "ItemTier": 3,
@@ -21380,7 +21738,7 @@
     "ItemDescription": {
       "Description": "Mana and Health restoration.",
       "Menuitems": [],
-      "SecondaryDescription": "Using this item causes you to enter a meditative state where nearby allied gods within 35 units restore 8 + 2% of their missing health and 10 + 3% of missing mana each tick. Heals occur once every second for 4s. Cooldown - 150s.\n<font color='#f59b56'>Kill or assist minions to upgrade this Relic for free."
+      "SecondaryDescription": "Using this item causes you to enter a meditative state where nearby allied gods within 35 units restore 10 + 2.5% of their missing health and 10 + 3% of missing mana each tick. Heals occur once every second for 4s. Cooldown - 150s.\n<font color='#f59b56'>Kill or assist minions to upgrade this Relic for free."
     },
     "ItemId": 25634,
     "ItemTier": 3,
@@ -21424,7 +21782,7 @@
     "ItemDescription": {
       "Description": "Provides vision and warmth to allies.",
       "Menuitems": [],
-      "SecondaryDescription": "Place a radiant glow at a target location for 90s. Allies who move through this glow gain 10% increased Power if above half health or 10% Movement Speed if below Half Health for 6s. This fragment acts as a ward. If destroyed the cooldown of the relic is reduced by 20s. Cooldown - 120s.\n<font color='#f59b56'>Kill or assist minions to upgrade this Relic for free."
+      "SecondaryDescription": "Place a radiant glow at a target location for 90s. Allies who move through this glow gain 10% increased Power if above half health or 10% Movement Speed if below Half Health for 8s. This fragment acts as a ward. If destroyed the cooldown of the relic is reduced by 20s. Cooldown - 120s.\n<font color='#f59b56'>Kill or assist minions to upgrade this Relic for free."
     },
     "ItemId": 25637,
     "ItemTier": 3,
@@ -23080,7 +23438,7 @@
     "ItemDescription": {
       "Description": "Increases ally Movement and Attack Speed",
       "Menuitems": [],
-      "SecondaryDescription": "Using this item grants allied gods within 55 units 20% increased Movement Speed, 10% increased Attack Speed, and Slow immunity for 5s. Cooldown - 110s\n<font color='#f59b56'>Deal instances of damage or Crowd Control to enemy Gods to upgrade this Relic for free. You may only gain one stack per second."
+      "SecondaryDescription": "Using this item grants allied gods within 55 units 20% increased Movement Speed, 10% increased Attack Speed, and Slow immunity for 5s. Cooldown - 100s\n<font color='#f59b56'>Deal instances of damage or Crowd Control to enemy Gods to upgrade this Relic for free. You may only gain one stack per second."
     },
     "ItemId": 25616,
     "ItemTier": 4,
@@ -23344,7 +23702,7 @@
     "ItemDescription": {
       "Description": "Mana and Health restoration.",
       "Menuitems": [],
-      "SecondaryDescription": "Using this item causes you to enter a meditative state where nearby allied gods within 35 units restore 8 + 2% of their missing health and 10 + 3% of missing mana each tick. Heals occur once every second for 4s. Cooldown - 130s.\n<font color='#f59b56'>Deal instances of damage or Crowd Control to enemy Gods to upgrade this Relic for free. You may only gain one stack per second."
+      "SecondaryDescription": "Using this item causes you to enter a meditative state where nearby allied gods within 35 units restore 10 + 2.5% of their missing health and 10 + 3% of missing mana each tick. Heals occur once every second for 4s. Cooldown - 130s.\n<font color='#f59b56'>Deal instances of damage or Crowd Control to enemy Gods to upgrade this Relic for free. You may only gain one stack per second."
     },
     "ItemId": 25635,
     "ItemTier": 4,
@@ -23388,7 +23746,7 @@
     "ItemDescription": {
       "Description": "Provides vision and warmth to allies.",
       "Menuitems": [],
-      "SecondaryDescription": "Place a radiant glow at a target location for 90s. Allies who move through this glow gain 10% increased Power if above half health or 10% Movement Speed if below Half Health for 6s. This fragment acts as a ward. If destroyed the cooldown of the relic is reduced by 20s. Cooldown - 100s.\n<font color='#f59b56'>Deal instances of damage or Crowd Control to enemy Gods to upgrade this Relic for free. You may only gain one stack per second."
+      "SecondaryDescription": "Place a radiant glow at a target location for 90s. Allies who move through this glow gain 10% increased Power if above half health or 10% Movement Speed if below Half Health for 8s. This fragment acts as a ward. If destroyed the cooldown of the relic is reduced by 20s. Cooldown - 100s.\n<font color='#f59b56'>Deal instances of damage or Crowd Control to enemy Gods to upgrade this Relic for free. You may only gain one stack per second."
     },
     "ItemId": 25638,
     "ItemTier": 4,
@@ -23608,7 +23966,7 @@
     "ItemDescription": {
       "Description": "Increases ally Movement and Attack Speed",
       "Menuitems": [],
-      "SecondaryDescription": "Using this item grants allies within 55 units 25% increased Movement Speed, 25% increased Attack Speed, and Slow immunity for 5s. On use, this Relic also Roots enemies in the area for 1s. Cooldown - 110s"
+      "SecondaryDescription": "Using this item grants allies within 55 units 25% increased Movement Speed, 25% increased Attack Speed, and Slow immunity for 5s. On use, this Relic also Roots enemies in the area for 1s. Cooldown - 100s"
     },
     "ItemId": 25617,
     "ItemTier": 4,
@@ -23872,7 +24230,7 @@
     "ItemDescription": {
       "Description": "Mana and Health restoration.",
       "Menuitems": [],
-      "SecondaryDescription": "Using this item causes you to Enter a meditative state where nearby allied gods within 35 units restore 20 + 3% of their missing health and 30 + 4% of missing mana each pulse. Additionally each pulse reduces cooldowns for all abilities by 1.5s. Pulses occur once every second for 4s. Cooldown - 130s."
+      "SecondaryDescription": "Using this item causes you to Enter a meditative state where nearby allied gods within 35 units restore 25 + 3.5% of their missing health and 30 + 4% of missing mana each pulse. Additionally each pulse reduces cooldowns for all abilities by 1.5s. Pulses occur once every second for 4s. Cooldown - 130s."
     },
     "ItemId": 25636,
     "ItemTier": 4,
@@ -23916,7 +24274,7 @@
     "ItemDescription": {
       "Description": "Provides vision and warmth to allies.",
       "Menuitems": [],
-      "SecondaryDescription": "Place a radiant glow at a target location for 90s. Allies who move through this field gain 10% increased Power and 15% Movement Speed for 6s. This fragment acts as a Sentry Ward. If destroyed the cooldown of the relic is reduced by 20s. Cooldown - 100s."
+      "SecondaryDescription": "Place a radiant glow at a target location for 90s. Allies who move through this field gain 10% increased Power and 15% Movement Speed for 8s. This fragment acts as a Sentry Ward. If destroyed the cooldown of the relic is reduced by 20s. Cooldown - 100s."
     },
     "ItemId": 25639,
     "ItemTier": 4,
@@ -25072,7 +25430,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+25"
+          "Value": "+30"
         },
         {
           "Description": "MP5",
@@ -25102,7 +25460,7 @@
     "MagicalLifesteal": 0.06,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 25,
+    "MagicalPower": 30,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -25144,7 +25502,7 @@
           "Value": "+18%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Damaging any enemy with an ability restores 1% Health and Mana. Can only trigger once per target per ability."
+      "SecondaryDescription": "PASSIVE - Damaging any enemy with an ability restores 1.2% Health and Mana. Can only trigger once per target per ability."
     },
     "ItemId": 25770,
     "ItemTier": 2,
@@ -25739,128 +26097,6 @@
     "IsGlyph": false
   },
   {
-    "DeviceName": "Bewitched Dagger",
-    "ActiveFlag": "y",
-    "ChildItemId": 13187,
-    "IconId": 12844,
-    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/bewitched-dagger.jpg",
-    "ItemDescription": {
-      "Description": "Reduce the Attack Speed of enemies around you.",
-      "Menuitems": [
-        {
-          "Description": "Health",
-          "Value": "+300"
-        },
-        {
-          "Description": "Cooldown Reduction",
-          "Value": "+10%"
-        },
-        {
-          "Description": "Crowd Control Reduction",
-          "Value": "+10%"
-        },
-        {
-          "Description": "Movement Speed",
-          "Value": "+7%"
-        }
-      ],
-      "SecondaryDescription": "PASSIVE - Your relics receive 50s Cooldown Reduction. <n>GLYPH - All enemy gods have 25% reduced Attack Speed in a 55 unit radius around you. "
-    },
-    "ItemId": 24726,
-    "ItemTier": 4,
-    "Price": 600,
-    "RestrictedRoles": "no restrictions",
-    "RootItemId": 26234,
-    "ShortDesc": "Reduce the Attack Speed of enemies around you",
-    "StartingItem": false,
-    "Type": "Item",
-    "AttackSpeed": 0,
-    "CooldownReduction": 0.1,
-    "CriticalStrikeChance": 0,
-    "CrowdControlReduction": 0.1,
-    "Health": 300,
-    "HP5": 0,
-    "MagicalLifesteal": 0,
-    "MagicalPenetration": 0,
-    "MagicalPenetrationPercent": 0,
-    "MagicalPower": 0,
-    "MagicalProtection": 0,
-    "Mana": 0,
-    "MovementSpeed": 0.07,
-    "MP5": 0,
-    "PhysicalLifesteal": 0,
-    "PhysicalPenetration": 0,
-    "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 0,
-    "PhysicalProtection": 0,
-    "IsPhysicalOnly": false,
-    "IsMagicalOnly": false,
-    "ActivelyStacks": false,
-    "IsEvolved": false,
-    "IsGlyph": true
-  },
-  {
-    "DeviceName": "Eldritch Dagger",
-    "ActiveFlag": "y",
-    "ChildItemId": 13187,
-    "IconId": 12845,
-    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/eldritch-dagger.jpg",
-    "ItemDescription": {
-      "Description": "Gain Protections and ward vision on relic cast.",
-      "Menuitems": [
-        {
-          "Description": "Health",
-          "Value": "+300"
-        },
-        {
-          "Description": "Cooldown Reduction",
-          "Value": "+10%"
-        },
-        {
-          "Description": "Crowd Control Reduction",
-          "Value": "+10%"
-        },
-        {
-          "Description": "Movement Speed",
-          "Value": "+7%"
-        }
-      ],
-      "SecondaryDescription": "PASSIVE - Your relics receive 50s Cooldown Reduction. <n>GLYPH - When you activate a relic, your Protections are increased by 15% and you gain the ability to see wards for 20s. "
-    },
-    "ItemId": 24727,
-    "ItemTier": 4,
-    "Price": 600,
-    "RestrictedRoles": "no restrictions",
-    "RootItemId": 26234,
-    "ShortDesc": "Gain Protections and ward vision on relic cast",
-    "StartingItem": false,
-    "Type": "Item",
-    "AttackSpeed": 0,
-    "CooldownReduction": 0.1,
-    "CriticalStrikeChance": 0,
-    "CrowdControlReduction": 0.1,
-    "Health": 300,
-    "HP5": 0,
-    "MagicalLifesteal": 0,
-    "MagicalPenetration": 0,
-    "MagicalPenetrationPercent": 0,
-    "MagicalPower": 0,
-    "MagicalProtection": 0,
-    "Mana": 0,
-    "MovementSpeed": 0.07,
-    "MP5": 0,
-    "PhysicalLifesteal": 0,
-    "PhysicalPenetration": 0,
-    "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 0,
-    "PhysicalProtection": 0,
-    "IsPhysicalOnly": false,
-    "IsMagicalOnly": false,
-    "ActivelyStacks": false,
-    "IsEvolved": false,
-    "IsGlyph": true
-  },
-  {
     "DeviceName": "Amulet of Silence",
     "ActiveFlag": "y",
     "ChildItemId": 11116,
@@ -25965,5 +26201,465 @@
     "ActivelyStacks": false,
     "IsEvolved": false,
     "IsGlyph": true
+  },
+  {
+    "DeviceName": "Rebound Buckler",
+    "ActiveFlag": "y",
+    "ChildItemId": 0,
+    "IconId": 3146,
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/rebound-buckler.jpg",
+    "ItemDescription": {
+      "Description": "Health and HP5",
+      "Menuitems": [
+        {
+          "Description": "Health",
+          "Value": "+100"
+        },
+        {
+          "Description": "HP5",
+          "Value": "+10"
+        }
+      ],
+      "SecondaryDescription": null
+    },
+    "ItemId": 26329,
+    "ItemTier": 1,
+    "Price": 600,
+    "RestrictedRoles": "no restrictions",
+    "RootItemId": 26329,
+    "ShortDesc": "Health and HP5",
+    "StartingItem": false,
+    "Type": "Item",
+    "AttackSpeed": 0,
+    "CooldownReduction": 0,
+    "CriticalStrikeChance": 0,
+    "CrowdControlReduction": 0,
+    "Health": 100,
+    "HP5": 10,
+    "MagicalLifesteal": 0,
+    "MagicalPenetration": 0,
+    "MagicalPenetrationPercent": 0,
+    "MagicalPower": 0,
+    "MagicalProtection": 0,
+    "Mana": 0,
+    "MovementSpeed": 0,
+    "MP5": 0,
+    "PhysicalLifesteal": 0,
+    "PhysicalPenetration": 0,
+    "PhysicalPenetrationPercent": 0,
+    "PhysicalPower": 0,
+    "PhysicalProtection": 0,
+    "IsPhysicalOnly": false,
+    "IsMagicalOnly": false,
+    "ActivelyStacks": false,
+    "IsEvolved": false,
+    "IsGlyph": false
+  },
+  {
+    "DeviceName": "Fortress Shield",
+    "ActiveFlag": "y",
+    "ChildItemId": 26329,
+    "IconId": 2859,
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/fortress-shield.jpg",
+    "ItemDescription": {
+      "Description": "Physical Protection, Health, and HP5",
+      "Menuitems": [
+        {
+          "Description": "Physical Protection",
+          "Value": "+20"
+        },
+        {
+          "Description": "Health",
+          "Value": "+200"
+        },
+        {
+          "Description": "HP5",
+          "Value": "+15"
+        }
+      ],
+      "SecondaryDescription": null
+    },
+    "ItemId": 26326,
+    "ItemTier": 2,
+    "Price": 800,
+    "RestrictedRoles": "no restrictions",
+    "RootItemId": 26329,
+    "ShortDesc": "Physical Protection, Health, and HP5",
+    "StartingItem": false,
+    "Type": "Item",
+    "AttackSpeed": 0,
+    "CooldownReduction": 0,
+    "CriticalStrikeChance": 0,
+    "CrowdControlReduction": 0,
+    "Health": 200,
+    "HP5": 15,
+    "MagicalLifesteal": 0,
+    "MagicalPenetration": 0,
+    "MagicalPenetrationPercent": 0,
+    "MagicalPower": 0,
+    "MagicalProtection": 0,
+    "Mana": 0,
+    "MovementSpeed": 0,
+    "MP5": 0,
+    "PhysicalLifesteal": 0,
+    "PhysicalPenetration": 0,
+    "PhysicalPenetrationPercent": 0,
+    "PhysicalPower": 0,
+    "PhysicalProtection": 20,
+    "IsPhysicalOnly": false,
+    "IsMagicalOnly": false,
+    "ActivelyStacks": false,
+    "IsEvolved": false,
+    "IsGlyph": false
+  },
+  {
+    "DeviceName": "Nemean Armor",
+    "ActiveFlag": "y",
+    "ChildItemId": 26329,
+    "IconId": 13605,
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/nemean-armor.jpg",
+    "ItemDescription": {
+      "Description": "Physical Protection, Health, and HP5",
+      "Menuitems": [
+        {
+          "Description": "Physical Protection",
+          "Value": "+25"
+        },
+        {
+          "Description": "Health",
+          "Value": "+150"
+        },
+        {
+          "Description": "HP5",
+          "Value": "+15"
+        }
+      ],
+      "SecondaryDescription": null
+    },
+    "ItemId": 26327,
+    "ItemTier": 2,
+    "Price": 650,
+    "RestrictedRoles": "no restrictions",
+    "RootItemId": 26329,
+    "ShortDesc": "Physical Protection, Health, and HP5",
+    "StartingItem": false,
+    "Type": "Item",
+    "AttackSpeed": 0,
+    "CooldownReduction": 0,
+    "CriticalStrikeChance": 0,
+    "CrowdControlReduction": 0,
+    "Health": 150,
+    "HP5": 15,
+    "MagicalLifesteal": 0,
+    "MagicalPenetration": 0,
+    "MagicalPenetrationPercent": 0,
+    "MagicalPower": 0,
+    "MagicalProtection": 0,
+    "Mana": 0,
+    "MovementSpeed": 0,
+    "MP5": 0,
+    "PhysicalLifesteal": 0,
+    "PhysicalPenetration": 0,
+    "PhysicalPenetrationPercent": 0,
+    "PhysicalPower": 0,
+    "PhysicalProtection": 25,
+    "IsPhysicalOnly": false,
+    "IsMagicalOnly": false,
+    "ActivelyStacks": false,
+    "IsEvolved": false,
+    "IsGlyph": false
+  },
+  {
+    "DeviceName": "Warded Shield",
+    "ActiveFlag": "y",
+    "ChildItemId": 26329,
+    "IconId": 2906,
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/warded-shield.jpg",
+    "ItemDescription": {
+      "Description": "Magical Protection, Health, and HP5",
+      "Menuitems": [
+        {
+          "Description": "Magical Protection",
+          "Value": "+35"
+        },
+        {
+          "Description": "Health",
+          "Value": "+150"
+        },
+        {
+          "Description": "HP5",
+          "Value": "+15"
+        }
+      ],
+      "SecondaryDescription": null
+    },
+    "ItemId": 26328,
+    "ItemTier": 2,
+    "Price": 600,
+    "RestrictedRoles": "no restrictions",
+    "RootItemId": 26329,
+    "ShortDesc": "Magical Protection, Health, and HP5",
+    "StartingItem": false,
+    "Type": "Item",
+    "AttackSpeed": 0,
+    "CooldownReduction": 0,
+    "CriticalStrikeChance": 0,
+    "CrowdControlReduction": 0,
+    "Health": 150,
+    "HP5": 15,
+    "MagicalLifesteal": 0,
+    "MagicalPenetration": 0,
+    "MagicalPenetrationPercent": 0,
+    "MagicalPower": 0,
+    "MagicalProtection": 35,
+    "Mana": 0,
+    "MovementSpeed": 0,
+    "MP5": 0,
+    "PhysicalLifesteal": 0,
+    "PhysicalPenetration": 0,
+    "PhysicalPenetrationPercent": 0,
+    "PhysicalPower": 0,
+    "PhysicalProtection": 0,
+    "IsPhysicalOnly": false,
+    "IsMagicalOnly": false,
+    "ActivelyStacks": false,
+    "IsEvolved": false,
+    "IsGlyph": false
+  },
+  {
+    "DeviceName": "Ancile",
+    "ActiveFlag": "y",
+    "ChildItemId": 26328,
+    "IconId": 3145,
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/ancile.jpg",
+    "ItemDescription": {
+      "Description": "Silence enemies around you when hit with Magical Damage",
+      "Menuitems": [
+        {
+          "Description": "Magical Protection",
+          "Value": "+45"
+        },
+        {
+          "Description": "Health",
+          "Value": "+200"
+        },
+        {
+          "Description": "HP5",
+          "Value": "+20"
+        }
+      ],
+      "SecondaryDescription": "PASSIVE - Whenever you take Magical Damage from an enemy ability you unleash a shockwave that Silences all enemies within a range of 30 units for 1s. This effect cannot trigger more than once every 30s. While this effect is on cooldown, gain 20 Physical Power and 35 Magical Power."
+    },
+    "ItemId": 26322,
+    "ItemTier": 3,
+    "Price": 1000,
+    "RestrictedRoles": "no restrictions",
+    "RootItemId": 26329,
+    "ShortDesc": "Silence enemies when hit with Magical Damage",
+    "StartingItem": false,
+    "Type": "Item",
+    "AttackSpeed": 0,
+    "CooldownReduction": 0,
+    "CriticalStrikeChance": 0,
+    "CrowdControlReduction": 0,
+    "Health": 200,
+    "HP5": 20,
+    "MagicalLifesteal": 0,
+    "MagicalPenetration": 0,
+    "MagicalPenetrationPercent": 0,
+    "MagicalPower": 0,
+    "MagicalProtection": 45,
+    "Mana": 0,
+    "MovementSpeed": 0,
+    "MP5": 0,
+    "PhysicalLifesteal": 0,
+    "PhysicalPenetration": 0,
+    "PhysicalPenetrationPercent": 0,
+    "PhysicalPower": 0,
+    "PhysicalProtection": 0,
+    "IsPhysicalOnly": false,
+    "IsMagicalOnly": false,
+    "ActivelyStacks": false,
+    "IsEvolved": false,
+    "IsGlyph": false
+  },
+  {
+    "DeviceName": "Shield of the Phoenix",
+    "ActiveFlag": "y",
+    "ChildItemId": 26326,
+    "IconId": 2175,
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/shield-of-the-phoenix.jpg",
+    "ItemDescription": {
+      "Description": "Heal when damaging enemy gods",
+      "Menuitems": [
+        {
+          "Description": "Physical Protection",
+          "Value": "+30"
+        },
+        {
+          "Description": "Health",
+          "Value": "+250"
+        },
+        {
+          "Description": "HP5",
+          "Value": "+20"
+        },
+        {
+          "Description": "Cooldown Reduction",
+          "Value": "+10%"
+        }
+      ],
+      "SecondaryDescription": "PASSIVE - Anytime you hit an Enemy god with an ability you are healed for 2% of your maximum Health and Mana. This can only trigger once per ability."
+    },
+    "ItemId": 26323,
+    "ItemTier": 3,
+    "Price": 950,
+    "RestrictedRoles": "no restrictions",
+    "RootItemId": 26329,
+    "ShortDesc": "Heal when damaging enemy gods",
+    "StartingItem": false,
+    "Type": "Item",
+    "AttackSpeed": 0,
+    "CooldownReduction": 0.1,
+    "CriticalStrikeChance": 0,
+    "CrowdControlReduction": 0,
+    "Health": 250,
+    "HP5": 20,
+    "MagicalLifesteal": 0,
+    "MagicalPenetration": 0,
+    "MagicalPenetrationPercent": 0,
+    "MagicalPower": 0,
+    "MagicalProtection": 0,
+    "Mana": 0,
+    "MovementSpeed": 0,
+    "MP5": 0,
+    "PhysicalLifesteal": 0,
+    "PhysicalPenetration": 0,
+    "PhysicalPenetrationPercent": 0,
+    "PhysicalPower": 0,
+    "PhysicalProtection": 30,
+    "IsPhysicalOnly": false,
+    "IsMagicalOnly": false,
+    "ActivelyStacks": false,
+    "IsEvolved": false,
+    "IsGlyph": false
+  },
+  {
+    "DeviceName": "Shifter's Shield",
+    "ActiveFlag": "y",
+    "ChildItemId": 26326,
+    "IconId": 2254,
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/shifters-shield.jpg",
+    "ItemDescription": {
+      "Description": "Gain Power at high Health, gain Protections at low Health",
+      "Menuitems": [
+        {
+          "Description": "Physical Protection",
+          "Value": "+30"
+        },
+        {
+          "Description": "Magical Protection",
+          "Value": "+30"
+        },
+        {
+          "Description": "Health",
+          "Value": "+300"
+        },
+        {
+          "Description": "HP5",
+          "Value": "+20"
+        }
+      ],
+      "SecondaryDescription": "PASSIVE - While over 75% Health, you gain 30 Physical Power and 45 Magical Power. While under 75% Health, you gain 20 Protections."
+    },
+    "ItemId": 26324,
+    "ItemTier": 3,
+    "Price": 1000,
+    "RestrictedRoles": "no restrictions",
+    "RootItemId": 26329,
+    "ShortDesc": "Gain Power at high Health and Protections at low Health",
+    "StartingItem": false,
+    "Type": "Item",
+    "AttackSpeed": 0,
+    "CooldownReduction": 0,
+    "CriticalStrikeChance": 0,
+    "CrowdControlReduction": 0,
+    "Health": 300,
+    "HP5": 20,
+    "MagicalLifesteal": 0,
+    "MagicalPenetration": 0,
+    "MagicalPenetrationPercent": 0,
+    "MagicalPower": 0,
+    "MagicalProtection": 30,
+    "Mana": 0,
+    "MovementSpeed": 0,
+    "MP5": 0,
+    "PhysicalLifesteal": 0,
+    "PhysicalPenetration": 0,
+    "PhysicalPenetrationPercent": 0,
+    "PhysicalPower": 0,
+    "PhysicalProtection": 30,
+    "IsPhysicalOnly": false,
+    "IsMagicalOnly": false,
+    "ActivelyStacks": false,
+    "IsEvolved": false,
+    "IsGlyph": false
+  },
+  {
+    "DeviceName": "Hide of the Nemean Lion",
+    "ActiveFlag": "y",
+    "ChildItemId": 26327,
+    "IconId": 2862,
+    "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/hide-of-the-nemean-lion.jpg",
+    "ItemDescription": {
+      "Description": "Reflect Basic Attack damage",
+      "Menuitems": [
+        {
+          "Description": "Physical Protection",
+          "Value": "+50"
+        },
+        {
+          "Description": "Health",
+          "Value": "+200"
+        },
+        {
+          "Description": "HP5",
+          "Value": "+20"
+        }
+      ],
+      "SecondaryDescription": "PASSIVE - Reflect 15% of all Basic Attack damage back to the attacker as Physical Damage."
+    },
+    "ItemId": 26325,
+    "ItemTier": 3,
+    "Price": 1200,
+    "RestrictedRoles": "no restrictions",
+    "RootItemId": 26329,
+    "ShortDesc": "Reflect Basic Attack damage",
+    "StartingItem": false,
+    "Type": "Item",
+    "AttackSpeed": 0,
+    "CooldownReduction": 0,
+    "CriticalStrikeChance": 0,
+    "CrowdControlReduction": 0,
+    "Health": 200,
+    "HP5": 20,
+    "MagicalLifesteal": 0,
+    "MagicalPenetration": 0,
+    "MagicalPenetrationPercent": 0,
+    "MagicalPower": 0,
+    "MagicalProtection": 0,
+    "Mana": 0,
+    "MovementSpeed": 0,
+    "MP5": 0,
+    "PhysicalLifesteal": 0,
+    "PhysicalPenetration": 0,
+    "PhysicalPenetrationPercent": 0,
+    "PhysicalPower": 0,
+    "PhysicalProtection": 50,
+    "IsPhysicalOnly": false,
+    "IsMagicalOnly": false,
+    "ActivelyStacks": false,
+    "IsEvolved": false,
+    "IsGlyph": false
   }
 ]
