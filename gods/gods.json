@@ -820,7 +820,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/plague-of-locusts.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "11s",
+          "cooldown": "10s",
           "cost": "60/65/70/75/80",
           "description": "A plague of locusts bellows forth from Anubis' mouth, smothering all enemies in the area and doing damage every .25s for 3s. Anubis is immune to knockback while channeling and moves at 50% speed.",
           "menuItems": null
@@ -888,9 +888,9 @@
     "AttackSpeedPerLevel": 0.009,
     "AutoBanned": "n",
     "Cons": "",
-    "Health": 380,
+    "Health": 420,
     "HealthPerFive": 7,
-    "HealthPerLevel": 70,
+    "HealthPerLevel": 72,
     "HP5PerLevel": 0.45,
     "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/anubis.jpg",
     "id": 1668,
@@ -1626,7 +1626,7 @@
         "itemDescription": {
           "cooldown": "14/13/12/11/10s",
           "cost": "45",
-          "description": "Artemis places a trap on the ground. Enemy gods coming within 5 units of her traps activate them, Rooting and Crippling the enemy god, preventing movement abilities and dealing damage every second for 3s. ",
+          "description": "Artemis places a trap on the ground. Enemy gods coming within 5 units of her traps activate them, Rooting, Crippling, and revealing the enemy god while dealing damage every second for 3s.",
           "menuItems": null
         },
         "rankItems": null
@@ -1638,7 +1638,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/vengeful-assault.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "16/15.5/15/14.5/14s",
+          "cooldown": "14s",
           "cost": "60/65/70/75/80",
           "description": "Artemis attacks at a furious pace, increasing her Attack and Movement Speed significantly. Additionally, Artemis cleanses herself of slows and becomes immune to Slows for 0.6s when activated.",
           "menuItems": null
@@ -1692,9 +1692,9 @@
     "AttackSpeedPerLevel": 0.016,
     "AutoBanned": "n",
     "Cons": "",
-    "Health": 450,
+    "Health": 480,
     "HealthPerFive": 8,
-    "HealthPerLevel": 75,
+    "HealthPerLevel": 78,
     "HP5PerLevel": 0.68,
     "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/artemis.jpg",
     "id": 1748,
@@ -2606,7 +2606,7 @@
         "itemDescription": {
           "cooldown": "90/85/80/75/70s",
           "cost": "80/90/100/110/120",
-          "description": "Bakasura regurgitates all of the minions consumed by his Eat Minion ability at his ground target location that Slows for 3s and Cripples enemy players. This area lasts for 6s. Bakasura's Basic Attacks become cone attacks and he is immune to Crowd Control for a short duration. Bakasura is able to use Eat Minion on his regurgitated minions.",
+          "description": "Bakasura regurgitates all of the minions consumed by his Eat Minion ability at his ground target location that Slows, Cripples, and damages enemy players every 0.5s. This area lasts for 6s. Bakasura's Basic Attacks become cone attacks and he is immune to Crowd Control for a short duration. Bakasura is able to use Eat Minion on his regurgitated minions.",
           "menuItems": null
         },
         "rankItems": null
@@ -2696,7 +2696,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/rough-waters.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14s",
+          "cooldown": "14/13.5/13/12.5/12s",
           "cost": "60/65/70/75/80",
           "description": "Bake Kujira imbues himself with cursed energy. When activated, Bake Kujira gains increased Basic Attack range and reduced Movement Penalty when Basic Attacking. He also gains a stack of Protections for each enemy hit with his Basic Attacks.",
           "menuItems": null
@@ -3662,7 +3662,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/horn-charge.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "17/16/15/14/13s",
+          "cooldown": "15/14.5/14/13.5/13s",
           "cost": "70/75/80/85/90",
           "description": "Cernunnos charges forward, damaging and crashing through all types of enemies.",
           "menuItems": null
@@ -5540,7 +5540,7 @@
         "itemDescription": {
           "cooldown": "13s",
           "cost": "50/55/60/65/70",
-          "description": "Discordia leaps a short distance and then creates an area of confusion where she lands that persists for 5s. While inside the area she becomes stealthed, gains bonus movement speed, and Her 1st and 2nd ability cooldowns are decreased by an additional amount of time every .5s she remains in the area. Attacking from the area will briefly reveal her. ",
+          "description": "Discordia leaps a short distance and then creates an area of confusion where she lands that persists for 5s. While inside the area she becomes stealthed, gains bonus movement speed, and her ability cooldowns are decreased by an additional amount of time every .5s she remains in the area. Attacking from the area will briefly reveal her. ",
           "menuItems": null
         },
         "rankItems": null
@@ -5712,9 +5712,9 @@
     "AttackSpeedPerLevel": 0.01,
     "AutoBanned": "n",
     "Cons": "",
-    "Health": 485,
+    "Health": 475,
     "HealthPerFive": 8,
-    "HealthPerLevel": 85,
+    "HealthPerLevel": 82,
     "HP5PerLevel": 0.6,
     "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/erlang-shen.jpg",
     "id": 2138,
@@ -6194,7 +6194,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/pulse.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "11s",
+          "cooldown": "12s",
           "cost": "45/50/55/60/65",
           "description": "Freya activates a Buff that makes her Basic Attacks ranged, dealing bonus Magical damage and Slowing the target and all nearby enemies. The area effect and slow are lost when Irradiate is active.",
           "menuItems": null
@@ -6222,7 +6222,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/valkyries-discretion.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "100s",
+          "cooldown": "110s",
           "cost": "90/95/100/105/110",
           "description": "Freya uses her Cloak of Feathers to fly above the battlefield where she fires down blasts of Magical damage up to 4 times while flying. Freya can't be hit when at full ascension and can cancel it anytime.",
           "menuItems": null
@@ -6998,7 +6998,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/shroud-of-darkness.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14/13/12/11/10s",
+          "cooldown": "13/12/11/10/9s",
           "cost": "60",
           "description": "Hades Silences all enemies in a cone in front of him. If the enemy is Blighted, they are also Feared. Applies Blight.",
           "menuItems": null
@@ -7401,7 +7401,7 @@
       "Description": {
         "itemDescription": {
           "cooldown": "16/15/14/13/12s",
-          "cost": "60/65/70/75/80",
+          "cost": "60",
           "description": "HINDER (Dark Stance) - Hel debuffs all enemies in the targeted area, reducing their Magical Protection and slowing them for 3s.\n\nCLEANSE (Light Stance) - Hel cleanses all allied gods in the targeted area, removing all Crowd Control effects instantly and protecting them from future ones for a duration.",
           "menuItems": null
         },
@@ -7416,7 +7416,7 @@
         "itemDescription": {
           "cooldown": "12s",
           "cost": "60/65/70/75/80",
-          "description": "REPULSE (Dark Stance) - Hel conjures a burst of dark energy around her, damaging all nearby enemies. INSPIRE (Light Stance) - Hel conjures a burst of light energy around her, healing herself instantly and applying a heal over time to nearby allies that ticks every 1s. This heal is half as effective when healing minions. Hel gains Increased Movement Speed, and allies gain a reduced amount (7%) for the duration. Hel and allied Gods also gain 20% Attack Speed while the buff is active.",
+          "description": "REPULSE (Dark Stance) - Hel conjures a burst of dark energy around her, damaging all nearby enemies. INSPIRE (Light Stance) - Hel conjures a burst of light energy around her, healing herself instantly and applying a heal over time to nearby allies that ticks every 1s. This heal is half as effective when healing minions. Hel gains Increased Movement Speed, and allies gain a reduced amount (10%) for the duration. Hel and allied Gods also gain 20% Attack Speed while the buff is active.",
           "menuItems": null
         },
         "rankItems": null
@@ -7467,7 +7467,7 @@
     "MagicProtectionPerLevel": 1.3,
     "Mana": 300,
     "ManaPerFive": 5,
-    "ManaPerLevel": 57,
+    "ManaPerLevel": 60,
     "MP5PerLevel": 0.45,
     "Name": "Hel",
     "OnFreeRotation": "",
@@ -7802,7 +7802,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/fracture.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15/14.5/14/13.5/13s",
+          "cooldown": "14/13.5/13/12.5/12s",
           "cost": "55/60/65/70/75",
           "description": "Horus dashes forward a short distance, ready to strike with his weapon. If Horus hits a god he stops and stuns the god for 1.25s. He will then wind up a heavy cleave. Enemies hit have their Protections reduced for 3s. ",
           "menuItems": null
@@ -7922,7 +7922,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/ricochet.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "10s",
+          "cooldown": "10/9.5/9/8.5/8s",
           "cost": "60/65/70/75/80",
           "description": "Hou Yi fires a powerful shot that can ricochet off of walls. After firing, if this arrow bounces off of a wall it will travel 70 units from that point and gain +40% bonus damage to gods per bounce up to a maximum of 2 bounces. This arrow will stun if the target has Mark of the Golden Crow.",
           "menuItems": null
@@ -7951,7 +7951,7 @@
       "Description": {
         "itemDescription": {
           "cooldown": "15s",
-          "cost": "70/75/80/85/90",
+          "cost": "70",
           "description": "Hou Yi launches into the air, and for a short time may target some distance away to quickly dive towards the ground damaging any enemies in the immediate area. If the target has Mark of the Golden Crow they are knocked back.",
           "menuItems": null
         },
@@ -7987,7 +7987,7 @@
       }
     },
     "AttackSpeed": 0.95,
-    "AttackSpeedPerLevel": 0.011,
+    "AttackSpeedPerLevel": 0.013,
     "AutoBanned": "n",
     "Cons": "",
     "Health": 480,
@@ -8114,7 +8114,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "After using an ability, Hun Batz's next Basic Attack will deal 15% increased damage. ",
+          "description": "After using an ability, Hun Batz's next Basic Attack will deal 20% increased damage. ",
           "menuItems": null
         },
         "rankItems": null
@@ -8368,7 +8368,7 @@
         "itemDescription": {
           "cooldown": "90s",
           "cost": "90",
-          "description": "Ix Chel becomes CC immune, gaining 15% Damage Mitigation as she channels all of her energy into a single intense beam of light. The beam deals damage to enemies and heals allied gods every 0.2s for 3s, increasing in duration if Ix Chel hits allied and enemy gods at the same time.\nEnemy gods take increasing damage per tick which decays rapidly if not hit recently.\n\nHealing an ally or damaging an enemy also heals Ix Chel. Ix Chel gains 6 stacks of Rainbow Weaver on firing.",
+          "description": "Ix Chel becomes CC immune as she channels all of her energy into a single intense beam of light. The beam deals damage to enemies and heals allied gods every 0.2s for 3s, increasing in duration if Ix Chel hits allied and enemy gods at the same time.\nEnemy gods take increasing damage per tick which decays rapidly if not hit recently.\n\nHealing an ally or damaging an enemy also heals Ix Chel. Ix Chel gains 6 stacks of Rainbow Weaver on firing.",
           "menuItems": null
         },
         "rankItems": null
@@ -8740,7 +8740,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/explosive-bolts.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "12s",
+          "cooldown": "12/11.5/11/10.5/10s",
           "cost": "50",
           "description": "Jing Wei loads her crossbow with explosive bolts that augment her next 3 Basic Attacks. These attacks are wider, have increased critical chance, and deal area of effect damage.",
           "menuItems": null
@@ -8754,9 +8754,9 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/agility.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "18/17.5/17/16.5/16s",
+          "cooldown": "16s",
           "cost": "60",
-          "description": "Jing Wei dashes straight forward. She may use this ability while knocked into the air for a longer range dash. She also gains a 4s increase to Physical Power and Movement Speed upon using Agility. The effect of this buff is increased if Agility is used from the air. ",
+          "description": "Jing Wei dashes straight forward. She may use this ability while knocked into the air for a longer range dash. She also gains a 5s increase to Physical Power and Movement Speed upon using Agility. The effect of this buff is increased if Agility is used from the air. ",
           "menuItems": null
         },
         "rankItems": null
@@ -8791,7 +8791,7 @@
       }
     },
     "AttackSpeed": 1,
-    "AttackSpeedPerLevel": 0.014,
+    "AttackSpeedPerLevel": 0.016,
     "AutoBanned": "n",
     "Cons": "",
     "Health": 445,
@@ -8861,7 +8861,7 @@
       "Description": {
         "itemDescription": {
           "cooldown": "16/15/14/13/12s",
-          "cost": "60/65/70/75/80",
+          "cost": "50/55/60/65/70",
           "description": "Jormungandr fires noxious spit at an area that deals damage and creates a large toxic cloud. This field damages and slows Enemies inside of it every second.\n\nIf Jormungandr interacts with a toxic cloud with Consuming Bellow or Submerge, the duration of the cloud is reduced to 8s.\n\nJormungandr can have a maximum of 9 toxic clouds out at a time.",
           "menuItems": null
         },
@@ -8902,7 +8902,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/the-world-serpent.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "100s",
+          "cooldown": "90s",
           "cost": "100",
           "description": "Jormungandr prepares to enter into the world, enlarging as he prepares a devastating attack.\nAfter selecting a target area, Jormungandr flies into the air, diving down and crashing into enemies as his body then slams into the ground. He must travel 2 more times.\nWhen Jormungandr Emerges and Submerges during this ability, he knocks up Enemies and with each Submerge he leaves behind a toxic cloud.",
           "menuItems": null
@@ -9262,7 +9262,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/overhead-slash.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14s",
+          "cooldown": "16/15.5/15/14.5/14s",
           "cost": "35/40/45/50/55",
           "description": "Standard: King Arthur deals a devastating overhead blow in Melee range that creates a slashing attack that travels forwards. Enemies hit by the Melee strike take bonus damage from the Slicing attack. Combo: King Arthur swipes low, crippling and damaging enemies that are struck.",
           "menuItems": null
@@ -9320,7 +9320,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Each ability that damages a god results in a stack of Steadfast, gaining 5 HP5, reducing damage taken, and increasing energy gain. Each time King Arthur uses an ability he swaps between his Standard and Combo Abilities. All abilities are Instant Cast. Attack Speed does not benefit his Basic Attacks, and instead increases his energy gain.",
+          "description": "Each ability that damages a god results in a stack of Steadfast, reducing damage taken, and increasing energy gain. Each time King Arthur uses an ability he swaps between his Standard and Combo Abilities. All abilities are Instant Cast. Attack Speed does not benefit his Basic Attacks, and instead increases his energy gain.",
           "menuItems": null
         },
         "rankItems": null
@@ -9530,8 +9530,8 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/throw-back.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "11s",
-          "cost": "60/65/70/75/80",
+          "cooldown": "10s",
+          "cost": "55/60/65/70/75",
           "description": "Kumbhakarna sleepily runs forward. If he hits an enemy he stops and deals damage. If the enemy is a minion, he throws them, dealing increased damage to each enemy they hit.",
           "menuItems": null
         },
@@ -9546,7 +9546,7 @@
         "itemDescription": {
           "cooldown": "10s",
           "cost": "50/55/60/65/70",
-          "description": "Kumbhakarna smashes down, damaging all enemies in front of him, Rooting, and Crippling them.",
+          "description": "Kumbhakarna smashes down, damaging all enemies in front of him, Crippling, and Rooting them. This is Root duration is not affected by Diminishing Returns.",
           "menuItems": null
         },
         "rankItems": null
@@ -9559,8 +9559,8 @@
       "Description": {
         "itemDescription": {
           "cooldown": "15s",
-          "cost": "50/55/60/65/70",
-          "description": "Kumbhakarna lets out a mighty yawn that Mesmerizes all enemies in range. If awakened early, enemies have their Attack Speed and Movement Speed Slowed. Kumbhakarna may use this ability while asleep.",
+          "cost": "50",
+          "description": "Kumbhakarna lets out a mighty yawn that Mesmerizes all enemies in range. If awakened early, enemies are Damaged, have their Attack Speed and Movement Speed Slowed. Kumbhakarna may use this ability while asleep.",
           "menuItems": null
         },
         "rankItems": null
@@ -9572,7 +9572,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/epic-uppercut.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "75s",
+          "cooldown": "70s",
           "cost": "100",
           "description": "Kumbhakarna moves forward, stops at the first enemy god he encounters, and delivers a massive melee attack that uppercuts the enemy directly into the air. When the enemy lands, it deals area damage and causes Knockup to enemies nearby.",
           "menuItems": null
@@ -9588,7 +9588,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Kumbhakarna does not die when he reaches 0 Health, instead he falls asleep. He will awaken after 8s at 35% Health and Mana, unless hit with 6 Basic Attacks (+1 every 5 levels) while sleeping. This passive has a 120s Cooldown.",
+          "description": "Kumbhakarna does not die when he reaches 0 Health, instead he falls asleep. He will awaken after 8s at 40% Health and Mana, unless hit with 6 Basic Attacks (+1 every 5 levels) while sleeping. This passive ability has a 120s Cooldown. While it is on Cooldown, Kumbhakarna gains +20 HP5.",
           "menuItems": null
         },
         "rankItems": null
@@ -9618,7 +9618,7 @@
     "Pantheon": "Hindu",
     "PhysicalPower": 0,
     "PhysicalPowerPerLevel": 0,
-    "PhysicalProtection": 18,
+    "PhysicalProtection": 20,
     "PhysicalProtectionPerLevel": 3.2,
     "Pros": "High Crowd Control, High Defense",
     "Roles": "Guardian",
@@ -10362,7 +10362,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/solar-swing.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "16s",
+          "cooldown": "15s",
           "cost": "70/75/80/85/90",
           "description": "Maui leaps, latches his hook onto a ray of sunlight, and swings from it. He swings back and forth before he leaps from the rope and slams his hook into the ground, damaging and stunning all enemies in the area. While he swings, Maui can reactivate this ability at any time to leap early.",
           "menuItems": null
@@ -10398,8 +10398,8 @@
         "rankItems": null
       }
     },
-    "AttackSpeed": 0.85,
-    "AttackSpeedPerLevel": 0.012,
+    "AttackSpeed": 0.9,
+    "AttackSpeedPerLevel": 0.013,
     "AutoBanned": "n",
     "Cons": "",
     "Health": 495,
@@ -10409,8 +10409,8 @@
     "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/maui.jpg",
     "id": 4183,
     "Lore": "Maui is widely known and revered throughout the island-nations of the Pacific Ocean as a hero and a trickster without equal. His legend stretches from Hawai‘i to Tonga. The youngest of four divine brothers, Maui is known as Maui the Clever or sometimes Maui the Mischievous, depending on what he’s up to at the time. But regardless of what he is called, and what tricks he might pull, it will always be to the benefit of his people.\\n\\nHis feats of strength and cunning are legendary. Armed with his magical hook Manaiakalani, he fished up the islands that people would come to inhabit and once snared the sun, so that the days might be longer. He lifted up the sky, so that the plants might have room to grow and mortals might have room to stand. It was Maui who caused birds to become visible to the human eye, so that mortals might enjoy the sight of them, even as they listened to their songs. And it was Maui who brought the secret of fire to his chosen peoples, so that their burden might be eased. He played tricks upon the other gods, so that he might learn their secrets and share them with mankind. And if the gods were angered by any of this, well, Maui paid them little heed. He reasoned that if they did not wish their secrets shared, they would have made them harder to learn.\\n\\nIn all these ways and more, Maui has sought to improve the lot of his people and protect them from the myriad dangers that stalk them. But as the world grows ever more tumultuous, and the gods of many pantheons strive against one another, Maui finds himself called upon to play his tricks on worthier and more fearsome targets.",
-    "MagicalPower": 175,
-    "MagicalPowerPerLevel": 7.5,
+    "MagicalPower": 190,
+    "MagicalPowerPerLevel": 8,
     "MagicProtection": 27.3,
     "MagicProtectionPerLevel": 1.3,
     "Mana": 200,
@@ -10482,7 +10482,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/acid-spray.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "13s ",
+          "cooldown": "15/14.5/14/13.5/13s ",
           "cost": "40/45/50/55/60 ",
           "description": "Medusa hurls back and spits out acid that damages the first enemy hit and sprays out acid in a cone behind them. Enemies hit by Acid Spray will have their healing taken reduced. Acid Spray will explode on statues Medusa has created.",
           "menuItems": null
@@ -11018,7 +11018,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/spear-thrust.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "13s",
+          "cooldown": "14s",
           "cost": "50/55/60/65/70",
           "description": "Mulan brings forth her spear striking in front of her, dealing damage and slowing all enemies hit.\n\nSkilled - Mulan heals for up to 3 enemies hit.\nAdept - Mulan strikes a second time further in front of her, dealing bonus damage if she hits the same enemy.\nMastered - Mulan gains 5% Power.",
           "menuItems": null
@@ -11836,7 +11836,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/shining-metal.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "8s",
+          "cooldown": "9s",
           "cost": "50",
           "description": "Nu Wa launches a mass of shining metal, damaging all enemies it hits. If it hits one of her Clay Soldiers, it explodes, dealing additional damage and Stunning enemies.",
           "menuItems": null
@@ -12536,7 +12536,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "When Pele drops below 50% health her flame is set alight, and she gains increased Physical Power, Lifesteal and Ability Lifesteal. This passive has a 30s cooldown.",
+          "description": "When Pele drops below 50% health her flame is set alight, and she gains increased Physical Power, Lifesteal and Ability Lifesteal. This passive has a 20s cooldown.",
           "menuItems": null
         },
         "rankItems": null
@@ -16004,7 +16004,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/lawbringer.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "90s",
+          "cooldown": "90/85/80/75/70s",
           "cost": "80/90/100/110/120",
           "description": "Tyr leaps through the air, bringing indiscriminate justice upon all enemies in the target area, and Slowing them with additional effects depending on what stance he is in.\n\nAssault Stance: Deal additional damage.\n\nGuard Stance: Stun enemies hit.",
           "menuItems": null
@@ -16125,7 +16125,7 @@
       "Description": {
         "itemDescription": {
           "cooldown": "14s",
-          "cost": "60/65/70/75/80",
+          "cost": "50/55/60/65/70",
           "description": "Ranged: Ullr fires a volley at his target location, dealing damage.\n\nMelee: Ullr leaps to his target location, dealing damage in an AoE on arrival.",
           "menuItems": null
         },
@@ -16230,7 +16230,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/clear-the-path.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "16s",
+          "cooldown": "14s",
           "cost": "70",
           "description": "Vamana opens his umbrella in front of him and sprints forward, doing damage to all enemies and knocking them into the air.",
           "menuItems": null
@@ -16958,7 +16958,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "All of Ymir's abilities that affect enemies apply a Debuff to the enemy called Frostbite. All of Ymir's Basic Attacks against a target afflicted by Frostbite do 100% more damage. Enemies afflicted by Frostbite deal 10% less damage. Lasts for 6s.",
+          "description": "All of Ymir's abilities that affect enemies apply a Debuff to the enemy called Frostbite. All of Ymir's Basic Attacks against a target afflicted by Frostbite do 100% more damage. Enemies afflicted by Frostbite deal 15% less damage. Lasts for 6s.",
           "menuItems": null
         },
         "rankItems": null
