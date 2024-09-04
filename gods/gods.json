@@ -286,7 +286,7 @@
         "itemDescription": {
           "cooldown": "12s",
           "cost": "40",
-          "description": "Bees swarm at the ground target location, creating a new Hive that provides Movement Speed, Attack Speed and HP5 Buffs to Ah Muzen Cab. Hives reveal enemies within 20 units of them. The Hives can only be destroyed by Basic Attacks (maximum 7 Hives).",
+          "description": "Bees swarm at the ground target location, creating a new Hive that provides Movement Speed, Attack Speed and HP5 Buffs to Ah Muzen Cab. Hives reveal enemies within 30 units of them. The Hives can only be destroyed by Basic Attacks.",
           "menuItems": null
         },
         "rankItems": null
@@ -418,7 +418,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/undead-surge.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "12s",
+          "cooldown": "11s",
           "cost": "60/65/70/75/80",
           "description": "Ah Puch raises up to two decaying corpses from the underworld that surge forward exploding on anything they touch, when they reach max distance, or when Ah Puch reactivates Undead Surge dealing damage and slowing targets hit. Enemies hit also have their healing reduced by 40% for 5s. The corpses collapse after exploding remaining behind.",
           "menuItems": null
@@ -462,7 +462,7 @@
         "itemDescription": {
           "cooldown": "90s",
           "cost": "100",
-          "description": "Ah Puch unleashes an army of Wraiths from the Ninth Hell that swarm forward and reduce healing and deal damage to enemies they collide with.",
+          "description": "Ah Puch unleashes an army of Wraiths from the Ninth Hell that swarm forward, damaging enemies and reducing their Healing and Damage Dealt.",
           "menuItems": null
         },
         "rankItems": null
@@ -566,7 +566,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/heavenly-reflection.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "12s",
+          "cooldown": "12/11.5/11/10.5/10s",
           "cost": "60/65/70/75/80",
           "description": "Amaterasu charges her mirror for 5 seconds. While the mirror is charging she takes decreased damage. By activating the ability again or at the end of 5 seconds she will fire her mirror straight ahead, dealing damage. The mirror can be charged by successfully attacking enemies or from taking damage, and will deal up to double the base damage when fully charged.",
           "menuItems": null
@@ -1384,7 +1384,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/web.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14s",
+          "cooldown": "14/13.5/13/12.5/12s",
           "cost": "50/55/60/65/70",
           "description": "Arachne shoots a line of Web forward. She is Immune to Slows and moves faster on Web. If the Web reaches max range a Web trap will spawn. Enemy gods who walk through the trap or get hit by the projectile are Slowed by 15%, revealed to Arachne, leave a trail of Web behind them, and are attacked by Pet Broodlings. Arachne can only have 3 Web traps or projectiles active at a time.",
           "menuItems": null
@@ -2846,7 +2846,7 @@
         "itemDescription": {
           "cooldown": "13/12.5/12/11.5/11s",
           "cost": "60",
-          "description": "Baron Samedi guides restless spirits to the ground and buries them. After a brief delay the ground erupts, damaging enemies standing in the area. If an enemy god is hit, friendly spirits fly from the area and heal allies near the explosion or by Baron Samedi.\n\nIf the enemy god hit is above 30 Hysteria the friendly spirit applies Slow Immunity for allies, and increases their Movement Speed for 3s.",
+          "description": "Baron Samedi guides restless spirits to the ground and buries them. After a brief delay the ground erupts, damaging enemies standing in the area. Minions and jungle camps take an additional 25% damage. If an enemy god is hit, friendly spirits fly from the area and heal allies near the explosion or by Baron Samedi.\n\nIf the enemy god hit is above 30 Hysteria the friendly spirit applies Slow Immunity for allies, and increases their Movement Speed for 3s.",
           "menuItems": null
         },
         "rankItems": null
@@ -2872,7 +2872,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/life-of-the-party.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "90s",
+          "cooldown": "90/85/80/75/70s",
           "cost": "70/75/80/85/90",
           "description": "Baron Samedi pulls the souls of the living towards his Coffin, becoming immune to Crowd Control and taking 50% reduced damage. Enemy gods within range are caught in a Vortex, dragging them towards the Coffin and taking damage every .33s. When an enemy god reaches the Coffin their soul is ripped out, causing them to be stunned, take a large amount of damage based on their maximum health and gain max Hysteria. This ability persists for 3.5s or until an enemy god is pulled to the Coffin. If targets being pulled are above 30 Hysteria, the pull strength is increased.",
           "menuItems": null
@@ -3944,7 +3944,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/waxing-moon.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "90s",
+          "cooldown": "100s",
           "cost": "80/90/100/110/120",
           "description": "Chang'e's Waxing Moon dance is captivating, with this dance dealing damage and Stunning enemy gods in front of her. Each subsequent god that gets Stunned is Stunned for longer than the previous one.",
           "menuItems": null
@@ -3960,7 +3960,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Chang'e can purchase/sell items anywhere and her Jade Rabbit will fetch them. Only one item can be purchased/sold in this way at a time. Chang'e also gains +40% movement speed with no backpedal penalty when using her dances and her abilities apply a debuff to enemies, causing them to take 4% extra damage from her abilities within the next 5s, stacking 3 times.",
+          "description": "Chang'e can purchase/sell items anywhere and her Jade Rabbit will fetch them. Only one item can be purchased/sold in this way at a time. Chang'e also gains +40% movement speed with no backpedal penalty when using her dances and her abilities apply a debuff to enemies, causing them to take 3% extra damage from her abilities within the next 5s, stacking 3 times.",
           "menuItems": null
         },
         "rankItems": null
@@ -5418,7 +5418,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/uproarious-rocket.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "90s",
+          "cooldown": "100s",
           "cost": "100",
           "description": "Danzaburou summons a magical leaf which transforms into a large bamboo rocket! While preparing, Danzaburou can aim the rocket within 180 degrees to lock onto Enemy gods or he can refire this ability to become the rocket, also becoming damage immune.\n\nOnce fired the Rocket will pass through and damage Enemy minions, stopping on the first Enemy god hit damaging and stunning them while dealing 75% damage in a larger area. ",
           "menuItems": null
@@ -6074,9 +6074,9 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/brutalize.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "12s",
+          "cooldown": "12/11.5/11/10.5/10s",
           "cost": "60/65/70/75/80",
-          "description": "Fenrir gains increased protections and pounces to his ground target location. If there was an enemy in the radius, he strikes them 4 times, dealing damage with each strike and hits enemies around the target for 75% of the damage. While casting this ability Fenrir is immune to knockups. At full Runes, each strike gains 15% additional Physical Power scaling.",
+          "description": "Fenrir gains increased protections and pounces to his ground target location. If there was an enemy in the radius, he strikes them 4 times, dealing damage with each strike and hits enemies around the target for 75% of the damage. While casting this ability Fenrir is immune to knockups. At full Runes, each strike gains 20% additional Physical Power scaling.",
           "menuItems": null
         },
         "rankItems": null
@@ -6088,7 +6088,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/ragnarok.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "100s",
+          "cooldown": "90s",
           "cost": "100",
           "description": "Upon Ragnarok, Fenrir grows massive in size, becoming immune to Crowd Control while moving faster. Fenrir bites enemy gods, dealing Physical damage and carrying them away. Biting a Crowd Control immune target deals the damage but ends his Ultimate. At full Runes, he gains Protections.",
           "menuItems": null
@@ -6582,8 +6582,8 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/sun-forged-scimitar.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14/13/12/11/10",
-          "cost": "60/65/70/75/80",
+          "cooldown": "12/11.5/11/10.5/10",
+          "cost": "50/55/60/65/70",
           "description": "Gilgamesh ignites his sword with the ferocity of the Sun for 3s. Enemies around the ignition take damage and are slowed for 2s. Lane Minions take an extra +40% damage. Gilgamesh's Basic Attack deals bonus damage equal to 3% of his Maximum Health to enemies hit. When Gilgamesh successfully hits an enemy with his Basic Attack the duration of this effect is extended for 0.8s, up to a maximum of 6s. Gilgamesh gains HP5 per rank of this ability.",
           "menuItems": null
         },
@@ -6624,7 +6624,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/winds-of-shamash.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "100s",
+          "cooldown": "90s",
           "cost": "80/85/90/95/100",
           "description": "Gilgamesh calls upon Shamash to create a ring of wind at a target location for 6s. Enemies inside this ring when it starts take damage and are slowed for 2s. Enemies inside the ring take wind damage every .5s. Enemies who try to escape the ring are heavily slowed. If Gilgamesh damages an enemy trying to flee they are thrown back towards the center of the ring. The wind turns into thread over 6s; damaging and Rooting enemies who are still inside the ring. ",
           "menuItems": null
@@ -6934,7 +6934,7 @@
     "ManaPerLevel": 36,
     "MP5PerLevel": 0.37,
     "Name": "Hachiman",
-    "OnFreeRotation": "true",
+    "OnFreeRotation": "",
     "Pantheon": "Japanese",
     "PhysicalPower": 31,
     "PhysicalPowerPerLevel": 2.5,
@@ -8204,7 +8204,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/rolling-thunder.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15s",
+          "cooldown": "15/14.5/14/13.5/13s",
           "cost": "55/60/65/70/75",
           "description": "Ishtar calls down four strikes of lightning in a line, damaging Enemies within their area. Ishtar may aim which direction the strikes travel. If an Enemy is hit by more than one strike, they are mesmerized.",
           "menuItems": null
@@ -9143,7 +9143,7 @@
       "Description": {
         "itemDescription": {
           "cooldown": "12s",
-          "cost": "50/60/70/80/90",
+          "cost": "50/55/60/65/70",
           "description": "Khepri rolls the sun forward, setting ablaze all enemies it touches, reducing physical protections, and dealing damage over time. Allies that are hit take reduced damage from enemies for the duration.",
           "menuItems": null
         },
@@ -10080,7 +10080,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/madame-fangs.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "13/12.5/12/11.5/11s",
+          "cooldown": "11s",
           "cost": "55",
           "description": "Maman Brigitte's tattoo snake, Madame Fangs, slithers off of her arm and becomes a spectral snake that passes through enemies, damaging and applying Madame's Mark to all enemies hit. Subsequent hits from Madame Fangs deal 15% of the initial damage. Enemies with Madame's Mark take additional damage anytime Maman Brigitte damages them. This bonus damage does not trigger Item effects. Soul Spikes and Item effects do not trigger Madame's Mark.",
           "menuItems": null
@@ -10616,7 +10616,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/maximum-velocity.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "16/15.5/15/14.5/14s",
+          "cooldown": "14/13.5/13/12.5/12s",
           "cost": "60/65/70/75/80",
           "description": "Passive: Mercury gains increased movement speed.\n\nActive: Mercury increases his Attack Speed, cleanses himself of Slows and becomes immune to Slows for the duration.",
           "menuItems": null
@@ -10645,7 +10645,7 @@
       "Description": {
         "itemDescription": {
           "cooldown": "90s",
-          "cost": "80/90/100/110/120",
+          "cost": "80/85/90/95/100",
           "description": "Mercury gathers energy for a powerful Dash, with the range extending as he does so. He travels the distance faster than the speed of sound, dealing damage to all enemies, stunning them and spinning them around in a random direction.",
           "menuItems": null
         },
@@ -11180,7 +11180,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/wind-fire-wheels.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "90s",
+          "cooldown": "90/85/80/75/70s",
           "cost": "80/90/100/110/120",
           "description": "Ne Zha dashes forward, gaining bonus Protections for 4s and becoming CC immune. If he hits an enemy god he lifts them into the sky for 4s, unleashing a 3-hit combo. Successfully timed attacks during the combo result in these hits dealing Critical Damage. They are then smashed back to Earth, slightly knocking up and damaging the target and enemies around the landing location. When Ne Zha lands he gains bonus Protections for 5s and dashes back to where he cast this ability.",
           "menuItems": null
@@ -11582,7 +11582,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/sentinel-of-zeus.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "90s",
+          "cooldown": "90/85/80/75/70s",
           "cost": "90/95/100/105/110",
           "description": "Nike transforms into an armored sentinel and sends out a shockwave that damages and slows enemies around her. While in this form, she gains a percentage of her max health as a shield that lasts for 10 seconds.",
           "menuItems": null
@@ -11608,9 +11608,9 @@
     "AttackSpeedPerLevel": 0.012,
     "AutoBanned": "n",
     "Cons": "",
-    "Health": 480,
+    "Health": 500,
     "HealthPerFive": 10,
-    "HealthPerLevel": 83,
+    "HealthPerLevel": 87,
     "HP5PerLevel": 0.8,
     "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/nike.jpg",
     "id": 2214,
@@ -11850,7 +11850,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/fire-shards.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "110s",
+          "cooldown": "120s",
           "cost": "100",
           "description": "Nu Wa flies up into the clouds, gaining visibility on all enemy gods, and summoning fire shards from the sky to damage each of them. As she lifts off the ground, she can pass through player-made deployables.",
           "menuItems": null
@@ -13014,7 +13014,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/percussive-storm.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "12s",
+          "cooldown": "10s",
           "cost": "50/55/60/65/70",
           "description": "Raijin pounds his drums sending forth a peal of thunder in a line, then another, then two at once, each growing wider as it travels. The thunder deals Magical Damage to Enemies it hits.",
           "menuItems": null
@@ -13056,9 +13056,9 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/taiko-drums.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "100s",
+          "cooldown": "90s",
           "cost": "90",
-          "description": "Passive: Raijin gains increased Attack Speed.\nActive: Raijin flies above the battlefield, beating his drums 4 times to summon peals of thunder. With each hit, he has a choice of three beats:\n\nBeat one: 100% damage.\nBeat two: Taunt and 30% Damage\nBeat three: Fear and 30% Damage\n\nWhile in the air, Raijin suffers a 20% Movement Speed Slow.",
+          "description": "Passive: Raijin gains increased Attack Speed.\nActive: Raijin flies above the battlefield, beating his drums 4 times to summon peals of thunder. With each hit, he has a choice of three beats:\n\nBeat one: 100% damage.\nBeat two: Taunt and 50% Damage\nBeat three: Fear and 50% Damage\n\nWhile in the air, Raijin suffers a 20% Movement Speed Slow.",
           "menuItems": null
         },
         "rankItems": null
@@ -14115,7 +14115,7 @@
       "Description": {
         "itemDescription": {
           "cooldown": "16s ",
-          "cost": "70/75/80/85/90 ",
+          "cost": "55/60/65/70/75 ",
           "description": "Skadi freezes the ground for 5s at a target location. The icy area deals damage to enemies that touch it and continues to deal additional damage every .5s they stay on it. Gods who step on the ice are slowed and lose control of their movement while sliding across. Also, Skadi gains Movement Speed and Slow immunity while standing on the area and persists for 3s after it fades or she leaves.",
           "menuItems": null
         },
@@ -14304,7 +14304,7 @@
     "ManaPerLevel": 35,
     "MP5PerLevel": 0.43,
     "Name": "Sobek",
-    "OnFreeRotation": "",
+    "OnFreeRotation": "true",
     "Pantheon": "Egyptian",
     "PhysicalPower": 0,
     "PhysicalPowerPerLevel": 0,
@@ -15038,7 +15038,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/crushing-earth.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15s",
+          "cooldown": "15/14.5/14/13.5/13s",
           "cost": "50/55/60/65/70",
           "description": "Terra raises up two Standing Stone walls on either side of a target location. As long as both stones stand, Terra may activate this ability again to slam the stones together, damaging and Stunning enemies in between for 1.5s.\n\nThese stones can be Shattered into a cone of shrapnel with Force of Nature, damaging enemies in the area. ",
           "menuItems": null
@@ -16499,7 +16499,7 @@
       "Description": {
         "itemDescription": {
           "cooldown": ".5s",
-          "cost": "5/8/11/14/17 per shot",
+          "cost": "4/7/10/13/16 per shot",
           "description": "When Xbalanque toggles on this ability, his Basic Attacks deal additional damage. When the bola hits, it splits into 2 that hit enemies up to 30 units behind the target for 37.5% damage. Pressing the ability again cancels toggle.",
           "menuItems": null
         },
@@ -16512,9 +16512,9 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/poison-darts.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "16/15.5/15/14.5/14s",
+          "cooldown": "14s",
           "cost": "60/65/70/75/80",
-          "description": "Xbalanque shoots 15 darts in a cone in front of him, dealing damage with each one. An enemy can be hit by 5 darts, with the other 4 doing 30% damage. Enemies hit are poisoned, taking additional damage every .5s and are Slowed.",
+          "description": "Xbalanque shoots 15 darts in a cone in front of him, dealing damage with each one. An enemy can be hit by 7 darts, with the other 4 doing 30% damage. Enemies hit are poisoned, taking additional damage every .5s and are Slowed.",
           "menuItems": null
         },
         "rankItems": null
@@ -16661,8 +16661,8 @@
       "Description": {
         "itemDescription": {
           "cooldown": "15s",
-          "cost": "60/65/70/75/80",
-          "description": "Xing Tian leaps forward, dealing damage to enemies when he lands, and he may leap again within 3s. While in the air, Xing Tian has increased protections, which are refreshed if he connects with a target.",
+          "cost": "60",
+          "description": "Xing Tian leaps forward, dealing damage to enemies when he lands, and he may leap again within 4s. While in the air, Xing Tian has increased protections, which are refreshed if he connects with a target.",
           "menuItems": null
         },
         "rankItems": null
@@ -16900,8 +16900,8 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/ice-wall.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "13/12.5/12/11.5/11s",
-          "cost": "60/65/70/75/80",
+          "cooldown": "12/11.5/11/10.5/10s",
+          "cost": "60",
           "description": "Ymir summons a wall of ice out of the ground that blocks player movement.",
           "menuItems": null
         },
@@ -16943,7 +16943,7 @@
       "Description": {
         "itemDescription": {
           "cooldown": "90/85/80/75/70s",
-          "cost": "80/90/100/110/120",
+          "cost": "80/85/90/95/100",
           "description": "Ymir begins to freeze the air around him, causing shards of ice to grow on his back and Slowing enemies. After a 3s channel, Ymir erupts out of his frozen state, causing shards of ice to do damage to all enemies in his range. Applies Frostbite. Cancelling the ability decreases the damage.",
           "menuItems": null
         },

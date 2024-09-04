@@ -173,14 +173,14 @@
         },
         {
           "Description": "Physical Protection",
-          "Value": "+35"
+          "Value": "+40"
         }
       ],
       "SecondaryDescription": "AURA - Allied gods within 70 units have their Physical Protections increased by 15 and their HP5 increased by 25."
     },
     "ItemId": 7528,
     "ItemTier": 3,
-    "Price": 850,
+    "Price": 750,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 7526,
     "ShortDesc": "Physical Protection Aura",
@@ -204,7 +204,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 35,
+    "PhysicalProtection": 40,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -836,7 +836,7 @@
     },
     "ItemId": 26147,
     "ItemTier": 3,
-    "Price": 1150,
+    "Price": 1000,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 7573,
     "ShortDesc": "Convert Basic Attack damage to ability damage",
@@ -2576,14 +2576,14 @@
         },
         {
           "Description": "Mana",
-          "Value": "+250"
+          "Value": "+300"
         },
         {
           "Description": "MP5",
           "Value": "+10"
         }
       ],
-      "SecondaryDescription": "PASSIVE - You permanently gain 10 Mana per Stack, and receive 1 Stack per 800 Damage Dealt to minions or 350 Damage Dealt to gods. You gain Physical Power equal to 2% of your Maximum Mana. At 50 stacks this item Evolves, gaining 10 Physical Penetration."
+      "SecondaryDescription": "PASSIVE - You permanently gain 15 Mana per Stack, and receive 1 Stack per 800 Damage Dealt to minions or 350 Damage Dealt to gods. You gain Physical Power equal to 2% of your Maximum Mana. At 50 stacks this item Evolves, gaining 10 Physical Penetration."
     },
     "ItemId": 25669,
     "ItemTier": 3,
@@ -2604,7 +2604,7 @@
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
     "MagicalProtection": 0,
-    "Mana": 250,
+    "Mana": 300,
     "MovementSpeed": 0,
     "MP5": 10,
     "PhysicalLifesteal": 0,
@@ -2857,7 +2857,7 @@
         },
         {
           "Description": "Mana",
-          "Value": "+750"
+          "Value": "+1050"
         },
         {
           "Description": "MP5",
@@ -2889,7 +2889,7 @@
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
     "MagicalProtection": 0,
-    "Mana": 750,
+    "Mana": 1050,
     "MovementSpeed": 0,
     "MP5": 10,
     "PhysicalLifesteal": 0,
@@ -9171,7 +9171,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+65"
+          "Value": "+80"
         },
         {
           "Description": "Magical Penetration",
@@ -9197,7 +9197,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0.2,
-    "MagicalPower": 65,
+    "MagicalPower": 80,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -9854,7 +9854,7 @@
           "Value": "+250"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Hitting an enemy god with a Basic Attack or Ability marks them for 4s. When the marked enemy god casts an ability, they take 7.5% of your Maximum Health + 7.5% of your Maximum Mana as Magical damage. You heal for 100% of the damage dealt. You may only apply a mark once every 12s. Each time an enemy casts an ability within 55 units of you, reduce the cooldown of this item by 1s."
+      "SecondaryDescription": "PASSIVE - Hitting an enemy god with a Basic Attack or Ability marks them for 4s. When the marked enemy god casts an ability, they take 7.5% of your Maximum Health + 7.5% of your Maximum Mana as Magical damage. You heal for 100% of the damage dealt. You may only apply a mark once every 15s. Each time an enemy casts an ability within 55 units of you, reduce the cooldown of this item by 1s."
     },
     "ItemId": 26145,
     "ItemTier": 3,
@@ -12903,14 +12903,14 @@
         },
         {
           "Description": "Physical Protection",
-          "Value": "+15"
+          "Value": "+20"
         },
         {
           "Description": "Magical Protection",
-          "Value": "+15"
+          "Value": "+20"
         }
       ],
-      "SecondaryDescription": "PASSIVE - When you are hit by an enemy god you gain a stack, up to once a second, increasing your protections by 5. Max of 4 stacks, lasts for 5s each. At max stacks, upon being hit you are immediately healed for 10% of your maximum health. Allies within 35 units heal for 10% of their maximum health over 5s. This effect can only occur once every 45 seconds."
+      "SecondaryDescription": "PASSIVE - When you are hit by an enemy god you gain a stack, up to once a second, increasing your protections by 5. Max of 4 stacks, lasts for 5s each. At max stacks, upon being hit you are immediately healed for 10% of your maximum health. Allies within 35 units heal for 10% of their maximum health over 5s. This effect can only occur once every 30 seconds."
     },
     "ItemId": 20217,
     "ItemTier": 3,
@@ -12930,7 +12930,7 @@
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
     "MagicalPower": 0,
-    "MagicalProtection": 15,
+    "MagicalProtection": 20,
     "Mana": 0,
     "MovementSpeed": 0,
     "MP5": 0,
@@ -12938,7 +12938,7 @@
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
     "PhysicalPower": 0,
-    "PhysicalProtection": 15,
+    "PhysicalProtection": 20,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -13355,7 +13355,7 @@
         },
         {
           "Description": "Movement Speed",
-          "Value": "+7%"
+          "Value": "+10%"
         }
       ],
       "SecondaryDescription": "PASSIVE - Killing an enemy god drains their shadow, causing you to enter stealth and gain 30% Movement Speed for 5s. Taking damage, firing an Ability, or firing a Basic Attack breaks the stealth."
@@ -13380,7 +13380,7 @@
     "MagicalPower": 0,
     "MagicalProtection": 0,
     "Mana": 0,
-    "MovementSpeed": 0.07,
+    "MovementSpeed": 0.1,
     "MP5": 0,
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 10,
@@ -18283,16 +18283,12 @@
       "Description": "Attack first for massive damage.",
       "Menuitems": [
         {
-          "Description": "Magical Power",
-          "Value": "+65"
-        },
-        {
           "Description": "Physical Power",
-          "Value": "+45"
+          "Value": "+70"
         },
         {
-          "Description": "Physical Protection",
-          "Value": "+25"
+          "Description": "Magical Power",
+          "Value": "+95"
         },
         {
           "Description": "Attack Speed",
@@ -18318,7 +18314,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 65,
+    "MagicalPower": 95,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -18326,8 +18322,8 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 45,
-    "PhysicalProtection": 25,
+    "PhysicalPower": 70,
+    "PhysicalProtection": 0,
     "IsPhysicalOnly": false,
     "IsMagicalOnly": false,
     "ActivelyStacks": false,
@@ -18421,7 +18417,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your Basic Attacks deal +50 True Damage and your Abilities deal +35% damage against Jungle Camps, Structures, and Jungle Bosses. When you kill any of these you gain a 10% power buff for 30s and are healed for 8% of their Health, 10% of your Mana."
+      "SecondaryDescription": "PASSIVE - Your Basic Attacks deal +50 True Damage and your Abilities deal +35% damage against Jungle Camps and Jungle Bosses. When you kill any of these you gain a 10% power buff for 30s and are healed for 8% of their Health, 10% of your Mana."
     },
     "ItemId": 19514,
     "ItemTier": 2,
@@ -18840,7 +18836,7 @@
           "Value": "+20"
         }
       ],
-      "SecondaryDescription": "AURA - You gain 8 GP5 if you have the lowest gold on your team. Evenly split 60 Physical and Magical Protection among all allied gods within 55 units and yourself. If you are alone you only gain 30 Physical and Magical Protections."
+      "SecondaryDescription": "AURA - You gain 8 GP5 if you have the lowest gold on your team. Evenly split 80 Physical and Magical Protection among all allied gods within 70 units and yourself. If you are alone you only gain 30 Physical and Magical Protections."
     },
     "ItemId": 19627,
     "ItemTier": 2,
@@ -21522,7 +21518,7 @@
     "ItemDescription": {
       "Description": "Reduces enemy gods' Movement Speed, Damage, and Healing.",
       "Menuitems": [],
-      "SecondaryDescription": "Using this item Slows the Movement Speed of all enemy gods within 35 units by 25% and decreases their Damage Dealt by 10% for 5s. Additionally, all Healing received by enemy gods is reduced by 40%, their shield effectiveness is decreased by 50%, and 75% of any currently applied shield is removed. Cooldown - 140s.\n<font color='#f59b56'>Kill or assist minions to upgrade this Relic for free."
+      "SecondaryDescription": "Using this item Slows the Movement Speed of all enemy gods within 35 units by 25% and decreases their Damage Dealt by 10% for 4s. Additionally, all Healing received by enemy gods is reduced by 40% and their shield effectiveness is decreased by 50%. Cooldown - 140s.\n<font color='#f59b56'>Kill or assist minions to upgrade this Relic for free."
     },
     "ItemId": 25618,
     "ItemTier": 3,
@@ -21654,7 +21650,7 @@
     "ItemDescription": {
       "Description": "Fires True Damage Projectile.",
       "Menuitems": [],
-      "SecondaryDescription": "Fire a bolt that travels 70 units, stopping on first god hit dealing 7.5% of their Current Health as True Damage and reducing any active shields by 75%. Targets hit take 5% increased damage for 5s. This relic has 2 charges. Cooldown - 130s.\n<font color='#f59b56'>Kill or assist minions to upgrade this Relic for free."
+      "SecondaryDescription": "Fire a bolt that travels 70 units, stopping on first god hit dealing 5% of their Max Health as True Damage and reducing any active shields by 75%. Targets hit take 5% increased damage for 5s. This relic has 2 charges. Cooldown - 130s.\n<font color='#f59b56'>Kill or assist minions to upgrade this Relic for free."
     },
     "ItemId": 25628,
     "ItemTier": 3,
@@ -21918,7 +21914,7 @@
     "ItemDescription": {
       "Description": "Deploy a wall of light to protect allies.",
       "Menuitems": [],
-      "SecondaryDescription": "Deploy a 40 unit wide wall of divine light that reduces the damage of all enemy Basic Attacks that pass through it by 30%. Additionally, all enemies that pass through the barrier are Slowed by 30% for 3s. The barrier lasts for 30s. Cooldown - 100s.\n<font color='#f59b56'>Kill or assist minions to upgrade this Relic for free."
+      "SecondaryDescription": "Deploy a 40 unit wide wall of divine light that reduces the damage of all enemy Basic Attacks that pass through it by 30%. Additionally, all allies that pass through the barrier have their Movement Speed increased by 5% for 3s while enemies that pass through it are Slowed by 30% for 3s. The barrier lasts for 30s. Cooldown - 100s.\n<font color='#f59b56'>Kill or assist minions to upgrade this Relic for free."
     },
     "ItemId": 25884,
     "ItemTier": 3,
@@ -23000,7 +22996,7 @@
     },
     "ItemId": 24421,
     "ItemTier": 3,
-    "Price": 1050,
+    "Price": 950,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 24427,
     "ShortDesc": "Magical Power and Increased Power with Healing Allies",
@@ -23354,7 +23350,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - After healing yourself or an allied god with an ability, for the next 5s each time you damage an enemy god your non-ultimate abilities' cooldowns are reduced by 1s. This reduction can only occur once per second and the effect may only occur once every 12s"
+      "SecondaryDescription": "PASSIVE - After healing yourself or an allied god with an ability, for the next 6s each time you damage an enemy god your non-ultimate abilities' cooldowns are reduced by 1s. This reduction can only occur once per second and the effect may only occur once every 10s"
     },
     "ItemId": 24423,
     "ItemTier": 3,
@@ -23486,7 +23482,7 @@
     "ItemDescription": {
       "Description": "Reduces enemy gods' Movement Speed, Damage, and Healing.",
       "Menuitems": [],
-      "SecondaryDescription": "Using this item Slows the Movement Speed of all enemy gods within 35 units by 25% and decreases their Damage Dealt by 10% for 5s. Additionally, all Healing received by enemy gods is reduced by 40%, their shield effectiveness is decreased by 50%, and 75% of any currently applied shield is removed. Cooldown - 120s.\n<font color='#f59b56'>Deal instances of damage or Crowd Control to enemy Gods to upgrade this Relic for free. You may only gain one stack per second."
+      "SecondaryDescription": "Using this item Slows the Movement Speed of all enemy gods within 35 units by 25% and decreases their Damage Dealt by 10% for 4s. Additionally, all Healing received by enemy gods is reduced by 40% and their shield effectiveness is decreased by 50%. Cooldown - 120s.\n<font color='#f59b56'>Deal instances of damage or Crowd Control to enemy Gods to upgrade this Relic for free. You may only gain one stack per second."
     },
     "ItemId": 25619,
     "ItemTier": 4,
@@ -23618,7 +23614,7 @@
     "ItemDescription": {
       "Description": "Fires True Damage Projectile.",
       "Menuitems": [],
-      "SecondaryDescription": "Fire a bolt that travels 70 units, stopping on first god hit dealing 7.5% of their Current Health as True Damage and reducing any active shields by 75%. Targets hit take 5% increased damage for 5s. This relic has 2 charges. Cooldown - 110s.\n<font color='#f59b56'>Deal instances of damage or Crowd Control to enemy Gods to upgrade this Relic for free. You may only gain one stack per second."
+      "SecondaryDescription": "Fire a bolt that travels 70 units, stopping on first god hit dealing 5% of their Max Health as True Damage and reducing any active shields by 75%. Targets hit take 5% increased damage for 5s. This relic has 2 charges. Cooldown - 110s.\n<font color='#f59b56'>Deal instances of damage or Crowd Control to enemy Gods to upgrade this Relic for free. You may only gain one stack per second."
     },
     "ItemId": 25629,
     "ItemTier": 4,
@@ -23882,7 +23878,7 @@
     "ItemDescription": {
       "Description": "Deploy a wall of light to protect allies.",
       "Menuitems": [],
-      "SecondaryDescription": "Deploy a 40 unit wide wall of divine light that reduces the damage of all enemy Basic Attacks that pass through it by 30%. Additionally, all enemies that pass through the barrier are Slowed by 30% for 3s. The barrier lasts for 30s. Cooldown - 80s.\n<font color='#f59b56'>Deal instances of damage or Crowd Control to enemy Gods to upgrade this Relic for free. You may only gain one stack per second."
+      "SecondaryDescription": "Deploy a 40 unit wide wall of divine light that reduces the damage of all enemy Basic Attacks that pass through it by 30%. Additionally, all allies that pass through the barrier have their Movement Speed increased by 5% for 3s while enemies that pass through it are Slowed by 30% for 3s. The barrier lasts for 30s. Cooldown - 80s.\n<font color='#f59b56'>Deal instances of damage or Crowd Control to enemy Gods to upgrade this Relic for free. You may only gain one stack per second."
     },
     "ItemId": 25889,
     "ItemTier": 4,
@@ -24014,7 +24010,7 @@
     "ItemDescription": {
       "Description": "Reduces enemy gods' Movement Speed, Damage, and Healing.",
       "Menuitems": [],
-      "SecondaryDescription": "Using this item Slows the Movement Speed of all enemy gods within 35 units by 30% and decreases their Damage Dealt by 10% for 5s. Additionally, all Healing received by enemy gods is reduced by 40%, their shield effectiveness is decreased by 50%, and 75% of any currently applied shield is removed.  If an enemy deals 10% of an Allied God's Maximum Health within the duration, the Movement Speed and Damage Dealt decreases are increased by 5% each, stacking up to 3 times. Cooldown - 110s."
+      "SecondaryDescription": "Using this item Slows the Movement Speed of all enemy gods within 35 units by 30% and decreases their Damage Dealt by 10% for 4s. Additionally, all Healing received by enemy gods is reduced by 40% and their shield effectiveness is decreased by 50%.  If an enemy deals 10% of an Allied God's Maximum Health within the duration, the Movement Speed and Damage Dealt decreases are increased by 5% each, stacking up to 3 times. Cooldown - 110s."
     },
     "ItemId": 25620,
     "ItemTier": 4,
@@ -24146,7 +24142,7 @@
     "ItemDescription": {
       "Description": "Fires True Damage Projectile.",
       "Menuitems": [],
-      "SecondaryDescription": "Fire a bolt that travels 70 units, stopping on the first Enemy God hit and splashing in a 20 unit radius, dealing 10% of their Current Health as True Damage and reducing any active shields by 75%. Targets hit take 7.5% increased damage for 5s. This relic has 2 charges. Cooldown - 110s."
+      "SecondaryDescription": "Fire a bolt that travels 70 units, stopping on the first Enemy God hit and splashing in a 20 unit radius, dealing 7.5% of their Max Health as True Damage and reducing any active shields by 75%. Targets hit take 7.5% increased damage for 5s. This relic has 2 charges. Cooldown - 110s."
     },
     "ItemId": 25630,
     "ItemTier": 4,
@@ -25095,7 +25091,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - On successful hit of an Ability you gain 1 stack. At 3 Stacks your next Ability that damages an enemy God will deal bonus damage equal to 20% of your Magical power to each God hit, and will heal yourself and allies within 20 units for 15 (+5 Per Level) and will consume the 3 stacks."
+      "SecondaryDescription": "PASSIVE - On successful hit of an Ability you gain 1 stack. At 3 Stacks your next Ability that damages an enemy God will deal bonus damage equal to 25% of your Magical power to each God hit, and will heal yourself and allies within 20 units for 30 (+5 Per Level) and will consume the 3 stacks."
     },
     "ItemId": 25760,
     "ItemTier": 3,
@@ -25834,7 +25830,7 @@
     "ItemDescription": {
       "Description": "Deploy a wall of light to protect and bolster allies.",
       "Menuitems": [],
-      "SecondaryDescription": "Deploy a 40 unit wide wall of divine light that reduces the damage of all enemy Basic Attacks that pass through it by 30% and increases the damage of all allied Basic Attacks by 15%. Additionally, all enemies that pass through the barrier are Slowed by 30% for 3s. The barrier lasts for 30s. Cooldown - 80s."
+      "SecondaryDescription": "Deploy a 40 unit wide wall of divine light that reduces the damage of all enemy Basic Attacks that pass through it by 30% and increases the damage of all allied Basic Attacks by 20%. Additionally, all allies that pass through the barrier have their Movement Speed increased by 5% for 3s while enemies that pass through it are Slowed by 30% for 3s. The barrier lasts for 30s. Cooldown - 80s."
     },
     "ItemId": 25890,
     "ItemTier": 4,
