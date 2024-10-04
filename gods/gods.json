@@ -848,7 +848,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/grasping-hands.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14/13/12/11/10s",
+          "cooldown": "14/13.5/13/12.5/12s",
           "cost": "60/65/70/75/80",
           "description": "Anubis calls for help from the underworld as hands penetrate the ground and claw at his enemies, doing damage and Slowing every .5s for 2s.",
           "menuItems": null
@@ -1104,7 +1104,7 @@
         "itemDescription": {
           "cooldown": "12s",
           "cost": "70/75/80/85/90",
-          "description": "Agitated by all the attention, Aphrodite commands enemies to get away from her, doing damage around her, slowing them by 25% for 2s and knocking them back to 25 units from her.\nIf Aphrodite has a soul mate, an explosion originates on them in addition, dealing the same damage as well as slowing enemies.\nIf an enemy would be hit by both blasts, they will only be affected by the one originating from Aphrodite.",
+          "description": "Agitated by all the attention, Aphrodite commands enemies to get away from her, doing damage around her, slowing them by 25% for 2s and knocking them back to 25 units from her.\nIf Aphrodite has a soul mate, an explosion originates on them in addition, dealing damage as well as slowing enemies.\nIf an enemy would be hit by both blasts, they will only be affected by the one originating from Aphrodite.",
           "menuItems": null
         },
         "rankItems": null
@@ -1132,7 +1132,7 @@
         "itemDescription": {
           "cooldown": "90s",
           "cost": "100",
-          "description": "Aphrodite pledges undying love to herself and her soul mate. While this is active, her and her soul mate are invulnerable to all damage and gain the Jealousy effect for a short duration. All Crowd Control effects are also removed when activated.",
+          "description": "Aphrodite pledges undying love to herself and her soul mate, refreshing the cooldown of Love Birds. While this is active, her and her soul mate are invulnerable to all damage and gain the Jealousy effect for a short duration. All Crowd Control effects are also removed when activated.",
           "menuItems": null
         },
         "rankItems": null
@@ -1652,7 +1652,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/suppress-the-insolent.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "8s",
+          "cooldown": "9s",
           "cost": "50/55/60/65/70",
           "description": "Artemis fires a volley into a ground target, suppressing all of her enemies. Enemies caught within the volley are damaged and are Slowed.",
           "menuItems": null
@@ -1892,7 +1892,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/preemptive-strike.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14s",
+          "cooldown": "15s",
           "cost": "60/70/80/90/100",
           "description": "Athena powers up for a dash. While dashing, Athena will pass through minions, stop and hit the first enemy god she encounters, dealing damage. If she hits an enemy, Athena gains a stack (max 3), reducing the next source of Basic Attack damage from any god that hits her. Athena may also gain these stacks by hitting an enemy god with Reach, once per attack.",
           "menuItems": null
@@ -1920,7 +1920,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/shield-wall.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14s",
+          "cooldown": "16/15.5/15/14.5/14s",
           "cost": "60/65/70/75/80",
           "description": "Athena summons a group of Athenian warriors who do damage and Slow upon arrival. After 2s, they strike again, dealing additional damage and Slowing.",
           "menuItems": null
@@ -2054,7 +2054,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/kinetic-charge.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "16s",
+          "cooldown": "16/15.5/15/14.5/14s",
           "cost": "60/65/70/75/80",
           "description": "Atlas charges forward, damaging minions and cleansing himself of slows. Each allied god he charges near will have their burdens removed, cleansing them of any current slows and increasing their movement speed. While Atlas is charging, he is immune to slows and knockups. When Atlas collides with an enemy god he will release accumulated burdens in an explosion, slowing enemies in a 15 unit radius. For every burden accumulated, the slow is increased by 25% up to a maximum of 75%. ",
           "menuItems": null
@@ -2992,7 +2992,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/ensnaring-claw.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14/13.5/13/12.5/12s",
+          "cooldown": "16/15.5/15/14.5/14s",
           "cost": "60/65/70/75/80",
           "description": "Bastet sends a cat forward at her enemies. If a cat finds an enemy, it ensnares them and all enemies around them, damaging them and rooting them for .5s. The cat persists for 4s or until defeated, continuing to attack nearby enemies. The cats attacks will apply a 2s slow to the enemy.",
           "menuItems": null
@@ -3098,7 +3098,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/shield-bash.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15s",
+          "cooldown": "14s",
           "cost": "60",
           "description": "Bellona dashes forward and bashes with her shield, dealing damage and Slowing enemies. Bellona gains 1 Stack of block for each enemy god hit. Block absorbs all damage from a single Basic Attack and reflects a portion of the damage around her.\nBellona then makes Basic Attacks with sword and shield until she has not taken or dealt damage in the last 7s. Every 3 successful basic attacks she gains another Stack of block (max. 3). ",
           "menuItems": null
@@ -3168,7 +3168,7 @@
     "Cons": "",
     "Health": 490,
     "HealthPerFive": 8,
-    "HealthPerLevel": 88,
+    "HealthPerLevel": 93,
     "HP5PerLevel": 0.8,
     "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/bellona.jpg",
     "id": 2047,
@@ -3424,7 +3424,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Camazotz has a passive Essence Drinker bonus for Physical Lifesteal and Healing. Also, anytime a god dies they leave behind a pool of their essence in the spot they were slain. Camazotz may stand inside these pools to drink the essence every .5s, replenishing his Health and Mana.",
+          "description": "Camazotz has a passive Essence Drinker bonus for Physical Lifesteal, Physical Ability Lifesteal, and Healing. Also, anytime a god dies they leave behind a pool of their essence in the spot they were slain. Camazotz may stand inside these pools to drink the essence every .5s, replenishing his Health and Mana.",
           "menuItems": null
         },
         "rankItems": null
@@ -3542,7 +3542,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/stygian-torment.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "90s",
+          "cooldown": "100s",
           "cost": "90/95/100/105/110",
           "description": "Cerberus's haunting wail summons below him the souls of the damned, which then knockup all Enemy Gods into the air while stretching the link between their bodies and souls, Damaging them. This knockup can be cleansed. A short time later, Cerberus uses this link to pull the Enemies to him. This attack immediately puts all three of Cerberus's heads on Alert for Paralyzing Spit.",
           "menuItems": null
@@ -4722,7 +4722,7 @@
         "itemDescription": {
           "cooldown": "14",
           "cost": "40/50/60/70/80",
-          "description": "Cliodhna fires a distorting bolt of energy that explodes on contact with a living soul. Enemy gods hit by this explosion lose the ability to perceive Cliodhna for 4s. If Cliodhna attacks or is hit she flickers back into vision before fading back out. As long as one enemy god is debuffed Cliodhna gains a Movement Speed Buff.",
+          "description": "Cliodhna fires a distorting bolt of energy that explodes on contact with a living soul. Enemy gods hit by this explosion lose the ability to perceive Cliodhna for 5s. If Cliodhna attacks or is hit she flickers back into vision before fading back out. As long as one enemy god is debuffed Cliodhna gains a Movement Speed Buff.",
           "menuItems": null
         },
         "rankItems": null
@@ -4748,9 +4748,9 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/tearing-the-veil.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "55",
+          "cooldown": "55/50/45/40/35",
           "cost": "30/35/40/45/50",
-          "description": "Cliodhna tears the veil between life and death. When the rift first opens it deals heavy damage and then deals rift damage to targets in a line and slows them. Enemies hit by subsequent hits take 40% less damage, stacking twice up to 80%. This ability has 2 charges. Rifts can be destroyed by basic attacks. Cliodhna can use this ability while inside a wall. When used this way the veil is not fully torn, instead activating when a target gets too close. Cliodhna can have up to 3 rifts active.",
+          "description": "Cliodhna tears the veil between life and death. When the rift first opens it deals heavy damage and then deals rift damage to targets in a line and slows them. Minions take 25% reduced damage, and all enemies hit by subsequent hits take 40% less damage, stacking twice up to 80%. This ability has 2 charges. Rifts can be destroyed by basic attacks. Cliodhna can use this ability while inside a wall. When used this way the veil is not fully torn, instead activating when a target gets too close. Cliodhna can have up to 3 rifts active.",
           "menuItems": null
         },
         "rankItems": null
@@ -6208,7 +6208,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/banish.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "16/15.5/15/14.5/14s",
+          "cooldown": "18/17.5/17/16.5/16s",
           "cost": "70/65/60/55/50",
           "description": "At her ground target location, Freya Banishes her enemies into the air for a short time. The enemies can't be hit or take action while in the air.",
           "menuItems": null
@@ -6316,7 +6316,7 @@
         "itemDescription": {
           "cooldown": "14/13.5/13/12.5/12s",
           "cost": "65/70/75/80/85",
-          "description": "Ganesha curses his Enemies with his considerable willpower, damaging them. For each Enemy he hits (up to a maximum of 5), all Allied Gods within 55 units of Ganesha gain bonus Damage.",
+          "description": "Ganesha curses his Enemies with his considerable willpower, damaging them. For each Enemy he hits (up to a maximum of 4), all Allied Gods within 55 units of Ganesha gain bonus Damage.",
           "menuItems": null
         },
         "rankItems": null
@@ -6330,7 +6330,7 @@
         "itemDescription": {
           "cooldown": "14/13/12/11/10s",
           "cost": "55/60/65/70/75",
-          "description": "Ganesha begins chanting and rises into the lotus position, where he is slowed slightly but may travel freely in all directions. While chanting, he silences Enemy gods in a cone in front of him, increasing Physical and Magical Protections for all nearby Allied Gods. He is knockback immune while channeling this ability.",
+          "description": "Ganesha begins chanting and rises into the lotus position, where he is slowed slightly but may travel freely in all directions. While chanting, he silences Enemy gods in a cone in front of him, increasing Physical and Magical Protections for all nearby Allied Gods. He gains an additional 50% of the Protections he provides, and he is knockback immune while channeling this ability.",
           "menuItems": null
         },
         "rankItems": null
@@ -6343,7 +6343,7 @@
       "Description": {
         "itemDescription": {
           "cooldown": "14/13.5/13/12.5/12s",
-          "cost": "70/75/80/85/90",
+          "cost": "70",
           "description": "Ganesha charges forward, hooking an enemy with his goad, holding them in place and damaging the enemy before knocking them up. While dashing, Ganesha passes through player-made deployables.",
           "menuItems": null
         },
@@ -6852,7 +6852,7 @@
         "itemDescription": {
           "cooldown": "14/13/12/11/10s",
           "cost": "50",
-          "description": "When Hachiman toggles on this ability, instead of Basic Attacking he fires a series of arrows that travel further and deal additional damage. Each hit may trigger item effects for basic attacks, and can critical hit.",
+          "description": "When Hachiman toggles on this ability, instead of Basic Attacking he fires a series of arrows that travel further and deal additional damage. If an enemy is hit from 55 units away or further, the attack deals bonus scaling damage. Each hit may trigger item effects for basic attacks, and can critical hit.",
           "menuItems": null
         },
         "rankItems": null
@@ -7132,7 +7132,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/atlas-of-the-yellow-river.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14s",
+          "cooldown": "14/13.5/13/12.5/12s",
           "cost": "60/65/70/75/80",
           "description": "He Bo unfurls his scroll in a line, releasing the flood waters. Allies on the water are immune to Slows and move faster, while enemies are Slowed.",
           "menuItems": null
@@ -7186,9 +7186,9 @@
     "AttackSpeedPerLevel": 0.008,
     "AutoBanned": "n",
     "Cons": "",
-    "Health": 400,
+    "Health": 425,
     "HealthPerFive": 6,
-    "HealthPerLevel": 71,
+    "HealthPerLevel": 75,
     "HP5PerLevel": 0.45,
     "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/he-bo.jpg",
     "id": 1674,
@@ -7294,7 +7294,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/through-the-realms.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "90s",
+          "cooldown": "90/85/80/75/70s",
           "cost": "70/75/80/85/90",
           "description": "Heimdallr charges forward, axe ready. If Heimdallr hits an enemy god he stuns them before unleashing a devastating swing of his axe, launching his target into the sky. A Bifrost portal appears and Heimdallr sends the launched foe through the realms of Muspelheim and Niflheim before returning them back to the battleground at a random location in front of him. Muspelheim burns the enemy every .5s for 1.5s while Niflheim slows the enemy for 2.5s.",
           "menuItems": null
@@ -7310,7 +7310,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "When Heimdallr gains vision of an enemy god he gains Physical Power, up to a maximum of 5 gods. When an enemy god would disappear from vision (including Stealth) Heimdallr continues to see them for 4s. Heimdallr's Critical Strikes only deal 40% bonus damage.",
+          "description": "When Heimdallr gains vision of an enemy god he gains Physical Power, up to a maximum of 5 gods. When an enemy god would disappear from vision (including Stealth) Heimdallr continues to see them for 6s. Heimdallr's Critical Strikes only deal 40% bonus damage.",
           "menuItems": null
         },
         "rankItems": null
@@ -7936,7 +7936,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/mark-of-the-golden-crow.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "16/15.5/15/14.5/14s",
+          "cooldown": "14s",
           "cost": "50",
           "description": "Hou Yi marks an enemy with Mark of the Golden Crow. Marked enemies take extra damage for every 10% of their missing health from Hou Yi’s abilities and basic attacks. Also, marked enemies, including stealthed gods, are visible to Hou Yi on the minimap. The mark lasts for 10s.",
           "menuItems": null
@@ -7980,7 +7980,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "After taking a critical hit, Hou Yi can’t be critically hit again for 3s.",
+          "description": "After taking a critical hit, Hou Yi can’t be critically hit again for 3s and his cooldowns are reduced by 2s.",
           "menuItems": null
         },
         "rankItems": null
@@ -8011,7 +8011,7 @@
     "PhysicalPower": 35,
     "PhysicalPowerPerLevel": 2.8,
     "PhysicalProtection": 13,
-    "PhysicalProtectionPerLevel": 2.8,
+    "PhysicalProtectionPerLevel": 3,
     "Pros": "High Area Damage, High Single Target Damage",
     "Roles": "Hunter",
     "Speed": 370,
@@ -8620,9 +8620,9 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/threshold.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "13s",
+          "cooldown": "12s",
           "cost": "60/65/70/75/80",
-          "description": "Passive: Janus increases the movement speed of himself and allies each time they go through a portal or over a Threshold (max. 2 Stacks).\n\nActive: Janus opens a multi-dimensional rift. Enemies who pass over the rift are slowed, and marked with Phase. Targets in Phase take additional Magical scaling damage when hit by Janus' damaging abilities.",
+          "description": "Passive: Janus increases the movement speed of himself and allies each time they go through a portal or over a Threshold (max. 3 Stacks).\n\nActive: Janus opens a multi-dimensional rift. Enemies who pass over the rift are slowed, and marked with Phase. Targets in Phase take additional Magical scaling damage when hit by Janus' damaging abilities.",
           "menuItems": null
         },
         "rankItems": null
@@ -10402,15 +10402,15 @@
     "AttackSpeedPerLevel": 0.013,
     "AutoBanned": "n",
     "Cons": "",
-    "Health": 495,
+    "Health": 500,
     "HealthPerFive": 8,
-    "HealthPerLevel": 95,
+    "HealthPerLevel": 100,
     "HP5PerLevel": 0.8,
     "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/maui.jpg",
     "id": 4183,
     "Lore": "Maui is widely known and revered throughout the island-nations of the Pacific Ocean as a hero and a trickster without equal. His legend stretches from Hawai‘i to Tonga. The youngest of four divine brothers, Maui is known as Maui the Clever or sometimes Maui the Mischievous, depending on what he’s up to at the time. But regardless of what he is called, and what tricks he might pull, it will always be to the benefit of his people.\\n\\nHis feats of strength and cunning are legendary. Armed with his magical hook Manaiakalani, he fished up the islands that people would come to inhabit and once snared the sun, so that the days might be longer. He lifted up the sky, so that the plants might have room to grow and mortals might have room to stand. It was Maui who caused birds to become visible to the human eye, so that mortals might enjoy the sight of them, even as they listened to their songs. And it was Maui who brought the secret of fire to his chosen peoples, so that their burden might be eased. He played tricks upon the other gods, so that he might learn their secrets and share them with mankind. And if the gods were angered by any of this, well, Maui paid them little heed. He reasoned that if they did not wish their secrets shared, they would have made them harder to learn.\\n\\nIn all these ways and more, Maui has sought to improve the lot of his people and protect them from the myriad dangers that stalk them. But as the world grows ever more tumultuous, and the gods of many pantheons strive against one another, Maui finds himself called upon to play his tricks on worthier and more fearsome targets.",
-    "MagicalPower": 190,
-    "MagicalPowerPerLevel": 8,
+    "MagicalPower": 200,
+    "MagicalPowerPerLevel": 9,
     "MagicProtection": 27.3,
     "MagicProtectionPerLevel": 1.3,
     "Mana": 200,
@@ -10423,7 +10423,7 @@
     "PhysicalPower": 0,
     "PhysicalPowerPerLevel": 0,
     "PhysicalProtection": 21,
-    "PhysicalProtectionPerLevel": 3.2,
+    "PhysicalProtectionPerLevel": 3.4,
     "Pros": "High Crowd Control, High Mobility",
     "Roles": "Guardian",
     "Speed": 370,
@@ -10496,7 +10496,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/lacerate.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15/14.5/14/13.5/13s",
+          "cooldown": "16/15.5/15/14.5/14s",
           "cost": "70",
           "description": "Medusa quickly slithers forward damaging enemies she passes through. The first enemy god she encounters causes her to stop before she damages and roots the god hit.",
           "menuItems": null
@@ -11032,7 +11032,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/grapple.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15/14.5/14/13.5/13s",
+          "cooldown": "16/15.5/15/14.5/14s",
           "cost": "60",
           "description": "Mulan readies herself and fires an arrow with a rope attached to it. If she hits an enemy god she stuns them, dealing damage and pulling them towards her while dashing and hitting them again for extra damage.\n\nSkilled - Mulan gains a Protection buff after hitting an enemy god.\nAdept - Mulan is able to dash to walls.\nMastered - Mulan gains 5% Movement Speed & 5% Protections.",
           "menuItems": null
@@ -11970,7 +11970,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/warp.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "12s",
+          "cooldown": "12/11.5/11/10.5/10s",
           "cost": "40/45/50/55/60",
           "description": "Nut warps in the direction she is currently traveling. After she warps, she automatically fires 3 homing projectiles that spread out among nearby enemies, prioritizing gods. These projectiles deal damage and apply a stacking Slow to enemies. Additionally, Nut resets the cooldown of Convergence after using this ability.",
           "menuItems": null
@@ -12076,7 +12076,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/lunge.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "16/15/14/13/12s",
+          "cooldown": "14/13.5/13/12.5/12s",
           "cost": "45/50/55/60/65",
           "description": "Odin lunges to his target location, doing damage to all nearby enemies.",
           "menuItems": null
@@ -12388,7 +12388,7 @@
         "itemDescription": {
           "cooldown": "70s",
           "cost": "100",
-          "description": "Osiris sheds any remaining fragments, gaining the benefit of his Passive, and leaps forward. Osiris targets all enemy gods in the landing area, and rips a fragment of their spirits out, dealing damage, afflicting them with negative Cooldown Reduction, and preventing them from healing. Targets are Rooted for 0.4s during the attack. Enemy minions in the target area also take damage.",
+          "description": "Osiris sheds any remaining fragments, gaining the benefit of his Passive, and leaps forward. Osiris targets all enemy gods in the landing area, and rips a fragment of their spirits out, dealing damage, afflicting them with negative Cooldown Reduction, and preventing them from healing. Targets are Rooted for 0.8s during the attack. Enemy minions in the target area also take damage.",
           "menuItems": null
         },
         "rankItems": null
@@ -12950,7 +12950,7 @@
     "Cons": "",
     "Health": 385,
     "HealthPerFive": 7,
-    "HealthPerLevel": 71,
+    "HealthPerLevel": 75,
     "HP5PerLevel": 0.48,
     "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/ra.jpg",
     "id": 1698,
@@ -13832,7 +13832,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/spawn-of-set.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "11s",
+          "cooldown": "11/10.5/10/9.5/9s",
           "cost": "30",
           "description": "Set conjures a Spawn of himself made of sand. These spawn will stand where summoned and attack nearby enemies. Set can have up to 2 charges of this ability, allowing him to conjure spawn in quick succession. Set can interact with these Spawn with his other abilities, commanding them to attack or teleporting to them. Set can only have 8 Spawn at any given time. This ability does not trigger Item effects.",
           "menuItems": null
@@ -13848,7 +13848,7 @@
         "itemDescription": {
           "cooldown": "10s",
           "cost": "50/55/60/65/70",
-          "description": "Set conjures a Sandstorm around him, protecting him from Damage and causing him to be immune to Slows. Enemies near Set are damaged every .4s for 6s and have their vision obscured by the sands.\n\nIf Set is targeting a spawn when this ability is cast he will immediately teleport to the spawn. Otherwise, he can reactivate this ability to teleport. Set can only teleport once per Sandstorm.",
+          "description": "Set conjures a Sandstorm around him, protecting him from Damage and causing him to be immune to Slows. Enemies near Set are damaged every .3s for 6s and have their vision obscured by the sands.\n\nIf Set is targeting a spawn when this ability is cast he will immediately teleport to the spawn. Otherwise, he can reactivate this ability to teleport. Set can only teleport once per Sandstorm.",
           "menuItems": null
         },
         "rankItems": null
@@ -13886,7 +13886,7 @@
     "AttackSpeedPerLevel": 0.019,
     "AutoBanned": "n",
     "Cons": "",
-    "Health": 435,
+    "Health": 450,
     "HealthPerFive": 9,
     "HealthPerLevel": 75,
     "HP5PerLevel": 0.7,
@@ -14248,9 +14248,9 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/sickening-strike.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "12s",
+          "cooldown": "12/11.5/11/10.5/10s",
           "cost": "60/65/70/75/80",
-          "description": "Sobek does an axe attack that damages all enemies in front of him and lowers their healing received. In addition, Sobek heals for each enemy hit, up to 3.",
+          "description": "Sobek does an axe attack that damages all enemies in front of him and lowers their healing received. In addition, Sobek heals for each enemy hit, up to 4.",
           "menuItems": null
         },
         "rankItems": null
@@ -14918,7 +14918,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/natures-grasp.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14/13.5/13/12.5/12s",
+          "cooldown": "14/13/12/11/10s",
           "cost": "70/65/60/55/50",
           "description": "Sylvanus's treant launches his rooty hand out in front of him. The hand stops at the first enemy god hit, Stunning them with no diminishing returns and pulling them back towards Sylvanus.",
           "menuItems": null
@@ -14948,7 +14948,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "When Sylvanus' abilities hit or are deployed a seed pod appears. When Sylvanus picks up this seed pod he restores 2.5% of his Mana as well as lowers his cooldowns by 0.5s. At level 15 this Cooldown Reduction is increased to 1s. ",
+          "description": "When Sylvanus' abilities hit or are deployed a seed pod appears for 10s. When Sylvanus picks up this seed pod he restores 2.5% of his Mana as well as lowers his cooldowns by 0.5s. At level 15 this Cooldown Reduction is increased to 1s. ",
           "menuItems": null
         },
         "rankItems": null
@@ -15828,7 +15828,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/dark-moon-shuriken.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "12s",
+          "cooldown": "14s",
           "cost": "50/60/70/80/90",
           "description": "Tsukuyomi throws a Dark Moon Shuriken that damages enemies and stops on gods, sticking into them. If Tsukuyomi gets close to the god he retrieves the Shuriken and reduces its cooldown. <font color='#b18cd9'>After casting this ability Shingetsu's next Basic Attack becomes ranged. This attack steals Movement Speed from the enemy hit.</font>",
           "menuItems": null
@@ -15990,7 +15990,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/change-stance.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "10s",
+          "cooldown": "9s",
           "cost": "0",
           "description": "Tyr changes between Assault and Guard stances. Changing stances refreshes the cooldown on Fearless and Power Cleave. Tyr gains benefits depending on his current stance, and also gains half the benefits of the opposing stance. \n\nAssault Stance: Gain Physical Power.\n\nGuard Stance: Gain Protections.",
           "menuItems": null

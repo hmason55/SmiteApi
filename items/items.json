@@ -1880,14 +1880,14 @@
         },
         {
           "Description": "Attack Speed",
-          "Value": "+20%"
+          "Value": "+25%"
         },
         {
           "Description": "Physical Penetration",
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Enemies hit by your damaging Abilities take bonus damage equal to an additional 30% of your Physical Power over 1s. Subsequent hits on the same target do half the bonus damage for the next 3s."
+      "SecondaryDescription": "PASSIVE - Enemies hit by your damaging Abilities take bonus damage equal to an additional 35% of your Physical Power over 1s. Subsequent hits on the same target do half the bonus damage for the next 3s."
     },
     "ItemId": 23858,
     "ItemTier": 3,
@@ -1897,7 +1897,7 @@
     "ShortDesc": "Bonus damage on Abilities",
     "StartingItem": false,
     "Type": "Item",
-    "AttackSpeed": 0.2,
+    "AttackSpeed": 0.25,
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
@@ -6405,7 +6405,7 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - When you are Basic Attacked by an enemy god, you and friendly lane minions within 40 units gain a stack, up to a max of 3. Stacks provide 10% Attack Speed and 7 of each Protection and last for 8s. Minions gain double the effects from each stack. Stacks cannot be gained more than one per second."
+      "SecondaryDescription": "PASSIVE - When you are Basic Attacked by an enemy god, you and friendly lane minions within 40 units gain a stack, up to a max of 3. Stacks provide 10% Attack Speed and 7 of each Protection and last for 10s. Minions gain double the effects from each stack. Stacks cannot be gained more than one per second."
     },
     "ItemId": 23863,
     "ItemTier": 3,
@@ -7573,11 +7573,11 @@
           "Value": "+10%"
         }
       ],
-      "SecondaryDescription": "PASSIVE - If you take damage below 30% health you unleash a shockwave that stuns all enemies within a range of 20 units for 1s and become immune to Crowd Control for 1s. This effect cannot trigger more than once every 110s."
+      "SecondaryDescription": "PASSIVE - If you take damage below 40% health you unleash a shockwave that stuns all enemies within a range of 20 units for 1s and become immune to Crowd Control for 1s. This effect cannot trigger more than once every 110s."
     },
     "ItemId": 12666,
     "ItemTier": 3,
-    "Price": 1250,
+    "Price": 1200,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 9840,
     "ShortDesc": "Stun all nearby Enemies upon falling below 30% Health.",
@@ -9615,7 +9615,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+65"
+          "Value": "+70"
         },
         {
           "Description": "Health",
@@ -9630,7 +9630,7 @@
     },
     "ItemId": 7594,
     "ItemTier": 3,
-    "Price": 1150,
+    "Price": 1100,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 9855,
     "ShortDesc": "Damaging abilities Slow enemy movement and enemy Shields reduced",
@@ -9645,7 +9645,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 65,
+    "MagicalPower": 70,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -9854,7 +9854,7 @@
           "Value": "+250"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Hitting an enemy god with a Basic Attack or Ability marks them for 4s. When the marked enemy god casts an ability, they take 7.5% of your Maximum Health + 7.5% of your Maximum Mana as Magical damage. You heal for 100% of the damage dealt. You may only apply a mark once every 15s. Each time an enemy casts an ability within 55 units of you, reduce the cooldown of this item by 1s."
+      "SecondaryDescription": "PASSIVE - Hitting an enemy god with a Basic Attack or Ability marks them for 4s. When the marked enemy god casts an ability, they take 5% of your Maximum Health + 7.5% of your Maximum Mana as Magical damage. You heal for 100% of the damage dealt. You may only apply a mark once every 20s. Each time an enemy casts an ability within 55 units of you, reduce the cooldown of this item by 1s."
     },
     "ItemId": 26145,
     "ItemTier": 3,
@@ -10416,7 +10416,7 @@
           "Value": "+300"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your next successful damaging ability on an enemy god grants a stack of Wisdom. For each stack of Wisdom you have, your abilities deal 0.1% of your Max Mana as True Damage to enemy gods. You may only gain one stack and deal damage every 2s, and can only gain stacks once per god per ability hit. Max 50 stacks."
+      "SecondaryDescription": "PASSIVE - Your next successful damaging ability on an enemy god grants a stack of Wisdom. For each stack of Wisdom you have, your abilities deal 0.1% of your Max Mana as True Damage to enemy gods. You may only gain one stack and deal damage every 2s, and can only gain stacks once per god per ability hit. Max 70 stacks."
     },
     "ItemId": 23871,
     "ItemTier": 3,
@@ -20520,7 +20520,7 @@
     },
     "ItemId": 23102,
     "ItemTier": 3,
-    "Price": 1400,
+    "Price": 1200,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 23147,
     "ShortDesc": "Overcap your Cooldown Reduction",
@@ -24734,7 +24734,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+45"
+          "Value": "+50"
         },
         {
           "Description": "Attack Speed",
@@ -24749,7 +24749,7 @@
     },
     "ItemId": 25873,
     "ItemTier": 3,
-    "Price": 1150,
+    "Price": 1100,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 25753,
     "ShortDesc": "Gain a Shield when lifestealing at full health",
@@ -24772,7 +24772,7 @@
     "PhysicalLifesteal": 0.25,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 45,
+    "PhysicalPower": 50,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -26631,7 +26631,7 @@
           "Value": "+20"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Reflect 12.5% of all Basic Attack damage back to the attacker as Physical Damage."
+      "SecondaryDescription": "PASSIVE - Reflect 15% of all Basic Attack damage back to the attacker as Physical Damage."
     },
     "ItemId": 26325,
     "ItemTier": 3,
