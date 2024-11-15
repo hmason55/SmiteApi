@@ -9334,7 +9334,7 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+85"
+          "Value": "+95"
         },
         {
           "Description": "Magical Lifesteal",
@@ -9364,7 +9364,7 @@
     "MagicalLifesteal": 0.12,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0.1,
-    "MagicalPower": 85,
+    "MagicalPower": 95,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -12216,11 +12216,11 @@
           "Value": "+10"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Every successful Basic Attack increases your Physical Power by 5, reduces your target's Physical Power from items by 5, and reduces your target’s Magical Power from items by 10 for 5s. (Max. 4 Stacks)"
+      "SecondaryDescription": "PASSIVE - Every successful Basic Attack increases your Physical Power by 5, reduces your target's Physical Power from items by 5, and reduces your target’s Magical Power from items by 10 for 6s. (Max. 4 Stacks)"
     },
     "ItemId": 26319,
     "ItemTier": 3,
-    "Price": 950,
+    "Price": 900,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 10662,
     "ShortDesc": "Basic Attacks steal Power",
@@ -12971,7 +12971,7 @@
           "Value": "+20"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Your next successful basic attack on an enemy lane minion causes it to explode, instantly killing it, dealing 50 (+10 Per Level) magical damage to enemies in a small area and providing 15 bonus gold to your nearest ally within 80 ft. This can only happen once every 7s."
+      "SecondaryDescription": "PASSIVE - Your next successful basic attack on an enemy lane minion causes it to explode, instantly killing it, dealing 50 (+10 Per Level) magical damage to enemies in a small area and providing 20 bonus gold to your nearest ally within 80 ft. This can only happen once every 7s."
     },
     "ItemId": 23974,
     "ItemTier": 3,
@@ -26445,7 +26445,7 @@
         },
         {
           "Description": "Health",
-          "Value": "+200"
+          "Value": "+250"
         },
         {
           "Description": "HP5",
@@ -26456,7 +26456,7 @@
     },
     "ItemId": 26322,
     "ItemTier": 3,
-    "Price": 1000,
+    "Price": 950,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 26329,
     "ShortDesc": "Silence enemies when hit with Magical Damage",
@@ -26466,7 +26466,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 200,
+    "Health": 250,
     "HP5": 20,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
