@@ -7094,7 +7094,7 @@
       "Menuitems": [
         {
           "Description": "Health",
-          "Value": "+200"
+          "Value": "+250"
         },
         {
           "Description": "Physical Protection",
@@ -7123,7 +7123,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 200,
+    "Health": 250,
     "HP5": 15,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -8792,11 +8792,11 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+45"
+          "Value": "+55"
         },
         {
           "Description": "Attack Speed",
-          "Value": "+15%"
+          "Value": "+20%"
         },
         {
           "Description": "Magical Lifesteal",
@@ -8813,7 +8813,7 @@
     "ShortDesc": "Bonus Magical Basic Attack damage",
     "StartingItem": false,
     "Type": "Item",
-    "AttackSpeed": 0.15,
+    "AttackSpeed": 0.2,
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
@@ -8822,7 +8822,7 @@
     "MagicalLifesteal": 0.09,
     "MagicalPenetration": 0,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 45,
+    "MagicalPower": 55,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -8849,18 +8849,18 @@
       "Menuitems": [
         {
           "Description": "Magical Power",
-          "Value": "+55"
+          "Value": "+65"
         },
         {
           "Description": "Attack Speed",
-          "Value": "+20%"
+          "Value": "+25%"
         },
         {
           "Description": "Magical Penetration",
           "Value": "+15"
         }
       ],
-      "SecondaryDescription": "PASSIVE - Each successful Basic Attack applies a hex to enemies and empowers you, increasing your Magical Power by 5% and reducing the Physical and Magical Power of your opponent by 5% for 5s. (Max. 3 Stacks)."
+      "SecondaryDescription": "PASSIVE - Each successful Basic Attack applies a hex to enemies and empowers you, increasing your Magical Power by 5% and reducing the Physical and Magical Power of your opponent by 5% for 8s. (Max. 3 Stacks)."
     },
     "ItemId": 26321,
     "ItemTier": 3,
@@ -8870,7 +8870,7 @@
     "ShortDesc": "Basic Attacks steal Power",
     "StartingItem": false,
     "Type": "Item",
-    "AttackSpeed": 0.2,
+    "AttackSpeed": 0.25,
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
@@ -8879,7 +8879,7 @@
     "MagicalLifesteal": 0,
     "MagicalPenetration": 15,
     "MagicalPenetrationPercent": 0,
-    "MagicalPower": 55,
+    "MagicalPower": 65,
     "MagicalProtection": 0,
     "Mana": 0,
     "MovementSpeed": 0,
@@ -12842,7 +12842,7 @@
       "Menuitems": [
         {
           "Description": "Health",
-          "Value": "+200"
+          "Value": "+250"
         },
         {
           "Description": "HP5",
@@ -12863,7 +12863,7 @@
     "CooldownReduction": 0,
     "CriticalStrikeChance": 0,
     "CrowdControlReduction": 0,
-    "Health": 200,
+    "Health": 250,
     "HP5": 15,
     "MagicalLifesteal": 0,
     "MagicalPenetration": 0,
@@ -12914,7 +12914,7 @@
     },
     "ItemId": 20217,
     "ItemTier": 3,
-    "Price": 850,
+    "Price": 750,
     "RestrictedRoles": "no restrictions",
     "RootItemId": 12663,
     "ShortDesc": "Gain Healing when taking Damage from Enemy Gods",
@@ -17424,7 +17424,7 @@
           "Value": "+25%"
         }
       ],
-      "SecondaryDescription": "PASSIVE: Dart deals 40% increased damage and can Critically Strike. When Dart damages an enemy Ratatoskr gains 22.5% Physical Lifesteal and 20% Basic Attack damage for 6s."
+      "SecondaryDescription": "PASSIVE: Dart deals 40% increased damage and can Critically Strike. When Dart damages an enemy Ratatoskr gains 22.5% Physical Lifesteal and 25% Basic Attack damage for 6s."
     },
     "ItemId": 18706,
     "ItemTier": 3,
@@ -17470,7 +17470,7 @@
       "Menuitems": [
         {
           "Description": "Physical Power",
-          "Value": "+45"
+          "Value": "+55"
         },
         {
           "Description": "Movement Speed",
@@ -17504,7 +17504,7 @@
     "PhysicalLifesteal": 0,
     "PhysicalPenetration": 0,
     "PhysicalPenetrationPercent": 0,
-    "PhysicalPower": 45,
+    "PhysicalPower": 55,
     "PhysicalProtection": 0,
     "IsPhysicalOnly": true,
     "IsMagicalOnly": false,
@@ -17531,7 +17531,7 @@
         },
         {
           "Description": "Maximum Health",
-          "Value": "+15%"
+          "Value": "+18%"
         }
       ],
       "SecondaryDescription": "PASSIVE: When Ratatoskr deals damage to an enemy god with an ability he restores 6% of his Maximum Health and Mana."
@@ -17588,7 +17588,7 @@
         },
         {
           "Description": "Protections",
-          "Value": "+10%"
+          "Value": "+12%"
         }
       ],
       "SecondaryDescription": "PASSIVE: When Ratatoskr deals damage with an ability he restores 3% of his Maximum Health. Flurry now provides protections equal to the protections shred from enemy gods. Flurry gains an additional charge."

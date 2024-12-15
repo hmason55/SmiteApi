@@ -16,7 +16,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/shield-of-achilles.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14s",
+          "cooldown": "13s",
           "cost": "60/65/70/75/80",
           "description": "Achilles punches forward with the edge of his Shield, inflicting massive damage and stunning enemy targets hit by the impact. The force of his punch continues to radiate past his initial target area, dealing 70% damage to targets farther away. Lane Minions take an additional 15% damage.",
           "menuItems": null
@@ -954,7 +954,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/water-illusion.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15s",
+          "cooldown": "16s",
           "cost": "70",
           "description": "Ao Kuang Teleports forward into Stealth, leaving behind a watery form of himself. He remains in Stealth for 5s or until he attacks or takes damage.\n\nAo Kuang may activate this ability again to detonate the watery form, dealing damage to nearby enemies.",
           "menuItems": null
@@ -968,7 +968,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/dragon-call.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15/14/13/12/11s",
+          "cooldown": "15/14.5/14/13.5/13s",
           "cost": "60/65/70/75/80",
           "description": "Ao Kuang summons 6 dragons to his side. For every successful Basic Attack Ao Kuang makes, a dragon will dive to the target dealing additional damage. This ability ends after all dragons are used, or after 10s. Ao Kuang may activate this ability again to send forward any remaining dragons in a ranged attack. The dragons damage and Slow the first enemy they hit.",
           "menuItems": null
@@ -4454,7 +4454,7 @@
         "itemDescription": {
           "cooldown": "15s",
           "cost": "65",
-          "description": "Chiron passively marks his enemies as targets when he damages them with Basic Attacks, Training Exercise, or Centaurus, reducing their Physical Protections by 10%. He may activate this ability to fire seeking arrows at all marked targets within range, damaging and slowing them.",
+          "description": "Chiron passively marks his enemies as targets when he damages them with Basic Attacks, Training Exercise, or Centaurus, reducing their Physical Protections by 5%. He may activate this ability to fire seeking arrows at all marked targets within range, damaging and slowing them.",
           "menuItems": null
         },
         "rankItems": null
@@ -4840,7 +4840,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/sanity-break.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14/13/12/11/10s",
+          "cooldown": "14/13.5/13/12.5/12s",
           "cost": "60",
           "description": "Cthulhu sends out a terrifying blast of energy, dealing damage to all enemies hit and reducing their Attack Speed. Enemies hit by this ability also do reduced damage to Cthulhu for 6s.\nThis ability applies 1 stack of Torment, 2 if the enemy hit is facing Cthulhu or Fears them instead if they are afflicted with Insanity.\nSuccessfully consuming Insanity permanently increases the base mitigation of this ability.",
           "menuItems": null
@@ -5672,7 +5672,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/72-transformations.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "18/17.5/17/16.5/16s",
+          "cooldown": "16s",
           "cost": "65/70/75/80/85",
           "description": "Erlang Shen transforms into a Mink or Turtle and charges forward, becoming immune to knock ups and slows. Mink: Damages all enemies, stopping on first god hit and increasing Attack Speed and Movement Speed for 4s. Turtle: Knocka up enemy gods and gains a health shield that is boosted by 75% of your protections from items for 12s.",
           "menuItems": null
@@ -8204,7 +8204,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/rolling-thunder.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15/14.5/14/13.5/13s",
+          "cooldown": "14/13.5/13/12.5/12s",
           "cost": "55/60/65/70/75",
           "description": "Ishtar calls down four strikes of lightning in a line, damaging Enemies within their area. Ishtar may aim which direction the strikes travel. If an Enemy is hit by more than one strike, they are mesmerized.",
           "menuItems": null
@@ -8338,7 +8338,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/lunar-invocation.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15s",
+          "cooldown": "14s",
           "cost": "65",
           "description": "Ix Chel marks an area on the ground invoking it with lunar energy. After a short delay the energy explodes Knocking up and dealing damage to enemies while Healing allies.",
           "menuItems": null
@@ -9664,7 +9664,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/nene-kappa.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14s",
+          "cooldown": "14/13.5/13/12.5/12s",
           "cost": "70/75/80/85/90",
           "description": "Kuzenbo summons and throws the powerful NeNe Kappa, who can ricochet off of walls. After firing, if the NeNe Kappa bounces off of a wall it will travel 70 units from that point up to a maximum of 2 bounces. After reaching maximum range, or if an Enemy God is hit by the NeNe Kappa, it will burst forth from its shell, slowing and attacking them for 6s. Kuzenbo transfers 20% of his Health and Protections to the NeNe Kappa.",
           "menuItems": null
@@ -11434,7 +11434,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/retribution.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14s",
+          "cooldown": "14/13.5/13/12.5/12s",
           "cost": "60/65/70/75/80",
           "description": "Nemesis activates a temporary Shield around herself that protects her from a set amount of damage, or until time expires. A percentage of incoming damage from gods is healed and reflected back to the source. Hard Crowd Control effects remove the Shield.",
           "menuItems": null
@@ -11836,7 +11836,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/shining-metal.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "9s",
+          "cooldown": "10s",
           "cost": "50",
           "description": "Nu Wa launches a mass of shining metal, damaging all enemies it hits. If it hits one of her Clay Soldiers, it explodes, dealing additional damage and Stunning enemies.",
           "menuItems": null
@@ -11942,7 +11942,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/convergence.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "13s",
+          "cooldown": "12s",
           "cost": "45/50/55/60/65",
           "description": "Nut enhances her Basic Attacks, firing 2 additional damaging projectiles from her sides at a converging angle. All projectiles pierce enemies but not walls, with the center dealing Basic Attack damage and the sides dealing ability damage. Nut always shoots at least once, but may fire up to an additional 4 shots by gaining stacks when damaging enemies with Basic Attacks. Nut gains 2 stacks for damaging enemy gods. Nut may cancel this ability to refund unused shots as stacks.",
           "menuItems": null
@@ -13458,7 +13458,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/mystic-rush.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "110/105/100/95/90s",
+          "cooldown": "90s",
           "cost": "80/90/100/110/120",
           "description": "Ravana leaps to a target location, damaging all enemies in the area and applying a debuff to enemy gods that increases the damage they take from all sources. After landing, Ravana receives a buff that reduces the damage he takes from all sources.",
           "menuItems": null
@@ -13474,7 +13474,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Successful Basic Attacks and abilities against an Enemy add to Ravana's Combo Chain. Each time his Chain reaches 8 he receives a Shield equal to 7% of his Maximum Health as well as 3% Movement Speed. This may stack up to 3 times. ",
+          "description": "Successful Basic Attacks and abilities against an Enemy add to Ravana's Combo Chain. Each time his Chain reaches 8 he receives a Shield equal to 7% of his Maximum Health as well as 3% Movement Speed and 5 Physical Power. This may stack up to 3 times. ",
           "menuItems": null
         },
         "rankItems": null
@@ -14128,7 +14128,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/winters-grasp.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "90s ",
+          "cooldown": "100s ",
           "cost": "80/90/100/110/120 ",
           "description": "A snowstorm surrounds Skadi as she chooses a location for Kaldr to attack. If Kaldr is too far he will leap there.\n\nUpon reaching the location a snowstorm also surrounds Kaldr. The initial hit of either snowstorm damages and Roots enemies in the area and Kaldr is restored to full health. The storms persist for 4s while dealing damage to enemies every .5s.",
           "menuItems": null
@@ -14144,7 +14144,7 @@
         "itemDescription": {
           "cooldown": "",
           "cost": "",
-          "description": "Kaldr has 2 forms: Beast and Elemental. While in Beast form he can attack enemies and be attacked. While Elemental he is immune to attacks and gains 1 HP every 4s. He can be controlled with Rune of the Hunt but will revert into Elemental form if he loses all HP. Skadi also gains 10% Physical Power when Kaldr has no HP.",
+          "description": "Kaldr has 2 forms: Beast and Elemental. While in Beast form he can attack enemies and be attacked. While Elemental he is immune to attacks and gains 1 HP every 5s. He can be controlled with Rune of the Hunt but will revert into Elemental form if he loses all HP. Skadi also gains 10% Physical Power when Kaldr has no HP.",
           "menuItems": null
         },
         "rankItems": null
@@ -15454,7 +15454,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/berserker-barrage.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "12/11.5/11/10.5/10s",
+          "cooldown": "10s",
           "cost": "55/60/65/70/75 ",
           "description": "Thor spins his hammer around him dealing damage to Enemies in front of him up to 3 times and those behind him up to 2 times. The final swing deals extra damage. Thor is immune to Knockup for the duration.",
           "menuItems": null
@@ -15574,7 +15574,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/evade-and-punish.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "16/15/14/13/12s",
+          "cooldown": "14/13.5/13/12.5/12s",
           "cost": "70/75/80/85/90",
           "description": "Thoth dashes in the direction he is currently traveling. After dashing, for 5s Thoth's next basic attack is enhanced.\n\nThis projectile roots the first Enemy god hit while slowing all other Enemies, and also deals Ability Damage.\n\nIf either the Dash or Attack passes through the Glyph of Pain, their respective range is increased by 30.",
           "menuItems": null
@@ -15962,7 +15962,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/fearless.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15/14.5/14/13.5/13s",
+          "cooldown": "14/13.5/13/12.5/12s",
           "cost": "50/55/60/65/70",
           "description": "Tyr charges forward, immune to Knockup, damaging enemies. Assault Stance: Tyr pushes all enemies along with him, hitting them 2 times and knocking them up in the air. Guard Stance: Tyr hits each enemy only once, passing through and knocking them up in the air.",
           "menuItems": null
@@ -16808,7 +16808,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/rivers-rebuke.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "140/135/130/125/120s",
+          "cooldown": "120s",
           "cost": "",
           "description": "Yemoja unleashes her full power creating two large walls of water that block enemy movement and projectiles. After a delay the river cascades down, damaging, trembling and slowing enemies.\n\nYemoja gains a buff to her Omi regeneration while she is in the river field that lingers briefly after she leaves it.",
           "menuItems": null
