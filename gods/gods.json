@@ -2202,7 +2202,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/gravity-surge.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "80/75/70/65/60s",
+          "cooldown": "90/85/80/75/70s",
           "cost": "100",
           "description": "Awilix calls upon the power of the moon, immediately pulling to her the closest enemy god she is facing that is either leaping or knocked up into the air. The target god takes damage and is Stunned for 0.8s when they land.\n\nAwilix is then bathed in moonlight, gaining bonus Attack Speed and Physical Power, along with protection against Roots, Slows, and Knockbacks for 6s.",
           "menuItems": null
@@ -2336,7 +2336,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/home-sweet-home.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "90s",
+          "cooldown": "90/85/80/75/70s",
           "cost": "60/65/70/75/80",
           "description": "Baba Yaga calls down her Cabin, causing it to crash onto her and launch nearby enemies away. Baba Yaga commands the cabin for up to 8s, using it as a protective shield to create and throw 4 Witchfire Bolts from the inside. When the thrown Witchfire lands, it explodes dealing damage to enemies in the area while leaving behind a creeping patch of fire that chases nearby enemies. Enemies caught in the creeping fire take burn damage every 0.4s.",
           "menuItems": null
@@ -3246,7 +3246,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/refraction-shield.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "10s",
+          "cooldown": "12/11.5/11/10.5/10s",
           "cost": "10",
           "description": "Passive: As Cabrakan's shields take damage they store energy and gain Protection stacks.\n\nActive: Cabrakan slams his shields together creating a concussive blast and damaging enemies in front of him, granting him Mana per enemy hit. If his shields have the maximum number of Stacks then the enemy gods hit are Stunned. Stacks are removed.",
           "menuItems": null
@@ -3274,7 +3274,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/tectonic-shift.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "75s",
+          "cooldown": "80s",
           "cost": "100 ",
           "description": "Cabrakan stomps the ground creating a wall of earth and a fissure that travels out in front of him and damages any enemies caught in its path. The walls may be destroyed if they take enough hits. Cabrakan may destroy his own walls with a single Basic Attack.",
           "menuItems": null
@@ -5658,7 +5658,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/pin.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "16s",
+          "cooldown": "16/15.5/15/14.5/14s",
           "cost": "50/55/60/65/70",
           "description": "Erlang Shen launches a spear that damages enemies on impact. Enemies in the dead center of the effect when it lands are Rooted in place.",
           "menuItems": null
@@ -6244,8 +6244,8 @@
         "rankItems": null
       }
     },
-    "AttackSpeed": 0.95,
-    "AttackSpeedPerLevel": 0.019,
+    "AttackSpeed": 1,
+    "AttackSpeedPerLevel": 0.02,
     "AutoBanned": "n",
     "Cons": "",
     "Health": 436,
@@ -6316,7 +6316,7 @@
         "itemDescription": {
           "cooldown": "14/13.5/13/12.5/12s",
           "cost": "65/70/75/80/85",
-          "description": "Ganesha curses his Enemies with his considerable willpower, damaging them. For each Enemy he hits (up to a maximum of 4), all Allied Gods within 55 units of Ganesha gain bonus Damage.",
+          "description": "Ganesha curses his Enemies with his considerable willpower, damaging them. For each Enemy he hits (up to a maximum of 5), all Allied Gods within 55 units of Ganesha gain bonus Damage.",
           "menuItems": null
         },
         "rankItems": null
@@ -12774,7 +12774,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/whirlpool.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "15/14/13/12/11s",
+          "cooldown": "15/14.5/14/13.5/13s",
           "cost": "60/65/70/75/80",
           "description": "Poseidon summons a whirlpool at his ground target location that Cripples targets, preventing movement abilities, and creating a Vortex which drags targets toward the center dealing damage every .5s for 3s.",
           "menuItems": null
@@ -12788,7 +12788,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/release-the-kraken.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "90s",
+          "cooldown": "100s",
           "cost": "100",
           "description": "Poseidon releases the Kraken, damaging and Slowing targets in its radius. Enemies in the center of the effect when it spawns take additional damage, are Knocked Up and Stunned.",
           "menuItems": null
@@ -14798,7 +14798,7 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/typhoon.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "100s",
+          "cooldown": "90s",
           "cost": "80/85/90/95/100",
           "description": "Susano summons a hurricane at his location, creating a Vortex that drags enemies towards the center while growing to up to twice its size, increasing the damage as it grows. Upon reaching full size, the storm is launched in the direction he is facing, knocking up opponents in its path. Susano may re-activate this ability early to fire the storm at it's current size for reduced damage. If fired at less than half of its maximum size, he also foregoes the knock-up.",
           "menuItems": null
@@ -16512,9 +16512,9 @@
       "URL": "https://webcdn.hirezstudios.com/smite/god-abilities/poison-darts.jpg",
       "Description": {
         "itemDescription": {
-          "cooldown": "14s",
+          "cooldown": "15s",
           "cost": "60/65/70/75/80",
-          "description": "Xbalanque shoots 15 darts in a cone in front of him, dealing damage with each one. An enemy can be hit by 7 darts, with the other 4 doing 30% damage. Enemies hit are poisoned, taking additional damage every .5s and are Slowed.",
+          "description": "Xbalanque shoots 15 darts in a cone in front of him, dealing damage with each one. An enemy can be hit by 7 darts, with the other 6 doing 30% damage. Enemies hit are poisoned, taking additional damage every .5s and are Slowed.",
           "menuItems": null
         },
         "rankItems": null
